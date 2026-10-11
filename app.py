@@ -381,15 +381,24 @@ def foot_match(e, league, table, league_gpg, leaders, history):
     home = H["team"].get("shortDisplayName") or H["team"].get("displayName")
     away = A["team"].get("shortDisplayName") or A["team"].get("displayName")
     sh, sa = table.get(hid), table.get(aid)
+    state = ((e.get("status") or {}).get("type") or {}).get("state", "pre")
+    key = f"foot-{e['id']}"
+    saved = history.get(key, {}).get("p")
     odds = espn_odds(comp, three_way=True)
-    if odds:
+    if state != "pre" and saved and len(saved) == 3:
+        # après le coup d'envoi, ESPN affiche des cotes en direct : on garde celles d'avant-match
+        p_h, p_d, p_a = saved
+        lh, la = foot_lambdas(p_h, p_a)
+        source = history[key].get("source", "Cotes d'avant-match")
+    elif odds and state == "pre":
         p_h, p_d, p_a = odds["p"]
         lh, la = foot_lambdas(p_h, p_a)
         source = f"Cotes {odds['provider']}"
     elif sh and sa:
         lh, la = table_lambdas(sh, sa, league_gpg)
         p_h, p_d, p_a = outcome_probs(lh, la)
-        source = "Modèle maison fondé sur le classement (pas de cotes disponibles)"
+        source = ("Modèle maison fondé sur le classement (pas de cotes disponibles)" if state == "pre"
+                  else "Cotes d'avant-match non archivées : estimation fondée sur le classement")
     else:
         lh, la = 1.45, 1.15
         p_h, p_d, p_a = outcome_probs(lh, la)
@@ -409,8 +418,6 @@ def foot_match(e, league, table, league_gpg, leaders, history):
     players.sort(key=lambda r: -r["p_goal"])
     deci.sort(key=lambda r: -r["p_dec"])
 
-    state = ((e.get("status") or {}).get("type") or {}).get("state", "pre")
-    key = f"foot-{e['id']}"
     if state == "pre":
         old = history.get(key, {})
         history[key] = dict(sport="foot", league=league, date=paris(kickoff).date().isoformat(),
@@ -476,6 +483,7 @@ def last_lineup(abbr):
     goalies = [p for p in stats.get("goalies", []) if toi_minutes(p.get("toi")) > 0]
     starter = max(goalies, key=lambda p: toi_minutes(p.get("toi")), default=None)
     return dict(skaters=skaters, starter=(starter or {}).get("playerId"),
+                goalies_dressed={p["playerId"] for p in stats.get("goalies", [])},
                 date=game.get("gameDate"))
 
 
@@ -509,7 +517,10 @@ def projected_goalie(profile, back_to_back):
     goalies = [g for g in profile["goalies"] if g.get("gamesStarted", 0) > 0] or profile["goalies"]
     if not goalies:
         return None
-    pool = goalies
+    # un gardien absent de la feuille du dernier match est probablement blessé
+    dressed = (profile["last"] or {}).get("goalies_dressed") or set()
+    pool = [g for g in goalies if g["playerId"] in dressed] or goalies
+    goalies = pool
     starter = (profile["last"] or {}).get("starter")
     if back_to_back and starter:
         pool = [g for g in goalies if g["playerId"] != starter] or goalies
@@ -598,7 +609,18 @@ def nhl_game(g, standings, espn, yesterday_teams, history):
             odds = espn_odds(comp, three_way=False)
             break
     total = NHL_TOTAL
-    if odds:
+    started = g.get("gameState", "FUT") not in ("FUT", "PRE")
+    saved = history.get(f"nhl-{g['id']}", {})
+    if started and saved.get("p"):
+        # match commencé : on garde les probabilités d'avant-match, pas les cotes en direct
+        odds = None
+        win_h = saved["p"][0]
+        source = saved.get("source", "Cotes d'avant-match")
+    elif started:
+        odds = None
+    if started and saved.get("p"):
+        pass
+    elif odds:
         win_h = odds["p"][0]
         source = f"Cotes {odds['provider']} (vainqueur final)"
         try:

@@ -28,7 +28,8 @@ def goalie(pid, first, last, gs, sv):
 CLUB = {
     ("WSH", 20262027): dict(skaters=[skater(1, "Tom", "Wilson", "R", 4, 2, 3), skater(2, "Jakob", "Chychrun", "D", 4, 1, 2),
                                      skater(3, "Blessé", "Absent", "C", 2, 1, 0)],
-                            goalies=[goalie(10, "Logan", "Thompson", 3, .929), goalie(11, "Charlie", "Lindgren", 1, .931)]),
+                            goalies=[goalie(10, "Logan", "Thompson", 3, .929), goalie(11, "Charlie", "Lindgren", 1, .931),
+                                     goalie(12, "Gardien", "Blessé", 5, .935)]),
     ("WSH", 20252026): dict(skaters=[skater(1, "Tom", "Wilson", "R", 72, 30, 32), skater(2, "Jakob", "Chychrun", "D", 80, 26, 34)]),
     ("SEA", 20262027): dict(skaters=[skater(4, "Jared", "McCann", "L", 5, 1, 5), skater(5, "Mackie", "Samoskevich", "R", 4, 3, 0)],
                             goalies=[goalie(20, "Philipp", "Grubauer", 2, .917), goalie(21, "Joey", "Daccord", 3, .911)]),
@@ -103,10 +104,12 @@ def fake_get_json(url, params=None):
         return dict(games=[dict(id=gid, gameState="OFF", startTimeUTC="2026-10-10T23:00:00Z", gameDate="2026-10-10")])
     if "/gamecenter/55/boxscore" in url:
         return dict(homeTeam=dict(abbrev="WSH"), playerByGameStats=dict(homeTeam=dict(
-            forwards=[dict(playerId=1)], defense=[dict(playerId=2)], goalies=[dict(playerId=10, toi="60:00")])))
+            forwards=[dict(playerId=1)], defense=[dict(playerId=2)],
+            goalies=[dict(playerId=10, toi="60:00"), dict(playerId=11, toi="00:00")])))
     if "/gamecenter/56/boxscore" in url:
         return dict(homeTeam=dict(abbrev="CHI"), playerByGameStats=dict(awayTeam=dict(
-            forwards=[dict(playerId=4), dict(playerId=5)], defense=[], goalies=[dict(playerId=21, toi="59:10")])))
+            forwards=[dict(playerId=4), dict(playerId=5)], defense=[],
+            goalies=[dict(playerId=21, toi="59:10"), dict(playerId=20, toi="00:00")])))
     return None
 
 
@@ -145,7 +148,7 @@ class AppTest(unittest.TestCase):
         names = [p["name"] for p in g["players"]]
         self.assertNotIn("Blessé Absent", names)          # pas aligné au dernier match
         self.assertEqual(g["goalie_a"]["name"], "Philipp Grubauer")   # Seattle a joué hier, Daccord souffle
-        self.assertEqual(g["goalie_h"]["name"], "Logan Thompson")
+        self.assertEqual(g["goalie_h"]["name"], "Logan Thompson")     # le gardien blessé (absent de la feuille) est écarté
         self.assertTrue(any("joué hier" in c for c in g["ctx"]))
         self.assertTrue(g["deci"][0]["p_point"] >= g["deci"][-1]["p_point"])
 
@@ -159,6 +162,15 @@ class AppTest(unittest.TestCase):
         self.assertEqual(self.data["bilan"]["foot"]["n"], 1)
         self.assertEqual(self.data["bilan"]["foot"]["fav_rate"], 100)
         self.assertEqual(self.data["bilan"]["nhl"]["n"], 1)
+
+    def test_finished_match_keeps_pre_match_odds(self):
+        live_odds = [dict(provider=dict(name="X"), drawOdds=dict(moneyLine=1500),
+                          moneyline=dict(home=dict(close=dict(odds="-5000")), away=dict(close=dict(odds="+3000"))))]
+        e = espn_soccer_event("402", "2026-10-11T12:00Z", "post", True, ("1", "A", "3"), ("2", "B", "1"), live_odds)
+        hist = {"foot-402": dict(sport="foot", league="L", date="2026-10-11", home="A", away="B",
+                                 p=[0.4, 0.3, 0.3], source="Cotes X", result=None, score=None)}
+        m = app.foot_match(e, "L", {}, 1.4, {}, hist)
+        self.assertEqual([m["pH"], m["pD"], m["pA"]], [40, 30, 30])
 
     def test_name_matching(self):
         self.assertLess(app.similarity("Paris Saint-Germain", "Paris FC"), 0.8)
