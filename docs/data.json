@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-11T22:54+02:00",
+ "generated": "2026-10-11T22:57+02:00",
  "date": "2026-10-11",
  "foot": [
   {
@@ -16,24 +16,24 @@
    "form_a": "NNVNV",
    "rank_h": 7,
    "rank_a": 3,
-   "pH": 25,
+   "pH": 30,
    "pD": 27,
-   "pA": 49,
+   "pA": 44,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 0.94,
-   "xgA": 1.43,
+   "xgH": 1.11,
+   "xgA": 1.41,
    "scores": [
-    "0-1",
     "1-1",
-    "0-2"
+    "0-1",
+    "1-0"
    ],
    "scorep": [
     13,
-    13,
-    10
+    11,
+    9
    ],
-   "over25": 42,
-   "btts": 46,
+   "over25": 46,
+   "btts": 51,
    "players": [
     {
      "name": "Donyell Malen",
@@ -43,6 +43,33 @@
      "p_dec": 37,
      "side": "a",
      "team": "AS Roma"
+    },
+    {
+     "name": "Assane Diao",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 16,
+     "p_dec": 25,
+     "side": "h",
+     "team": "Como"
+    },
+    {
+     "name": "Anastasios Douvikas",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 16,
+     "p_dec": 20,
+     "side": "h",
+     "team": "Como"
+    },
+    {
+     "name": "Martin Baturina",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 16,
+     "p_dec": 25,
+     "side": "h",
+     "team": "Como"
     },
     {
      "name": "Manu Koné",
@@ -58,7 +85,7 @@
      "goals": 2,
      "assists": 1,
      "p_goal": 15,
-     "p_dec": 24,
+     "p_dec": 23,
      "side": "a",
      "team": "AS Roma"
     },
@@ -72,38 +99,11 @@
      "team": "AS Roma"
     },
     {
-     "name": "Assane Diao",
-     "goals": 2,
-     "assists": 1,
-     "p_goal": 14,
-     "p_dec": 21,
-     "side": "h",
-     "team": "Como"
-    },
-    {
-     "name": "Anastasios Douvikas",
-     "goals": 2,
-     "assists": 0,
-     "p_goal": 14,
-     "p_dec": 17,
-     "side": "h",
-     "team": "Como"
-    },
-    {
-     "name": "Martin Baturina",
-     "goals": 2,
-     "assists": 1,
-     "p_goal": 14,
-     "p_dec": 21,
-     "side": "h",
-     "team": "Como"
-    },
-    {
      "name": "Jacobo Ramón",
      "goals": 1,
      "assists": 0,
-     "p_goal": 9,
-     "p_dec": 12,
+     "p_goal": 10,
+     "p_dec": 14,
      "side": "h",
      "team": "Como"
     }
@@ -123,16 +123,7 @@
      "goals": 0,
      "assists": 4,
      "p_goal": 4,
-     "p_dec": 29,
-     "side": "a",
-     "team": "AS Roma"
-    },
-    {
-     "name": "Matìas Soulè",
-     "goals": 2,
-     "assists": 1,
-     "p_goal": 15,
-     "p_dec": 24,
+     "p_dec": 28,
      "side": "a",
      "team": "AS Roma"
     },
@@ -140,8 +131,8 @@
      "name": "Assane Diao",
      "goals": 2,
      "assists": 1,
-     "p_goal": 14,
-     "p_dec": 21,
+     "p_goal": 16,
+     "p_dec": 25,
      "side": "h",
      "team": "Como"
     },
@@ -149,17 +140,26 @@
      "name": "Martin Baturina",
      "goals": 2,
      "assists": 1,
-     "p_goal": 14,
-     "p_dec": 21,
+     "p_goal": 16,
+     "p_dec": 25,
      "side": "h",
      "team": "Como"
+    },
+    {
+     "name": "Matìas Soulè",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 15,
+     "p_dec": 23,
+     "side": "a",
+     "team": "AS Roma"
     },
     {
      "name": "Anastasios Douvikas",
      "goals": 2,
      "assists": 0,
-     "p_goal": 14,
-     "p_dec": 17,
+     "p_goal": 16,
+     "p_dec": 20,
      "side": "h",
      "team": "Como"
     }
@@ -168,7 +168,7 @@
     "Como : 7e, 11 points, 9 buts marqués et 6 encaissés en 6 matchs.",
     "AS Roma : 3e, 14 points, 14 buts marqués et 3 encaissés en 6 matchs."
    ],
-   "reading": "AS Roma est favori sans écraser le match (49 %)."
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
   },
   {
    "id": "foot-401882854",
@@ -184,12 +184,12 @@
    "form_a": "NVDNN",
    "rank_h": 17,
    "rank_a": 9,
-   "pH": 29,
-   "pD": 28,
-   "pA": 43,
+   "pH": 32,
+   "pD": 27,
+   "pA": 41,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 1.0,
-   "xgA": 1.3,
+   "xgH": 1.14,
+   "xgA": 1.32,
    "scores": [
     "1-1",
     "0-1",
@@ -197,18 +197,18 @@
    ],
    "scorep": [
     13,
-    13,
+    11,
     10
    ],
-   "over25": 40,
-   "btts": 46,
+   "over25": 45,
+   "btts": 50,
    "players": [
     {
      "name": "Fer Niño",
      "goals": 5,
      "assists": 0,
-     "p_goal": 26,
-     "p_dec": 28,
+     "p_goal": 29,
+     "p_dec": 32,
      "side": "h",
      "team": "Elche"
     },
@@ -226,7 +226,7 @@
      "goals": 1,
      "assists": 2,
      "p_goal": 13,
-     "p_dec": 30,
+     "p_dec": 31,
      "side": "a",
      "team": "Celta Vigo"
     },
@@ -235,7 +235,7 @@
      "goals": 1,
      "assists": 2,
      "p_goal": 13,
-     "p_dec": 30,
+     "p_dec": 31,
      "side": "a",
      "team": "Celta Vigo"
     },
@@ -252,8 +252,8 @@
      "name": "José Antonio Morente",
      "goals": 0,
      "assists": 3,
-     "p_goal": 3,
-     "p_dec": 20,
+     "p_goal": 4,
+     "p_dec": 23,
      "side": "h",
      "team": "Elche"
     },
@@ -261,8 +261,8 @@
      "name": "Lucas Cepeda",
      "goals": 0,
      "assists": 2,
-     "p_goal": 3,
-     "p_dec": 16,
+     "p_goal": 4,
+     "p_dec": 18,
      "side": "h",
      "team": "Elche"
     },
@@ -270,19 +270,28 @@
      "name": "Roy Revivo",
      "goals": 0,
      "assists": 2,
-     "p_goal": 3,
-     "p_dec": 16,
+     "p_goal": 4,
+     "p_dec": 18,
      "side": "h",
      "team": "Elche"
     }
    ],
    "deci": [
     {
+     "name": "Fer Niño",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 29,
+     "p_dec": 32,
+     "side": "h",
+     "team": "Elche"
+    },
+    {
      "name": "Miguel Román",
      "goals": 1,
      "assists": 2,
      "p_goal": 13,
-     "p_dec": 30,
+     "p_dec": 31,
      "side": "a",
      "team": "Celta Vigo"
     },
@@ -291,18 +300,9 @@
      "goals": 1,
      "assists": 2,
      "p_goal": 13,
-     "p_dec": 30,
+     "p_dec": 31,
      "side": "a",
      "team": "Celta Vigo"
-    },
-    {
-     "name": "Fer Niño",
-     "goals": 5,
-     "assists": 0,
-     "p_goal": 26,
-     "p_dec": 28,
-     "side": "h",
-     "team": "Elche"
     },
     {
      "name": "Pablo Durán",
@@ -317,8 +317,8 @@
      "name": "José Antonio Morente",
      "goals": 0,
      "assists": 3,
-     "p_goal": 3,
-     "p_dec": 20,
+     "p_goal": 4,
+     "p_dec": 23,
      "side": "h",
      "team": "Elche"
     },
@@ -326,8 +326,8 @@
      "name": "Lucas Cepeda",
      "goals": 0,
      "assists": 2,
-     "p_goal": 3,
-     "p_dec": 16,
+     "p_goal": 4,
+     "p_dec": 18,
      "side": "h",
      "team": "Elche"
     }
@@ -352,11 +352,11 @@
    "form_a": "NDNVV",
    "rank_h": 9,
    "rank_a": 11,
-   "pH": 41,
+   "pH": 42,
    "pD": 25,
-   "pA": 34,
+   "pA": 33,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 1.46,
+   "xgH": 1.52,
    "xgA": 1.3,
    "scores": [
     "1-1",
@@ -368,15 +368,15 @@
     9,
     9
    ],
-   "over25": 52,
-   "btts": 56,
+   "over25": 54,
+   "btts": 57,
    "players": [
     {
      "name": "Gessime Yassine",
      "goals": 2,
      "assists": 1,
      "p_goal": 16,
-     "p_dec": 26,
+     "p_dec": 25,
      "side": "a",
      "team": "Strasbourg"
     },
@@ -405,7 +405,7 @@
      "goals": 2,
      "assists": 1,
      "p_goal": 16,
-     "p_dec": 26,
+     "p_dec": 25,
      "side": "a",
      "team": "Strasbourg"
     },
@@ -448,12 +448,12 @@
    "form_a": "NDVNN",
    "rank_h": 12,
    "rank_a": 14,
-   "pH": 47,
+   "pH": 46,
    "pD": 25,
-   "pA": 28,
+   "pA": 29,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 1.57,
-   "xgA": 1.14,
+   "xgH": 1.59,
+   "xgA": 1.2,
    "scores": [
     "1-1",
     "1-0",
@@ -464,8 +464,8 @@
     10,
     9
    ],
-   "over25": 51,
-   "btts": 54,
+   "over25": 53,
+   "btts": 55,
    "players": [
     {
      "name": "Tyrick Mitchell",
@@ -480,8 +480,8 @@
      "name": "Morgan Gibbs-White",
      "goals": 1,
      "assists": 2,
-     "p_goal": 14,
-     "p_dec": 34,
+     "p_goal": 15,
+     "p_dec": 35,
      "side": "a",
      "team": "Nottm Forest"
     },
@@ -490,7 +490,7 @@
      "goals": 0,
      "assists": 3,
      "p_goal": 6,
-     "p_dec": 33,
+     "p_dec": 34,
      "side": "h",
      "team": "C Palace"
     },
@@ -509,8 +509,8 @@
      "name": "Morgan Gibbs-White",
      "goals": 1,
      "assists": 2,
-     "p_goal": 14,
-     "p_dec": 34,
+     "p_goal": 15,
+     "p_dec": 35,
      "side": "a",
      "team": "Nottm Forest"
     },
@@ -519,7 +519,7 @@
      "goals": 0,
      "assists": 3,
      "p_goal": 6,
-     "p_dec": 33,
+     "p_dec": 34,
      "side": "h",
      "team": "C Palace"
     },
@@ -546,7 +546,7 @@
     "C Palace : 12e, 7 points, 9 buts marqués et 12 encaissés en 6 matchs.",
     "Nottm Forest : 14e, 5 points, 5 buts marqués et 8 encaissés en 6 matchs."
    ],
-   "reading": "C Palace est favori sans écraser le match (47 %)."
+   "reading": "C Palace est favori sans écraser le match (46 %)."
   },
   {
    "id": "foot-401878774",
@@ -562,31 +562,31 @@
    "form_a": "NVVNN",
    "rank_h": 8,
    "rank_a": 5,
-   "pH": 39,
-   "pD": 30,
+   "pH": 41,
+   "pD": 28,
    "pA": 31,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 1.1,
-   "xgA": 0.96,
+   "xgH": 1.23,
+   "xgA": 1.04,
    "scores": [
-    "1-0",
     "1-1",
-    "0-0"
+    "1-0",
+    "0-1"
    ],
    "scorep": [
-    14,
     13,
-    13
+    13,
+    11
    ],
-   "over25": 34,
-   "btts": 41,
+   "over25": 39,
+   "btts": 46,
    "players": [
     {
      "name": "Mohamed Belloumi",
      "goals": 2,
      "assists": 2,
-     "p_goal": 17,
-     "p_dec": 31,
+     "p_goal": 19,
+     "p_dec": 34,
      "side": "h",
      "team": "Hull"
     },
@@ -594,8 +594,8 @@
      "name": "Thierno Barry",
      "goals": 2,
      "assists": 0,
-     "p_goal": 15,
-     "p_dec": 18,
+     "p_goal": 16,
+     "p_dec": 20,
      "side": "a",
      "team": "Everton"
     },
@@ -604,7 +604,7 @@
      "goals": 1,
      "assists": 1,
      "p_goal": 10,
-     "p_dec": 18,
+     "p_dec": 20,
      "side": "a",
      "team": "Everton"
     }
@@ -614,8 +614,8 @@
      "name": "Mohamed Belloumi",
      "goals": 2,
      "assists": 2,
-     "p_goal": 17,
-     "p_dec": 31,
+     "p_goal": 19,
+     "p_dec": 34,
      "side": "h",
      "team": "Hull"
     },
@@ -623,8 +623,8 @@
      "name": "Thierno Barry",
      "goals": 2,
      "assists": 0,
-     "p_goal": 15,
-     "p_dec": 18,
+     "p_goal": 16,
+     "p_dec": 20,
      "side": "a",
      "team": "Everton"
     },
@@ -633,7 +633,7 @@
      "goals": 1,
      "assists": 1,
      "p_goal": 10,
-     "p_dec": 18,
+     "p_dec": 20,
      "side": "a",
      "team": "Everton"
     }
@@ -642,7 +642,7 @@
     "Hull : 8e, 9 points, 8 buts marqués et 6 encaissés en 6 matchs.",
     "Everton : 5e, 10 points, 8 buts marqués et 5 encaissés en 6 matchs."
    ],
-   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (30 %)."
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
   },
   {
    "id": "foot-401874951",
@@ -658,31 +658,31 @@
    "form_a": "DVDNV",
    "rank_h": 2,
    "rank_a": 16,
-   "pH": 79,
-   "pD": 13,
-   "pA": 8,
+   "pH": 71,
+   "pD": 16,
+   "pA": 12,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 2.86,
-   "xgA": 0.84,
+   "xgH": 2.51,
+   "xgA": 0.94,
    "scores": [
     "2-0",
-    "3-0",
-    "2-1"
+    "2-1",
+    "3-0"
    ],
    "scorep": [
     10,
-    10,
+    9,
     8
    ],
-   "over25": 71,
-   "btts": 53,
+   "over25": 67,
+   "btts": 56,
    "players": [
     {
      "name": "Davide Frattesi",
      "goals": 3,
      "assists": 0,
-     "p_goal": 42,
-     "p_dec": 48,
+     "p_goal": 38,
+     "p_dec": 43,
      "side": "h",
      "team": "Lazio"
     },
@@ -690,17 +690,8 @@
      "name": "Tijjani Noslin",
      "goals": 2,
      "assists": 0,
-     "p_goal": 33,
-     "p_dec": 39,
-     "side": "h",
-     "team": "Lazio"
-    },
-    {
-     "name": "Mattia Zaccagni",
-     "goals": 1,
-     "assists": 2,
-     "p_goal": 22,
-     "p_dec": 48,
+     "p_goal": 29,
+     "p_dec": 35,
      "side": "h",
      "team": "Lazio"
     },
@@ -708,17 +699,17 @@
      "name": "Gustavo Varela",
      "goals": 4,
      "assists": 0,
-     "p_goal": 21,
-     "p_dec": 23,
+     "p_goal": 23,
+     "p_dec": 26,
      "side": "a",
      "team": "Monza"
     },
     {
-     "name": "Nuno Tavares",
-     "goals": 0,
+     "name": "Mattia Zaccagni",
+     "goals": 1,
      "assists": 2,
-     "p_goal": 9,
-     "p_dec": 39,
+     "p_goal": 19,
+     "p_dec": 43,
      "side": "h",
      "team": "Lazio"
     },
@@ -726,17 +717,26 @@
      "name": "Ricardo Mangas",
      "goals": 1,
      "assists": 2,
-     "p_goal": 8,
-     "p_dec": 19,
+     "p_goal": 9,
+     "p_dec": 22,
      "side": "a",
      "team": "Monza"
+    },
+    {
+     "name": "Nuno Tavares",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 8,
+     "p_dec": 35,
+     "side": "h",
+     "team": "Lazio"
     },
     {
      "name": "Samuele Birindelli",
      "goals": 0,
      "assists": 2,
      "p_goal": 3,
-     "p_dec": 15,
+     "p_dec": 17,
      "side": "a",
      "team": "Monza"
     }
@@ -746,8 +746,8 @@
      "name": "Davide Frattesi",
      "goals": 3,
      "assists": 0,
-     "p_goal": 42,
-     "p_dec": 48,
+     "p_goal": 38,
+     "p_dec": 43,
      "side": "h",
      "team": "Lazio"
     },
@@ -755,8 +755,8 @@
      "name": "Mattia Zaccagni",
      "goals": 1,
      "assists": 2,
-     "p_goal": 22,
-     "p_dec": 48,
+     "p_goal": 19,
+     "p_dec": 43,
      "side": "h",
      "team": "Lazio"
     },
@@ -764,8 +764,8 @@
      "name": "Tijjani Noslin",
      "goals": 2,
      "assists": 0,
-     "p_goal": 33,
-     "p_dec": 39,
+     "p_goal": 29,
+     "p_dec": 35,
      "side": "h",
      "team": "Lazio"
     },
@@ -773,8 +773,8 @@
      "name": "Gustavo Varela",
      "goals": 4,
      "assists": 0,
-     "p_goal": 21,
-     "p_dec": 23,
+     "p_goal": 23,
+     "p_dec": 26,
      "side": "a",
      "team": "Monza"
     },
@@ -782,8 +782,8 @@
      "name": "Ricardo Mangas",
      "goals": 1,
      "assists": 2,
-     "p_goal": 8,
-     "p_dec": 19,
+     "p_goal": 9,
+     "p_dec": 22,
      "side": "a",
      "team": "Monza"
     },
@@ -792,7 +792,7 @@
      "goals": 0,
      "assists": 2,
      "p_goal": 3,
-     "p_dec": 15,
+     "p_dec": 17,
      "side": "a",
      "team": "Monza"
     }
@@ -801,7 +801,7 @@
     "Lazio : 2e, 16 points, 11 buts marqués et 4 encaissés en 6 matchs.",
     "Monza : 16e, 4 points, 9 buts marqués et 15 encaissés en 6 matchs."
    ],
-   "reading": "Lazio est nettement favori (79 %)."
+   "reading": "Lazio est nettement favori (71 %)."
   },
   {
    "id": "foot-401874776",
@@ -817,31 +817,31 @@
    "form_a": "NNDND",
    "rank_h": 12,
    "rank_a": 13,
-   "pH": 35,
-   "pD": 29,
-   "pA": 36,
+   "pH": 37,
+   "pD": 27,
+   "pA": 35,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 1.12,
-   "xgA": 1.15,
+   "xgH": 1.23,
+   "xgA": 1.19,
    "scores": [
     "1-1",
-    "0-1",
-    "1-0"
+    "1-0",
+    "0-1"
    ],
    "scorep": [
     13,
-    12,
-    12
+    11,
+    11
    ],
-   "over25": 40,
-   "btts": 46,
+   "over25": 44,
+   "btts": 49,
    "players": [
     {
      "name": "Lassana Coulibaly",
      "goals": 2,
      "assists": 1,
-     "p_goal": 20,
-     "p_dec": 31,
+     "p_goal": 22,
+     "p_dec": 33,
      "side": "h",
      "team": "Lecce"
     },
@@ -849,8 +849,8 @@
      "name": "Tiago Gabriel",
      "goals": 2,
      "assists": 0,
-     "p_goal": 20,
-     "p_dec": 25,
+     "p_goal": 22,
+     "p_dec": 27,
      "side": "h",
      "team": "Lecce"
     },
@@ -858,8 +858,8 @@
      "name": "Ivan Ilic",
      "goals": 0,
      "assists": 2,
-     "p_goal": 5,
-     "p_dec": 25,
+     "p_goal": 6,
+     "p_dec": 27,
      "side": "h",
      "team": "Lecce"
     },
@@ -867,8 +867,8 @@
      "name": "Danilo Veiga",
      "goals": 0,
      "assists": 1,
-     "p_goal": 5,
-     "p_dec": 18,
+     "p_goal": 6,
+     "p_dec": 19,
      "side": "h",
      "team": "Lecce"
     }
@@ -878,8 +878,8 @@
      "name": "Lassana Coulibaly",
      "goals": 2,
      "assists": 1,
-     "p_goal": 20,
-     "p_dec": 31,
+     "p_goal": 22,
+     "p_dec": 33,
      "side": "h",
      "team": "Lecce"
     },
@@ -887,8 +887,8 @@
      "name": "Tiago Gabriel",
      "goals": 2,
      "assists": 0,
-     "p_goal": 20,
-     "p_dec": 25,
+     "p_goal": 22,
+     "p_dec": 27,
      "side": "h",
      "team": "Lecce"
     },
@@ -896,8 +896,8 @@
      "name": "Ivan Ilic",
      "goals": 0,
      "assists": 2,
-     "p_goal": 5,
-     "p_dec": 25,
+     "p_goal": 6,
+     "p_dec": 27,
      "side": "h",
      "team": "Lecce"
     }
@@ -922,31 +922,31 @@
    "form_a": "NDDDD",
    "rank_h": 10,
    "rank_a": 18,
-   "pH": 69,
-   "pD": 15,
-   "pA": 16,
+   "pH": 64,
+   "pD": 17,
+   "pA": 19,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 2.98,
-   "xgA": 1.44,
+   "xgH": 2.78,
+   "xgA": 1.51,
    "scores": [
     "2-1",
     "3-1",
-    "4-1"
+    "2-2"
    ],
    "scorep": [
     8,
-    8,
+    7,
     6
    ],
-   "over25": 82,
-   "btts": 72,
+   "over25": 80,
+   "btts": 73,
    "players": [
     {
      "name": "Thijs Dallinga",
      "goals": 2,
      "assists": 0,
-     "p_goal": 40,
-     "p_dec": 47,
+     "p_goal": 38,
+     "p_dec": 45,
      "side": "h",
      "team": "Cologne"
     },
@@ -954,8 +954,8 @@
      "name": "Hugo Bolin",
      "goals": 2,
      "assists": 0,
-     "p_goal": 23,
-     "p_dec": 28,
+     "p_goal": 24,
+     "p_dec": 29,
      "side": "a",
      "team": "Gladbach"
     },
@@ -963,8 +963,8 @@
      "name": "Ellyes Skhiri",
      "goals": 0,
      "assists": 2,
-     "p_goal": 11,
-     "p_dec": 47,
+     "p_goal": 10,
+     "p_dec": 45,
      "side": "h",
      "team": "Cologne"
     },
@@ -973,7 +973,7 @@
      "goals": 0,
      "assists": 2,
      "p_goal": 6,
-     "p_dec": 28,
+     "p_dec": 29,
      "side": "a",
      "team": "Gladbach"
     },
@@ -982,7 +982,7 @@
      "goals": 0,
      "assists": 2,
      "p_goal": 6,
-     "p_dec": 28,
+     "p_dec": 29,
      "side": "a",
      "team": "Gladbach"
     }
@@ -992,8 +992,8 @@
      "name": "Thijs Dallinga",
      "goals": 2,
      "assists": 0,
-     "p_goal": 40,
-     "p_dec": 47,
+     "p_goal": 38,
+     "p_dec": 45,
      "side": "h",
      "team": "Cologne"
     },
@@ -1001,8 +1001,8 @@
      "name": "Ellyes Skhiri",
      "goals": 0,
      "assists": 2,
-     "p_goal": 11,
-     "p_dec": 47,
+     "p_goal": 10,
+     "p_dec": 45,
      "side": "h",
      "team": "Cologne"
     },
@@ -1010,8 +1010,8 @@
      "name": "Hugo Bolin",
      "goals": 2,
      "assists": 0,
-     "p_goal": 23,
-     "p_dec": 28,
+     "p_goal": 24,
+     "p_dec": 29,
      "side": "a",
      "team": "Gladbach"
     },
@@ -1020,7 +1020,7 @@
      "goals": 0,
      "assists": 2,
      "p_goal": 6,
-     "p_dec": 28,
+     "p_dec": 29,
      "side": "a",
      "team": "Gladbach"
     },
@@ -1029,7 +1029,7 @@
      "goals": 0,
      "assists": 2,
      "p_goal": 6,
-     "p_dec": 28,
+     "p_dec": 29,
      "side": "a",
      "team": "Gladbach"
     }
@@ -1038,7 +1038,7 @@
     "Cologne : 10e, 7 points, 8 buts marqués et 10 encaissés en 5 matchs.",
     "Gladbach : 18e, 0 point, 7 buts marqués et 18 encaissés en 5 matchs."
    ],
-   "reading": "Cologne est nettement favori (69 %)."
+   "reading": "Cologne est nettement favori (64 %)."
   },
   {
    "id": "foot-401882847",
@@ -1054,12 +1054,12 @@
    "form_a": "NNDNV",
    "rank_h": 6,
    "rank_a": 8,
-   "pH": 39,
+   "pH": 40,
    "pD": 24,
-   "pA": 38,
+   "pA": 36,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 1.57,
-   "xgA": 1.55,
+   "xgH": 1.6,
+   "xgA": 1.5,
    "scores": [
     "1-1",
     "2-1",
@@ -1067,7 +1067,7 @@
    ],
    "scorep": [
     11,
-    8,
+    9,
     8
    ],
    "over25": 60,
@@ -1077,8 +1077,8 @@
      "name": "Pierre-Emerick Aubameyang",
      "goals": 5,
      "assists": 2,
-     "p_goal": 35,
-     "p_dec": 47,
+     "p_goal": 34,
+     "p_dec": 46,
      "side": "a",
      "team": "Deportivo"
     },
@@ -1087,7 +1087,7 @@
      "goals": 3,
      "assists": 0,
      "p_goal": 25,
-     "p_dec": 28,
+     "p_dec": 29,
      "side": "h",
      "team": "Real Sociedad"
     },
@@ -1095,7 +1095,7 @@
      "name": "Ander Barrenetxea",
      "goals": 2,
      "assists": 0,
-     "p_goal": 18,
+     "p_goal": 19,
      "p_dec": 23,
      "side": "h",
      "team": "Real Sociedad"
@@ -1114,7 +1114,7 @@
      "goals": 1,
      "assists": 2,
      "p_goal": 12,
-     "p_dec": 28,
+     "p_dec": 29,
      "side": "h",
      "team": "Real Sociedad"
     },
@@ -1122,7 +1122,7 @@
      "name": "Mario Soriano Carreno",
      "goals": 0,
      "assists": 2,
-     "p_goal": 5,
+     "p_goal": 4,
      "p_dec": 22,
      "side": "a",
      "team": "Deportivo"
@@ -1133,8 +1133,8 @@
      "name": "Pierre-Emerick Aubameyang",
      "goals": 5,
      "assists": 2,
-     "p_goal": 35,
-     "p_dec": 47,
+     "p_goal": 34,
+     "p_dec": 46,
      "side": "a",
      "team": "Deportivo"
     },
@@ -1152,7 +1152,7 @@
      "goals": 3,
      "assists": 0,
      "p_goal": 25,
-     "p_dec": 28,
+     "p_dec": 29,
      "side": "h",
      "team": "Real Sociedad"
     },
@@ -1161,7 +1161,7 @@
      "goals": 1,
      "assists": 2,
      "p_goal": 12,
-     "p_dec": 28,
+     "p_dec": 29,
      "side": "h",
      "team": "Real Sociedad"
     },
@@ -1169,7 +1169,7 @@
      "name": "Mario Soriano Carreno",
      "goals": 0,
      "assists": 2,
-     "p_goal": 5,
+     "p_goal": 4,
      "p_dec": 22,
      "side": "a",
      "team": "Deportivo"
@@ -1195,31 +1195,31 @@
    "form_a": "NVVDD",
    "rank_h": 3,
    "rank_a": 16,
-   "pH": 74,
-   "pD": 14,
-   "pA": 13,
+   "pH": 67,
+   "pD": 16,
+   "pA": 16,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 3.17,
-   "xgA": 1.33,
+   "xgH": 2.74,
+   "xgA": 1.32,
    "scores": [
-    "3-1",
     "2-1",
-    "4-1"
+    "3-1",
+    "2-0"
    ],
    "scorep": [
+    9,
     8,
-    7,
     6
    ],
-   "over25": 83,
-   "btts": 70,
+   "over25": 77,
+   "btts": 68,
    "players": [
     {
      "name": "Esteban Lepaul",
      "goals": 3,
      "assists": 0,
-     "p_goal": 43,
-     "p_dec": 49,
+     "p_goal": 39,
+     "p_dec": 44,
      "side": "h",
      "team": "Rennes"
     },
@@ -1236,8 +1236,8 @@
      "name": "Adrien Thomasson",
      "goals": 1,
      "assists": 2,
-     "p_goal": 22,
-     "p_dec": 49,
+     "p_goal": 20,
+     "p_dec": 44,
      "side": "h",
      "team": "Rennes"
     },
@@ -1245,8 +1245,8 @@
      "name": "Przemyslaw Frankowski",
      "goals": 1,
      "assists": 1,
-     "p_goal": 22,
-     "p_dec": 40,
+     "p_goal": 20,
+     "p_dec": 36,
      "side": "h",
      "team": "Rennes"
     },
@@ -1255,7 +1255,7 @@
      "goals": 1,
      "assists": 1,
      "p_goal": 13,
-     "p_dec": 25,
+     "p_dec": 24,
      "side": "a",
      "team": "Auxerre"
     }
@@ -1265,8 +1265,8 @@
      "name": "Esteban Lepaul",
      "goals": 3,
      "assists": 0,
-     "p_goal": 43,
-     "p_dec": 49,
+     "p_goal": 39,
+     "p_dec": 44,
      "side": "h",
      "team": "Rennes"
     },
@@ -1274,8 +1274,8 @@
      "name": "Adrien Thomasson",
      "goals": 1,
      "assists": 2,
-     "p_goal": 22,
-     "p_dec": 49,
+     "p_goal": 20,
+     "p_dec": 44,
      "side": "h",
      "team": "Rennes"
     },
@@ -1283,8 +1283,8 @@
      "name": "Przemyslaw Frankowski",
      "goals": 1,
      "assists": 1,
-     "p_goal": 22,
-     "p_dec": 40,
+     "p_goal": 20,
+     "p_dec": 36,
      "side": "h",
      "team": "Rennes"
     },
@@ -1302,7 +1302,7 @@
      "goals": 1,
      "assists": 1,
      "p_goal": 13,
-     "p_dec": 25,
+     "p_dec": 24,
      "side": "a",
      "team": "Auxerre"
     }
@@ -1311,7 +1311,7 @@
     "Rennes : 3e, 13 points, 12 buts marqués et 10 encaissés en 6 matchs.",
     "Auxerre : 16e, 6 points, 8 buts marqués et 16 encaissés en 6 matchs."
    ],
-   "reading": "Rennes est nettement favori (74 %)."
+   "reading": "Rennes est nettement favori (67 %)."
   },
   {
    "id": "foot-401879264",
@@ -1327,49 +1327,49 @@
    "form_a": "NVVVV",
    "rank_h": 9,
    "rank_a": 1,
-   "pH": 22,
-   "pD": 24,
-   "pA": 54,
+   "pH": 27,
+   "pD": 25,
+   "pA": 49,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 1.01,
-   "xgA": 1.73,
+   "xgH": 1.15,
+   "xgA": 1.63,
    "scores": [
     "1-1",
     "0-1",
     "1-2"
    ],
    "scorep": [
-    11,
-    11,
-    10
+    12,
+    10,
+    9
    ],
-   "over25": 52,
-   "btts": 52,
+   "over25": 53,
+   "btts": 55,
    "players": [
-    {
-     "name": "Erling Haaland",
-     "goals": 5,
-     "assists": 0,
-     "p_goal": 32,
-     "p_dec": 35,
-     "side": "a",
-     "team": "Man City"
-    },
     {
      "name": "Alexander Isak",
      "goals": 4,
      "assists": 0,
-     "p_goal": 28,
-     "p_dec": 31,
+     "p_goal": 31,
+     "p_dec": 35,
      "side": "h",
      "team": "Liverpool"
+    },
+    {
+     "name": "Erling Haaland",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 31,
+     "p_dec": 34,
+     "side": "a",
+     "team": "Man City"
     },
     {
      "name": "Rayan Cherki",
      "goals": 3,
      "assists": 2,
-     "p_goal": 22,
-     "p_dec": 35,
+     "p_goal": 21,
+     "p_dec": 34,
      "side": "a",
      "team": "Man City"
     },
@@ -1377,8 +1377,8 @@
      "name": "Antoine Semenyo",
      "goals": 2,
      "assists": 3,
-     "p_goal": 17,
-     "p_dec": 35,
+     "p_goal": 16,
+     "p_dec": 34,
      "side": "a",
      "team": "Man City"
     },
@@ -1386,8 +1386,8 @@
      "name": "Cody Gakpo",
      "goals": 1,
      "assists": 3,
-     "p_goal": 11,
-     "p_dec": 31,
+     "p_goal": 12,
+     "p_dec": 35,
      "side": "h",
      "team": "Liverpool"
     },
@@ -1395,46 +1395,19 @@
      "name": "Josko Gvardiol",
      "goals": 1,
      "assists": 2,
-     "p_goal": 11,
-     "p_dec": 26,
+     "p_goal": 10,
+     "p_dec": 24,
      "side": "a",
      "team": "Man City"
     }
    ],
    "deci": [
     {
-     "name": "Erling Haaland",
-     "goals": 5,
-     "assists": 0,
-     "p_goal": 32,
-     "p_dec": 35,
-     "side": "a",
-     "team": "Man City"
-    },
-    {
-     "name": "Rayan Cherki",
-     "goals": 3,
-     "assists": 2,
-     "p_goal": 22,
-     "p_dec": 35,
-     "side": "a",
-     "team": "Man City"
-    },
-    {
-     "name": "Antoine Semenyo",
-     "goals": 2,
-     "assists": 3,
-     "p_goal": 17,
-     "p_dec": 35,
-     "side": "a",
-     "team": "Man City"
-    },
-    {
      "name": "Alexander Isak",
      "goals": 4,
      "assists": 0,
-     "p_goal": 28,
-     "p_dec": 31,
+     "p_goal": 31,
+     "p_dec": 35,
      "side": "h",
      "team": "Liverpool"
     },
@@ -1442,17 +1415,44 @@
      "name": "Cody Gakpo",
      "goals": 1,
      "assists": 3,
-     "p_goal": 11,
-     "p_dec": 31,
+     "p_goal": 12,
+     "p_dec": 35,
      "side": "h",
      "team": "Liverpool"
+    },
+    {
+     "name": "Erling Haaland",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 31,
+     "p_dec": 34,
+     "side": "a",
+     "team": "Man City"
+    },
+    {
+     "name": "Rayan Cherki",
+     "goals": 3,
+     "assists": 2,
+     "p_goal": 21,
+     "p_dec": 34,
+     "side": "a",
+     "team": "Man City"
+    },
+    {
+     "name": "Antoine Semenyo",
+     "goals": 2,
+     "assists": 3,
+     "p_goal": 16,
+     "p_dec": 34,
+     "side": "a",
+     "team": "Man City"
     }
    ],
    "ctx": [
     "Liverpool : 9e, 9 points, 7 buts marqués et 7 encaissés en 6 matchs.",
     "Man City : 1e, 18 points, 16 buts marqués et 5 encaissés en 6 matchs."
    ],
-   "reading": "Man City est favori sans écraser le match (54 %)."
+   "reading": "Man City est favori sans écraser le match (49 %)."
   },
   {
    "id": "foot-401884778",
@@ -1468,31 +1468,31 @@
    "form_a": "NNVND",
    "rank_h": 1,
    "rank_a": 13,
-   "pH": 71,
+   "pH": 66,
    "pD": 19,
-   "pA": 11,
+   "pA": 15,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 2.12,
-   "xgA": 0.68,
+   "xgH": 2.15,
+   "xgA": 0.91,
    "scores": [
     "2-0",
     "1-0",
-    "3-0"
+    "2-1"
    ],
    "scorep": [
-    14,
-    13,
+    11,
+    10,
     10
    ],
-   "over25": 53,
-   "btts": 43,
+   "over25": 59,
+   "btts": 53,
    "players": [
     {
      "name": "Yuito Suzuki",
      "goals": 4,
      "assists": 0,
-     "p_goal": 35,
-     "p_dec": 39,
+     "p_goal": 36,
+     "p_dec": 40,
      "side": "h",
      "team": "Freiburg"
     },
@@ -1501,7 +1501,7 @@
      "goals": 3,
      "assists": 1,
      "p_goal": 29,
-     "p_dec": 39,
+     "p_dec": 40,
      "side": "h",
      "team": "Freiburg"
     },
@@ -1529,8 +1529,8 @@
      "name": "Yuito Suzuki",
      "goals": 4,
      "assists": 0,
-     "p_goal": 35,
-     "p_dec": 39,
+     "p_goal": 36,
+     "p_dec": 40,
      "side": "h",
      "team": "Freiburg"
     },
@@ -1539,7 +1539,7 @@
      "goals": 3,
      "assists": 1,
      "p_goal": 29,
-     "p_dec": 39,
+     "p_dec": 40,
      "side": "h",
      "team": "Freiburg"
     },
@@ -1548,7 +1548,7 @@
      "goals": 0,
      "assists": 3,
      "p_goal": 6,
-     "p_dec": 33,
+     "p_dec": 34,
      "side": "h",
      "team": "Freiburg"
     }
@@ -1557,7 +1557,7 @@
     "Freiburg : 1e, 13 points, 14 buts marqués et 4 encaissés en 5 matchs.",
     "Schalke : 13e, 5 points, 4 buts marqués et 6 encaissés en 5 matchs."
    ],
-   "reading": "Freiburg est nettement favori (71 %)."
+   "reading": "Freiburg est nettement favori (66 %)."
   },
   {
    "id": "foot-401874789",
@@ -1573,12 +1573,12 @@
    "form_a": "NVDNN",
    "rank_h": 10,
    "rank_a": 5,
-   "pH": 30,
-   "pD": 24,
-   "pA": 46,
+   "pH": 34,
+   "pD": 25,
+   "pA": 42,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 1.29,
-   "xgA": 1.66,
+   "xgH": 1.37,
+   "xgA": 1.56,
    "scores": [
     "1-1",
     "1-2",
@@ -1587,17 +1587,17 @@
    "scorep": [
     11,
     9,
-    9
+    8
    ],
-   "over25": 57,
+   "over25": 56,
    "btts": 59,
    "players": [
     {
      "name": "Diego Moreira",
      "goals": 3,
      "assists": 0,
-     "p_goal": 27,
-     "p_dec": 31,
+     "p_goal": 26,
+     "p_dec": 30,
      "side": "a",
      "team": "Milan"
     },
@@ -1605,8 +1605,8 @@
      "name": "Vasilije Adzic",
      "goals": 3,
      "assists": 1,
-     "p_goal": 23,
-     "p_dec": 32,
+     "p_goal": 24,
+     "p_dec": 34,
      "side": "h",
      "team": "Sassuolo"
     },
@@ -1614,8 +1614,8 @@
      "name": "Adrien Rabiot",
      "goals": 2,
      "assists": 2,
-     "p_goal": 21,
-     "p_dec": 37,
+     "p_goal": 19,
+     "p_dec": 35,
      "side": "a",
      "team": "Milan"
     },
@@ -1623,8 +1623,8 @@
      "name": "Alphadjo Cissè",
      "goals": 2,
      "assists": 0,
-     "p_goal": 21,
-     "p_dec": 25,
+     "p_goal": 19,
+     "p_dec": 24,
      "side": "a",
      "team": "Milan"
     },
@@ -1632,8 +1632,8 @@
      "name": "Gonçalo Ramos",
      "goals": 1,
      "assists": 1,
-     "p_goal": 13,
-     "p_dec": 25,
+     "p_goal": 12,
+     "p_dec": 24,
      "side": "a",
      "team": "Milan"
     },
@@ -1641,8 +1641,8 @@
      "name": "Armand Laurienté",
      "goals": 0,
      "assists": 1,
-     "p_goal": 4,
-     "p_dec": 15,
+     "p_goal": 5,
+     "p_dec": 16,
      "side": "h",
      "team": "Sassuolo"
     },
@@ -1650,8 +1650,8 @@
      "name": "Nemanja Matic",
      "goals": 0,
      "assists": 1,
-     "p_goal": 4,
-     "p_dec": 15,
+     "p_goal": 5,
+     "p_dec": 16,
      "side": "h",
      "team": "Sassuolo"
     },
@@ -1659,8 +1659,8 @@
      "name": "Fedde Leysen",
      "goals": 0,
      "assists": 1,
-     "p_goal": 4,
-     "p_dec": 15,
+     "p_goal": 5,
+     "p_dec": 16,
      "side": "h",
      "team": "Sassuolo"
     }
@@ -1670,8 +1670,8 @@
      "name": "Adrien Rabiot",
      "goals": 2,
      "assists": 2,
-     "p_goal": 21,
-     "p_dec": 37,
+     "p_goal": 19,
+     "p_dec": 35,
      "side": "a",
      "team": "Milan"
     },
@@ -1679,8 +1679,8 @@
      "name": "Vasilije Adzic",
      "goals": 3,
      "assists": 1,
-     "p_goal": 23,
-     "p_dec": 32,
+     "p_goal": 24,
+     "p_dec": 34,
      "side": "h",
      "team": "Sassuolo"
     },
@@ -1688,8 +1688,8 @@
      "name": "Diego Moreira",
      "goals": 3,
      "assists": 0,
-     "p_goal": 27,
-     "p_dec": 31,
+     "p_goal": 26,
+     "p_dec": 30,
      "side": "a",
      "team": "Milan"
     },
@@ -1697,8 +1697,8 @@
      "name": "Alphadjo Cissè",
      "goals": 2,
      "assists": 0,
-     "p_goal": 21,
-     "p_dec": 25,
+     "p_goal": 19,
+     "p_dec": 24,
      "side": "a",
      "team": "Milan"
     },
@@ -1706,8 +1706,8 @@
      "name": "Armand Laurienté",
      "goals": 0,
      "assists": 1,
-     "p_goal": 4,
-     "p_dec": 15,
+     "p_goal": 5,
+     "p_dec": 16,
      "side": "h",
      "team": "Sassuolo"
     },
@@ -1715,8 +1715,8 @@
      "name": "Nemanja Matic",
      "goals": 0,
      "assists": 1,
-     "p_goal": 4,
-     "p_dec": 15,
+     "p_goal": 5,
+     "p_dec": 16,
      "side": "h",
      "team": "Sassuolo"
     }
@@ -1725,7 +1725,7 @@
     "Sassuolo : 10e, 8 points, 10 buts marqués et 10 encaissés en 6 matchs.",
     "Milan : 5e, 12 points, 11 buts marqués et 5 encaissés en 6 matchs."
    ],
-   "reading": "Milan est favori sans écraser le match (46 %)."
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
   },
   {
    "id": "foot-401882855",
@@ -1740,32 +1740,41 @@
    "form_h": "NNVVV",
    "form_a": "NNDDD",
    "rank_h": 3,
-   "rank_a": 15,
-   "pH": 75,
-   "pD": 15,
-   "pA": 10,
+   "rank_a": 16,
+   "pH": 69,
+   "pD": 18,
+   "pA": 13,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 2.55,
-   "xgA": 0.81,
+   "xgH": 2.35,
+   "xgA": 0.92,
    "scores": [
     "2-0",
-    "3-0",
-    "2-1"
+    "2-1",
+    "1-0"
    ],
    "scorep": [
     11,
     10,
     9
    ],
-   "over25": 65,
-   "btts": 51,
+   "over25": 63,
+   "btts": 54,
    "players": [
+    {
+     "name": "Ante Budimir",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 29,
+     "p_dec": 31,
+     "side": "a",
+     "team": "Osasuna"
+    },
     {
      "name": "Cucho Hernández",
      "goals": 2,
      "assists": 1,
-     "p_goal": 26,
-     "p_dec": 38,
+     "p_goal": 24,
+     "p_dec": 36,
      "side": "h",
      "team": "Betis"
     },
@@ -1773,19 +1782,10 @@
      "name": "Rodrigo Riquelme",
      "goals": 2,
      "assists": 0,
-     "p_goal": 26,
-     "p_dec": 31,
+     "p_goal": 24,
+     "p_dec": 29,
      "side": "h",
      "team": "Betis"
-    },
-    {
-     "name": "Ante Budimir",
-     "goals": 5,
-     "assists": 0,
-     "p_goal": 26,
-     "p_dec": 28,
-     "side": "a",
-     "team": "Osasuna"
     }
    ],
    "deci": [
@@ -1793,17 +1793,8 @@
      "name": "Cucho Hernández",
      "goals": 2,
      "assists": 1,
-     "p_goal": 26,
-     "p_dec": 38,
-     "side": "h",
-     "team": "Betis"
-    },
-    {
-     "name": "Rodrigo Riquelme",
-     "goals": 2,
-     "assists": 0,
-     "p_goal": 26,
-     "p_dec": 31,
+     "p_goal": 24,
+     "p_dec": 36,
      "side": "h",
      "team": "Betis"
     },
@@ -1811,17 +1802,26 @@
      "name": "Ante Budimir",
      "goals": 5,
      "assists": 0,
-     "p_goal": 26,
-     "p_dec": 28,
+     "p_goal": 29,
+     "p_dec": 31,
      "side": "a",
      "team": "Osasuna"
+    },
+    {
+     "name": "Rodrigo Riquelme",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 24,
+     "p_dec": 29,
+     "side": "h",
+     "team": "Betis"
     }
    ],
    "ctx": [
     "Betis : 3e, 19 points, 14 buts marqués et 9 encaissés en 8 matchs.",
-    "Osasuna : 15e, 8 points, 8 buts marqués et 18 encaissés en 8 matchs."
+    "Osasuna : 16e, 8 points, 8 buts marqués et 18 encaissés en 8 matchs."
    ],
-   "reading": "Betis est nettement favori (75 %)."
+   "reading": "Betis est nettement favori (69 %)."
   },
   {
    "id": "foot-401876440",
@@ -1837,40 +1837,31 @@
    "form_a": "NDDDD",
    "rank_h": 17,
    "rank_a": 13,
-   "pH": 21,
-   "pD": 24,
-   "pA": 55,
+   "pH": 27,
+   "pD": 25,
+   "pA": 49,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 0.98,
-   "xgA": 1.73,
+   "xgH": 1.14,
+   "xgA": 1.62,
    "scores": [
-    "0-1",
     "1-1",
-    "0-2"
+    "0-1",
+    "1-2"
    ],
    "scorep": [
-    11,
-    11,
-    10
+    12,
+    10,
+    9
    ],
-   "over25": 51,
-   "btts": 52,
+   "over25": 52,
+   "btts": 54,
    "players": [
     {
      "name": "Amine Gouiri",
      "goals": 4,
      "assists": 1,
-     "p_goal": 38,
-     "p_dec": 48,
-     "side": "a",
-     "team": "Marseille"
-    },
-    {
-     "name": "Amine Harit",
-     "goals": 0,
-     "assists": 1,
-     "p_goal": 6,
-     "p_dec": 21,
+     "p_goal": 36,
+     "p_dec": 46,
      "side": "a",
      "team": "Marseille"
     },
@@ -1878,10 +1869,19 @@
      "name": "Anis Ouzenadji",
      "goals": 0,
      "assists": 1,
-     "p_goal": 5,
-     "p_dec": 19,
+     "p_goal": 6,
+     "p_dec": 21,
      "side": "h",
      "team": "Troyes"
+    },
+    {
+     "name": "Amine Harit",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 6,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Marseille"
     }
    ],
    "deci": [
@@ -1889,17 +1889,8 @@
      "name": "Amine Gouiri",
      "goals": 4,
      "assists": 1,
-     "p_goal": 38,
-     "p_dec": 48,
-     "side": "a",
-     "team": "Marseille"
-    },
-    {
-     "name": "Amine Harit",
-     "goals": 0,
-     "assists": 1,
-     "p_goal": 6,
-     "p_dec": 21,
+     "p_goal": 36,
+     "p_dec": 46,
      "side": "a",
      "team": "Marseille"
     },
@@ -1907,17 +1898,26 @@
      "name": "Anis Ouzenadji",
      "goals": 0,
      "assists": 1,
-     "p_goal": 5,
-     "p_dec": 19,
+     "p_goal": 6,
+     "p_dec": 21,
      "side": "h",
      "team": "Troyes"
+    },
+    {
+     "name": "Amine Harit",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 6,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Marseille"
     }
    ],
    "ctx": [
     "Troyes : 17e, 4 points, 4 buts marqués et 13 encaissés en 6 matchs.",
     "Marseille : 13e, 6 points, 9 buts marqués et 8 encaissés en 6 matchs."
    ],
-   "reading": "Marseille est favori sans écraser le match (55 %)."
+   "reading": "Marseille est favori sans écraser le match (49 %)."
   },
   {
    "id": "foot-401874764",
@@ -1933,40 +1933,31 @@
    "form_a": "NVVDN",
    "rank_h": 4,
    "rank_a": 6,
-   "pH": 38,
-   "pD": 34,
-   "pA": 28,
+   "pH": 40,
+   "pD": 31,
+   "pA": 29,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 0.92,
-   "xgA": 0.74,
+   "xgH": 1.08,
+   "xgA": 0.87,
    "scores": [
-    "0-0",
     "1-0",
-    "0-1"
+    "0-0",
+    "1-1"
    ],
    "scorep": [
-    19,
-    18,
-    14
+    15,
+    14,
+    13
    ],
-   "over25": 23,
-   "btts": 31,
+   "over25": 31,
+   "btts": 38,
    "players": [
     {
      "name": "Daniel Maldini",
      "goals": 3,
      "assists": 0,
-     "p_goal": 23,
-     "p_dec": 26,
-     "side": "h",
-     "team": "Cagliari"
-    },
-    {
-     "name": "Alessandro Romano",
-     "goals": 1,
-     "assists": 0,
-     "p_goal": 11,
-     "p_dec": 15,
+     "p_goal": 26,
+     "p_dec": 30,
      "side": "h",
      "team": "Cagliari"
     },
@@ -1974,8 +1965,8 @@
      "name": "Bremer",
      "goals": 2,
      "assists": 0,
-     "p_goal": 11,
-     "p_dec": 14,
+     "p_goal": 13,
+     "p_dec": 16,
      "side": "a",
      "team": "Juventus"
     },
@@ -1983,17 +1974,26 @@
      "name": "Edon Zhegrova",
      "goals": 2,
      "assists": 1,
-     "p_goal": 11,
-     "p_dec": 17,
+     "p_goal": 13,
+     "p_dec": 20,
      "side": "a",
      "team": "Juventus"
+    },
+    {
+     "name": "Alessandro Romano",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 12,
+     "p_dec": 17,
+     "side": "h",
+     "team": "Cagliari"
     },
     {
      "name": "Michel Adopo",
      "goals": 0,
      "assists": 2,
-     "p_goal": 4,
-     "p_dec": 21,
+     "p_goal": 5,
+     "p_dec": 24,
      "side": "h",
      "team": "Cagliari"
     },
@@ -2002,7 +2002,7 @@
      "goals": 0,
      "assists": 1,
      "p_goal": 3,
-     "p_dec": 10,
+     "p_dec": 11,
      "side": "a",
      "team": "Juventus"
     },
@@ -2011,7 +2011,7 @@
      "goals": 0,
      "assists": 1,
      "p_goal": 3,
-     "p_dec": 10,
+     "p_dec": 11,
      "side": "a",
      "team": "Juventus"
     }
@@ -2021,8 +2021,8 @@
      "name": "Daniel Maldini",
      "goals": 3,
      "assists": 0,
-     "p_goal": 23,
-     "p_dec": 26,
+     "p_goal": 26,
+     "p_dec": 30,
      "side": "h",
      "team": "Cagliari"
     },
@@ -2030,8 +2030,8 @@
      "name": "Michel Adopo",
      "goals": 0,
      "assists": 2,
-     "p_goal": 4,
-     "p_dec": 21,
+     "p_goal": 5,
+     "p_dec": 24,
      "side": "h",
      "team": "Cagliari"
     },
@@ -2039,8 +2039,8 @@
      "name": "Edon Zhegrova",
      "goals": 2,
      "assists": 1,
-     "p_goal": 11,
-     "p_dec": 17,
+     "p_goal": 13,
+     "p_dec": 20,
      "side": "a",
      "team": "Juventus"
     },
@@ -2048,8 +2048,8 @@
      "name": "Alessandro Romano",
      "goals": 1,
      "assists": 0,
-     "p_goal": 11,
-     "p_dec": 15,
+     "p_goal": 12,
+     "p_dec": 17,
      "side": "h",
      "team": "Cagliari"
     },
@@ -2057,8 +2057,8 @@
      "name": "Bremer",
      "goals": 2,
      "assists": 0,
-     "p_goal": 11,
-     "p_dec": 14,
+     "p_goal": 13,
+     "p_dec": 16,
      "side": "a",
      "team": "Juventus"
     },
@@ -2067,7 +2067,7 @@
      "goals": 0,
      "assists": 1,
      "p_goal": 3,
-     "p_dec": 10,
+     "p_dec": 11,
      "side": "a",
      "team": "Juventus"
     }
@@ -2076,7 +2076,7 @@
     "Cagliari : 4e, 13 points, 6 buts marqués et 3 encaissés en 6 matchs.",
     "Juventus : 6e, 11 points, 9 buts marqués et 5 encaissés en 6 matchs."
    ],
-   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (34 %)."
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (31 %)."
   },
   {
    "id": "foot-401882850",
@@ -2084,39 +2084,39 @@
    "league": "LaLiga",
    "kickoff": "2026-10-11T19:00:00+00:00",
    "time": "21:00",
-   "state": "in",
+   "state": "post",
    "score": "2-2",
    "home": "Racing",
    "away": "Valencia",
-   "form_h": "DDVDV",
-   "form_a": "DVDDD",
-   "rank_h": 16,
+   "form_h": "NDDVD",
+   "form_a": "NDVDD",
+   "rank_h": 15,
    "rank_a": 19,
-   "pH": 55,
+   "pH": 51,
    "pD": 22,
-   "pA": 24,
+   "pA": 28,
    "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
-   "xgH": 2.01,
-   "xgA": 1.27,
+   "xgH": 2.0,
+   "xgA": 1.43,
    "scores": [
     "2-1",
     "1-1",
-    "2-0"
+    "2-2"
    ],
    "scorep": [
-    10,
-    10,
-    8
+    9,
+    9,
+    7
    ],
-   "over25": 64,
-   "btts": 62,
+   "over25": 67,
+   "btts": 66,
    "players": [
     {
      "name": "Yassir Zabiri",
      "goals": 6,
      "assists": 0,
-     "p_goal": 51,
-     "p_dec": 54,
+     "p_goal": 46,
+     "p_dec": 50,
      "side": "h",
      "team": "Racing"
     },
@@ -2125,7 +2125,7 @@
      "goals": 0,
      "assists": 2,
      "p_goal": 6,
-     "p_dec": 29,
+     "p_dec": 26,
      "side": "h",
      "team": "Racing"
     }
@@ -2135,8 +2135,8 @@
      "name": "Yassir Zabiri",
      "goals": 6,
      "assists": 0,
-     "p_goal": 51,
-     "p_dec": 54,
+     "p_goal": 46,
+     "p_dec": 50,
      "side": "h",
      "team": "Racing"
     },
@@ -2145,16 +2145,16 @@
      "goals": 0,
      "assists": 2,
      "p_goal": 6,
-     "p_dec": 29,
+     "p_dec": 26,
      "side": "h",
      "team": "Racing"
     }
    ],
    "ctx": [
-    "Racing : 16e, 7 points, 11 buts marqués et 21 encaissés en 7 matchs.",
-    "Valencia : 19e, 4 points, 4 buts marqués et 13 encaissés en 7 matchs."
+    "Racing : 15e, 8 points, 13 buts marqués et 23 encaissés en 8 matchs.",
+    "Valencia : 19e, 5 points, 6 buts marqués et 15 encaissés en 8 matchs."
    ],
-   "reading": "Racing est favori sans écraser le match (55 %)."
+   "reading": "Racing est favori sans écraser le match (51 %)."
   }
  ],
  "nhl": [
@@ -2170,14 +2170,14 @@
    "away": "Seattle Kraken",
    "rec_h": "3-1-0 · 4e Metropolitan · 2 victoires de suite",
    "rec_a": "3-2-0 · 4e Pacific · 1 victoire de suite",
-   "winH": 66,
-   "winA": 34,
-   "pH": 53,
+   "winH": 64,
+   "winA": 36,
+   "pH": 52,
    "pD": 22,
-   "pA": 25,
+   "pA": 26,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.65,
-   "xgA": 2.65,
+   "xgH": 3.61,
+   "xgA": 2.69,
    "total": 6.3,
    "scores": [
     "3-2",
@@ -2210,7 +2210,7 @@
      "side": "h",
      "team": "Washington Capitals",
      "p_goal": 33,
-     "p_point": 59,
+     "p_point": 58,
      "p_assist": 37
     },
     {
@@ -2220,7 +2220,7 @@
      "new": false,
      "side": "h",
      "team": "Washington Capitals",
-     "p_goal": 31,
+     "p_goal": 30,
      "p_point": 54,
      "p_assist": 33
     },
@@ -2232,19 +2232,8 @@
      "side": "h",
      "team": "Washington Capitals",
      "p_goal": 27,
-     "p_point": 54,
-     "p_assist": 36
-    },
-    {
-     "name": "Aliaksei Protas",
-     "pos": "Ailier",
-     "cur": "0 but, 1 passe en 4",
-     "new": false,
-     "side": "h",
-     "team": "Washington Capitals",
-     "p_goal": 27,
-     "p_point": 50,
-     "p_assist": 31
+     "p_point": 53,
+     "p_assist": 35
     },
     {
      "name": "Bobby McMann",
@@ -2253,9 +2242,31 @@
      "new": false,
      "side": "a",
      "team": "Seattle Kraken",
-     "p_goal": 26,
+     "p_goal": 27,
      "p_point": 40,
      "p_assist": 16
+    },
+    {
+     "name": "Aliaksei Protas",
+     "pos": "Ailier",
+     "cur": "0 but, 1 passe en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 26,
+     "p_point": 49,
+     "p_assist": 30
+    },
+    {
+     "name": "Jared McCann",
+     "pos": "Ailier",
+     "cur": "1 but, 5 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 25,
+     "p_point": 48,
+     "p_assist": 30
     },
     {
      "name": "Jordan Eberle",
@@ -2269,26 +2280,15 @@
      "p_assist": 27
     },
     {
-     "name": "Jared McCann",
-     "pos": "Ailier",
-     "cur": "1 but, 5 passes en 5",
-     "new": false,
-     "side": "a",
-     "team": "Seattle Kraken",
-     "p_goal": 24,
-     "p_point": 48,
-     "p_assist": 30
-    },
-    {
      "name": "Matty Beniers",
      "pos": "Centre",
      "cur": "1 but, 2 passes en 5",
      "new": false,
      "side": "a",
      "team": "Seattle Kraken",
-     "p_goal": 18,
+     "p_goal": 19,
      "p_point": 41,
-     "p_assist": 27
+     "p_assist": 28
     }
    ],
    "deci": [
@@ -2300,7 +2300,7 @@
      "side": "h",
      "team": "Washington Capitals",
      "p_goal": 33,
-     "p_point": 59,
+     "p_point": 58,
      "p_assist": 37
     },
     {
@@ -2310,9 +2310,20 @@
      "new": false,
      "side": "h",
      "team": "Washington Capitals",
-     "p_goal": 31,
+     "p_goal": 30,
      "p_point": 54,
      "p_assist": 33
+    },
+    {
+     "name": "Dylan Strome",
+     "pos": "Centre",
+     "cur": "0 but, 4 passes en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 20,
+     "p_point": 53,
+     "p_assist": 40
     },
     {
      "name": "Jakob Chychrun",
@@ -2322,19 +2333,8 @@
      "side": "h",
      "team": "Washington Capitals",
      "p_goal": 27,
-     "p_point": 54,
-     "p_assist": 36
-    },
-    {
-     "name": "Dylan Strome",
-     "pos": "Centre",
-     "cur": "0 but, 4 passes en 4",
-     "new": false,
-     "side": "h",
-     "team": "Washington Capitals",
-     "p_goal": 21,
      "p_point": 53,
-     "p_assist": 40
+     "p_assist": 35
     },
     {
      "name": "Jared McCann",
@@ -2343,7 +2343,7 @@
      "new": false,
      "side": "a",
      "team": "Seattle Kraken",
-     "p_goal": 24,
+     "p_goal": 25,
      "p_point": 48,
      "p_assist": 30
     },
@@ -2366,7 +2366,7 @@
      "side": "a",
      "team": "Seattle Kraken",
      "p_goal": 16,
-     "p_point": 42,
+     "p_point": 43,
      "p_assist": 31
     },
     {
@@ -2376,7 +2376,7 @@
      "new": false,
      "side": "a",
      "team": "Seattle Kraken",
-     "p_goal": 15,
+     "p_goal": 16,
      "p_point": 42,
      "p_assist": 31
     }
@@ -2387,7 +2387,7 @@
     "Aucune des deux équipes n'a joué hier.",
     "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
    ],
-   "reading": "Washington Capitals est nettement favori (66 % en comptant la prolongation)."
+   "reading": "Washington Capitals est favori (64 % en comptant la prolongation)."
   },
   {
    "id": "nhl-2026020085",
@@ -2421,10 +2421,10 @@
     4
    ],
    "goalie_h": {
-    "name": "Igor Shesterkin",
-    "starts": 5,
-    "sv": "92,7 % d'arrêts",
-    "note": ""
+    "name": "Dylan Garand",
+    "starts": 1,
+    "sv": "97,1 % d'arrêts",
+    "note": "le titulaire a été remplacé en cours de match la dernière fois (blessure possible)"
    },
    "goalie_a": {
     "name": "Kevin Lankinen",
