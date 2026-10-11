@@ -1,0 +1,44 @@
+{
+ "nhl-2026020084": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-11",
+  "home": "Washington Capitals",
+  "away": "Seattle Kraken",
+  "p": [
+   0.6575,
+   0.3425
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020085": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-12",
+  "home": "New York Rangers",
+  "away": "Vancouver Canucks",
+  "p": [
+   0.705,
+   0.295
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020086": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-12",
+  "home": "Philadelphia Flyers",
+  "away": "Carolina Hurricanes",
+  "p": [
+   0.3425,
+   0.6575
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ }
+}

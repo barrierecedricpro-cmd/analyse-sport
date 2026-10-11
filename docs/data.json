@@ -1,0 +1,2866 @@
+{
+ "generated": "2026-10-11T22:50+02:00",
+ "date": "2026-10-11",
+ "foot": [
+  {
+   "id": "foot-401874940",
+   "sport": "foot",
+   "league": "Serie A",
+   "kickoff": "2026-10-11T10:30:00+00:00",
+   "time": "12:30",
+   "state": "post",
+   "score": "0-0",
+   "home": "Como",
+   "away": "AS Roma",
+   "form_h": "NDVVV",
+   "form_a": "NNVNV",
+   "rank_h": 7,
+   "rank_a": 3,
+   "pH": 25,
+   "pD": 27,
+   "pA": 49,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 0.94,
+   "xgA": 1.43,
+   "scores": [
+    "0-1",
+    "1-1",
+    "0-2"
+   ],
+   "scorep": [
+    13,
+    13,
+    10
+   ],
+   "over25": 42,
+   "btts": 46,
+   "players": [
+    {
+     "name": "Donyell Malen",
+     "goals": 6,
+     "assists": 0,
+     "p_goal": 34,
+     "p_dec": 37,
+     "side": "a",
+     "team": "AS Roma"
+    },
+    {
+     "name": "Manu Koné",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 15,
+     "p_dec": 19,
+     "side": "a",
+     "team": "AS Roma"
+    },
+    {
+     "name": "Matìas Soulè",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 15,
+     "p_dec": 24,
+     "side": "a",
+     "team": "AS Roma"
+    },
+    {
+     "name": "Niccolò Pisilli",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 15,
+     "p_dec": 19,
+     "side": "a",
+     "team": "AS Roma"
+    },
+    {
+     "name": "Assane Diao",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 14,
+     "p_dec": 21,
+     "side": "h",
+     "team": "Como"
+    },
+    {
+     "name": "Anastasios Douvikas",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 17,
+     "side": "h",
+     "team": "Como"
+    },
+    {
+     "name": "Martin Baturina",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 14,
+     "p_dec": 21,
+     "side": "h",
+     "team": "Como"
+    },
+    {
+     "name": "Jacobo Ramón",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 9,
+     "p_dec": 12,
+     "side": "h",
+     "team": "Como"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Donyell Malen",
+     "goals": 6,
+     "assists": 0,
+     "p_goal": 34,
+     "p_dec": 37,
+     "side": "a",
+     "team": "AS Roma"
+    },
+    {
+     "name": "Paulo Dybala",
+     "goals": 0,
+     "assists": 4,
+     "p_goal": 4,
+     "p_dec": 29,
+     "side": "a",
+     "team": "AS Roma"
+    },
+    {
+     "name": "Matìas Soulè",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 15,
+     "p_dec": 24,
+     "side": "a",
+     "team": "AS Roma"
+    },
+    {
+     "name": "Assane Diao",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 14,
+     "p_dec": 21,
+     "side": "h",
+     "team": "Como"
+    },
+    {
+     "name": "Martin Baturina",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 14,
+     "p_dec": 21,
+     "side": "h",
+     "team": "Como"
+    },
+    {
+     "name": "Anastasios Douvikas",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 17,
+     "side": "h",
+     "team": "Como"
+    }
+   ],
+   "ctx": [
+    "Como : 7e, 11 points, 9 buts marqués et 6 encaissés en 6 matchs.",
+    "AS Roma : 3e, 14 points, 14 buts marqués et 3 encaissés en 6 matchs."
+   ],
+   "reading": "AS Roma est favori sans écraser le match (49 %)."
+  },
+  {
+   "id": "foot-401882854",
+   "sport": "foot",
+   "league": "LaLiga",
+   "kickoff": "2026-10-11T12:00:00+00:00",
+   "time": "14:00",
+   "state": "post",
+   "score": "0-0",
+   "home": "Elche",
+   "away": "Celta Vigo",
+   "form_h": "NVDND",
+   "form_a": "NVDNN",
+   "rank_h": 17,
+   "rank_a": 9,
+   "pH": 29,
+   "pD": 28,
+   "pA": 43,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 1.0,
+   "xgA": 1.3,
+   "scores": [
+    "1-1",
+    "0-1",
+    "1-0"
+   ],
+   "scorep": [
+    13,
+    13,
+    10
+   ],
+   "over25": 40,
+   "btts": 46,
+   "players": [
+    {
+     "name": "Fer Niño",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 26,
+     "p_dec": 28,
+     "side": "h",
+     "team": "Elche"
+    },
+    {
+     "name": "Pablo Durán",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 20,
+     "p_dec": 24,
+     "side": "a",
+     "team": "Celta Vigo"
+    },
+    {
+     "name": "Miguel Román",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 13,
+     "p_dec": 30,
+     "side": "a",
+     "team": "Celta Vigo"
+    },
+    {
+     "name": "Hugo Gonzalez",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 13,
+     "p_dec": 30,
+     "side": "a",
+     "team": "Celta Vigo"
+    },
+    {
+     "name": "Hugo Álvarez",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 5,
+     "p_dec": 24,
+     "side": "a",
+     "team": "Celta Vigo"
+    },
+    {
+     "name": "José Antonio Morente",
+     "goals": 0,
+     "assists": 3,
+     "p_goal": 3,
+     "p_dec": 20,
+     "side": "h",
+     "team": "Elche"
+    },
+    {
+     "name": "Lucas Cepeda",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 3,
+     "p_dec": 16,
+     "side": "h",
+     "team": "Elche"
+    },
+    {
+     "name": "Roy Revivo",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 3,
+     "p_dec": 16,
+     "side": "h",
+     "team": "Elche"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Miguel Román",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 13,
+     "p_dec": 30,
+     "side": "a",
+     "team": "Celta Vigo"
+    },
+    {
+     "name": "Hugo Gonzalez",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 13,
+     "p_dec": 30,
+     "side": "a",
+     "team": "Celta Vigo"
+    },
+    {
+     "name": "Fer Niño",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 26,
+     "p_dec": 28,
+     "side": "h",
+     "team": "Elche"
+    },
+    {
+     "name": "Pablo Durán",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 20,
+     "p_dec": 24,
+     "side": "a",
+     "team": "Celta Vigo"
+    },
+    {
+     "name": "José Antonio Morente",
+     "goals": 0,
+     "assists": 3,
+     "p_goal": 3,
+     "p_dec": 20,
+     "side": "h",
+     "team": "Elche"
+    },
+    {
+     "name": "Lucas Cepeda",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 3,
+     "p_dec": 16,
+     "side": "h",
+     "team": "Elche"
+    }
+   ],
+   "ctx": [
+    "Elche : 17e, 6 points, 11 buts marqués et 17 encaissés en 8 matchs.",
+    "Celta Vigo : 9e, 8 points, 8 buts marqués et 6 encaissés en 8 matchs."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
+  },
+  {
+   "id": "foot-401876443",
+   "sport": "foot",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-11T13:00:00+00:00",
+   "time": "15:00",
+   "state": "post",
+   "score": "2-1",
+   "home": "Nice",
+   "away": "Strasbourg",
+   "form_h": "NVDND",
+   "form_a": "NDNVV",
+   "rank_h": 9,
+   "rank_a": 11,
+   "pH": 41,
+   "pD": 25,
+   "pA": 34,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 1.46,
+   "xgA": 1.3,
+   "scores": [
+    "1-1",
+    "1-0",
+    "2-1"
+   ],
+   "scorep": [
+    12,
+    9,
+    9
+   ],
+   "over25": 52,
+   "btts": 56,
+   "players": [
+    {
+     "name": "Gessime Yassine",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 16,
+     "p_dec": 26,
+     "side": "a",
+     "team": "Strasbourg"
+    },
+    {
+     "name": "Samuel Amo-Ameyaw",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 16,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Strasbourg"
+    },
+    {
+     "name": "Sebastian Nanasi",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 4,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Strasbourg"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Gessime Yassine",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 16,
+     "p_dec": 26,
+     "side": "a",
+     "team": "Strasbourg"
+    },
+    {
+     "name": "Samuel Amo-Ameyaw",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 16,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Strasbourg"
+    },
+    {
+     "name": "Sebastian Nanasi",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 4,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Strasbourg"
+    }
+   ],
+   "ctx": [
+    "Nice : 9e, 8 points, 5 buts marqués et 7 encaissés en 6 matchs.",
+    "Strasbourg : 11e, 7 points, 11 buts marqués et 12 encaissés en 6 matchs."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
+  },
+  {
+   "id": "foot-401879266",
+   "sport": "foot",
+   "league": "Premier League",
+   "kickoff": "2026-10-11T13:00:00+00:00",
+   "time": "15:00",
+   "state": "post",
+   "score": "3-1",
+   "home": "C Palace",
+   "away": "Nottm Forest",
+   "form_h": "NNVDV",
+   "form_a": "NDVNN",
+   "rank_h": 12,
+   "rank_a": 14,
+   "pH": 47,
+   "pD": 25,
+   "pA": 28,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 1.57,
+   "xgA": 1.14,
+   "scores": [
+    "1-1",
+    "1-0",
+    "2-1"
+   ],
+   "scorep": [
+    12,
+    10,
+    9
+   ],
+   "over25": 51,
+   "btts": 54,
+   "players": [
+    {
+     "name": "Tyrick Mitchell",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 22,
+     "p_dec": 27,
+     "side": "h",
+     "team": "C Palace"
+    },
+    {
+     "name": "Morgan Gibbs-White",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 14,
+     "p_dec": 34,
+     "side": "a",
+     "team": "Nottm Forest"
+    },
+    {
+     "name": "Daichi Kamada",
+     "goals": 0,
+     "assists": 3,
+     "p_goal": 6,
+     "p_dec": 33,
+     "side": "h",
+     "team": "C Palace"
+    },
+    {
+     "name": "Murillo",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 6,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Nottm Forest"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Morgan Gibbs-White",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 14,
+     "p_dec": 34,
+     "side": "a",
+     "team": "Nottm Forest"
+    },
+    {
+     "name": "Daichi Kamada",
+     "goals": 0,
+     "assists": 3,
+     "p_goal": 6,
+     "p_dec": 33,
+     "side": "h",
+     "team": "C Palace"
+    },
+    {
+     "name": "Tyrick Mitchell",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 22,
+     "p_dec": 27,
+     "side": "h",
+     "team": "C Palace"
+    },
+    {
+     "name": "Murillo",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 6,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Nottm Forest"
+    }
+   ],
+   "ctx": [
+    "C Palace : 12e, 7 points, 9 buts marqués et 12 encaissés en 6 matchs.",
+    "Nottm Forest : 14e, 5 points, 5 buts marqués et 8 encaissés en 6 matchs."
+   ],
+   "reading": "C Palace est favori sans écraser le match (47 %)."
+  },
+  {
+   "id": "foot-401878774",
+   "sport": "foot",
+   "league": "Premier League",
+   "kickoff": "2026-10-11T13:00:00+00:00",
+   "time": "15:00",
+   "state": "post",
+   "score": "2-2",
+   "home": "Hull",
+   "away": "Everton",
+   "form_h": "NDNDN",
+   "form_a": "NVVNN",
+   "rank_h": 8,
+   "rank_a": 5,
+   "pH": 39,
+   "pD": 30,
+   "pA": 31,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 1.1,
+   "xgA": 0.96,
+   "scores": [
+    "1-0",
+    "1-1",
+    "0-0"
+   ],
+   "scorep": [
+    14,
+    13,
+    13
+   ],
+   "over25": 34,
+   "btts": 41,
+   "players": [
+    {
+     "name": "Mohamed Belloumi",
+     "goals": 2,
+     "assists": 2,
+     "p_goal": 17,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Hull"
+    },
+    {
+     "name": "Thierno Barry",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 15,
+     "p_dec": 18,
+     "side": "a",
+     "team": "Everton"
+    },
+    {
+     "name": "James Tarkowski",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 10,
+     "p_dec": 18,
+     "side": "a",
+     "team": "Everton"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Mohamed Belloumi",
+     "goals": 2,
+     "assists": 2,
+     "p_goal": 17,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Hull"
+    },
+    {
+     "name": "Thierno Barry",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 15,
+     "p_dec": 18,
+     "side": "a",
+     "team": "Everton"
+    },
+    {
+     "name": "James Tarkowski",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 10,
+     "p_dec": 18,
+     "side": "a",
+     "team": "Everton"
+    }
+   ],
+   "ctx": [
+    "Hull : 8e, 9 points, 8 buts marqués et 6 encaissés en 6 matchs.",
+    "Everton : 5e, 10 points, 8 buts marqués et 5 encaissés en 6 matchs."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (30 %)."
+  },
+  {
+   "id": "foot-401874951",
+   "sport": "foot",
+   "league": "Serie A",
+   "kickoff": "2026-10-11T13:00:00+00:00",
+   "time": "15:00",
+   "state": "post",
+   "score": "3-1",
+   "home": "Lazio",
+   "away": "Monza",
+   "form_h": "NVNVV",
+   "form_a": "DVDNV",
+   "rank_h": 2,
+   "rank_a": 16,
+   "pH": 79,
+   "pD": 13,
+   "pA": 8,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 2.86,
+   "xgA": 0.84,
+   "scores": [
+    "2-0",
+    "3-0",
+    "2-1"
+   ],
+   "scorep": [
+    10,
+    10,
+    8
+   ],
+   "over25": 71,
+   "btts": 53,
+   "players": [
+    {
+     "name": "Davide Frattesi",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 42,
+     "p_dec": 48,
+     "side": "h",
+     "team": "Lazio"
+    },
+    {
+     "name": "Tijjani Noslin",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 33,
+     "p_dec": 39,
+     "side": "h",
+     "team": "Lazio"
+    },
+    {
+     "name": "Mattia Zaccagni",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 22,
+     "p_dec": 48,
+     "side": "h",
+     "team": "Lazio"
+    },
+    {
+     "name": "Gustavo Varela",
+     "goals": 4,
+     "assists": 0,
+     "p_goal": 21,
+     "p_dec": 23,
+     "side": "a",
+     "team": "Monza"
+    },
+    {
+     "name": "Nuno Tavares",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 9,
+     "p_dec": 39,
+     "side": "h",
+     "team": "Lazio"
+    },
+    {
+     "name": "Ricardo Mangas",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 8,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Monza"
+    },
+    {
+     "name": "Samuele Birindelli",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 3,
+     "p_dec": 15,
+     "side": "a",
+     "team": "Monza"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Davide Frattesi",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 42,
+     "p_dec": 48,
+     "side": "h",
+     "team": "Lazio"
+    },
+    {
+     "name": "Mattia Zaccagni",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 22,
+     "p_dec": 48,
+     "side": "h",
+     "team": "Lazio"
+    },
+    {
+     "name": "Tijjani Noslin",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 33,
+     "p_dec": 39,
+     "side": "h",
+     "team": "Lazio"
+    },
+    {
+     "name": "Gustavo Varela",
+     "goals": 4,
+     "assists": 0,
+     "p_goal": 21,
+     "p_dec": 23,
+     "side": "a",
+     "team": "Monza"
+    },
+    {
+     "name": "Ricardo Mangas",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 8,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Monza"
+    },
+    {
+     "name": "Samuele Birindelli",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 3,
+     "p_dec": 15,
+     "side": "a",
+     "team": "Monza"
+    }
+   ],
+   "ctx": [
+    "Lazio : 2e, 16 points, 11 buts marqués et 4 encaissés en 6 matchs.",
+    "Monza : 16e, 4 points, 9 buts marqués et 15 encaissés en 6 matchs."
+   ],
+   "reading": "Lazio est nettement favori (79 %)."
+  },
+  {
+   "id": "foot-401874776",
+   "sport": "foot",
+   "league": "Serie A",
+   "kickoff": "2026-10-11T13:00:00+00:00",
+   "time": "15:00",
+   "state": "post",
+   "score": "1-2",
+   "home": "Lecce",
+   "away": "Bologna",
+   "form_h": "NDVDD",
+   "form_a": "NNDND",
+   "rank_h": 12,
+   "rank_a": 13,
+   "pH": 35,
+   "pD": 29,
+   "pA": 36,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 1.12,
+   "xgA": 1.15,
+   "scores": [
+    "1-1",
+    "0-1",
+    "1-0"
+   ],
+   "scorep": [
+    13,
+    12,
+    12
+   ],
+   "over25": 40,
+   "btts": 46,
+   "players": [
+    {
+     "name": "Lassana Coulibaly",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 20,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Lecce"
+    },
+    {
+     "name": "Tiago Gabriel",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 20,
+     "p_dec": 25,
+     "side": "h",
+     "team": "Lecce"
+    },
+    {
+     "name": "Ivan Ilic",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 5,
+     "p_dec": 25,
+     "side": "h",
+     "team": "Lecce"
+    },
+    {
+     "name": "Danilo Veiga",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 5,
+     "p_dec": 18,
+     "side": "h",
+     "team": "Lecce"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Lassana Coulibaly",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 20,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Lecce"
+    },
+    {
+     "name": "Tiago Gabriel",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 20,
+     "p_dec": 25,
+     "side": "h",
+     "team": "Lecce"
+    },
+    {
+     "name": "Ivan Ilic",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 5,
+     "p_dec": 25,
+     "side": "h",
+     "team": "Lecce"
+    }
+   ],
+   "ctx": [
+    "Lecce : 12e, 6 points, 6 buts marqués et 12 encaissés en 6 matchs.",
+    "Bologna : 13e, 5 points, 5 buts marqués et 7 encaissés en 6 matchs."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
+  },
+  {
+   "id": "foot-401884774",
+   "sport": "foot",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-11T13:30:00+00:00",
+   "time": "15:30",
+   "state": "post",
+   "score": "2-1",
+   "home": "Cologne",
+   "away": "Gladbach",
+   "form_h": "NDNDV",
+   "form_a": "NDDDD",
+   "rank_h": 10,
+   "rank_a": 18,
+   "pH": 69,
+   "pD": 15,
+   "pA": 16,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 2.98,
+   "xgA": 1.44,
+   "scores": [
+    "2-1",
+    "3-1",
+    "4-1"
+   ],
+   "scorep": [
+    8,
+    8,
+    6
+   ],
+   "over25": 82,
+   "btts": 72,
+   "players": [
+    {
+     "name": "Thijs Dallinga",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 40,
+     "p_dec": 47,
+     "side": "h",
+     "team": "Cologne"
+    },
+    {
+     "name": "Hugo Bolin",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 23,
+     "p_dec": 28,
+     "side": "a",
+     "team": "Gladbach"
+    },
+    {
+     "name": "Ellyes Skhiri",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 11,
+     "p_dec": 47,
+     "side": "h",
+     "team": "Cologne"
+    },
+    {
+     "name": "Franck Honorat",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 6,
+     "p_dec": 28,
+     "side": "a",
+     "team": "Gladbach"
+    },
+    {
+     "name": "Lukas Ullrich",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 6,
+     "p_dec": 28,
+     "side": "a",
+     "team": "Gladbach"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Thijs Dallinga",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 40,
+     "p_dec": 47,
+     "side": "h",
+     "team": "Cologne"
+    },
+    {
+     "name": "Ellyes Skhiri",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 11,
+     "p_dec": 47,
+     "side": "h",
+     "team": "Cologne"
+    },
+    {
+     "name": "Hugo Bolin",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 23,
+     "p_dec": 28,
+     "side": "a",
+     "team": "Gladbach"
+    },
+    {
+     "name": "Franck Honorat",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 6,
+     "p_dec": 28,
+     "side": "a",
+     "team": "Gladbach"
+    },
+    {
+     "name": "Lukas Ullrich",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 6,
+     "p_dec": 28,
+     "side": "a",
+     "team": "Gladbach"
+    }
+   ],
+   "ctx": [
+    "Cologne : 10e, 7 points, 8 buts marqués et 10 encaissés en 5 matchs.",
+    "Gladbach : 18e, 0 point, 7 buts marqués et 18 encaissés en 5 matchs."
+   ],
+   "reading": "Cologne est nettement favori (69 %)."
+  },
+  {
+   "id": "foot-401882847",
+   "sport": "foot",
+   "league": "LaLiga",
+   "kickoff": "2026-10-11T14:15:00+00:00",
+   "time": "16:15",
+   "state": "post",
+   "score": "3-2",
+   "home": "Real Sociedad",
+   "away": "Deportivo",
+   "form_h": "NVDDV",
+   "form_a": "NNDNV",
+   "rank_h": 6,
+   "rank_a": 8,
+   "pH": 39,
+   "pD": 24,
+   "pA": 38,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 1.57,
+   "xgA": 1.55,
+   "scores": [
+    "1-1",
+    "2-1",
+    "1-2"
+   ],
+   "scorep": [
+    11,
+    8,
+    8
+   ],
+   "over25": 60,
+   "btts": 62,
+   "players": [
+    {
+     "name": "Pierre-Emerick Aubameyang",
+     "goals": 5,
+     "assists": 2,
+     "p_goal": 35,
+     "p_dec": 47,
+     "side": "a",
+     "team": "Deportivo"
+    },
+    {
+     "name": "Luka Sucic",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 25,
+     "p_dec": 28,
+     "side": "h",
+     "team": "Real Sociedad"
+    },
+    {
+     "name": "Ander Barrenetxea",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 18,
+     "p_dec": 23,
+     "side": "h",
+     "team": "Real Sociedad"
+    },
+    {
+     "name": "Job Ochieng",
+     "goals": 1,
+     "assists": 3,
+     "p_goal": 12,
+     "p_dec": 34,
+     "side": "h",
+     "team": "Real Sociedad"
+    },
+    {
+     "name": "Carlos Soler",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 12,
+     "p_dec": 28,
+     "side": "h",
+     "team": "Real Sociedad"
+    },
+    {
+     "name": "Mario Soriano Carreno",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 5,
+     "p_dec": 22,
+     "side": "a",
+     "team": "Deportivo"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Pierre-Emerick Aubameyang",
+     "goals": 5,
+     "assists": 2,
+     "p_goal": 35,
+     "p_dec": 47,
+     "side": "a",
+     "team": "Deportivo"
+    },
+    {
+     "name": "Job Ochieng",
+     "goals": 1,
+     "assists": 3,
+     "p_goal": 12,
+     "p_dec": 34,
+     "side": "h",
+     "team": "Real Sociedad"
+    },
+    {
+     "name": "Luka Sucic",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 25,
+     "p_dec": 28,
+     "side": "h",
+     "team": "Real Sociedad"
+    },
+    {
+     "name": "Carlos Soler",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 12,
+     "p_dec": 28,
+     "side": "h",
+     "team": "Real Sociedad"
+    },
+    {
+     "name": "Mario Soriano Carreno",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 5,
+     "p_dec": 22,
+     "side": "a",
+     "team": "Deportivo"
+    }
+   ],
+   "ctx": [
+    "Real Sociedad : 6e, 13 points, 12 buts marqués et 15 encaissés en 8 matchs.",
+    "Deportivo : 8e, 10 points, 12 buts marqués et 11 encaissés en 8 matchs."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
+  },
+  {
+   "id": "foot-401876441",
+   "sport": "foot",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-11T15:15:00+00:00",
+   "time": "17:15",
+   "state": "post",
+   "score": "4-1",
+   "home": "Rennes",
+   "away": "Auxerre",
+   "form_h": "NDNVV",
+   "form_a": "NVVDD",
+   "rank_h": 3,
+   "rank_a": 16,
+   "pH": 74,
+   "pD": 14,
+   "pA": 13,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 3.17,
+   "xgA": 1.33,
+   "scores": [
+    "3-1",
+    "2-1",
+    "4-1"
+   ],
+   "scorep": [
+    8,
+    7,
+    6
+   ],
+   "over25": 83,
+   "btts": 70,
+   "players": [
+    {
+     "name": "Esteban Lepaul",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 43,
+     "p_dec": 49,
+     "side": "h",
+     "team": "Rennes"
+    },
+    {
+     "name": "Cameron Archer",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 31,
+     "side": "a",
+     "team": "Auxerre"
+    },
+    {
+     "name": "Adrien Thomasson",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 22,
+     "p_dec": 49,
+     "side": "h",
+     "team": "Rennes"
+    },
+    {
+     "name": "Przemyslaw Frankowski",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 22,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Rennes"
+    },
+    {
+     "name": "Danny Namaso",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 25,
+     "side": "a",
+     "team": "Auxerre"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Esteban Lepaul",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 43,
+     "p_dec": 49,
+     "side": "h",
+     "team": "Rennes"
+    },
+    {
+     "name": "Adrien Thomasson",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 22,
+     "p_dec": 49,
+     "side": "h",
+     "team": "Rennes"
+    },
+    {
+     "name": "Przemyslaw Frankowski",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 22,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Rennes"
+    },
+    {
+     "name": "Cameron Archer",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 31,
+     "side": "a",
+     "team": "Auxerre"
+    },
+    {
+     "name": "Danny Namaso",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 25,
+     "side": "a",
+     "team": "Auxerre"
+    }
+   ],
+   "ctx": [
+    "Rennes : 3e, 13 points, 12 buts marqués et 10 encaissés en 6 matchs.",
+    "Auxerre : 16e, 6 points, 8 buts marqués et 16 encaissés en 6 matchs."
+   ],
+   "reading": "Rennes est nettement favori (74 %)."
+  },
+  {
+   "id": "foot-401879264",
+   "sport": "foot",
+   "league": "Premier League",
+   "kickoff": "2026-10-11T15:30:00+00:00",
+   "time": "17:30",
+   "state": "post",
+   "score": "0-3",
+   "home": "Liverpool",
+   "away": "Man City",
+   "form_h": "NVVNV",
+   "form_a": "NVVVV",
+   "rank_h": 9,
+   "rank_a": 1,
+   "pH": 22,
+   "pD": 24,
+   "pA": 54,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 1.01,
+   "xgA": 1.73,
+   "scores": [
+    "1-1",
+    "0-1",
+    "1-2"
+   ],
+   "scorep": [
+    11,
+    11,
+    10
+   ],
+   "over25": 52,
+   "btts": 52,
+   "players": [
+    {
+     "name": "Erling Haaland",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 32,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Man City"
+    },
+    {
+     "name": "Alexander Isak",
+     "goals": 4,
+     "assists": 0,
+     "p_goal": 28,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Liverpool"
+    },
+    {
+     "name": "Rayan Cherki",
+     "goals": 3,
+     "assists": 2,
+     "p_goal": 22,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Man City"
+    },
+    {
+     "name": "Antoine Semenyo",
+     "goals": 2,
+     "assists": 3,
+     "p_goal": 17,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Man City"
+    },
+    {
+     "name": "Cody Gakpo",
+     "goals": 1,
+     "assists": 3,
+     "p_goal": 11,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Liverpool"
+    },
+    {
+     "name": "Josko Gvardiol",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 11,
+     "p_dec": 26,
+     "side": "a",
+     "team": "Man City"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Erling Haaland",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 32,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Man City"
+    },
+    {
+     "name": "Rayan Cherki",
+     "goals": 3,
+     "assists": 2,
+     "p_goal": 22,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Man City"
+    },
+    {
+     "name": "Antoine Semenyo",
+     "goals": 2,
+     "assists": 3,
+     "p_goal": 17,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Man City"
+    },
+    {
+     "name": "Alexander Isak",
+     "goals": 4,
+     "assists": 0,
+     "p_goal": 28,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Liverpool"
+    },
+    {
+     "name": "Cody Gakpo",
+     "goals": 1,
+     "assists": 3,
+     "p_goal": 11,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Liverpool"
+    }
+   ],
+   "ctx": [
+    "Liverpool : 9e, 9 points, 7 buts marqués et 7 encaissés en 6 matchs.",
+    "Man City : 1e, 18 points, 16 buts marqués et 5 encaissés en 6 matchs."
+   ],
+   "reading": "Man City est favori sans écraser le match (54 %)."
+  },
+  {
+   "id": "foot-401884778",
+   "sport": "foot",
+   "league": "Bundesliga",
+   "kickoff": "2026-10-11T15:30:00+00:00",
+   "time": "17:30",
+   "state": "post",
+   "score": "2-1",
+   "home": "Freiburg",
+   "away": "Schalke",
+   "form_h": "NNVVV",
+   "form_a": "NNVND",
+   "rank_h": 1,
+   "rank_a": 13,
+   "pH": 71,
+   "pD": 19,
+   "pA": 11,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 2.12,
+   "xgA": 0.68,
+   "scores": [
+    "2-0",
+    "1-0",
+    "3-0"
+   ],
+   "scorep": [
+    14,
+    13,
+    10
+   ],
+   "over25": 53,
+   "btts": 43,
+   "players": [
+    {
+     "name": "Yuito Suzuki",
+     "goals": 4,
+     "assists": 0,
+     "p_goal": 35,
+     "p_dec": 39,
+     "side": "h",
+     "team": "Freiburg"
+    },
+    {
+     "name": "Igor Matanovic",
+     "goals": 3,
+     "assists": 1,
+     "p_goal": 29,
+     "p_dec": 39,
+     "side": "h",
+     "team": "Freiburg"
+    },
+    {
+     "name": "Maximilian Eggestein",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 22,
+     "p_dec": 27,
+     "side": "h",
+     "team": "Freiburg"
+    },
+    {
+     "name": "Yannick Engelhardt",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 22,
+     "p_dec": 27,
+     "side": "h",
+     "team": "Freiburg"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Yuito Suzuki",
+     "goals": 4,
+     "assists": 0,
+     "p_goal": 35,
+     "p_dec": 39,
+     "side": "h",
+     "team": "Freiburg"
+    },
+    {
+     "name": "Igor Matanovic",
+     "goals": 3,
+     "assists": 1,
+     "p_goal": 29,
+     "p_dec": 39,
+     "side": "h",
+     "team": "Freiburg"
+    },
+    {
+     "name": "Matthias Ginter",
+     "goals": 0,
+     "assists": 3,
+     "p_goal": 6,
+     "p_dec": 33,
+     "side": "h",
+     "team": "Freiburg"
+    }
+   ],
+   "ctx": [
+    "Freiburg : 1e, 13 points, 14 buts marqués et 4 encaissés en 5 matchs.",
+    "Schalke : 13e, 5 points, 4 buts marqués et 6 encaissés en 5 matchs."
+   ],
+   "reading": "Freiburg est nettement favori (71 %)."
+  },
+  {
+   "id": "foot-401874789",
+   "sport": "foot",
+   "league": "Serie A",
+   "kickoff": "2026-10-11T16:00:00+00:00",
+   "time": "18:00",
+   "state": "post",
+   "score": "1-1",
+   "home": "Sassuolo",
+   "away": "Milan",
+   "form_h": "NDVNV",
+   "form_a": "NVDNN",
+   "rank_h": 10,
+   "rank_a": 5,
+   "pH": 30,
+   "pD": 24,
+   "pA": 46,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 1.29,
+   "xgA": 1.66,
+   "scores": [
+    "1-1",
+    "1-2",
+    "0-1"
+   ],
+   "scorep": [
+    11,
+    9,
+    9
+   ],
+   "over25": 57,
+   "btts": 59,
+   "players": [
+    {
+     "name": "Diego Moreira",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 31,
+     "side": "a",
+     "team": "Milan"
+    },
+    {
+     "name": "Vasilije Adzic",
+     "goals": 3,
+     "assists": 1,
+     "p_goal": 23,
+     "p_dec": 32,
+     "side": "h",
+     "team": "Sassuolo"
+    },
+    {
+     "name": "Adrien Rabiot",
+     "goals": 2,
+     "assists": 2,
+     "p_goal": 21,
+     "p_dec": 37,
+     "side": "a",
+     "team": "Milan"
+    },
+    {
+     "name": "Alphadjo Cissè",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 21,
+     "p_dec": 25,
+     "side": "a",
+     "team": "Milan"
+    },
+    {
+     "name": "Gonçalo Ramos",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 25,
+     "side": "a",
+     "team": "Milan"
+    },
+    {
+     "name": "Armand Laurienté",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 4,
+     "p_dec": 15,
+     "side": "h",
+     "team": "Sassuolo"
+    },
+    {
+     "name": "Nemanja Matic",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 4,
+     "p_dec": 15,
+     "side": "h",
+     "team": "Sassuolo"
+    },
+    {
+     "name": "Fedde Leysen",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 4,
+     "p_dec": 15,
+     "side": "h",
+     "team": "Sassuolo"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Adrien Rabiot",
+     "goals": 2,
+     "assists": 2,
+     "p_goal": 21,
+     "p_dec": 37,
+     "side": "a",
+     "team": "Milan"
+    },
+    {
+     "name": "Vasilije Adzic",
+     "goals": 3,
+     "assists": 1,
+     "p_goal": 23,
+     "p_dec": 32,
+     "side": "h",
+     "team": "Sassuolo"
+    },
+    {
+     "name": "Diego Moreira",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 31,
+     "side": "a",
+     "team": "Milan"
+    },
+    {
+     "name": "Alphadjo Cissè",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 21,
+     "p_dec": 25,
+     "side": "a",
+     "team": "Milan"
+    },
+    {
+     "name": "Armand Laurienté",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 4,
+     "p_dec": 15,
+     "side": "h",
+     "team": "Sassuolo"
+    },
+    {
+     "name": "Nemanja Matic",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 4,
+     "p_dec": 15,
+     "side": "h",
+     "team": "Sassuolo"
+    }
+   ],
+   "ctx": [
+    "Sassuolo : 10e, 8 points, 10 buts marqués et 10 encaissés en 6 matchs.",
+    "Milan : 5e, 12 points, 11 buts marqués et 5 encaissés en 6 matchs."
+   ],
+   "reading": "Milan est favori sans écraser le match (46 %)."
+  },
+  {
+   "id": "foot-401882855",
+   "sport": "foot",
+   "league": "LaLiga",
+   "kickoff": "2026-10-11T16:30:00+00:00",
+   "time": "18:30",
+   "state": "post",
+   "score": "5-2",
+   "home": "Betis",
+   "away": "Osasuna",
+   "form_h": "NNVVV",
+   "form_a": "NNDDD",
+   "rank_h": 3,
+   "rank_a": 15,
+   "pH": 75,
+   "pD": 15,
+   "pA": 10,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 2.55,
+   "xgA": 0.81,
+   "scores": [
+    "2-0",
+    "3-0",
+    "2-1"
+   ],
+   "scorep": [
+    11,
+    10,
+    9
+   ],
+   "over25": 65,
+   "btts": 51,
+   "players": [
+    {
+     "name": "Cucho Hernández",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 26,
+     "p_dec": 38,
+     "side": "h",
+     "team": "Betis"
+    },
+    {
+     "name": "Rodrigo Riquelme",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 26,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Betis"
+    },
+    {
+     "name": "Ante Budimir",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 26,
+     "p_dec": 28,
+     "side": "a",
+     "team": "Osasuna"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Cucho Hernández",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 26,
+     "p_dec": 38,
+     "side": "h",
+     "team": "Betis"
+    },
+    {
+     "name": "Rodrigo Riquelme",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 26,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Betis"
+    },
+    {
+     "name": "Ante Budimir",
+     "goals": 5,
+     "assists": 0,
+     "p_goal": 26,
+     "p_dec": 28,
+     "side": "a",
+     "team": "Osasuna"
+    }
+   ],
+   "ctx": [
+    "Betis : 3e, 19 points, 14 buts marqués et 9 encaissés en 8 matchs.",
+    "Osasuna : 15e, 8 points, 8 buts marqués et 18 encaissés en 8 matchs."
+   ],
+   "reading": "Betis est nettement favori (75 %)."
+  },
+  {
+   "id": "foot-401876440",
+   "sport": "foot",
+   "league": "Ligue 1",
+   "kickoff": "2026-10-11T18:45:00+00:00",
+   "time": "20:45",
+   "state": "post",
+   "score": "0-2",
+   "home": "Troyes",
+   "away": "Marseille",
+   "form_h": "NDDDV",
+   "form_a": "NDDDD",
+   "rank_h": 17,
+   "rank_a": 13,
+   "pH": 21,
+   "pD": 24,
+   "pA": 55,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 0.98,
+   "xgA": 1.73,
+   "scores": [
+    "0-1",
+    "1-1",
+    "0-2"
+   ],
+   "scorep": [
+    11,
+    11,
+    10
+   ],
+   "over25": 51,
+   "btts": 52,
+   "players": [
+    {
+     "name": "Amine Gouiri",
+     "goals": 4,
+     "assists": 1,
+     "p_goal": 38,
+     "p_dec": 48,
+     "side": "a",
+     "team": "Marseille"
+    },
+    {
+     "name": "Amine Harit",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 6,
+     "p_dec": 21,
+     "side": "a",
+     "team": "Marseille"
+    },
+    {
+     "name": "Anis Ouzenadji",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 5,
+     "p_dec": 19,
+     "side": "h",
+     "team": "Troyes"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Amine Gouiri",
+     "goals": 4,
+     "assists": 1,
+     "p_goal": 38,
+     "p_dec": 48,
+     "side": "a",
+     "team": "Marseille"
+    },
+    {
+     "name": "Amine Harit",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 6,
+     "p_dec": 21,
+     "side": "a",
+     "team": "Marseille"
+    },
+    {
+     "name": "Anis Ouzenadji",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 5,
+     "p_dec": 19,
+     "side": "h",
+     "team": "Troyes"
+    }
+   ],
+   "ctx": [
+    "Troyes : 17e, 4 points, 4 buts marqués et 13 encaissés en 6 matchs.",
+    "Marseille : 13e, 6 points, 9 buts marqués et 8 encaissés en 6 matchs."
+   ],
+   "reading": "Marseille est favori sans écraser le match (55 %)."
+  },
+  {
+   "id": "foot-401874764",
+   "sport": "foot",
+   "league": "Serie A",
+   "kickoff": "2026-10-11T18:45:00+00:00",
+   "time": "20:45",
+   "state": "post",
+   "score": "1-1",
+   "home": "Cagliari",
+   "away": "Juventus",
+   "form_h": "NVVVD",
+   "form_a": "NVVDN",
+   "rank_h": 4,
+   "rank_a": 6,
+   "pH": 38,
+   "pD": 34,
+   "pA": 28,
+   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
+   "xgH": 0.92,
+   "xgA": 0.74,
+   "scores": [
+    "0-0",
+    "1-0",
+    "0-1"
+   ],
+   "scorep": [
+    19,
+    18,
+    14
+   ],
+   "over25": 23,
+   "btts": 31,
+   "players": [
+    {
+     "name": "Daniel Maldini",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 23,
+     "p_dec": 26,
+     "side": "h",
+     "team": "Cagliari"
+    },
+    {
+     "name": "Alessandro Romano",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 11,
+     "p_dec": 15,
+     "side": "h",
+     "team": "Cagliari"
+    },
+    {
+     "name": "Bremer",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 11,
+     "p_dec": 14,
+     "side": "a",
+     "team": "Juventus"
+    },
+    {
+     "name": "Edon Zhegrova",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 11,
+     "p_dec": 17,
+     "side": "a",
+     "team": "Juventus"
+    },
+    {
+     "name": "Michel Adopo",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 4,
+     "p_dec": 21,
+     "side": "h",
+     "team": "Cagliari"
+    },
+    {
+     "name": "Randal Kolo Muani",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 3,
+     "p_dec": 10,
+     "side": "a",
+     "team": "Juventus"
+    },
+    {
+     "name": "Zeki Çelik",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 3,
+     "p_dec": 10,
+     "side": "a",
+     "team": "Juventus"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Daniel Maldini",
+     "goals": 3,
+     "assists": 0,
+     "p_goal": 23,
+     "p_dec": 26,
+     "side": "h",
+     "team": "Cagliari"
+    },
+    {
+     "name": "Michel Adopo",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 4,
+     "p_dec": 21,
+     "side": "h",
+     "team": "Cagliari"
+    },
+    {
+     "name": "Edon Zhegrova",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 11,
+     "p_dec": 17,
+     "side": "a",
+     "team": "Juventus"
+    },
+    {
+     "name": "Alessandro Romano",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 11,
+     "p_dec": 15,
+     "side": "h",
+     "team": "Cagliari"
+    },
+    {
+     "name": "Bremer",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 11,
+     "p_dec": 14,
+     "side": "a",
+     "team": "Juventus"
+    },
+    {
+     "name": "Randal Kolo Muani",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 3,
+     "p_dec": 10,
+     "side": "a",
+     "team": "Juventus"
+    }
+   ],
+   "ctx": [
+    "Cagliari : 4e, 13 points, 6 buts marqués et 3 encaissés en 6 matchs.",
+    "Juventus : 6e, 11 points, 9 buts marqués et 5 encaissés en 6 matchs."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (34 %)."
+  },
+  {
+   "id": "foot-401882850",
+   "sport": "foot",
+   "league": "LaLiga",
+   "kickoff": "2026-10-11T19:00:00+00:00",
+   "time": "21:00",
+   "state": "in",
+   "score": "2-2",
+   "home": "Racing",
+   "away": "Valencia",
+   "form_h": "DDVDV",
+   "form_a": "DVDDD",
+   "rank_h": 16,
+   "rank_a": 19,
+   "pH": 41,
+   "pD": 27,
+   "pA": 32,
+   "source": "Cotes DraftKings",
+   "xgH": 1.33,
+   "xgA": 1.16,
+   "scores": [
+    "1-1",
+    "1-0",
+    "0-1"
+   ],
+   "scorep": [
+    13,
+    11,
+    10
+   ],
+   "over25": 45,
+   "btts": 51,
+   "players": [
+    {
+     "name": "Yassir Zabiri",
+     "goals": 6,
+     "assists": 0,
+     "p_goal": 37,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Racing"
+    },
+    {
+     "name": "Iñigo Vicente",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 4,
+     "p_dec": 21,
+     "side": "h",
+     "team": "Racing"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Yassir Zabiri",
+     "goals": 6,
+     "assists": 0,
+     "p_goal": 37,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Racing"
+    },
+    {
+     "name": "Iñigo Vicente",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 4,
+     "p_dec": 21,
+     "side": "h",
+     "team": "Racing"
+    }
+   ],
+   "ctx": [
+    "Racing : 16e, 7 points, 11 buts marqués et 21 encaissés en 7 matchs.",
+    "Valencia : 19e, 4 points, 4 buts marqués et 13 encaissés en 7 matchs."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
+  }
+ ],
+ "nhl": [
+  {
+   "id": "nhl-2026020084",
+   "sport": "nhl",
+   "league": "NHL",
+   "kickoff": "2026-10-11T21:00:00+00:00",
+   "time": "23:00",
+   "state": "PRE",
+   "score": null,
+   "home": "Washington Capitals",
+   "away": "Seattle Kraken",
+   "rec_h": "3-1-0 · 4e Metropolitan · 2 victoires de suite",
+   "rec_a": "3-2-0 · 4e Pacific · 1 victoire de suite",
+   "winH": 66,
+   "winA": 34,
+   "pH": 53,
+   "pD": 22,
+   "pA": 25,
+   "source": "Cotes Draft Kings (vainqueur final)",
+   "xgH": 3.65,
+   "xgA": 2.65,
+   "total": 6.3,
+   "scores": [
+    "3-2",
+    "4-2",
+    "4-3"
+   ],
+   "scorep": [
+    5,
+    5,
+    4
+   ],
+   "goalie_h": {
+    "name": "Logan Thompson",
+    "starts": 3,
+    "sv": "92,9 % d'arrêts",
+    "note": ""
+   },
+   "goalie_a": {
+    "name": "Joey Daccord",
+    "starts": 3,
+    "sv": "91,1 % d'arrêts",
+    "note": ""
+   },
+   "players": [
+    {
+     "name": "Tom Wilson",
+     "pos": "Ailier",
+     "cur": "2 buts, 3 passes en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 33,
+     "p_point": 59,
+     "p_assist": 37
+    },
+    {
+     "name": "Alex Ovechkin",
+     "pos": "Ailier",
+     "cur": "0 but, 1 passe en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 31,
+     "p_point": 54,
+     "p_assist": 33
+    },
+    {
+     "name": "Jakob Chychrun",
+     "pos": "Défenseur",
+     "cur": "1 but, 2 passes en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 27,
+     "p_point": 54,
+     "p_assist": 36
+    },
+    {
+     "name": "Aliaksei Protas",
+     "pos": "Ailier",
+     "cur": "0 but, 1 passe en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 27,
+     "p_point": 50,
+     "p_assist": 31
+    },
+    {
+     "name": "Bobby McMann",
+     "pos": "Centre",
+     "cur": "2 buts, 0 passe en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 26,
+     "p_point": 40,
+     "p_assist": 16
+    },
+    {
+     "name": "Jordan Eberle",
+     "pos": "Ailier",
+     "cur": "2 buts, 2 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 24,
+     "p_point": 45,
+     "p_assist": 27
+    },
+    {
+     "name": "Jared McCann",
+     "pos": "Ailier",
+     "cur": "1 but, 5 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 24,
+     "p_point": 48,
+     "p_assist": 30
+    },
+    {
+     "name": "Matty Beniers",
+     "pos": "Centre",
+     "cur": "1 but, 2 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 18,
+     "p_point": 41,
+     "p_assist": 27
+    }
+   ],
+   "deci": [
+    {
+     "name": "Tom Wilson",
+     "pos": "Ailier",
+     "cur": "2 buts, 3 passes en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 33,
+     "p_point": 59,
+     "p_assist": 37
+    },
+    {
+     "name": "Alex Ovechkin",
+     "pos": "Ailier",
+     "cur": "0 but, 1 passe en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 31,
+     "p_point": 54,
+     "p_assist": 33
+    },
+    {
+     "name": "Jakob Chychrun",
+     "pos": "Défenseur",
+     "cur": "1 but, 2 passes en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 27,
+     "p_point": 54,
+     "p_assist": 36
+    },
+    {
+     "name": "Dylan Strome",
+     "pos": "Centre",
+     "cur": "0 but, 4 passes en 4",
+     "new": false,
+     "side": "h",
+     "team": "Washington Capitals",
+     "p_goal": 21,
+     "p_point": 53,
+     "p_assist": 40
+    },
+    {
+     "name": "Jared McCann",
+     "pos": "Ailier",
+     "cur": "1 but, 5 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 24,
+     "p_point": 48,
+     "p_assist": 30
+    },
+    {
+     "name": "Jordan Eberle",
+     "pos": "Ailier",
+     "cur": "2 buts, 2 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 24,
+     "p_point": 45,
+     "p_assist": 27
+    },
+    {
+     "name": "Chandler Stephenson",
+     "pos": "Centre",
+     "cur": "1 but, 4 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 16,
+     "p_point": 42,
+     "p_assist": 31
+    },
+    {
+     "name": "Kaapo Kakko",
+     "pos": "Ailier",
+     "cur": "1 but, 4 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Seattle Kraken",
+     "p_goal": 15,
+     "p_point": 42,
+     "p_assist": 31
+    }
+   ],
+   "ctx": [
+    "Washington Capitals : 14 buts marqués et 9 encaissés en 4 matchs.",
+    "Seattle Kraken : 21 buts marqués et 14 encaissés en 5 matchs.",
+    "Aucune des deux équipes n'a joué hier.",
+    "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
+   ],
+   "reading": "Washington Capitals est nettement favori (66 % en comptant la prolongation)."
+  },
+  {
+   "id": "nhl-2026020085",
+   "sport": "nhl",
+   "league": "NHL",
+   "kickoff": "2026-10-11T22:00:00+00:00",
+   "time": "00:00",
+   "state": "FUT",
+   "score": null,
+   "home": "New York Rangers",
+   "away": "Vancouver Canucks",
+   "rec_h": "4-2-0 · 2e Metropolitan · 1 défaite de suite",
+   "rec_a": "2-4-0 · 6e Pacific · 3 défaites de suite",
+   "winH": 71,
+   "winA": 29,
+   "pH": 57,
+   "pD": 22,
+   "pA": 21,
+   "source": "Cotes Draft Kings (vainqueur final)",
+   "xgH": 3.82,
+   "xgA": 2.48,
+   "total": 6.3,
+   "scores": [
+    "3-2",
+    "4-2",
+    "3-1"
+   ],
+   "scorep": [
+    5,
+    5,
+    4
+   ],
+   "goalie_h": {
+    "name": "Igor Shesterkin",
+    "starts": 5,
+    "sv": "92,7 % d'arrêts",
+    "note": ""
+   },
+   "goalie_a": {
+    "name": "Kevin Lankinen",
+    "starts": 4,
+    "sv": "79,2 % d'arrêts",
+    "note": "le titulaire d'hier devrait souffler"
+   },
+   "players": [
+    {
+     "name": "Mika Zibanejad",
+     "pos": "Centre",
+     "cur": "1 but, 4 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "New York Rangers",
+     "p_goal": 37,
+     "p_point": 67,
+     "p_assist": 48
+    },
+    {
+     "name": "Alexis Lafrenière",
+     "pos": "Ailier",
+     "cur": "4 buts, 2 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "New York Rangers",
+     "p_goal": 31,
+     "p_point": 58,
+     "p_assist": 38
+    },
+    {
+     "name": "J.T. Miller",
+     "pos": "Centre",
+     "cur": "1 but, 2 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "New York Rangers",
+     "p_goal": 25,
+     "p_point": 59,
+     "p_assist": 45
+    },
+    {
+     "name": "Gabe Perreault",
+     "pos": "Ailier",
+     "cur": "2 buts, 2 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "New York Rangers",
+     "p_goal": 25,
+     "p_point": 49,
+     "p_assist": 31
+    },
+    {
+     "name": "Brock Boeser",
+     "pos": "Ailier",
+     "cur": "1 but, 3 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Vancouver Canucks",
+     "p_goal": 21,
+     "p_point": 42,
+     "p_assist": 26
+    },
+    {
+     "name": "Jake DeBrusk",
+     "pos": "Ailier",
+     "cur": "2 buts, 2 passes en 4",
+     "new": false,
+     "side": "a",
+     "team": "Vancouver Canucks",
+     "p_goal": 21,
+     "p_point": 38,
+     "p_assist": 20
+    },
+    {
+     "name": "Paul Cotter",
+     "pos": "Ailier",
+     "cur": "4 buts, 2 passes en 6",
+     "new": true,
+     "side": "a",
+     "team": "Vancouver Canucks",
+     "p_goal": 20,
+     "p_point": 38,
+     "p_assist": 20
+    },
+    {
+     "name": "Marco Rossi",
+     "pos": "Centre",
+     "cur": "3 buts, 1 passe en 6",
+     "new": false,
+     "side": "a",
+     "team": "Vancouver Canucks",
+     "p_goal": 19,
+     "p_point": 41,
+     "p_assist": 26
+    }
+   ],
+   "deci": [
+    {
+     "name": "Mika Zibanejad",
+     "pos": "Centre",
+     "cur": "1 but, 4 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "New York Rangers",
+     "p_goal": 37,
+     "p_point": 67,
+     "p_assist": 48
+    },
+    {
+     "name": "Adam Fox",
+     "pos": "Défenseur",
+     "cur": "0 but, 5 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "New York Rangers",
+     "p_goal": 17,
+     "p_point": 66,
+     "p_assist": 58
+    },
+    {
+     "name": "J.T. Miller",
+     "pos": "Centre",
+     "cur": "1 but, 2 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "New York Rangers",
+     "p_goal": 25,
+     "p_point": 59,
+     "p_assist": 45
+    },
+    {
+     "name": "Alexis Lafrenière",
+     "pos": "Ailier",
+     "cur": "4 buts, 2 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "New York Rangers",
+     "p_goal": 31,
+     "p_point": 58,
+     "p_assist": 38
+    },
+    {
+     "name": "Elias Pettersson",
+     "pos": "Centre",
+     "cur": "2 buts, 6 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Vancouver Canucks",
+     "p_goal": 16,
+     "p_point": 46,
+     "p_assist": 35
+    },
+    {
+     "name": "Brock Boeser",
+     "pos": "Ailier",
+     "cur": "1 but, 3 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Vancouver Canucks",
+     "p_goal": 21,
+     "p_point": 42,
+     "p_assist": 26
+    },
+    {
+     "name": "Filip Hronek",
+     "pos": "Défenseur",
+     "cur": "0 but, 5 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Vancouver Canucks",
+     "p_goal": 8,
+     "p_point": 41,
+     "p_assist": 35
+    },
+    {
+     "name": "Marco Rossi",
+     "pos": "Centre",
+     "cur": "3 buts, 1 passe en 6",
+     "new": false,
+     "side": "a",
+     "team": "Vancouver Canucks",
+     "p_goal": 19,
+     "p_point": 41,
+     "p_assist": 26
+    }
+   ],
+   "ctx": [
+    "New York Rangers : 17 buts marqués et 11 encaissés en 6 matchs.",
+    "Vancouver Canucks : 22 buts marqués et 29 encaissés en 6 matchs.",
+    "Vancouver Canucks a joué hier soir : deuxième match en deux soirs, fatigue probable.",
+    "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
+   ],
+   "reading": "New York Rangers est nettement favori (71 % en comptant la prolongation)."
+  },
+  {
+   "id": "nhl-2026020086",
+   "sport": "nhl",
+   "league": "NHL",
+   "kickoff": "2026-10-11T23:00:00+00:00",
+   "time": "01:00",
+   "state": "FUT",
+   "score": null,
+   "home": "Philadelphia Flyers",
+   "away": "Carolina Hurricanes",
+   "rec_h": "0-4-2 · 8e Metropolitan · 3 défaites de suite",
+   "rec_a": "4-1-1 · 1e Metropolitan · 4 victoires de suite",
+   "winH": 34,
+   "winA": 66,
+   "pH": 25,
+   "pD": 22,
+   "pA": 53,
+   "source": "Cotes Draft Kings (vainqueur final)",
+   "xgH": 2.2,
+   "xgA": 3.1,
+   "total": 5.3,
+   "scores": [
+    "2-3",
+    "1-3",
+    "1-2"
+   ],
+   "scorep": [
+    6,
+    5,
+    5
+   ],
+   "goalie_h": {
+    "name": "Joseph Woll",
+    "starts": 3,
+    "sv": "92,7 % d'arrêts",
+    "note": "le titulaire d'hier devrait souffler"
+   },
+   "goalie_a": {
+    "name": "Pyotr Kochetkov",
+    "starts": 2,
+    "sv": "89,5 % d'arrêts",
+    "note": "le titulaire d'hier devrait souffler"
+   },
+   "players": [
+    {
+     "name": "Andrei Svechnikov",
+     "pos": "Ailier",
+     "cur": "3 buts, 3 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Carolina Hurricanes",
+     "p_goal": 26,
+     "p_point": 50,
+     "p_assist": 32
+    },
+    {
+     "name": "Sebastian Aho",
+     "pos": "Centre",
+     "cur": "5 buts, 4 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Carolina Hurricanes",
+     "p_goal": 25,
+     "p_point": 55,
+     "p_assist": 40
+    },
+    {
+     "name": "Owen Tippett",
+     "pos": "Ailier",
+     "cur": "1 but, 0 passe en 6",
+     "new": false,
+     "side": "h",
+     "team": "Philadelphia Flyers",
+     "p_goal": 20,
+     "p_point": 35,
+     "p_assist": 18
+    },
+    {
+     "name": "Tyson Foerster",
+     "pos": "Ailier",
+     "cur": "1 but, 0 passe en 6",
+     "new": false,
+     "side": "h",
+     "team": "Philadelphia Flyers",
+     "p_goal": 20,
+     "p_point": 30,
+     "p_assist": 11
+    },
+    {
+     "name": "Nikolaj Ehlers",
+     "pos": "Ailier",
+     "cur": "0 but, 3 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Carolina Hurricanes",
+     "p_goal": 20,
+     "p_point": 48,
+     "p_assist": 34
+    },
+    {
+     "name": "Logan Stankoven",
+     "pos": "Centre",
+     "cur": "4 buts, 1 passe en 6",
+     "new": false,
+     "side": "a",
+     "team": "Carolina Hurricanes",
+     "p_goal": 20,
+     "p_point": 37,
+     "p_assist": 20
+    },
+    {
+     "name": "Trevor Zegras",
+     "pos": "Centre",
+     "cur": "0 but, 2 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "Philadelphia Flyers",
+     "p_goal": 19,
+     "p_point": 43,
+     "p_assist": 29
+    },
+    {
+     "name": "Matvei Michkov",
+     "pos": "Ailier",
+     "cur": "2 buts, 0 passe en 6",
+     "new": false,
+     "side": "h",
+     "team": "Philadelphia Flyers",
+     "p_goal": 16,
+     "p_point": 36,
+     "p_assist": 23
+    }
+   ],
+   "deci": [
+    {
+     "name": "Sebastian Aho",
+     "pos": "Centre",
+     "cur": "5 buts, 4 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Carolina Hurricanes",
+     "p_goal": 25,
+     "p_point": 55,
+     "p_assist": 40
+    },
+    {
+     "name": "Andrei Svechnikov",
+     "pos": "Ailier",
+     "cur": "3 buts, 3 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Carolina Hurricanes",
+     "p_goal": 26,
+     "p_point": 50,
+     "p_assist": 32
+    },
+    {
+     "name": "Shayne Gostisbehere",
+     "pos": "Défenseur",
+     "cur": "1 but, 3 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Carolina Hurricanes",
+     "p_goal": 16,
+     "p_point": 48,
+     "p_assist": 38
+    },
+    {
+     "name": "Nikolaj Ehlers",
+     "pos": "Ailier",
+     "cur": "0 but, 3 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Carolina Hurricanes",
+     "p_goal": 20,
+     "p_point": 48,
+     "p_assist": 34
+    },
+    {
+     "name": "Trevor Zegras",
+     "pos": "Centre",
+     "cur": "0 but, 2 passes en 6",
+     "new": false,
+     "side": "h",
+     "team": "Philadelphia Flyers",
+     "p_goal": 19,
+     "p_point": 43,
+     "p_assist": 29
+    },
+    {
+     "name": "Matvei Michkov",
+     "pos": "Ailier",
+     "cur": "2 buts, 0 passe en 6",
+     "new": false,
+     "side": "h",
+     "team": "Philadelphia Flyers",
+     "p_goal": 16,
+     "p_point": 36,
+     "p_assist": 23
+    },
+    {
+     "name": "Christian Dvorak",
+     "pos": "Centre",
+     "cur": "0 but, 1 passe en 6",
+     "new": false,
+     "side": "h",
+     "team": "Philadelphia Flyers",
+     "p_goal": 14,
+     "p_point": 35,
+     "p_assist": 24
+    },
+    {
+     "name": "Owen Tippett",
+     "pos": "Ailier",
+     "cur": "1 but, 0 passe en 6",
+     "new": false,
+     "side": "h",
+     "team": "Philadelphia Flyers",
+     "p_goal": 20,
+     "p_point": 35,
+     "p_assist": 18
+    }
+   ],
+   "ctx": [
+    "Philadelphia Flyers : 7 buts marqués et 24 encaissés en 6 matchs.",
+    "Philadelphia Flyers a joué hier soir : deuxième match en deux soirs, fatigue probable.",
+    "Carolina Hurricanes : 23 buts marqués et 16 encaissés en 6 matchs.",
+    "Carolina Hurricanes a joué hier soir : deuxième match en deux soirs, fatigue probable.",
+    "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
+   ],
+   "reading": "Carolina Hurricanes est nettement favori (66 % en comptant la prolongation)."
+  }
+ ],
+ "bilan": {
+  "foot": {
+   "n": 0
+  },
+  "nhl": {
+   "n": 0
+  },
+  "recent": []
+ },
+ "notes": []
+}
