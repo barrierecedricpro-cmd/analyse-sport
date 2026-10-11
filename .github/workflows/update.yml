@@ -1,0 +1,44 @@
+name: Mise à jour des analyses
+
+on:
+  schedule:
+    - cron: "0 8 * * *"     # 10 h à Paris (9 h en hiver) : matchs du jour et résultats de la veille
+    - cron: "30 16 * * *"   # 18 h 30 à Paris (17 h 30 en hiver) : cotes de dernière minute, matchs du soir et NHL
+  workflow_dispatch:         # bouton « Run workflow » pour lancer à la main
+
+permissions:
+  contents: write
+
+concurrency:
+  group: analyses
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Vérifier les calculs
+        run: python -m unittest discover -s tests
+
+      - name: Calculer les analyses du jour
+        run: python app.py
+
+      - name: Publier
+        run: |
+          git config user.name "analyse-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add docs
+          git diff --cached --quiet && echo "Rien de nouveau" && exit 0
+          git commit -m "Analyses du $(date -u +%Y-%m-%d) $(date -u +%H:%M) UTC"
+          git push

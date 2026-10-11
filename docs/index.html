@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Analyse du jour</title>
+<meta name="theme-color" content="#0d6b4d">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon.svg">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+/* Feuille de match : en-tête, onglets Foot / NHL / Bilan, puis une fiche par match. */
+:root{
+  --bg:#f2f5f3; --surface:#fff; --ink:#15211c; --muted:#5b6a63; --line:#d8e0db; --soft:#e7eee9;
+  --home:#0d6b4d; --away:#b8461a; --draw:#aab4af; --warn:#9a6a00; --ok:#0d6b4d; --ko:#b8461a;
+  --display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1512; --surface:#17201b; --ink:#e6eee9; --muted:#95a49c; --line:#2a3630; --soft:#1e2a24;
+  --home:#43b98d; --away:#ef8a52; --draw:#56635c; --warn:#e0b240; --ok:#43b98d; --ko:#ef8a52; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1512; --surface:#17201b; --ink:#e6eee9; --muted:#95a49c; --line:#2a3630; --soft:#1e2a24;
+  --home:#43b98d; --away:#ef8a52; --draw:#56635c; --warn:#e0b240; --ok:#43b98d; --ko:#ef8a52; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:980px;margin:0 auto;padding-inline:16px;padding-block:calc(16px + env(safe-area-inset-top,0px)) 48px}
+h1,h2,h3{font-family:var(--display);font-weight:700;margin:0;text-wrap:balance}
+h1{font-size:clamp(1.9rem,6vw,2.6rem);line-height:1}
+.kicker{font-family:var(--display);text-transform:uppercase;letter-spacing:.12em;font-size:.82rem;color:var(--muted);font-weight:600}
+.num{font-variant-numeric:tabular-nums}
+header{display:grid;gap:.3rem;margin-bottom:1rem}
+.tabs{display:flex;gap:6px;position:sticky;top:env(safe-area-inset-top,0px);z-index:2;background:var(--bg);padding-block:8px;margin-bottom:8px;border-bottom:1px solid var(--line)}
+.tabs button,.chips button{font:600 .95rem var(--body);border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:7px 16px;cursor:pointer}
+.tabs button[aria-selected="true"],.chips button[aria-pressed="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+button:focus-visible{outline:2px solid var(--home);outline-offset:2px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:4px 0 12px}
+.chips button{font-size:.85rem;padding:5px 12px}
+.notes{background:var(--soft);border-radius:6px;padding:10px 14px;margin-bottom:12px;font-size:.9rem}
+.notes ul{margin:4px 0 0;padding-left:1.1rem}
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:6px;padding:24px;text-align:center;color:var(--muted)}
+.list{display:grid;gap:12px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:14px;display:grid;gap:12px;min-width:0}
+.meta{display:flex;flex-wrap:wrap;gap:4px 12px;font-size:.84rem;color:var(--muted);align-items:center}
+.meta b{color:var(--ink)}
+.pill{font:700 .7rem var(--body);text-transform:uppercase;letter-spacing:.06em;padding:2px 8px;border-radius:999px;background:var(--away);color:#fff}
+.pill.post{background:var(--ink);color:var(--bg)}
+.teams{display:grid;grid-template-columns:1fr auto 1fr;gap:8px;align-items:start}
+.team{display:grid;gap:2px;min-width:0}
+.team.away{text-align:right}
+.name{font-family:var(--display);font-size:1.4rem;font-weight:700;line-height:1.05}
+.sub{font-size:.8rem;color:var(--muted)}
+.vs{font-family:var(--display);color:var(--muted);padding-top:3px}
+.form{display:inline-flex;gap:3px}
+.team.away .form{justify-content:flex-end}
+.form i{font-style:normal;font:700 .66rem var(--body);width:16px;height:16px;display:inline-grid;place-items:center;border-radius:3px;color:#fff}
+.form .V{background:var(--home)}.form .N{background:var(--draw)}.form .D{background:var(--away)}
+.bar{display:flex;height:32px;border-radius:4px;overflow:hidden;font-family:var(--display);font-weight:700}
+.bar div{display:flex;align-items:center;padding:0 8px;color:#fff;min-width:0;white-space:nowrap;overflow:hidden}
+.bar .h{background:var(--home)}.bar .d{background:var(--draw);color:var(--ink);justify-content:center}.bar .a{background:var(--away);justify-content:flex-end}
+.barlbl{display:flex;justify-content:space-between;gap:8px;font-size:.76rem;color:var(--muted);margin-top:3px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+.stat{background:var(--soft);border-radius:4px;padding:7px 10px;min-width:0}
+.stat .v{font-family:var(--display);font-weight:700;font-size:1.25rem;line-height:1.1}
+.stat .k{font-size:.72rem;color:var(--muted);text-transform:uppercase;letter-spacing:.04em}
+.goalies{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.goalie{border:1px dashed var(--line);border-radius:4px;padding:7px 10px;font-size:.88rem;min-width:0}
+.goalie b{font-family:var(--display);font-size:1.05rem}
+.goalie small{display:block;color:var(--muted)}
+h3{font-size:.95rem;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:6px}
+.cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.cols>div{min-width:0}
+.rows{display:grid;gap:5px}
+.row{display:grid;grid-template-columns:minmax(0,1fr) 70px 40px;gap:8px;align-items:center;font-size:.9rem}
+.row .who{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.row small{color:var(--muted)}
+.track{height:7px;background:var(--soft);border-radius:4px;overflow:hidden}
+.fill{display:block;height:100%;border-radius:4px}
+.row .p{font-family:var(--display);font-weight:700;text-align:right}
+.tag{font-size:.7rem;color:var(--warn);font-weight:600}
+ul.ctx{margin:0;padding-left:1.1rem;display:grid;gap:3px;font-size:.9rem}
+.reading{border-top:1px solid var(--line);padding-top:8px;margin:0;font-size:.93rem}
+.reading b{font-family:var(--display);font-size:1.02rem}
+.src{font-size:.78rem;color:var(--muted)}
+.tiles{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:10px;margin-bottom:14px}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:12px 14px}
+.tile .v{font-family:var(--display);font-size:2rem;font-weight:700;line-height:1}
+.tile .k{font-size:.82rem;color:var(--muted)}
+.tablewrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:6px;margin-bottom:14px}
+table{width:100%;border-collapse:collapse;font-size:.9rem}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
+td.r,th.r{text-align:right}
+.ok{color:var(--ok);font-weight:700}.ko{color:var(--ko);font-weight:700}
+.explain{color:var(--muted);font-size:.88rem;max-width:70ch;display:grid;gap:.5rem;margin-top:1.5rem}
+.explain h2{font-size:1.15rem;color:var(--ink)}
+@media (max-width:640px){
+  .stats{grid-template-columns:repeat(2,1fr)}
+  .cols,.goalies{grid-template-columns:1fr}
+  .name{font-size:1.2rem}
+  .row{grid-template-columns:minmax(0,1fr) 50px 38px}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <span class="kicker" id="stamp">Chargement…</span>
+    <h1>Analyse du jour</h1>
+  </header>
+  <nav class="tabs" role="tablist" aria-label="Sections">
+    <button id="tab-foot" role="tab" aria-selected="true" data-tab="foot">Foot</button>
+    <button id="tab-nhl" role="tab" aria-selected="false" data-tab="nhl">NHL</button>
+    <button id="tab-bilan" role="tab" aria-selected="false" data-tab="bilan">Bilan</button>
+  </nav>
+  <div id="notes"></div>
+  <main id="view"><div class="empty">Chargement des analyses…</div></main>
+  <section class="explain" id="explain">
+    <h2>Comment lire ces chiffres</h2>
+    <p><strong>Barre de couleur :</strong> chances de victoire tirées des cotes du bookmaker affiché par ESPN, marge retirée. C'est l'estimation publique la plus fiable ; elle intègre déjà forme, absents connus et avantage du terrain. Au hockey, la barre montre le résultat après 60 minutes, et « au final » ajoute prolongation et tirs au but.</p>
+    <p><strong>Buts attendus, scores, buteurs :</strong> calculés à partir de ces probabilités avec un modèle de Poisson. Pour les joueurs, on part de leur part des buts (et passes) de l'équipe, lissée car le début de saison donne peu de matchs. Confiance faible : ce sont des ordres de grandeur, qui sous-estiment les grands buteurs.</p>
+    <p><strong>Bilan :</strong> chaque pronostic est archivé avant le match puis comparé au résultat. Si les matchs annoncés à 60 % sont gagnés environ 6 fois sur 10, les probabilités sont fiables. Il faut au moins 200 matchs pour en juger.</p>
+  </section>
+</div>
+<script>
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+let DATA = null, TAB = "foot", LEAGUE = "Tous";
+try { TAB = localStorage.getItem("tab") || "foot"; } catch (e) {}
+
+function stateLabel(m){
+  if (["in","LIVE","CRIT"].includes(m.state)) return `<span class="pill">En cours ${esc(m.score || "")}</span>`;
+  if (["post","OFF","FINAL"].includes(m.state)) return `<span class="pill post">Terminé ${esc(m.score || "")}</span>`;
+  return "";
+}
+function form(f){ return f ? `<span class="form" aria-label="Forme récente">${[...f].map(c=>`<i class="${c}">${c}</i>`).join("")}</span>` : ""; }
+function bar(m, h, d, a, lh, la, ld){
+  const seg = (cls, v) => v > 0 ? `<div class="${cls}" style="width:${v}%">${v >= 9 ? v + "%" : ""}</div>` : "";
+  return `<div><div class="bar num" role="img" aria-label="${esc(lh)} ${h} %, ${esc(ld)} ${d} %, ${esc(la)} ${a} %">${seg("h",h)}${seg("d",d)}${seg("a",a)}</div>
+    <div class="barlbl"><span>${esc(lh)}</span><span>${esc(ld)}</span><span>${esc(la)}</span></div></div>`;
+}
+function rows(list, key, scale, sub){
+  if (!list || !list.length) return `<p class="src">Pas de données joueurs pour ce match.</p>`;
+  return `<div class="rows">${list.map(p=>`<div class="row"><span class="who">${esc(p.name)}${p.new?' <span class="tag">nouveau</span>':''}<br><small>${esc(sub(p))}</small></span>
+    <span class="track"><span class="fill" style="width:${Math.min(100,p[key]*scale)}%;background:${p.side==="h"?"var(--home)":"var(--away)"}"></span></span>
+    <span class="p num">${p[key]}%</span></div>`).join("")}</div>`;
+}
+
+function footCard(m){
+  return `<article class="card">
+    <div class="meta"><b>${esc(m.time)}</b><span>${esc(m.league)}</span>${stateLabel(m)}</div>
+    <div class="teams">
+      <div class="team"><span class="name">${esc(m.home)}</span><span class="sub">${m.rank_h ? m.rank_h + "e du classement" : ""}</span>${form(m.form_h)}</div>
+      <span class="vs">contre</span>
+      <div class="team away"><span class="name">${esc(m.away)}</span><span class="sub">${m.rank_a ? m.rank_a + "e du classement" : ""}</span>${form(m.form_a)}</div>
+    </div>
+    ${bar(m, m.pH, m.pD, m.pA, "Victoire " + m.home, "Victoire " + m.away, "Nul")}
+    <div class="stats num">
+      <div class="stat"><div class="v">${esc(m.scores[0])}</div><div class="k">Score le plus probable · ${m.scorep[0]}%</div></div>
+      <div class="stat"><div class="v">${m.xgH.toFixed(1)} – ${m.xgA.toFixed(1)}</div><div class="k">Buts attendus</div></div>
+      <div class="stat"><div class="v">${m.over25}%</div><div class="k">Plus de 2,5 buts</div></div>
+      <div class="stat"><div class="v">${m.btts}%</div><div class="k">Les deux marquent</div></div>
+    </div>
+    <div class="cols">
+      <div><h3>Qui peut marquer</h3>${rows(m.players, "p_goal", 2, p => `${p.team} · ${p.goals} but${p.goals>1?"s":""}`)}</div>
+      <div><h3>Joueurs décisifs (but ou passe)</h3>${rows(m.deci, "p_dec", 1.6, p => `${p.team} · ${p.goals} but${p.goals>1?"s":""}, ${p.assists} passe${p.assists>1?"s":""}`)}</div>
+    </div>
+    ${m.ctx.length ? `<ul class="ctx">${m.ctx.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>` : ""}
+    <p class="reading"><b>Lecture :</b> ${esc(m.reading)} <span class="src">Autres scores fréquents : ${m.scores.slice(1).map((s,i)=>`${esc(s)} (${m.scorep[i+1]} %)`).join(", ")}. Source : ${esc(m.source)}.</span></p>
+  </article>`;
+}
+
+function nhlCard(m){
+  const g = (x, team) => x ? `<div class="goalie"><small>Gardien probable · ${esc(team)}</small><b>${esc(x.name)}</b><small>${esc(x.sv)} · ${x.starts} départ${x.starts>1?"s":""}${x.note ? " · " + esc(x.note) : ""}</small></div>` : `<div class="goalie"><small>${esc(team)}</small>Gardien inconnu</div>`;
+  return `<article class="card">
+    <div class="meta"><b>${esc(m.time)}</b><span>NHL</span>${stateLabel(m)}</div>
+    <div class="teams">
+      <div class="team"><span class="name">${esc(m.home)}</span><span class="sub">${esc(m.rec_h)}</span></div>
+      <span class="vs">contre</span>
+      <div class="team away"><span class="name">${esc(m.away)}</span><span class="sub">${esc(m.rec_a)}</span></div>
+    </div>
+    ${bar(m, m.pH, m.pD, m.pA, m.home + " après 60 min", m.away + " après 60 min", "Égalité")}
+    <div class="stats num">
+      <div class="stat"><div class="v">${m.winH}%</div><div class="k">${esc(m.home)} au final</div></div>
+      <div class="stat"><div class="v">${m.winA}%</div><div class="k">${esc(m.away)} au final</div></div>
+      <div class="stat"><div class="v">${m.xgH.toFixed(1)} – ${m.xgA.toFixed(1)}</div><div class="k">Buts attendus</div></div>
+      <div class="stat"><div class="v">${m.pD}%</div><div class="k">Prolongation</div></div>
+    </div>
+    <div class="goalies">${g(m.goalie_h, m.home)}${g(m.goalie_a, m.away)}</div>
+    <div class="cols">
+      <div><h3>Qui peut marquer</h3>${rows(m.players, "p_goal", 2.2, p => `${p.team} · ${p.cur}`)}</div>
+      <div><h3>Joueurs décisifs (au moins 1 point)</h3>${rows(m.deci, "p_point", 1.3, p => `${p.team} · ${p.pos} · passe : ${p.p_assist} %`)}</div>
+    </div>
+    <ul class="ctx">${m.ctx.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>
+    <p class="reading"><b>Lecture :</b> ${esc(m.reading)} <span class="src">Scores les plus fréquents : ${m.scores.map((s,i)=>`${esc(s)} (${m.scorep[i]} %)`).join(", ")}. Source : ${esc(m.source)}.</span></p>
+  </article>`;
+}
+
+function footView(){
+  const all = DATA.foot || [];
+  if (!all.length) return `<div class="empty">Aucun match des cinq grands championnats aujourd'hui.</div>`;
+  const leagues = ["Tous", ...new Set(all.map(m => m.league))];
+  if (!leagues.includes(LEAGUE)) LEAGUE = "Tous";
+  const shown = all.filter(m => LEAGUE === "Tous" || m.league === LEAGUE);
+  return `<div class="chips" role="group" aria-label="Championnat">${leagues.map(l=>`<button type="button" data-league="${esc(l)}" aria-pressed="${l===LEAGUE}">${esc(l)}</button>`).join("")}</div>
+    <div class="list">${shown.map(footCard).join("")}</div>`;
+}
+function nhlView(){
+  const all = DATA.nhl || [];
+  if (!all.length) return `<div class="empty">Pas de match NHL aujourd'hui.</div>`;
+  return `<div class="list">${all.map(nhlCard).join("")}</div>`;
+}
+function bilanBlock(b, label, naive){
+  if (!b || !b.n) return `<div class="empty">${label} : le bilan apparaîtra après les premiers résultats.</div>`;
+  return `<h2 style="margin:6px 0 10px">${label}</h2>
+    <div class="tiles num">
+      <div class="tile"><div class="v">${b.n}</div><div class="k">matchs suivis</div></div>
+      <div class="tile"><div class="v">${b.fav_rate}%</div><div class="k">favoris gagnants (annoncé : ${b.fav_expected} %)</div></div>
+      <div class="tile"><div class="v">${b.brier.toFixed(3)}</div><div class="k">score de Brier (plus bas = mieux ; au hasard : ${naive})</div></div>
+    </div>
+    <div class="tablewrap"><table class="num"><thead><tr><th>Favori annoncé à</th><th class="r">Matchs</th><th class="r">Annoncé</th><th class="r">Réel</th></tr></thead>
+    <tbody>${b.bins.map(r=>`<tr><td>${esc(r.range)}</td><td class="r">${r.n}</td><td class="r">${r.announced} %</td><td class="r">${r.actual} %</td></tr>`).join("")}</tbody></table></div>`;
+}
+function bilanView(){
+  const b = DATA.bilan || {};
+  const recent = b.recent || [];
+  return `${bilanBlock(b.foot, "Foot", "0,667")}${bilanBlock(b.nhl, "NHL", "0,500")}
+    ${recent.length ? `<h2 style="margin:6px 0 10px">Derniers résultats</h2><div class="tablewrap"><table><thead><tr><th>Date</th><th>Match</th><th>Score</th><th>Favori</th><th></th></tr></thead>
+    <tbody>${recent.map(r=>`<tr><td class="num">${esc(r.date.slice(5).split("-").reverse().join("/"))}</td><td>${esc(r.home)} – ${esc(r.away)}</td><td class="num">${esc(r.score)}</td><td>${esc(r.fav)} (${r.favp} %)</td><td class="${r.ok?"ok":"ko"}">${r.ok?"✓":"✗"}</td></tr>`).join("")}</tbody></table></div>` : ""}`;
+}
+
+function render(){
+  document.querySelectorAll(".tabs button").forEach(b => b.setAttribute("aria-selected", String(b.dataset.tab === TAB)));
+  if (!DATA) return;
+  const view = document.getElementById("view");
+  view.innerHTML = TAB === "foot" ? footView() : TAB === "nhl" ? nhlView() : bilanView();
+  view.querySelectorAll("[data-league]").forEach(b => b.addEventListener("click", () => { LEAGUE = b.dataset.league; render(); }));
+}
+document.querySelectorAll(".tabs button").forEach(b => b.addEventListener("click", () => {
+  TAB = b.dataset.tab; try { localStorage.setItem("tab", TAB); } catch (e) {} render();
+}));
+
+fetch("data.json", {cache: "no-store"}).then(r => { if (!r.ok) throw new Error(r.status); return r.json(); }).then(d => {
+  DATA = d;
+  const when = new Date(d.generated);
+  document.getElementById("stamp").textContent = `Mis à jour le ${when.toLocaleDateString("fr-FR", {weekday:"long", day:"numeric", month:"long"})} à ${when.toLocaleTimeString("fr-FR", {hour:"2-digit", minute:"2-digit"})}`;
+  if (d.notes && d.notes.length) document.getElementById("notes").innerHTML = `<div class="notes"><strong>À savoir aujourd'hui :</strong><ul>${d.notes.map(n=>`<li>${esc(n)}</li>`).join("")}</ul></div>`;
+  render();
+}).catch(() => {
+  document.getElementById("stamp").textContent = "Données indisponibles";
+  document.getElementById("view").innerHTML = `<div class="empty">Les analyses n'ont pas encore été générées. Lance la mise à jour depuis l'onglet « Actions » de GitHub, puis recharge cette page.</div>`;
+});
+</script>
+</body>
+</html>
