@@ -172,6 +172,13 @@ class AppTest(unittest.TestCase):
         m = app.foot_match(e, "L", {}, 1.4, {}, hist)
         self.assertEqual([m["pH"], m["pD"], m["pA"]], [40, 30, 30])
 
+    def test_relieved_goalie_is_not_projected(self):
+        profile = dict(goalies=[goalie(30, "Igor", "Shesterkin", 5, .927), goalie(31, "Dylan", "Garand", 1, .971)],
+                       last=dict(starter=30, relieved=30, goalies_dressed={30, 31}))
+        g = app.projected_goalie(profile, back_to_back=False)
+        self.assertEqual(g["name"], "Dylan Garand")
+        self.assertIn("remplacé", g["note"])
+
     def test_name_matching(self):
         self.assertLess(app.similarity("Paris Saint-Germain", "Paris FC"), 0.8)
         self.assertGreaterEqual(app.similarity("Olympique de Marseille", "Marseille"), 0.9)

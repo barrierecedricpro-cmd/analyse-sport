@@ -179,7 +179,7 @@ def foot_lambdas(p_home, p_away):
 def table_lambdas(sh, sa, league_gpg):
     """Sans cotes : attaque et défense tirées du classement, ramenées vers la moyenne (petits échantillons)."""
     def rate(goals, games):
-        return (goals + league_gpg * 3) / (games + 3)
+        return (goals + league_gpg * 6) / (games + 6)
     att_h, def_h = rate(sh["gf"], sh["gp"]) / league_gpg, rate(sh["ga"], sh["gp"]) / league_gpg
     att_a, def_a = rate(sa["gf"], sa["gp"]) / league_gpg, rate(sa["ga"], sa["gp"]) / league_gpg
     return league_gpg * att_h * def_a * 1.12, league_gpg * att_a * def_h * 0.88
@@ -481,8 +481,13 @@ def last_lineup(abbr):
     stats = (box.get("playerByGameStats") or {}).get(side) or {}
     skaters = {p["playerId"] for grp in ("forwards", "defense") for p in stats.get(grp, [])}
     goalies = [p for p in stats.get("goalies", []) if toi_minutes(p.get("toi")) > 0]
-    starter = max(goalies, key=lambda p: toi_minutes(p.get("toi")), default=None)
-    return dict(skaters=skaters, starter=(starter or {}).get("playerId"),
+    starter = next((p for p in goalies if p.get("starter")), None) or \
+        max(goalies, key=lambda p: toi_minutes(p.get("toi")), default=None)
+    # deux gardiens ayant joué au moins 10 minutes : le titulaire a été remplacé (blessure ou contre-performance)
+    relieved = None
+    if len([p for p in goalies if toi_minutes(p.get("toi")) >= 10]) >= 2 and starter and starter.get("starter"):
+        relieved = starter["playerId"]
+    return dict(skaters=skaters, starter=(starter or {}).get("playerId"), relieved=relieved,
                 goalies_dressed={p["playerId"] for p in stats.get("goalies", [])},
                 date=game.get("gameDate"))
 
@@ -521,6 +526,12 @@ def projected_goalie(profile, back_to_back):
     dressed = (profile["last"] or {}).get("goalies_dressed") or set()
     pool = [g for g in goalies if g["playerId"] in dressed] or goalies
     goalies = pool
+    relieved = (profile["last"] or {}).get("relieved")
+    note_relief = ""
+    if relieved:
+        rest = [g for g in goalies if g["playerId"] != relieved]
+        if rest:
+            goalies, note_relief = rest, "le titulaire a été remplacé en cours de match la dernière fois (blessure possible)"
     starter = (profile["last"] or {}).get("starter")
     if back_to_back and starter:
         pool = [g for g in goalies if g["playerId"] != starter] or goalies
@@ -529,7 +540,7 @@ def projected_goalie(profile, back_to_back):
     return dict(name=f"{best['firstName']['default']} {best['lastName']['default']}",
                 starts=best.get("gamesStarted", 0),
                 sv=(f"{sv * 100:.1f}".replace(".", ",") + " % d'arrêts") if sv else "pas encore joué",
-                note=("le titulaire d'hier devrait souffler" if back_to_back and starter else ""))
+                note=note_relief or ("le titulaire d'hier devrait souffler" if back_to_back and starter else ""))
 
 
 def streak_text(st):
