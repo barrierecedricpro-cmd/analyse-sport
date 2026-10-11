@@ -533,6 +533,7 @@ def projected_goalie(profile, back_to_back):
         if rest:
             goalies, note_relief = rest, "le titulaire a été remplacé en cours de match la dernière fois (blessure possible)"
     starter = (profile["last"] or {}).get("starter")
+    pool = goalies
     if back_to_back and starter:
         pool = [g for g in goalies if g["playerId"] != starter] or goalies
     best = max(pool, key=lambda g: (g.get("gamesStarted", 0), g.get("savePercentage") or 0))
