@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T13:43+02:00",
+ "generated": "2026-10-12T18:42+02:00",
  "date": "2026-10-12",
  "foot": [
   {
@@ -8,8 +8,8 @@
    "league": "Serie A",
    "kickoff": "2026-10-12T16:30:00+00:00",
    "time": "18:30",
-   "state": "pre",
-   "score": null,
+   "state": "in",
+   "score": "2-0",
    "home": "Atalanta",
    "away": "Venezia",
    "form_h": "DDDVV",
@@ -76,12 +76,12 @@
    "form_a": "DDDVV",
    "rank_h": 15,
    "rank_a": 14,
-   "pH": 39,
+   "pH": 38,
    "pD": 31,
-   "pA": 30,
+   "pA": 31,
    "source": "Cotes DraftKings",
-   "xgH": 1.07,
-   "xgA": 0.91,
+   "xgH": 1.03,
+   "xgA": 0.9,
    "scores": [
     "1-0",
     "0-0",
@@ -92,15 +92,15 @@
     14,
     13
    ],
-   "over25": 32,
-   "btts": 39,
+   "over25": 31,
+   "btts": 38,
    "players": [
     {
      "name": "Ché Adams",
      "goals": 2,
      "assists": 0,
-     "p_goal": 21,
-     "p_dec": 26,
+     "p_goal": 20,
+     "p_dec": 25,
      "side": "h",
      "team": "Torino"
     },
@@ -126,8 +126,8 @@
      "name": "Keinan Davis",
      "goals": 0,
      "assists": 2,
-     "p_goal": 4,
-     "p_dec": 18,
+     "p_goal": 3,
+     "p_dec": 17,
      "side": "a",
      "team": "Udinese"
     }
@@ -137,8 +137,8 @@
      "name": "Ché Adams",
      "goals": 2,
      "assists": 0,
-     "p_goal": 21,
-     "p_dec": 26,
+     "p_goal": 20,
+     "p_dec": 25,
      "side": "h",
      "team": "Torino"
     },
@@ -164,8 +164,8 @@
      "name": "Keinan Davis",
      "goals": 0,
      "assists": 2,
-     "p_goal": 4,
-     "p_dec": 18,
+     "p_goal": 3,
+     "p_dec": 17,
      "side": "a",
      "team": "Udinese"
     }
@@ -190,31 +190,31 @@
    "form_a": "VDVNV",
    "rank_h": 19,
    "rank_a": 11,
-   "pH": 29,
-   "pD": 27,
-   "pA": 44,
+   "pH": 28,
+   "pD": 26,
+   "pA": 45,
    "source": "Cotes DraftKings",
-   "xgH": 1.07,
-   "xgA": 1.39,
+   "xgH": 1.1,
+   "xgA": 1.46,
    "scores": [
     "1-1",
     "0-1",
-    "1-0"
+    "1-2"
    ],
    "scorep": [
-    13,
     12,
+    11,
     9
    ],
-   "over25": 45,
-   "btts": 49,
+   "over25": 47,
+   "btts": 51,
    "players": [
     {
      "name": "Joe Willock",
      "goals": 2,
      "assists": 0,
-     "p_goal": 20,
-     "p_dec": 24,
+     "p_goal": 21,
+     "p_dec": 25,
      "side": "a",
      "team": "Newcastle"
     },
@@ -222,8 +222,8 @@
      "name": "Anthony Elanga",
      "goals": 2,
      "assists": 0,
-     "p_goal": 20,
-     "p_dec": 24,
+     "p_goal": 21,
+     "p_dec": 25,
      "side": "a",
      "team": "Newcastle"
     },
@@ -232,7 +232,7 @@
      "goals": 1,
      "assists": 2,
      "p_goal": 13,
-     "p_dec": 30,
+     "p_dec": 31,
      "side": "a",
      "team": "Newcastle"
     }
@@ -243,7 +243,7 @@
      "goals": 1,
      "assists": 2,
      "p_goal": 13,
-     "p_dec": 30,
+     "p_dec": 31,
      "side": "a",
      "team": "Newcastle"
     },
@@ -251,8 +251,8 @@
      "name": "Joe Willock",
      "goals": 2,
      "assists": 0,
-     "p_goal": 20,
-     "p_dec": 24,
+     "p_goal": 21,
+     "p_dec": 25,
      "side": "a",
      "team": "Newcastle"
     },
@@ -260,8 +260,8 @@
      "name": "Anthony Elanga",
      "goals": 2,
      "assists": 0,
-     "p_goal": 20,
-     "p_dec": 24,
+     "p_goal": 21,
+     "p_dec": 25,
      "side": "a",
      "team": "Newcastle"
     }
@@ -270,7 +270,7 @@
     "Coventry : 19e, 3 points, 1 buts marqués et 10 encaissés en 5 matchs.",
     "Newcastle : 11e, 8 points, 9 buts marqués et 9 encaissés en 5 matchs."
    ],
-   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
+   "reading": "Newcastle est favori sans écraser le match (45 %)."
   },
   {
    "id": "foot-401882852",
@@ -376,25 +376,25 @@
    "league": "NHL",
    "kickoff": "2026-10-12T17:00:00+00:00",
    "time": "19:00",
-   "state": "FUT",
+   "state": "PRE",
    "score": null,
    "home": "Buffalo Sabres",
    "away": "Florida Panthers",
    "rec_h": "2-3-0 · 7e Atlantic · 2 défaites de suite",
    "rec_a": "2-1-2 · 5e Atlantic · 1 défaite de suite",
-   "winH": 50,
-   "winA": 50,
-   "pH": 39,
+   "winH": 51,
+   "winA": 49,
+   "pH": 40,
    "pD": 22,
-   "pA": 39,
+   "pA": 38,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 2.64,
-   "xgA": 2.66,
+   "xgH": 2.68,
+   "xgA": 2.62,
    "total": 5.3,
    "scores": [
-    "2-3",
     "3-2",
-    "1-2"
+    "2-3",
+    "2-1"
    ],
    "scorep": [
     5,
@@ -421,9 +421,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 28,
+     "p_goal": 29,
      "p_point": 50,
-     "p_assist": 29
+     "p_assist": 30
     },
     {
      "name": "Sam Reinhart",
@@ -433,8 +433,8 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 27,
-     "p_point": 50,
-     "p_assist": 31
+     "p_point": 49,
+     "p_assist": 30
     },
     {
      "name": "Matthew Tkachuk",
@@ -444,7 +444,7 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 25,
-     "p_point": 52,
+     "p_point": 51,
      "p_assist": 34
     },
     {
@@ -456,7 +456,7 @@
      "team": "Florida Panthers",
      "p_goal": 22,
      "p_point": 43,
-     "p_assist": 27
+     "p_assist": 26
     },
     {
      "name": "Sam Bennett",
@@ -466,8 +466,8 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 22,
-     "p_point": 46,
-     "p_assist": 30
+     "p_point": 45,
+     "p_assist": 29
     },
     {
      "name": "Josh Doan",
@@ -478,7 +478,7 @@
      "team": "Buffalo Sabres",
      "p_goal": 18,
      "p_point": 35,
-     "p_assist": 20
+     "p_assist": 21
     },
     {
      "name": "Josh Norris",
@@ -489,18 +489,18 @@
      "team": "Buffalo Sabres",
      "p_goal": 16,
      "p_point": 38,
-     "p_assist": 25
+     "p_assist": 26
     },
     {
-     "name": "Jack Quinn",
-     "pos": "Ailier",
-     "cur": "2 buts, 0 passe en 5",
+     "name": "Rasmus Dahlin",
+     "pos": "Défenseur",
+     "cur": "1 but, 2 passes en 5",
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
      "p_goal": 16,
-     "p_point": 35,
-     "p_assist": 23
+     "p_point": 48,
+     "p_assist": 38
     }
    ],
    "deci": [
@@ -512,7 +512,7 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 25,
-     "p_point": 52,
+     "p_point": 51,
      "p_assist": 34
     },
     {
@@ -522,9 +522,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 28,
+     "p_goal": 29,
      "p_point": 50,
-     "p_assist": 29
+     "p_assist": 30
     },
     {
      "name": "Sam Reinhart",
@@ -534,8 +534,8 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 27,
-     "p_point": 50,
-     "p_assist": 31
+     "p_point": 49,
+     "p_assist": 30
     },
     {
      "name": "Rasmus Dahlin",
@@ -544,9 +544,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 15,
-     "p_point": 47,
-     "p_assist": 37
+     "p_goal": 16,
+     "p_point": 48,
+     "p_assist": 38
     },
     {
      "name": "Sam Bennett",
@@ -556,8 +556,8 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 22,
-     "p_point": 46,
-     "p_assist": 30
+     "p_point": 45,
+     "p_assist": 29
     },
     {
      "name": "Carter Verhaeghe",
@@ -568,7 +568,7 @@
      "team": "Florida Panthers",
      "p_goal": 22,
      "p_point": 43,
-     "p_assist": 27
+     "p_assist": 26
     },
     {
      "name": "Josh Norris",
@@ -579,7 +579,7 @@
      "team": "Buffalo Sabres",
      "p_goal": 16,
      "p_point": 38,
-     "p_assist": 25
+     "p_assist": 26
     },
     {
      "name": "Ryan McLeod",
@@ -590,7 +590,7 @@
      "team": "Buffalo Sabres",
      "p_goal": 11,
      "p_point": 37,
-     "p_assist": 28
+     "p_assist": 29
     }
    ],
    "ctx": [
@@ -613,14 +613,14 @@
    "away": "Ottawa Senators",
    "rec_h": "2-2-0 · 5e Metropolitan · 1 victoire de suite",
    "rec_a": "4-1-0 · 2e Atlantic · 2 victoires de suite",
-   "winH": 55,
-   "winA": 45,
-   "pH": 44,
+   "winH": 53,
+   "winA": 47,
+   "pH": 41,
    "pD": 22,
-   "pA": 34,
+   "pA": 37,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 2.79,
-   "xgA": 2.51,
+   "xgH": 2.72,
+   "xgA": 2.58,
    "total": 5.3,
    "scores": [
     "3-2",
@@ -653,7 +653,7 @@
      "side": "h",
      "team": "New Jersey Devils",
      "p_goal": 30,
-     "p_point": 65,
+     "p_point": 64,
      "p_assist": 49
     },
     {
@@ -664,8 +664,8 @@
      "side": "h",
      "team": "New Jersey Devils",
      "p_goal": 26,
-     "p_point": 52,
-     "p_assist": 34
+     "p_point": 51,
+     "p_assist": 33
     },
     {
      "name": "Tim Stützle",
@@ -674,8 +674,8 @@
      "new": false,
      "side": "a",
      "team": "Ottawa Senators",
-     "p_goal": 25,
-     "p_point": 50,
+     "p_goal": 26,
+     "p_point": 51,
      "p_assist": 34
     },
     {
@@ -685,8 +685,8 @@
      "new": false,
      "side": "a",
      "team": "Ottawa Senators",
-     "p_goal": 24,
-     "p_point": 45,
+     "p_goal": 25,
+     "p_point": 46,
      "p_assist": 27
     },
     {
@@ -697,7 +697,7 @@
      "side": "h",
      "team": "New Jersey Devils",
      "p_goal": 23,
-     "p_point": 41,
+     "p_point": 40,
      "p_assist": 22
     },
     {
@@ -709,7 +709,7 @@
      "team": "New Jersey Devils",
      "p_goal": 21,
      "p_point": 54,
-     "p_assist": 42
+     "p_assist": 41
     },
     {
      "name": "Dylan Cozens",
@@ -720,7 +720,7 @@
      "team": "Ottawa Senators",
      "p_goal": 19,
      "p_point": 38,
-     "p_assist": 22
+     "p_assist": 23
     },
     {
      "name": "Shane Pinto",
@@ -730,8 +730,8 @@
      "side": "a",
      "team": "Ottawa Senators",
      "p_goal": 18,
-     "p_point": 36,
-     "p_assist": 21
+     "p_point": 37,
+     "p_assist": 22
     }
    ],
    "deci": [
@@ -743,7 +743,7 @@
      "side": "h",
      "team": "New Jersey Devils",
      "p_goal": 30,
-     "p_point": 65,
+     "p_point": 64,
      "p_assist": 49
     },
     {
@@ -755,7 +755,7 @@
      "team": "New Jersey Devils",
      "p_goal": 21,
      "p_point": 54,
-     "p_assist": 42
+     "p_assist": 41
     },
     {
      "name": "Nico Hischier",
@@ -765,8 +765,8 @@
      "side": "h",
      "team": "New Jersey Devils",
      "p_goal": 26,
-     "p_point": 52,
-     "p_assist": 34
+     "p_point": 51,
+     "p_assist": 33
     },
     {
      "name": "Tim Stützle",
@@ -775,8 +775,8 @@
      "new": false,
      "side": "a",
      "team": "Ottawa Senators",
-     "p_goal": 25,
-     "p_point": 50,
+     "p_goal": 26,
+     "p_point": 51,
      "p_assist": 34
     },
     {
@@ -786,8 +786,8 @@
      "new": false,
      "side": "a",
      "team": "Ottawa Senators",
-     "p_goal": 24,
-     "p_point": 45,
+     "p_goal": 25,
+     "p_point": 46,
      "p_assist": 27
     },
     {
@@ -798,7 +798,7 @@
      "side": "h",
      "team": "New Jersey Devils",
      "p_goal": 23,
-     "p_point": 41,
+     "p_point": 40,
      "p_assist": 22
     },
     {
@@ -810,7 +810,7 @@
      "team": "Ottawa Senators",
      "p_goal": 19,
      "p_point": 38,
-     "p_assist": 22
+     "p_assist": 23
     },
     {
      "name": "Shane Pinto",
@@ -820,8 +820,8 @@
      "side": "a",
      "team": "Ottawa Senators",
      "p_goal": 18,
-     "p_point": 36,
-     "p_assist": 21
+     "p_point": 37,
+     "p_assist": 22
     }
    ],
    "ctx": [
@@ -830,7 +830,7 @@
     "Aucune des deux équipes n'a joué hier.",
     "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
    ],
-   "reading": "New Jersey Devils est favori (55 % en comptant la prolongation)."
+   "reading": "Match très équilibré : au hockey, c'est presque un pile ou face."
   },
   {
    "id": "nhl-2026020089",
@@ -844,14 +844,14 @@
    "away": "Vegas Golden Knights",
    "rec_h": "3-1-1 · 2e Central · 1 victoire de suite",
    "rec_a": "5-1-0 · 1e Pacific · 4 victoires de suite",
-   "winH": 52,
-   "winA": 48,
-   "pH": 41,
+   "winH": 50,
+   "winA": 50,
+   "pH": 39,
    "pD": 22,
-   "pA": 37,
+   "pA": 39,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 2.7,
-   "xgA": 2.6,
+   "xgH": 2.66,
+   "xgA": 2.64,
    "total": 5.3,
    "scores": [
     "3-2",
@@ -859,7 +859,7 @@
     "2-1"
    ],
    "scorep": [
-    6,
+    5,
     5,
     5
    ],
@@ -883,8 +883,8 @@
      "new": false,
      "side": "h",
      "team": "Minnesota Wild",
-     "p_goal": 35,
-     "p_point": 57,
+     "p_goal": 34,
+     "p_point": 56,
      "p_assist": 33
     },
     {
@@ -895,8 +895,8 @@
      "side": "h",
      "team": "Minnesota Wild",
      "p_goal": 31,
-     "p_point": 54,
-     "p_assist": 33
+     "p_point": 53,
+     "p_assist": 32
     },
     {
      "name": "Mark Stone",
@@ -905,8 +905,8 @@
      "new": false,
      "side": "a",
      "team": "Vegas Golden Knights",
-     "p_goal": 26,
-     "p_point": 55,
+     "p_goal": 27,
+     "p_point": 56,
      "p_assist": 39
     },
     {
@@ -917,19 +917,8 @@
      "side": "a",
      "team": "Vegas Golden Knights",
      "p_goal": 23,
-     "p_point": 58,
-     "p_assist": 45
-    },
-    {
-     "name": "Ryan Hartman",
-     "pos": "Ailier",
-     "cur": "0 but, 1 passe en 5",
-     "new": false,
-     "side": "h",
-     "team": "Minnesota Wild",
-     "p_goal": 19,
-     "p_point": 34,
-     "p_assist": 19
+     "p_point": 59,
+     "p_assist": 46
     },
     {
      "name": "Tomas Hertl",
@@ -938,8 +927,8 @@
      "new": false,
      "side": "a",
      "team": "Vegas Golden Knights",
-     "p_goal": 19,
-     "p_point": 40,
+     "p_goal": 20,
+     "p_point": 41,
      "p_assist": 26
     },
     {
@@ -951,7 +940,18 @@
      "team": "Vegas Golden Knights",
      "p_goal": 19,
      "p_point": 50,
-     "p_assist": 37
+     "p_assist": 38
+    },
+    {
+     "name": "Ryan Hartman",
+     "pos": "Ailier",
+     "cur": "0 but, 1 passe en 5",
+     "new": false,
+     "side": "h",
+     "team": "Minnesota Wild",
+     "p_goal": 18,
+     "p_point": 34,
+     "p_assist": 18
     },
     {
      "name": "Joel Eriksson Ek",
@@ -961,7 +961,7 @@
      "side": "h",
      "team": "Minnesota Wild",
      "p_goal": 17,
-     "p_point": 41,
+     "p_point": 40,
      "p_assist": 28
     }
    ],
@@ -974,8 +974,8 @@
      "side": "a",
      "team": "Vegas Golden Knights",
      "p_goal": 23,
-     "p_point": 58,
-     "p_assist": 45
+     "p_point": 59,
+     "p_assist": 46
     },
     {
      "name": "Kirill Kaprizov",
@@ -984,8 +984,8 @@
      "new": false,
      "side": "h",
      "team": "Minnesota Wild",
-     "p_goal": 35,
-     "p_point": 57,
+     "p_goal": 34,
+     "p_point": 56,
      "p_assist": 33
     },
     {
@@ -995,20 +995,9 @@
      "new": false,
      "side": "a",
      "team": "Vegas Golden Knights",
-     "p_goal": 26,
-     "p_point": 55,
+     "p_goal": 27,
+     "p_point": 56,
      "p_assist": 39
-    },
-    {
-     "name": "Matt Boldy",
-     "pos": "Ailier",
-     "cur": "1 but, 1 passe en 5",
-     "new": false,
-     "side": "h",
-     "team": "Minnesota Wild",
-     "p_goal": 31,
-     "p_point": 54,
-     "p_assist": 33
     },
     {
      "name": "Quinn Hughes",
@@ -1019,7 +1008,18 @@
      "team": "Minnesota Wild",
      "p_goal": 10,
      "p_point": 53,
-     "p_assist": 48
+     "p_assist": 47
+    },
+    {
+     "name": "Matt Boldy",
+     "pos": "Ailier",
+     "cur": "1 but, 1 passe en 5",
+     "new": false,
+     "side": "h",
+     "team": "Minnesota Wild",
+     "p_goal": 31,
+     "p_point": 53,
+     "p_assist": 32
     },
     {
      "name": "Mitch Marner",
@@ -1030,18 +1030,7 @@
      "team": "Vegas Golden Knights",
      "p_goal": 19,
      "p_point": 50,
-     "p_assist": 37
-    },
-    {
-     "name": "Joel Eriksson Ek",
-     "pos": "Centre",
-     "cur": "0 but, 2 passes en 5",
-     "new": false,
-     "side": "h",
-     "team": "Minnesota Wild",
-     "p_goal": 17,
-     "p_point": 41,
-     "p_assist": 28
+     "p_assist": 38
     },
     {
      "name": "Ivan Barbashev",
@@ -1051,8 +1040,19 @@
      "side": "a",
      "team": "Vegas Golden Knights",
      "p_goal": 17,
-     "p_point": 41,
+     "p_point": 42,
      "p_assist": 29
+    },
+    {
+     "name": "Joel Eriksson Ek",
+     "pos": "Centre",
+     "cur": "0 but, 2 passes en 5",
+     "new": false,
+     "side": "h",
+     "team": "Minnesota Wild",
+     "p_goal": 17,
+     "p_point": 40,
+     "p_assist": 28
     }
    ],
    "ctx": [

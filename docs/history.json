@@ -48,9 +48,9 @@
   "home": "Coventry",
   "away": "Newcastle",
   "p": [
-   0.2886,
-   0.2683,
-   0.443
+   0.2847,
+   0.2613,
+   0.4541
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -93,9 +93,9 @@
   "home": "Torino",
   "away": "Udinese",
   "p": [
-   0.3866,
-   0.3093,
-   0.3042
+   0.3778,
+   0.3137,
+   0.3085
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -108,8 +108,8 @@
   "home": "Buffalo Sabres",
   "away": "Florida Panthers",
   "p": [
-   0.4957,
-   0.5043
+   0.5108,
+   0.4892
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -122,8 +122,8 @@
   "home": "New Jersey Devils",
   "away": "Ottawa Senators",
   "p": [
-   0.5514,
-   0.4486
+   0.5261,
+   0.4739
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -136,8 +136,8 @@
   "home": "Minnesota Wild",
   "away": "Vegas Golden Knights",
   "p": [
-   0.5174,
-   0.4826
+   0.5043,
+   0.4957
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
