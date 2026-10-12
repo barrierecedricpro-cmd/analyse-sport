@@ -10,8 +10,8 @@
    0.3553
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "3-5"
  },
  "nhl-2026020085": {
   "sport": "nhl",
@@ -24,8 +24,8 @@
    0.295
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "6-2"
  },
  "nhl-2026020086": {
   "sport": "nhl",
@@ -38,6 +38,108 @@
    0.6575
   ],
   "source": "Cotes DraftKings (vainqueur final)",
+  "result": 1,
+  "score": "1-4"
+ },
+ "foot-401879267": {
+  "sport": "foot",
+  "league": "Premier League",
+  "date": "2026-10-12",
+  "home": "Coventry",
+  "away": "Newcastle",
+  "p": [
+   0.3024,
+   0.2646,
+   0.433
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401882852": {
+  "sport": "foot",
+  "league": "LaLiga",
+  "date": "2026-10-12",
+  "home": "Levante",
+  "away": "Sevilla",
+  "p": [
+   0.3598,
+   0.2934,
+   0.3468
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401875005": {
+  "sport": "foot",
+  "league": "Serie A",
+  "date": "2026-10-12",
+  "home": "Atalanta",
+  "away": "Venezia",
+  "p": [
+   0.5915,
+   0.2244,
+   0.184
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401874763": {
+  "sport": "foot",
+  "league": "Serie A",
+  "date": "2026-10-12",
+  "home": "Torino",
+  "away": "Udinese",
+  "p": [
+   0.4006,
+   0.3021,
+   0.2972
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020087": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-12",
+  "home": "Buffalo Sabres",
+  "away": "Florida Panthers",
+  "p": [
+   0.4957,
+   0.5043
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020088": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-13",
+  "home": "New Jersey Devils",
+  "away": "Ottawa Senators",
+  "p": [
+   0.5514,
+   0.4486
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020089": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-13",
+  "home": "Minnesota Wild",
+  "away": "Vegas Golden Knights",
+  "p": [
+   0.5174,
+   0.4826
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  }
