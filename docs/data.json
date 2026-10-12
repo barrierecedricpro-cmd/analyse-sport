@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-12T10:19+02:00",
+ "generated": "2026-10-12T13:43+02:00",
  "date": "2026-10-12",
  "foot": [
   {
@@ -16,12 +16,12 @@
    "form_a": "DDDDD",
    "rank_h": 11,
    "rank_a": 20,
-   "pH": 59,
-   "pD": 22,
+   "pH": 60,
+   "pD": 23,
    "pA": 18,
    "source": "Cotes DraftKings",
-   "xgH": 1.85,
-   "xgA": 0.92,
+   "xgH": 1.83,
+   "xgA": 0.88,
    "scores": [
     "1-0",
     "2-0",
@@ -32,44 +32,26 @@
     11,
     11
    ],
-   "over25": 52,
-   "btts": 51,
+   "over25": 51,
+   "btts": 49,
    "players": [
-    {
-     "name": "Antoine Hainaut",
-     "goals": 1,
-     "assists": 1,
-     "p_goal": 13,
-     "p_dec": 25,
-     "side": "a",
-     "team": "Venezia"
-    },
     {
      "name": "Gianluca Busio",
      "goals": 0,
      "assists": 2,
      "p_goal": 5,
-     "p_dec": 25,
+     "p_dec": 24,
      "side": "a",
      "team": "Venezia"
     }
    ],
    "deci": [
     {
-     "name": "Antoine Hainaut",
-     "goals": 1,
-     "assists": 1,
-     "p_goal": 13,
-     "p_dec": 25,
-     "side": "a",
-     "team": "Venezia"
-    },
-    {
      "name": "Gianluca Busio",
      "goals": 0,
      "assists": 2,
      "p_goal": 5,
-     "p_dec": 25,
+     "p_dec": 24,
      "side": "a",
      "team": "Venezia"
     }
@@ -78,7 +60,7 @@
     "Atalanta : 11e, 6 points, 5 buts marqués et 7 encaissés en 5 matchs.",
     "Venezia : 20e, 0 point, 4 buts marqués et 13 encaissés en 5 matchs."
    ],
-   "reading": "Atalanta est favori sans écraser le match (59 %)."
+   "reading": "Atalanta est favori sans écraser le match (60 %)."
   },
   {
    "id": "foot-401874763",
@@ -94,31 +76,31 @@
    "form_a": "DDDVV",
    "rank_h": 15,
    "rank_a": 14,
-   "pH": 40,
-   "pD": 30,
+   "pH": 39,
+   "pD": 31,
    "pA": 30,
    "source": "Cotes DraftKings",
-   "xgH": 1.12,
-   "xgA": 0.92,
+   "xgH": 1.07,
+   "xgA": 0.91,
    "scores": [
     "1-0",
-    "1-1",
-    "0-0"
+    "0-0",
+    "1-1"
    ],
    "scorep": [
     15,
-    13,
+    14,
     13
    ],
-   "over25": 34,
-   "btts": 41,
+   "over25": 32,
+   "btts": 39,
    "players": [
     {
      "name": "Ché Adams",
      "goals": 2,
      "assists": 0,
-     "p_goal": 22,
-     "p_dec": 27,
+     "p_goal": 21,
+     "p_dec": 26,
      "side": "h",
      "team": "Torino"
     },
@@ -126,8 +108,8 @@
      "name": "Jurgen Ekkelenkamp",
      "goals": 2,
      "assists": 1,
-     "p_goal": 15,
-     "p_dec": 23,
+     "p_goal": 14,
+     "p_dec": 22,
      "side": "a",
      "team": "Udinese"
     },
@@ -135,26 +117,17 @@
      "name": "Hassane Kamara",
      "goals": 2,
      "assists": 1,
-     "p_goal": 15,
-     "p_dec": 23,
+     "p_goal": 14,
+     "p_dec": 22,
      "side": "a",
      "team": "Udinese"
     },
     {
-     "name": "Jesper Karlström",
-     "goals": 1,
-     "assists": 0,
-     "p_goal": 9,
-     "p_dec": 13,
-     "side": "a",
-     "team": "Udinese"
-    },
-    {
-     "name": "James Abankwah",
-     "goals": 1,
-     "assists": 0,
-     "p_goal": 9,
-     "p_dec": 13,
+     "name": "Keinan Davis",
+     "goals": 0,
+     "assists": 2,
+     "p_goal": 4,
+     "p_dec": 18,
      "side": "a",
      "team": "Udinese"
     }
@@ -164,8 +137,8 @@
      "name": "Ché Adams",
      "goals": 2,
      "assists": 0,
-     "p_goal": 22,
-     "p_dec": 27,
+     "p_goal": 21,
+     "p_dec": 26,
      "side": "h",
      "team": "Torino"
     },
@@ -173,8 +146,8 @@
      "name": "Jurgen Ekkelenkamp",
      "goals": 2,
      "assists": 1,
-     "p_goal": 15,
-     "p_dec": 23,
+     "p_goal": 14,
+     "p_dec": 22,
      "side": "a",
      "team": "Udinese"
     },
@@ -182,8 +155,8 @@
      "name": "Hassane Kamara",
      "goals": 2,
      "assists": 1,
-     "p_goal": 15,
-     "p_dec": 23,
+     "p_goal": 14,
+     "p_dec": 22,
      "side": "a",
      "team": "Udinese"
     },
@@ -201,7 +174,7 @@
     "Torino : 15e, 4 points, 5 buts marqués et 8 encaissés en 5 matchs.",
     "Udinese : 14e, 4 points, 8 buts marqués et 11 encaissés en 5 matchs."
    ],
-   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (30 %)."
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (31 %)."
   },
   {
    "id": "foot-401879267",
@@ -217,12 +190,12 @@
    "form_a": "VDVNV",
    "rank_h": 19,
    "rank_a": 11,
-   "pH": 30,
-   "pD": 26,
-   "pA": 43,
+   "pH": 29,
+   "pD": 27,
+   "pA": 44,
    "source": "Cotes DraftKings",
-   "xgH": 1.13,
-   "xgA": 1.41,
+   "xgH": 1.07,
+   "xgA": 1.39,
    "scores": [
     "1-1",
     "0-1",
@@ -230,11 +203,11 @@
    ],
    "scorep": [
     13,
-    11,
+    12,
     9
    ],
-   "over25": 47,
-   "btts": 51,
+   "over25": 45,
+   "btts": 49,
    "players": [
     {
      "name": "Joe Willock",
@@ -262,36 +235,9 @@
      "p_dec": 30,
      "side": "a",
      "team": "Newcastle"
-    },
-    {
-     "name": "Lewis Hall",
-     "goals": 1,
-     "assists": 1,
-     "p_goal": 13,
-     "p_dec": 24,
-     "side": "a",
-     "team": "Newcastle"
-    },
-    {
-     "name": "Carl Rushworth",
-     "goals": 0,
-     "assists": 1,
-     "p_goal": 9,
-     "p_dec": 30,
-     "side": "h",
-     "team": "Coventry"
     }
    ],
    "deci": [
-    {
-     "name": "Carl Rushworth",
-     "goals": 0,
-     "assists": 1,
-     "p_goal": 9,
-     "p_dec": 30,
-     "side": "h",
-     "team": "Coventry"
-    },
     {
      "name": "Harvey Barnes",
      "goals": 1,
@@ -340,31 +286,31 @@
    "form_a": "DVVND",
    "rank_h": 18,
    "rank_a": 5,
-   "pH": 36,
-   "pD": 29,
+   "pH": 35,
+   "pD": 30,
    "pA": 35,
    "source": "Cotes DraftKings",
-   "xgH": 1.1,
-   "xgA": 1.07,
+   "xgH": 1.04,
+   "xgA": 1.03,
    "scores": [
     "1-1",
     "1-0",
     "0-1"
    ],
    "scorep": [
+    14,
     13,
-    13,
-    12
+    13
    ],
-   "over25": 37,
-   "btts": 44,
+   "over25": 34,
+   "btts": 42,
    "players": [
     {
      "name": "Roger Brugué",
      "goals": 3,
      "assists": 0,
-     "p_goal": 23,
-     "p_dec": 26,
+     "p_goal": 22,
+     "p_dec": 25,
      "side": "h",
      "team": "Levante"
     },
@@ -372,8 +318,8 @@
      "name": "Iván Romero",
      "goals": 2,
      "assists": 0,
-     "p_goal": 17,
-     "p_dec": 21,
+     "p_goal": 16,
+     "p_dec": 20,
      "side": "h",
      "team": "Levante"
     },
@@ -381,8 +327,8 @@
      "name": "Miguel Sierra",
      "goals": 2,
      "assists": 0,
-     "p_goal": 15,
-     "p_dec": 18,
+     "p_goal": 14,
+     "p_dec": 17,
      "side": "a",
      "team": "Sevilla"
     }
@@ -392,8 +338,8 @@
      "name": "Roger Brugué",
      "goals": 3,
      "assists": 0,
-     "p_goal": 23,
-     "p_dec": 26,
+     "p_goal": 22,
+     "p_dec": 25,
      "side": "h",
      "team": "Levante"
     },
@@ -401,8 +347,8 @@
      "name": "Iván Romero",
      "goals": 2,
      "assists": 0,
-     "p_goal": 17,
-     "p_dec": 21,
+     "p_goal": 16,
+     "p_dec": 20,
      "side": "h",
      "team": "Levante"
     },
@@ -410,8 +356,8 @@
      "name": "Miguel Sierra",
      "goals": 2,
      "assists": 0,
-     "p_goal": 15,
-     "p_dec": 18,
+     "p_goal": 14,
+     "p_dec": 17,
      "side": "a",
      "team": "Sevilla"
     }
@@ -420,7 +366,7 @@
     "Levante : 18e, 5 points, 8 buts marqués et 12 encaissés en 6 matchs.",
     "Sevilla : 5e, 13 points, 10 buts marqués et 9 encaissés en 7 matchs."
    ],
-   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (29 %)."
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %. Le nul est une issue sérieuse (30 %)."
   }
  ],
  "nhl": [
@@ -441,19 +387,19 @@
    "pH": 39,
    "pD": 22,
    "pA": 39,
-   "source": "Cotes Draft Kings (vainqueur final)",
-   "xgH": 3.14,
-   "xgA": 3.16,
-   "total": 6.3,
+   "source": "Cotes DraftKings (vainqueur final)",
+   "xgH": 2.64,
+   "xgA": 2.66,
+   "total": 5.3,
    "scores": [
     "2-3",
     "3-2",
-    "3-4"
+    "1-2"
    ],
    "scorep": [
     5,
     5,
-    4
+    5
    ],
    "goalie_h": {
     "name": "Ukko-Pekka Luukkonen",
@@ -475,9 +421,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 33,
-     "p_point": 56,
-     "p_assist": 34
+     "p_goal": 28,
+     "p_point": 50,
+     "p_assist": 29
     },
     {
      "name": "Sam Reinhart",
@@ -486,9 +432,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 31,
-     "p_point": 56,
-     "p_assist": 35
+     "p_goal": 27,
+     "p_point": 50,
+     "p_assist": 31
     },
     {
      "name": "Matthew Tkachuk",
@@ -497,9 +443,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 29,
-     "p_point": 58,
-     "p_assist": 39
+     "p_goal": 25,
+     "p_point": 52,
+     "p_assist": 34
     },
     {
      "name": "Carter Verhaeghe",
@@ -508,9 +454,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 26,
-     "p_point": 49,
-     "p_assist": 31
+     "p_goal": 22,
+     "p_point": 43,
+     "p_assist": 27
     },
     {
      "name": "Sam Bennett",
@@ -519,9 +465,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 26,
-     "p_point": 52,
-     "p_assist": 34
+     "p_goal": 22,
+     "p_point": 46,
+     "p_assist": 30
     },
     {
      "name": "Josh Doan",
@@ -530,20 +476,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 21,
-     "p_point": 40,
-     "p_assist": 24
-    },
-    {
-     "name": "Jack Quinn",
-     "pos": "Ailier",
-     "cur": "2 buts, 0 passe en 5",
-     "new": false,
-     "side": "h",
-     "team": "Buffalo Sabres",
-     "p_goal": 19,
-     "p_point": 41,
-     "p_assist": 26
+     "p_goal": 18,
+     "p_point": 35,
+     "p_assist": 20
     },
     {
      "name": "Josh Norris",
@@ -552,9 +487,20 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 18,
-     "p_point": 43,
-     "p_assist": 30
+     "p_goal": 16,
+     "p_point": 38,
+     "p_assist": 25
+    },
+    {
+     "name": "Jack Quinn",
+     "pos": "Ailier",
+     "cur": "2 buts, 0 passe en 5",
+     "new": false,
+     "side": "h",
+     "team": "Buffalo Sabres",
+     "p_goal": 16,
+     "p_point": 35,
+     "p_assist": 23
     }
    ],
    "deci": [
@@ -565,9 +511,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 29,
-     "p_point": 58,
-     "p_assist": 39
+     "p_goal": 25,
+     "p_point": 52,
+     "p_assist": 34
     },
     {
      "name": "Tage Thompson",
@@ -576,9 +522,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 33,
-     "p_point": 56,
-     "p_assist": 34
+     "p_goal": 28,
+     "p_point": 50,
+     "p_assist": 29
     },
     {
      "name": "Sam Reinhart",
@@ -587,9 +533,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 31,
-     "p_point": 56,
-     "p_assist": 35
+     "p_goal": 27,
+     "p_point": 50,
+     "p_assist": 31
     },
     {
      "name": "Rasmus Dahlin",
@@ -598,9 +544,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 18,
-     "p_point": 53,
-     "p_assist": 43
+     "p_goal": 15,
+     "p_point": 47,
+     "p_assist": 37
     },
     {
      "name": "Sam Bennett",
@@ -609,9 +555,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 26,
-     "p_point": 52,
-     "p_assist": 34
+     "p_goal": 22,
+     "p_point": 46,
+     "p_assist": 30
     },
     {
      "name": "Carter Verhaeghe",
@@ -620,9 +566,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 26,
-     "p_point": 49,
-     "p_assist": 31
+     "p_goal": 22,
+     "p_point": 43,
+     "p_assist": 27
     },
     {
      "name": "Josh Norris",
@@ -631,9 +577,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 18,
-     "p_point": 43,
-     "p_assist": 30
+     "p_goal": 16,
+     "p_point": 38,
+     "p_assist": 25
     },
     {
      "name": "Ryan McLeod",
@@ -642,9 +588,9 @@
      "new": false,
      "side": "h",
      "team": "Buffalo Sabres",
-     "p_goal": 13,
-     "p_point": 42,
-     "p_assist": 33
+     "p_goal": 11,
+     "p_point": 37,
+     "p_assist": 28
     }
    ],
    "ctx": [
@@ -672,7 +618,7 @@
    "pH": 44,
    "pD": 22,
    "pA": 34,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 2.79,
    "xgA": 2.51,
    "total": 5.3,
@@ -903,7 +849,7 @@
    "pH": 41,
    "pD": 22,
    "pA": 37,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 2.7,
    "xgA": 2.6,
    "total": 5.3,
@@ -1120,7 +1066,31 @@
  ],
  "bilan": {
   "foot": {
-   "n": 0
+   "n": 12,
+   "fav_rate": 75,
+   "fav_expected": 53,
+   "brier": 0.467,
+   "brier_naive": 0.667,
+   "bins": [
+    {
+     "range": "40-50 %",
+     "n": 6,
+     "announced": 46,
+     "actual": 67
+    },
+    {
+     "range": "50-60 %",
+     "n": 3,
+     "announced": 58,
+     "actual": 100
+    },
+    {
+     "range": "60-70 %",
+     "n": 3,
+     "announced": 64,
+     "actual": 67
+    }
+   ]
   },
   "nhl": {
    "n": 3,
@@ -1176,6 +1146,138 @@
     "fav": "Washington Capitals",
     "favp": 64,
     "ok": false
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Premier League",
+    "home": "Liverpool",
+    "away": "Man City",
+    "score": "0-3",
+    "fav": "Man City",
+    "favp": 46,
+    "ok": true
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Serie A",
+    "home": "Sassuolo",
+    "away": "Milan",
+    "score": "1-1",
+    "fav": "Milan",
+    "favp": 50,
+    "ok": false
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Serie A",
+    "home": "Cagliari",
+    "away": "Juventus",
+    "score": "1-1",
+    "fav": "Juventus",
+    "favp": 62,
+    "ok": false
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Ligue 1",
+    "home": "Troyes",
+    "away": "Marseille",
+    "score": "0-2",
+    "fav": "Marseille",
+    "favp": 46,
+    "ok": true
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "LaLiga",
+    "home": "Betis",
+    "away": "Osasuna",
+    "score": "5-2",
+    "fav": "Betis",
+    "favp": 63,
+    "ok": true
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "LaLiga",
+    "home": "Real Sociedad",
+    "away": "Deportivo",
+    "score": "3-2",
+    "fav": "Real Sociedad",
+    "favp": 59,
+    "ok": true
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "LaLiga",
+    "home": "Racing",
+    "away": "Valencia",
+    "score": "2-2",
+    "fav": "Racing",
+    "favp": 43,
+    "ok": false
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Bundesliga",
+    "home": "Freiburg",
+    "away": "Schalke",
+    "score": "2-1",
+    "fav": "Freiburg",
+    "favp": 59,
+    "ok": true
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Bundesliga",
+    "home": "Cologne",
+    "away": "Gladbach",
+    "score": "2-1",
+    "fav": "Cologne",
+    "favp": 48,
+    "ok": true
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Ligue 1",
+    "home": "Rennes",
+    "away": "Auxerre",
+    "score": "4-1",
+    "fav": "Rennes",
+    "favp": 66,
+    "ok": true
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Ligue 1",
+    "home": "Nice",
+    "away": "Strasbourg",
+    "score": "2-1",
+    "fav": "Nice",
+    "favp": 42,
+    "ok": true
+   },
+   {
+    "date": "2026-10-11",
+    "sport": "foot",
+    "league": "Serie A",
+    "home": "Lazio",
+    "away": "Monza",
+    "score": "3-1",
+    "fav": "Lazio",
+    "favp": 55,
+    "ok": true
    }
   ]
  },

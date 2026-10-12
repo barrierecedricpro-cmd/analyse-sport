@@ -48,9 +48,9 @@
   "home": "Coventry",
   "away": "Newcastle",
   "p": [
-   0.3024,
-   0.2646,
-   0.433
+   0.2886,
+   0.2683,
+   0.443
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -63,9 +63,9 @@
   "home": "Levante",
   "away": "Sevilla",
   "p": [
-   0.3598,
-   0.2934,
-   0.3468
+   0.3522,
+   0.3019,
+   0.3458
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -78,9 +78,9 @@
   "home": "Atalanta",
   "away": "Venezia",
   "p": [
-   0.5915,
-   0.2244,
-   0.184
+   0.5991,
+   0.2251,
+   0.1758
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -93,9 +93,9 @@
   "home": "Torino",
   "away": "Udinese",
   "p": [
-   0.4006,
-   0.3021,
-   0.2972
+   0.3866,
+   0.3093,
+   0.3042
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -111,7 +111,7 @@
    0.4957,
    0.5043
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -125,7 +125,7 @@
    0.5514,
    0.4486
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -139,7 +139,7 @@
    0.5174,
    0.4826
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
