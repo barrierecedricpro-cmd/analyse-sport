@@ -142,5 +142,185 @@
   "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
+ },
+ "foot-401879264": {
+  "sport": "foot",
+  "league": "Premier League",
+  "date": "2026-10-11",
+  "home": "Liverpool",
+  "away": "Man City",
+  "p": [
+   0.2866,
+   0.2522,
+   0.4613
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 2,
+  "score": "0-3"
+ },
+ "foot-401874789": {
+  "sport": "foot",
+  "league": "Serie A",
+  "date": "2026-10-11",
+  "home": "Sassuolo",
+  "away": "Milan",
+  "p": [
+   0.2424,
+   0.2626,
+   0.495
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 1,
+  "score": "1-1"
+ },
+ "foot-401874764": {
+  "sport": "foot",
+  "league": "Serie A",
+  "date": "2026-10-11",
+  "home": "Cagliari",
+  "away": "Juventus",
+  "p": [
+   0.1368,
+   0.2455,
+   0.6177
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 1,
+  "score": "1-1"
+ },
+ "foot-401876440": {
+  "sport": "foot",
+  "league": "Ligue 1",
+  "date": "2026-10-11",
+  "home": "Troyes",
+  "away": "Marseille",
+  "p": [
+   0.2775,
+   0.2621,
+   0.4603
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 2,
+  "score": "0-2"
+ },
+ "foot-401882855": {
+  "sport": "foot",
+  "league": "LaLiga",
+  "date": "2026-10-11",
+  "home": "Betis",
+  "away": "Osasuna",
+  "p": [
+   0.634,
+   0.2196,
+   0.1463
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 0,
+  "score": "5-2"
+ },
+ "foot-401882847": {
+  "sport": "foot",
+  "league": "LaLiga",
+  "date": "2026-10-11",
+  "home": "Real Sociedad",
+  "away": "Deportivo",
+  "p": [
+   0.5884,
+   0.2383,
+   0.1733
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 0,
+  "score": "3-2"
+ },
+ "foot-401882850": {
+  "sport": "foot",
+  "league": "LaLiga",
+  "date": "2026-10-11",
+  "home": "Racing",
+  "away": "Valencia",
+  "p": [
+   0.4318,
+   0.2714,
+   0.2968
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 1,
+  "score": "2-2"
+ },
+ "foot-401884778": {
+  "sport": "foot",
+  "league": "Bundesliga",
+  "date": "2026-10-11",
+  "home": "Freiburg",
+  "away": "Schalke",
+  "p": [
+   0.587,
+   0.2319,
+   0.1811
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 0,
+  "score": "2-1"
+ },
+ "foot-401884774": {
+  "sport": "foot",
+  "league": "Bundesliga",
+  "date": "2026-10-11",
+  "home": "Cologne",
+  "away": "Gladbach",
+  "p": [
+   0.483,
+   0.2479,
+   0.2691
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 0,
+  "score": "2-1"
+ },
+ "foot-401876441": {
+  "sport": "foot",
+  "league": "Ligue 1",
+  "date": "2026-10-11",
+  "home": "Rennes",
+  "away": "Auxerre",
+  "p": [
+   0.6554,
+   0.2097,
+   0.1348
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 0,
+  "score": "4-1"
+ },
+ "foot-401876443": {
+  "sport": "foot",
+  "league": "Ligue 1",
+  "date": "2026-10-11",
+  "home": "Nice",
+  "away": "Strasbourg",
+  "p": [
+   0.4211,
+   0.2632,
+   0.3158
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 0,
+  "score": "2-1"
+ },
+ "foot-401874951": {
+  "sport": "foot",
+  "league": "Serie A",
+  "date": "2026-10-11",
+  "home": "Lazio",
+  "away": "Monza",
+  "p": [
+   0.5496,
+   0.2502,
+   0.2002
+  ],
+  "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
+  "result": 0,
+  "score": "3-1"
  }
 }
