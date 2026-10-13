@@ -4,7 +4,7 @@ Site installable sur téléphone, mis à jour automatiquement deux fois par jour
 
 - les chances de victoire tirées des cotes ;
 - le score le plus probable et les buts attendus ;
-- les buteurs probables et les joueurs décisifs ;
+- pour chaque équipe, les 6 joueurs les plus susceptibles de marquer, avec leur chance d'être décisifs (but ou passe) ;
 - pour la NHL, les gardiens probables et la fatigue (deuxième match en deux soirs).
 
 Un onglet **Bilan** compare chaque pronostic au résultat réel.
