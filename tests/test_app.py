@@ -173,6 +173,13 @@ class AppTest(unittest.TestCase):
         # Liverpool : pas d'effectif ESPN, repli sur le top des buteurs du championnat
         self.assertEqual([p["name"] for p in m["squad_h"]], ["Alexander Isak"])
 
+    def test_heavy_favourite_keeps_realistic_goals(self):
+        lh, la = app.foot_lambdas(0.07, 0.83)          # Viking - Bayern : deux solutions possibles
+        h, _, a = app.outcome_probs(lh, la)
+        self.assertAlmostEqual(h, 0.07, delta=0.002)
+        self.assertAlmostEqual(a, 0.83, delta=0.002)
+        self.assertLess(lh + la, 5.5)                  # la solution à 8 buts par match est écartée
+
     def test_champions_league_uses_domestic_stats(self):
         app.SQUADS.clear()
         squad = app.espn_squad("uefa.champions", "382")

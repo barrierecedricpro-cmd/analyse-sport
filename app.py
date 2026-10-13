@@ -190,8 +190,19 @@ def foot_lambdas(p_home, p_away):
     def f(v):
         h, _, a = outcome_probs(abs(v[0]), abs(v[1]))
         return [h - p_home, a - p_away]
-    lh, la = fsolve(f, [1.4, 1.1])
-    return abs(lh), abs(la)
+    # Avec un gros favori, deux couples de buts attendus collent aux cotes (ex. 1,1-3,7 et 2,2-5,8) :
+    # on essaie plusieurs points de départ et on garde la solution exacte au total de buts le plus bas.
+    found = []
+    for start in ([1.4, 1.1], [0.8, 0.8], [0.6, 2.5], [2.5, 0.6]):
+        v, info, ok, _ = fsolve(f, start, full_output=True)
+        lh, la = abs(v[0]), abs(v[1])
+        if ok == 1 and max(abs(x) for x in f([lh, la])) < 1e-4:
+            found.append((lh + la, lh, la))
+    if found:
+        _, lh, la = min(found)
+        return lh, la
+    v = fsolve(f, [1.4, 1.1])
+    return abs(v[0]), abs(v[1])
 
 
 def table_lambdas(sh, sa, league_gpg):
@@ -371,7 +382,7 @@ def squad_rows(squad, lam, side, team):
     players = squad["players"]
     team_games = max(p["apps"] for p in players)
     team_goals = max(sum(p["goals"] for p in players), 1)
-    k = 4
+    k = 8          # lissage : l'équivalent d'environ 6 matchs de buts « moyens » réparti selon le poste
     rows = []
     for p in players:
         mfrac = min(1.0, p["minutes"] / (90 * team_games)) if p["minutes"] else min(1.0, p["apps"] / team_games) * 0.6
@@ -507,11 +518,13 @@ def foot_match(e, league, table, league_gpg, leaders, history, squads=None):
     btts = (1 - math.exp(-lh)) * (1 - math.exp(-la))
 
     squads = squads or {}
-    team_rows, stats_from = {}, set()
+    team_rows, stats_from, thin = {}, set(), []
     for side, tid, st, lam, name in (("h", hid, sh, lh, home), ("a", aid, sa, la, away)):
         if squads.get(side):
             team_rows[side] = squad_rows(squads[side], lam, side, name)
             stats_from.add(squads[side]["league"])
+            if max(p["apps"] for p in squads[side]["players"]) < 3:
+                thin.append(name)
         else:
             rows = foot_players(leaders.get(tid, []), max((st or {}).get("gf", 0), 1), lam)
             for r in rows:
@@ -531,6 +544,8 @@ def foot_match(e, league, table, league_gpg, leaders, history, squads=None):
                        f"{st['gf']} buts marqués et {st['ga']} encaissés en {plural(st['gp'], 'match', 'matchs')}.")
     if not team_rows["h"] and not team_rows["a"]:
         ctx.append("Statistiques des joueurs indisponibles pour ce match.")
+    for name in thin:
+        ctx.append(f"{name} : ESPN ne connaît que 1 ou 2 matchs de ses joueurs, chiffres des joueurs très incertains.")
     if league == "Ligue des champions" and stats_from - {"uefa.champions"}:
         ctx.append("Joueurs : statistiques de la saison en championnat national (plus de matchs que la Ligue des champions).")
 
