@@ -541,7 +541,8 @@ def foot_match(e, league, table, league_gpg, leaders, history, squads=None):
     for name, st in ((home, sh), (away, sa)):
         if st:
             ctx.append(f"{name} : {st['rank']}e, {plural(st['pts'], 'point')}, "
-                       f"{st['gf']} buts marqués et {st['ga']} encaissés en {plural(st['gp'], 'match', 'matchs')}.")
+                       f"{plural(st['gf'], 'but')} marqué{'s' if st['gf'] > 1 else ''} et "
+                       f"{st['ga']} encaissé{'s' if st['ga'] > 1 else ''} en {plural(st['gp'], 'match', 'matchs')}.")
     if not team_rows["h"] and not team_rows["a"]:
         ctx.append("Statistiques des joueurs indisponibles pour ce match.")
     for name in thin:

@@ -10,7 +10,7 @@ Site installable sur téléphone, mis à jour automatiquement deux fois par jour
 Un onglet **Bilan** compare chaque pronostic au résultat réel.
 
 **100 % gratuit, aucune clé d'API.** Sources :
-- l'API publique d'ESPN pour le foot (Ligue 1, Premier League, LaLiga, Serie A, Bundesliga) et les cotes NHL ;
+- l'API publique d'ESPN pour le foot (Ligue 1, Premier League, LaLiga, Serie A, Bundesliga, Ligue des champions), les effectifs et stats des joueurs, et les cotes NHL ;
 - l'API officielle de la NHL pour le reste.
 
 Le calcul et l'hébergement passent par GitHub, gratuitement.
@@ -46,7 +46,8 @@ Le calcul et l'hébergement passent par GitHub, gratuitement.
 - **Les cotes viennent d'un seul bookmaker** (celui affiché par ESPN), donc elles sont un peu moins précises qu'une moyenne de plusieurs.
 - **Les blessés ne sont pas vérifiés automatiquement.**
   - NHL : seuls les joueurs alignés au match précédent sont retenus.
-  - Foot : les blessés ne sont pas filtrés, vérifie les compositions avant un match.
+  - Foot : les blessés ne sont pas filtrés (ESPN ne les publie pas), vérifie les compositions avant un match.
+- **En Ligue des champions**, les stats des joueurs viennent du championnat national du club. Pour les clubs dont ESPN ne suit pas le championnat (Azerbaïdjan, Tchéquie…), seuls les matchs européens comptent : le site le signale et les chiffres sont très incertains.
 - **Les gardiens NHL sont une projection** : le gardien le plus utilisé, ou son remplaçant si l'équipe a joué la veille. Ils ne sont pas confirmés.
 - **Le Bilan n'a de sens qu'après 200 à 300 matchs.**
 - **GitHub met en pause les automatisations planifiées** d'un dépôt resté 60 jours sans activité. Les mises à jour quotidiennes comptent normalement comme de l'activité. Si ça s'arrête, relance-le depuis l'onglet Actions.
