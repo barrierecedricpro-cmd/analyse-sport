@@ -344,8 +344,8 @@
   "home": "Columbus Blue Jackets",
   "away": "Florida Panthers",
   "p": [
-   0.5325,
-   0.4675
+   0.5427,
+   0.4573
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -372,8 +372,8 @@
   "home": "Carolina Hurricanes",
   "away": "Washington Capitals",
   "p": [
-   0.5934,
-   0.4066
+   0.583,
+   0.417
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -414,8 +414,8 @@
   "home": "Ottawa Senators",
   "away": "St. Louis Blues",
   "p": [
-   0.5217,
-   0.4783
+   0.5108,
+   0.4892
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -442,8 +442,8 @@
   "home": "Chicago Blackhawks",
   "away": "Pittsburgh Penguins",
   "p": [
-   0.4365,
-   0.5635
+   0.4066,
+   0.5934
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -484,8 +484,8 @@
   "home": "Nashville Predators",
   "away": "Vegas Golden Knights",
   "p": [
-   0.4573,
-   0.5427
+   0.4675,
+   0.5325
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -498,8 +498,8 @@
   "home": "Utah Mammoth",
   "away": "Toronto Maple Leafs",
   "p": [
-   0.583,
-   0.417
+   0.5934,
+   0.4066
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -512,8 +512,8 @@
   "home": "Anaheim Ducks",
   "away": "Calgary Flames",
   "p": [
-   0.6447,
-   0.3553
+   0.6092,
+   0.3908
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -526,8 +526,8 @@
   "home": "Los Angeles Kings",
   "away": "Edmonton Oilers",
   "p": [
-   0.4675,
-   0.5325
+   0.4573,
+   0.5427
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
@@ -540,8 +540,8 @@
   "home": "San Jose Sharks",
   "away": "Boston Bruins",
   "p": [
-   0.5,
-   0.5
+   0.4783,
+   0.5217
   ],
   "source": "Cotes DraftKings (vainqueur final)",
   "result": null,

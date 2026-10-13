@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T10:19+02:00",
+ "generated": "2026-10-13T18:44+02:00",
  "date": "2026-10-13",
  "foot": [],
  "nhl": [
@@ -246,24 +246,24 @@
    "away": "Florida Panthers",
    "rec_h": "2-2-0 · 5e Metropolitan · 1 défaite de suite",
    "rec_a": "2-2-2 · 6e Atlantic · 2 défaites de suite",
-   "winH": 53,
-   "winA": 47,
-   "pH": 42,
+   "winH": 54,
+   "winA": 46,
+   "pH": 43,
    "pD": 22,
-   "pA": 36,
+   "pA": 35,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.25,
-   "xgA": 3.05,
-   "total": 6.3,
+   "xgH": 2.77,
+   "xgA": 2.53,
+   "total": 5.3,
    "scores": [
     "3-2",
     "2-3",
-    "4-3"
+    "2-1"
    ],
    "scorep": [
+    6,
     5,
-    5,
-    4
+    5
    ],
    "goalie_h": {
     "name": "Jet Greaves",
@@ -285,9 +285,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 32,
-     "p_point": 55,
-     "p_assist": 34
+     "p_goal": 27,
+     "p_point": 49,
+     "p_assist": 29
     },
     {
      "name": "Matthew Tkachuk",
@@ -296,31 +296,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 28,
-     "p_point": 57,
-     "p_assist": 39
-    },
-    {
-     "name": "Carter Verhaeghe",
-     "pos": "Centre",
-     "cur": "1 but, 1 passe en 6",
-     "new": false,
-     "side": "a",
-     "team": "Florida Panthers",
-     "p_goal": 25,
-     "p_point": 48,
-     "p_assist": 30
-    },
-    {
-     "name": "Sam Bennett",
-     "pos": "Centre",
-     "cur": "0 but, 3 passes en 6",
-     "new": false,
-     "side": "a",
-     "team": "Florida Panthers",
-     "p_goal": 25,
+     "p_goal": 24,
      "p_point": 50,
-     "p_assist": 33
+     "p_assist": 34
     },
     {
      "name": "Adam Fantilli",
@@ -329,9 +307,31 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 24,
-     "p_point": 50,
-     "p_assist": 33
+     "p_goal": 21,
+     "p_point": 45,
+     "p_assist": 29
+    },
+    {
+     "name": "Carter Verhaeghe",
+     "pos": "Centre",
+     "cur": "1 but, 1 passe en 6",
+     "new": false,
+     "side": "a",
+     "team": "Florida Panthers",
+     "p_goal": 21,
+     "p_point": 42,
+     "p_assist": 25
+    },
+    {
+     "name": "Sam Bennett",
+     "pos": "Centre",
+     "cur": "0 but, 3 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Florida Panthers",
+     "p_goal": 21,
+     "p_point": 44,
+     "p_assist": 28
     },
     {
      "name": "Zach Werenski",
@@ -340,9 +340,9 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 23,
-     "p_point": 63,
-     "p_assist": 52
+     "p_goal": 20,
+     "p_point": 57,
+     "p_assist": 46
     },
     {
      "name": "Mathieu Olivier",
@@ -351,9 +351,9 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 21,
-     "p_point": 36,
-     "p_assist": 17
+     "p_goal": 19,
+     "p_point": 32,
+     "p_assist": 15
     },
     {
      "name": "Dmitri Voronkov",
@@ -362,9 +362,9 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 21,
-     "p_point": 39,
-     "p_assist": 22
+     "p_goal": 18,
+     "p_point": 34,
+     "p_assist": 19
     }
    ],
    "deci": [
@@ -375,9 +375,9 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 23,
-     "p_point": 63,
-     "p_assist": 52
+     "p_goal": 20,
+     "p_point": 57,
+     "p_assist": 46
     },
     {
      "name": "Matthew Tkachuk",
@@ -386,9 +386,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 28,
-     "p_point": 57,
-     "p_assist": 39
+     "p_goal": 24,
+     "p_point": 50,
+     "p_assist": 34
     },
     {
      "name": "Sam Reinhart",
@@ -397,9 +397,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 32,
-     "p_point": 55,
-     "p_assist": 34
+     "p_goal": 27,
+     "p_point": 49,
+     "p_assist": 29
     },
     {
      "name": "Charlie Coyle",
@@ -408,9 +408,9 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 20,
-     "p_point": 50,
-     "p_assist": 37
+     "p_goal": 17,
+     "p_point": 45,
+     "p_assist": 33
     },
     {
      "name": "Adam Fantilli",
@@ -419,9 +419,9 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 24,
-     "p_point": 50,
-     "p_assist": 33
+     "p_goal": 21,
+     "p_point": 45,
+     "p_assist": 29
     },
     {
      "name": "Sam Bennett",
@@ -430,9 +430,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 25,
-     "p_point": 50,
-     "p_assist": 33
+     "p_goal": 21,
+     "p_point": 44,
+     "p_assist": 28
     },
     {
      "name": "Carter Verhaeghe",
@@ -441,9 +441,9 @@
      "new": false,
      "side": "a",
      "team": "Florida Panthers",
-     "p_goal": 25,
-     "p_point": 48,
-     "p_assist": 30
+     "p_goal": 21,
+     "p_point": 42,
+     "p_assist": 25
     },
     {
      "name": "Dmitri Voronkov",
@@ -452,9 +452,9 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 21,
-     "p_point": 39,
-     "p_assist": 22
+     "p_goal": 18,
+     "p_point": 34,
+     "p_assist": 19
     }
    ],
    "ctx": [
@@ -708,14 +708,14 @@
    "away": "Washington Capitals",
    "rec_h": "5-1-1 · 1e Metropolitan · 5 victoires de suite",
    "rec_a": "3-2-0 · 4e Metropolitan · 1 défaite de suite",
-   "winH": 59,
-   "winA": 41,
-   "pH": 47,
+   "winH": 58,
+   "winA": 42,
+   "pH": 46,
    "pD": 22,
-   "pA": 31,
+   "pA": 32,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.44,
-   "xgA": 2.86,
+   "xgH": 3.41,
+   "xgA": 2.89,
    "total": 6.3,
    "scores": [
     "3-2",
@@ -747,9 +747,9 @@
      "new": false,
      "side": "h",
      "team": "Carolina Hurricanes",
-     "p_goal": 29,
-     "p_point": 54,
-     "p_assist": 35
+     "p_goal": 28,
+     "p_point": 53,
+     "p_assist": 34
     },
     {
      "name": "Sebastian Aho",
@@ -770,8 +770,8 @@
      "side": "a",
      "team": "Washington Capitals",
      "p_goal": 27,
-     "p_point": 49,
-     "p_assist": 30
+     "p_point": 50,
+     "p_assist": 31
     },
     {
      "name": "Alex Ovechkin",
@@ -780,7 +780,7 @@
      "new": false,
      "side": "a",
      "team": "Washington Capitals",
-     "p_goal": 25,
+     "p_goal": 26,
      "p_point": 46,
      "p_assist": 27
     },
@@ -826,7 +826,7 @@
      "team": "Washington Capitals",
      "p_goal": 21,
      "p_point": 42,
-     "p_assist": 25
+     "p_assist": 26
     }
    ],
    "deci": [
@@ -848,9 +848,9 @@
      "new": false,
      "side": "h",
      "team": "Carolina Hurricanes",
-     "p_goal": 29,
-     "p_point": 54,
-     "p_assist": 35
+     "p_goal": 28,
+     "p_point": 53,
+     "p_assist": 34
     },
     {
      "name": "Shayne Gostisbehere",
@@ -860,7 +860,7 @@
      "side": "h",
      "team": "Carolina Hurricanes",
      "p_goal": 18,
-     "p_point": 52,
+     "p_point": 51,
      "p_assist": 40
     },
     {
@@ -882,8 +882,8 @@
      "side": "a",
      "team": "Washington Capitals",
      "p_goal": 27,
-     "p_point": 49,
-     "p_assist": 30
+     "p_point": 50,
+     "p_assist": 31
     },
     {
      "name": "Alex Ovechkin",
@@ -892,9 +892,20 @@
      "new": false,
      "side": "a",
      "team": "Washington Capitals",
-     "p_goal": 25,
+     "p_goal": 26,
      "p_point": 46,
      "p_assist": 27
+    },
+    {
+     "name": "Dylan Strome",
+     "pos": "Centre",
+     "cur": "0 but, 4 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Washington Capitals",
+     "p_goal": 17,
+     "p_point": 45,
+     "p_assist": 33
     },
     {
      "name": "Jakob Chychrun",
@@ -906,17 +917,6 @@
      "p_goal": 22,
      "p_point": 45,
      "p_assist": 29
-    },
-    {
-     "name": "Dylan Strome",
-     "pos": "Centre",
-     "cur": "0 but, 4 passes en 5",
-     "new": false,
-     "side": "a",
-     "team": "Washington Capitals",
-     "p_goal": 16,
-     "p_point": 44,
-     "p_assist": 33
     }
    ],
    "ctx": [
@@ -925,7 +925,7 @@
     "Aucune des deux équipes n'a joué hier.",
     "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
    ],
-   "reading": "Carolina Hurricanes est favori (59 % en comptant la prolongation)."
+   "reading": "Carolina Hurricanes est favori (58 % en comptant la prolongation)."
   },
   {
    "id": "nhl-2026020094",
@@ -1176,18 +1176,18 @@
    "pD": 22,
    "pA": 47,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 2.39,
-   "xgA": 2.91,
-   "total": 5.3,
+   "xgH": 2.86,
+   "xgA": 3.44,
+   "total": 6.3,
    "scores": [
     "2-3",
-    "1-2",
-    "1-3"
+    "2-4",
+    "3-2"
    ],
    "scorep": [
-    6,
     5,
-    5
+    4,
+    4
    ],
    "goalie_h": {
     "name": "Dylan Garand",
@@ -1209,9 +1209,9 @@
      "new": false,
      "side": "a",
      "team": "Tampa Bay Lightning",
-     "p_goal": 32,
-     "p_point": 70,
-     "p_assist": 55
+     "p_goal": 37,
+     "p_point": 76,
+     "p_assist": 61
     },
     {
      "name": "Brandon Hagel",
@@ -1220,9 +1220,9 @@
      "new": false,
      "side": "a",
      "team": "Tampa Bay Lightning",
-     "p_goal": 31,
-     "p_point": 54,
-     "p_assist": 33
+     "p_goal": 35,
+     "p_point": 60,
+     "p_assist": 38
     },
     {
      "name": "Jake Guentzel",
@@ -1231,9 +1231,9 @@
      "new": false,
      "side": "a",
      "team": "Tampa Bay Lightning",
-     "p_goal": 29,
-     "p_point": 55,
-     "p_assist": 36
+     "p_goal": 33,
+     "p_point": 61,
+     "p_assist": 41
     },
     {
      "name": "Mika Zibanejad",
@@ -1242,9 +1242,9 @@
      "new": false,
      "side": "h",
      "team": "New York Rangers",
-     "p_goal": 25,
-     "p_point": 50,
-     "p_assist": 34
+     "p_goal": 29,
+     "p_point": 57,
+     "p_assist": 39
     },
     {
      "name": "Alexis Lafrenière",
@@ -1253,9 +1253,9 @@
      "new": false,
      "side": "h",
      "team": "New York Rangers",
-     "p_goal": 21,
-     "p_point": 42,
-     "p_assist": 26
+     "p_goal": 24,
+     "p_point": 48,
+     "p_assist": 30
     },
     {
      "name": "Anthony Cirelli",
@@ -1264,9 +1264,9 @@
      "new": false,
      "side": "a",
      "team": "Tampa Bay Lightning",
-     "p_goal": 20,
-     "p_point": 41,
-     "p_assist": 26
+     "p_goal": 24,
+     "p_point": 47,
+     "p_assist": 30
     },
     {
      "name": "Will Cuylle",
@@ -1275,9 +1275,9 @@
      "new": false,
      "side": "h",
      "team": "New York Rangers",
-     "p_goal": 17,
-     "p_point": 31,
-     "p_assist": 17
+     "p_goal": 20,
+     "p_point": 36,
+     "p_assist": 20
     },
     {
      "name": "Gabe Perreault",
@@ -1286,9 +1286,9 @@
      "new": false,
      "side": "h",
      "team": "New York Rangers",
-     "p_goal": 17,
-     "p_point": 35,
-     "p_assist": 21
+     "p_goal": 20,
+     "p_point": 41,
+     "p_assist": 25
     }
    ],
    "deci": [
@@ -1299,9 +1299,9 @@
      "new": false,
      "side": "a",
      "team": "Tampa Bay Lightning",
-     "p_goal": 32,
-     "p_point": 70,
-     "p_assist": 55
+     "p_goal": 37,
+     "p_point": 76,
+     "p_assist": 61
     },
     {
      "name": "Jake Guentzel",
@@ -1310,9 +1310,9 @@
      "new": false,
      "side": "a",
      "team": "Tampa Bay Lightning",
-     "p_goal": 29,
-     "p_point": 55,
-     "p_assist": 36
+     "p_goal": 33,
+     "p_point": 61,
+     "p_assist": 41
     },
     {
      "name": "Brandon Hagel",
@@ -1321,9 +1321,9 @@
      "new": false,
      "side": "a",
      "team": "Tampa Bay Lightning",
-     "p_goal": 31,
-     "p_point": 54,
-     "p_assist": 33
+     "p_goal": 35,
+     "p_point": 60,
+     "p_assist": 38
     },
     {
      "name": "Mika Zibanejad",
@@ -1332,9 +1332,9 @@
      "new": false,
      "side": "h",
      "team": "New York Rangers",
-     "p_goal": 25,
-     "p_point": 50,
-     "p_assist": 34
+     "p_goal": 29,
+     "p_point": 57,
+     "p_assist": 39
     },
     {
      "name": "Adam Fox",
@@ -1343,20 +1343,9 @@
      "new": false,
      "side": "h",
      "team": "New York Rangers",
-     "p_goal": 10,
-     "p_point": 48,
-     "p_assist": 42
-    },
-    {
-     "name": "Brayden Point",
-     "pos": "Centre",
-     "cur": "1 but, 2 passes en 5",
-     "new": false,
-     "side": "a",
-     "team": "Tampa Bay Lightning",
-     "p_goal": 18,
-     "p_point": 44,
-     "p_assist": 30
+     "p_goal": 12,
+     "p_point": 55,
+     "p_assist": 48
     },
     {
      "name": "J.T. Miller",
@@ -1365,9 +1354,20 @@
      "new": false,
      "side": "h",
      "team": "New York Rangers",
-     "p_goal": 16,
-     "p_point": 43,
-     "p_assist": 32
+     "p_goal": 19,
+     "p_point": 49,
+     "p_assist": 37
+    },
+    {
+     "name": "Brayden Point",
+     "pos": "Centre",
+     "cur": "1 but, 2 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Tampa Bay Lightning",
+     "p_goal": 21,
+     "p_point": 49,
+     "p_assist": 35
     },
     {
      "name": "Alexis Lafrenière",
@@ -1376,9 +1376,9 @@
      "new": false,
      "side": "h",
      "team": "New York Rangers",
-     "p_goal": 21,
-     "p_point": 42,
-     "p_assist": 26
+     "p_goal": 24,
+     "p_point": 48,
+     "p_assist": 30
     }
    ],
    "ctx": [
@@ -1401,14 +1401,14 @@
    "away": "St. Louis Blues",
    "rec_h": "5-1-0 · 1e Atlantic · 3 victoires de suite",
    "rec_a": "2-2-1 · 7e Central · 1 victoire de suite",
-   "winH": 52,
-   "winA": 48,
-   "pH": 41,
+   "winH": 51,
+   "winA": 49,
+   "pH": 40,
    "pD": 22,
-   "pA": 37,
+   "pA": 38,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 2.71,
-   "xgA": 2.59,
+   "xgH": 2.68,
+   "xgA": 2.62,
    "total": 5.3,
    "scores": [
     "3-2",
@@ -1416,7 +1416,7 @@
     "2-1"
    ],
    "scorep": [
-    6,
+    5,
     5,
     5
    ],
@@ -1462,7 +1462,7 @@
      "new": false,
      "side": "a",
      "team": "St. Louis Blues",
-     "p_goal": 24,
+     "p_goal": 25,
      "p_point": 53,
      "p_assist": 37
     },
@@ -1484,8 +1484,8 @@
      "new": false,
      "side": "a",
      "team": "St. Louis Blues",
-     "p_goal": 22,
-     "p_point": 45,
+     "p_goal": 23,
+     "p_point": 46,
      "p_assist": 29
     },
     {
@@ -1508,7 +1508,7 @@
      "team": "Ottawa Senators",
      "p_goal": 19,
      "p_point": 38,
-     "p_assist": 23
+     "p_assist": 22
     },
     {
      "name": "Pavel Buchnevich",
@@ -1541,7 +1541,7 @@
      "new": false,
      "side": "a",
      "team": "St. Louis Blues",
-     "p_goal": 24,
+     "p_goal": 25,
      "p_point": 53,
      "p_assist": 37
     },
@@ -1574,8 +1574,8 @@
      "new": false,
      "side": "a",
      "team": "St. Louis Blues",
-     "p_goal": 22,
-     "p_point": 45,
+     "p_goal": 23,
+     "p_point": 46,
      "p_assist": 29
     },
     {
@@ -1609,7 +1609,7 @@
      "team": "Ottawa Senators",
      "p_goal": 19,
      "p_point": 38,
-     "p_assist": 23
+     "p_assist": 22
     }
    ],
    "ctx": [
@@ -1863,19 +1863,19 @@
    "away": "Pittsburgh Penguins",
    "rec_h": "1-5-0 · 8e Central · 2 défaites de suite",
    "rec_a": "3-2-1 · 3e Metropolitan · 1 victoire de suite",
-   "winH": 44,
-   "winA": 56,
-   "pH": 33,
+   "winH": 41,
+   "winA": 59,
+   "pH": 31,
    "pD": 22,
-   "pA": 45,
+   "pA": 47,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 2.95,
-   "xgA": 3.35,
+   "xgH": 2.86,
+   "xgA": 3.44,
    "total": 6.3,
    "scores": [
     "2-3",
-    "3-2",
-    "2-4"
+    "2-4",
+    "3-2"
    ],
    "scorep": [
     5,
@@ -1902,9 +1902,9 @@
      "new": false,
      "side": "h",
      "team": "Chicago Blackhawks",
-     "p_goal": 32,
-     "p_point": 53,
-     "p_assist": 29
+     "p_goal": 31,
+     "p_point": 51,
+     "p_assist": 28
     },
     {
      "name": "Bryan Rust",
@@ -1913,9 +1913,9 @@
      "new": false,
      "side": "a",
      "team": "Pittsburgh Penguins",
-     "p_goal": 28,
-     "p_point": 52,
-     "p_assist": 33
+     "p_goal": 29,
+     "p_point": 53,
+     "p_assist": 34
     },
     {
      "name": "Sidney Crosby",
@@ -1925,19 +1925,8 @@
      "side": "a",
      "team": "Pittsburgh Penguins",
      "p_goal": 27,
-     "p_point": 57,
-     "p_assist": 40
-    },
-    {
-     "name": "Rickard Rakell",
-     "pos": "Ailier",
-     "cur": "0 but, 2 passes en 6",
-     "new": false,
-     "side": "a",
-     "team": "Pittsburgh Penguins",
-     "p_goal": 25,
-     "p_point": 47,
-     "p_assist": 28
+     "p_point": 58,
+     "p_assist": 41
     },
     {
      "name": "Egor Chinakhov",
@@ -1946,9 +1935,20 @@
      "new": false,
      "side": "a",
      "team": "Pittsburgh Penguins",
+     "p_goal": 26,
+     "p_point": 47,
+     "p_assist": 28
+    },
+    {
+     "name": "Evgeni Malkin",
+     "pos": "Centre",
+     "cur": "3 buts, 2 passes en 6",
+     "new": false,
+     "side": "a",
+     "team": "Pittsburgh Penguins",
      "p_goal": 25,
-     "p_point": 46,
-     "p_assist": 27
+     "p_point": 58,
+     "p_assist": 43
     },
     {
      "name": "Nick Lardis",
@@ -1957,20 +1957,9 @@
      "new": false,
      "side": "h",
      "team": "Chicago Blackhawks",
-     "p_goal": 19,
-     "p_point": 34,
-     "p_assist": 17
-    },
-    {
-     "name": "Ryan Donato",
-     "pos": "Centre",
-     "cur": "1 but, 1 passe en 6",
-     "new": false,
-     "side": "h",
-     "team": "Chicago Blackhawks",
      "p_goal": 18,
-     "p_point": 34,
-     "p_assist": 19
+     "p_point": 33,
+     "p_assist": 17
     },
     {
      "name": "Teuvo Teravainen",
@@ -1980,8 +1969,19 @@
      "side": "h",
      "team": "Chicago Blackhawks",
      "p_goal": 17,
-     "p_point": 41,
+     "p_point": 40,
      "p_assist": 27
+    },
+    {
+     "name": "Ryan Donato",
+     "pos": "Centre",
+     "cur": "1 but, 1 passe en 6",
+     "new": false,
+     "side": "h",
+     "team": "Chicago Blackhawks",
+     "p_goal": 17,
+     "p_point": 34,
+     "p_assist": 19
     }
    ],
    "deci": [
@@ -1992,9 +1992,9 @@
      "new": false,
      "side": "a",
      "team": "Pittsburgh Penguins",
-     "p_goal": 24,
-     "p_point": 57,
-     "p_assist": 42
+     "p_goal": 25,
+     "p_point": 58,
+     "p_assist": 43
     },
     {
      "name": "Sidney Crosby",
@@ -2004,19 +2004,8 @@
      "side": "a",
      "team": "Pittsburgh Penguins",
      "p_goal": 27,
-     "p_point": 57,
-     "p_assist": 40
-    },
-    {
-     "name": "Tyler Bertuzzi",
-     "pos": "Ailier",
-     "cur": "1 but, 1 passe en 6",
-     "new": false,
-     "side": "h",
-     "team": "Chicago Blackhawks",
-     "p_goal": 32,
-     "p_point": 53,
-     "p_assist": 29
+     "p_point": 58,
+     "p_assist": 41
     },
     {
      "name": "Erik Karlsson",
@@ -2026,8 +2015,8 @@
      "side": "a",
      "team": "Pittsburgh Penguins",
      "p_goal": 15,
-     "p_point": 52,
-     "p_assist": 43
+     "p_point": 53,
+     "p_assist": 44
     },
     {
      "name": "Bryan Rust",
@@ -2036,9 +2025,20 @@
      "new": false,
      "side": "a",
      "team": "Pittsburgh Penguins",
-     "p_goal": 28,
-     "p_point": 52,
-     "p_assist": 33
+     "p_goal": 29,
+     "p_point": 53,
+     "p_assist": 34
+    },
+    {
+     "name": "Tyler Bertuzzi",
+     "pos": "Ailier",
+     "cur": "1 but, 1 passe en 6",
+     "new": false,
+     "side": "h",
+     "team": "Chicago Blackhawks",
+     "p_goal": 31,
+     "p_point": 51,
+     "p_assist": 28
     },
     {
      "name": "Anton Frondell",
@@ -2047,9 +2047,9 @@
      "new": false,
      "side": "h",
      "team": "Chicago Blackhawks",
-     "p_goal": 17,
-     "p_point": 46,
-     "p_assist": 33
+     "p_goal": 16,
+     "p_point": 45,
+     "p_assist": 32
     },
     {
      "name": "Teuvo Teravainen",
@@ -2059,19 +2059,19 @@
      "side": "h",
      "team": "Chicago Blackhawks",
      "p_goal": 17,
-     "p_point": 41,
+     "p_point": 40,
      "p_assist": 27
     },
     {
-     "name": "Oliver Moore",
+     "name": "Ryan Donato",
      "pos": "Centre",
-     "cur": "2 buts, 0 passe en 6",
+     "cur": "1 but, 1 passe en 6",
      "new": false,
      "side": "h",
      "team": "Chicago Blackhawks",
-     "p_goal": 13,
-     "p_point": 35,
-     "p_assist": 24
+     "p_goal": 17,
+     "p_point": 34,
+     "p_assist": 19
     }
    ],
    "ctx": [
@@ -2080,7 +2080,7 @@
     "Aucune des deux équipes n'a joué hier.",
     "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
    ],
-   "reading": "Pittsburgh Penguins est favori (56 % en comptant la prolongation)."
+   "reading": "Pittsburgh Penguins est favori (59 % en comptant la prolongation)."
   },
   {
    "id": "nhl-2026020099",
@@ -2331,18 +2331,18 @@
    "pD": 22,
    "pA": 40,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.12,
-   "xgA": 3.18,
-   "total": 6.3,
+   "xgH": 2.62,
+   "xgA": 2.68,
+   "total": 5.3,
    "scores": [
     "2-3",
     "3-2",
-    "3-4"
+    "1-2"
    ],
    "scorep": [
     5,
     5,
-    4
+    5
    ],
    "goalie_h": {
     "name": "Jake Oettinger",
@@ -2364,9 +2364,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 39,
-     "p_point": 69,
-     "p_assist": 49
+     "p_goal": 34,
+     "p_point": 63,
+     "p_assist": 43
     },
     {
      "name": "Jason Robertson",
@@ -2375,9 +2375,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 35,
-     "p_point": 62,
-     "p_assist": 40
+     "p_goal": 31,
+     "p_point": 55,
+     "p_assist": 35
     },
     {
      "name": "Wyatt Johnston",
@@ -2386,9 +2386,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 34,
-     "p_point": 58,
-     "p_assist": 35
+     "p_goal": 30,
+     "p_point": 52,
+     "p_assist": 31
     },
     {
      "name": "Martin Necas",
@@ -2397,9 +2397,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 29,
-     "p_point": 61,
-     "p_assist": 44
+     "p_goal": 25,
+     "p_point": 54,
+     "p_assist": 38
     },
     {
      "name": "Brock Nelson",
@@ -2408,9 +2408,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 26,
-     "p_point": 46,
-     "p_assist": 27
+     "p_goal": 22,
+     "p_point": 41,
+     "p_assist": 23
     },
     {
      "name": "Mikko Rantanen",
@@ -2419,9 +2419,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 24,
-     "p_point": 62,
-     "p_assist": 49
+     "p_goal": 21,
+     "p_point": 56,
+     "p_assist": 43
     },
     {
      "name": "Artturi Lehkonen",
@@ -2430,9 +2430,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 21,
-     "p_point": 41,
-     "p_assist": 25
+     "p_goal": 18,
+     "p_point": 36,
+     "p_assist": 22
     },
     {
      "name": "Roope Hintz",
@@ -2441,9 +2441,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 20,
-     "p_point": 48,
-     "p_assist": 35
+     "p_goal": 17,
+     "p_point": 43,
+     "p_assist": 30
     }
    ],
    "deci": [
@@ -2454,9 +2454,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 39,
-     "p_point": 69,
-     "p_assist": 49
+     "p_goal": 34,
+     "p_point": 63,
+     "p_assist": 43
     },
     {
      "name": "Mikko Rantanen",
@@ -2465,9 +2465,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 24,
-     "p_point": 62,
-     "p_assist": 49
+     "p_goal": 21,
+     "p_point": 56,
+     "p_assist": 43
     },
     {
      "name": "Jason Robertson",
@@ -2476,9 +2476,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 35,
-     "p_point": 62,
-     "p_assist": 40
+     "p_goal": 31,
+     "p_point": 55,
+     "p_assist": 35
     },
     {
      "name": "Martin Necas",
@@ -2487,9 +2487,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 29,
-     "p_point": 61,
-     "p_assist": 44
+     "p_goal": 25,
+     "p_point": 54,
+     "p_assist": 38
     },
     {
      "name": "Wyatt Johnston",
@@ -2498,9 +2498,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 34,
-     "p_point": 58,
-     "p_assist": 35
+     "p_goal": 30,
+     "p_point": 52,
+     "p_assist": 31
     },
     {
      "name": "Cale Makar",
@@ -2509,9 +2509,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 19,
-     "p_point": 55,
-     "p_assist": 44
+     "p_goal": 16,
+     "p_point": 49,
+     "p_assist": 38
     },
     {
      "name": "Miro Heiskanen",
@@ -2520,9 +2520,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 11,
-     "p_point": 50,
-     "p_assist": 42
+     "p_goal": 10,
+     "p_point": 44,
+     "p_assist": 37
     },
     {
      "name": "Brock Nelson",
@@ -2531,9 +2531,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 26,
-     "p_point": 46,
-     "p_assist": 27
+     "p_goal": 22,
+     "p_point": 41,
+     "p_assist": 23
     }
    ],
    "ctx": [
@@ -2556,14 +2556,14 @@
    "away": "Vegas Golden Knights",
    "rec_h": "2-1-2 · 5e Central · 1 défaite en prolongation de suite",
    "rec_a": "5-2-0 · 1e Pacific · 1 défaite de suite",
-   "winH": 46,
-   "winA": 54,
-   "pH": 35,
+   "winH": 47,
+   "winA": 53,
+   "pH": 36,
    "pD": 22,
-   "pA": 43,
+   "pA": 42,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.02,
-   "xgA": 3.28,
+   "xgH": 3.05,
+   "xgA": 3.25,
    "total": 6.3,
    "scores": [
     "2-3",
@@ -2595,9 +2595,9 @@
      "new": false,
      "side": "h",
      "team": "Nashville Predators",
-     "p_goal": 36,
+     "p_goal": 37,
      "p_point": 54,
-     "p_assist": 26
+     "p_assist": 27
     },
     {
      "name": "Filip Forsberg",
@@ -2607,7 +2607,7 @@
      "side": "h",
      "team": "Nashville Predators",
      "p_goal": 33,
-     "p_point": 56,
+     "p_point": 57,
      "p_assist": 34
     },
     {
@@ -2618,7 +2618,7 @@
      "side": "a",
      "team": "Vegas Golden Knights",
      "p_goal": 32,
-     "p_point": 64,
+     "p_point": 63,
      "p_assist": 46
     },
     {
@@ -2641,7 +2641,7 @@
      "team": "Nashville Predators",
      "p_goal": 24,
      "p_point": 56,
-     "p_assist": 41
+     "p_assist": 42
     },
     {
      "name": "Tomas Hertl",
@@ -2650,9 +2650,9 @@
      "new": false,
      "side": "a",
      "team": "Vegas Golden Knights",
-     "p_goal": 24,
+     "p_goal": 23,
      "p_point": 48,
-     "p_assist": 32
+     "p_assist": 31
     },
     {
      "name": "Mitch Marner",
@@ -2697,7 +2697,7 @@
      "side": "a",
      "team": "Vegas Golden Knights",
      "p_goal": 32,
-     "p_point": 64,
+     "p_point": 63,
      "p_assist": 46
     },
     {
@@ -2712,6 +2712,17 @@
      "p_assist": 45
     },
     {
+     "name": "Filip Forsberg",
+     "pos": "Ailier",
+     "cur": "0 but, 4 passes en 5",
+     "new": false,
+     "side": "h",
+     "team": "Nashville Predators",
+     "p_goal": 33,
+     "p_point": 57,
+     "p_assist": 34
+    },
+    {
      "name": "Ryan O'Reilly",
      "pos": "Centre",
      "cur": "1 but, 2 passes en 5",
@@ -2720,18 +2731,7 @@
      "team": "Nashville Predators",
      "p_goal": 24,
      "p_point": 56,
-     "p_assist": 41
-    },
-    {
-     "name": "Filip Forsberg",
-     "pos": "Ailier",
-     "cur": "0 but, 4 passes en 5",
-     "new": false,
-     "side": "h",
-     "team": "Nashville Predators",
-     "p_goal": 33,
-     "p_point": 56,
-     "p_assist": 34
+     "p_assist": 42
     },
     {
      "name": "Steven Stamkos",
@@ -2740,9 +2740,9 @@
      "new": false,
      "side": "h",
      "team": "Nashville Predators",
-     "p_goal": 36,
+     "p_goal": 37,
      "p_point": 54,
-     "p_assist": 26
+     "p_assist": 27
     },
     {
      "name": "Roman Josi",
@@ -2756,15 +2756,15 @@
      "p_assist": 43
     },
     {
-     "name": "Ivan Barbashev",
-     "pos": "Ailier",
-     "cur": "0 but, 4 passes en 7",
+     "name": "Tomas Hertl",
+     "pos": "Centre",
+     "cur": "3 buts, 3 passes en 7",
      "new": false,
      "side": "a",
      "team": "Vegas Golden Knights",
-     "p_goal": 21,
-     "p_point": 49,
-     "p_assist": 35
+     "p_goal": 23,
+     "p_point": 48,
+     "p_assist": 31
     }
    ],
    "ctx": [
@@ -2787,14 +2787,14 @@
    "away": "Toronto Maple Leafs",
    "rec_h": "4-2-0 · 2e Central · 1 victoire de suite",
    "rec_a": "3-2-1 · 4e Atlantic · 1 victoire de suite",
-   "winH": 58,
-   "winA": 42,
-   "pH": 46,
+   "winH": 59,
+   "winA": 41,
+   "pH": 47,
    "pD": 22,
-   "pA": 32,
+   "pA": 31,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.41,
-   "xgA": 2.89,
+   "xgH": 3.44,
+   "xgA": 2.86,
    "total": 6.3,
    "scores": [
     "3-2",
@@ -2837,9 +2837,9 @@
      "new": false,
      "side": "h",
      "team": "Utah Mammoth",
-     "p_goal": 32,
-     "p_point": 57,
-     "p_assist": 36
+     "p_goal": 33,
+     "p_point": 58,
+     "p_assist": 37
     },
     {
      "name": "William Nylander",
@@ -2848,7 +2848,7 @@
      "new": false,
      "side": "a",
      "team": "Toronto Maple Leafs",
-     "p_goal": 32,
+     "p_goal": 31,
      "p_point": 63,
      "p_assist": 45
     },
@@ -2872,7 +2872,7 @@
      "team": "Utah Mammoth",
      "p_goal": 29,
      "p_point": 51,
-     "p_assist": 30
+     "p_assist": 31
     },
     {
      "name": "Clayton Keller",
@@ -2883,7 +2883,7 @@
      "team": "Utah Mammoth",
      "p_goal": 24,
      "p_point": 63,
-     "p_assist": 50
+     "p_assist": 51
     },
     {
      "name": "Easton Cowan",
@@ -2894,7 +2894,7 @@
      "team": "Toronto Maple Leafs",
      "p_goal": 15,
      "p_point": 34,
-     "p_assist": 22
+     "p_assist": 21
     },
     {
      "name": "Jack Roslovic",
@@ -2904,7 +2904,7 @@
      "side": "a",
      "team": "Toronto Maple Leafs",
      "p_goal": 13,
-     "p_point": 33,
+     "p_point": 32,
      "p_assist": 19
     }
    ],
@@ -2918,7 +2918,7 @@
      "team": "Utah Mammoth",
      "p_goal": 24,
      "p_point": 63,
-     "p_assist": 50
+     "p_assist": 51
     },
     {
      "name": "William Nylander",
@@ -2927,7 +2927,7 @@
      "new": false,
      "side": "a",
      "team": "Toronto Maple Leafs",
-     "p_goal": 32,
+     "p_goal": 31,
      "p_point": 63,
      "p_assist": 45
     },
@@ -2938,9 +2938,9 @@
      "new": false,
      "side": "h",
      "team": "Utah Mammoth",
-     "p_goal": 32,
-     "p_point": 57,
-     "p_assist": 36
+     "p_goal": 33,
+     "p_point": 58,
+     "p_assist": 37
     },
     {
      "name": "Dylan Guenther",
@@ -2973,7 +2973,7 @@
      "team": "Utah Mammoth",
      "p_goal": 12,
      "p_point": 52,
-     "p_assist": 44
+     "p_assist": 45
     },
     {
      "name": "Kirill Marchenko",
@@ -3004,7 +3004,7 @@
     "Aucune des deux équipes n'a joué hier.",
     "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
    ],
-   "reading": "Utah Mammoth est favori (58 % en comptant la prolongation)."
+   "reading": "Utah Mammoth est favori (59 % en comptant la prolongation)."
   },
   {
    "id": "nhl-2026020103",
@@ -3018,14 +3018,14 @@
    "away": "Calgary Flames",
    "rec_h": "4-1-0 · 3e Pacific · 2 victoires de suite",
    "rec_a": "0-5-0 · 8e Pacific · 5 défaites de suite",
-   "winH": 64,
-   "winA": 36,
-   "pH": 52,
+   "winH": 61,
+   "winA": 39,
+   "pH": 49,
    "pD": 22,
-   "pA": 26,
+   "pA": 29,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.61,
-   "xgA": 2.69,
+   "xgH": 3.49,
+   "xgA": 2.81,
    "total": 6.3,
    "scores": [
     "3-2",
@@ -3034,7 +3034,7 @@
    ],
    "scorep": [
     5,
-    5,
+    4,
     4
    ],
    "goalie_h": {
@@ -3057,9 +3057,9 @@
      "new": false,
      "side": "h",
      "team": "Anaheim Ducks",
-     "p_goal": 39,
-     "p_point": 58,
-     "p_assist": 31
+     "p_goal": 38,
+     "p_point": 57,
+     "p_assist": 30
     },
     {
      "name": "Leo Carlsson",
@@ -3068,9 +3068,9 @@
      "new": false,
      "side": "h",
      "team": "Anaheim Ducks",
-     "p_goal": 31,
-     "p_point": 62,
-     "p_assist": 44
+     "p_goal": 30,
+     "p_point": 60,
+     "p_assist": 43
     },
     {
      "name": "Mikael Granlund",
@@ -3080,8 +3080,8 @@
      "side": "h",
      "team": "Anaheim Ducks",
      "p_goal": 26,
-     "p_point": 52,
-     "p_assist": 34
+     "p_point": 51,
+     "p_assist": 33
     },
     {
      "name": "Beckett Sennecke",
@@ -3090,9 +3090,9 @@
      "new": false,
      "side": "h",
      "team": "Anaheim Ducks",
-     "p_goal": 25,
-     "p_point": 53,
-     "p_assist": 37
+     "p_goal": 24,
+     "p_point": 52,
+     "p_assist": 36
     },
     {
      "name": "Morgan Frost",
@@ -3101,9 +3101,9 @@
      "new": false,
      "side": "a",
      "team": "Calgary Flames",
-     "p_goal": 23,
-     "p_point": 41,
-     "p_assist": 22
+     "p_goal": 24,
+     "p_point": 42,
+     "p_assist": 23
     },
     {
      "name": "Joel Farabee",
@@ -3112,9 +3112,9 @@
      "new": false,
      "side": "a",
      "team": "Calgary Flames",
-     "p_goal": 20,
-     "p_point": 39,
-     "p_assist": 22
+     "p_goal": 21,
+     "p_point": 40,
+     "p_assist": 23
     },
     {
      "name": "Matt Coronato",
@@ -3123,9 +3123,9 @@
      "new": false,
      "side": "a",
      "team": "Calgary Flames",
-     "p_goal": 19,
-     "p_point": 43,
-     "p_assist": 29
+     "p_goal": 20,
+     "p_point": 45,
+     "p_assist": 30
     },
     {
      "name": "Mikael Backlund",
@@ -3134,9 +3134,9 @@
      "new": false,
      "side": "a",
      "team": "Calgary Flames",
-     "p_goal": 18,
-     "p_point": 40,
-     "p_assist": 26
+     "p_goal": 19,
+     "p_point": 42,
+     "p_assist": 27
     }
    ],
    "deci": [
@@ -3147,9 +3147,9 @@
      "new": false,
      "side": "h",
      "team": "Anaheim Ducks",
-     "p_goal": 31,
-     "p_point": 62,
-     "p_assist": 44
+     "p_goal": 30,
+     "p_point": 60,
+     "p_assist": 43
     },
     {
      "name": "Cutter Gauthier",
@@ -3158,9 +3158,9 @@
      "new": false,
      "side": "h",
      "team": "Anaheim Ducks",
-     "p_goal": 39,
-     "p_point": 58,
-     "p_assist": 31
+     "p_goal": 38,
+     "p_point": 57,
+     "p_assist": 30
     },
     {
      "name": "Beckett Sennecke",
@@ -3169,9 +3169,9 @@
      "new": false,
      "side": "h",
      "team": "Anaheim Ducks",
-     "p_goal": 25,
-     "p_point": 53,
-     "p_assist": 37
+     "p_goal": 24,
+     "p_point": 52,
+     "p_assist": 36
     },
     {
      "name": "Mikael Granlund",
@@ -3181,8 +3181,8 @@
      "side": "h",
      "team": "Anaheim Ducks",
      "p_goal": 26,
-     "p_point": 52,
-     "p_assist": 34
+     "p_point": 51,
+     "p_assist": 33
     },
     {
      "name": "Matt Coronato",
@@ -3191,20 +3191,9 @@
      "new": false,
      "side": "a",
      "team": "Calgary Flames",
-     "p_goal": 19,
-     "p_point": 43,
-     "p_assist": 29
-    },
-    {
-     "name": "Morgan Frost",
-     "pos": "Centre",
-     "cur": "2 buts, 0 passe en 5",
-     "new": false,
-     "side": "a",
-     "team": "Calgary Flames",
-     "p_goal": 23,
-     "p_point": 41,
-     "p_assist": 22
+     "p_goal": 20,
+     "p_point": 45,
+     "p_assist": 30
     },
     {
      "name": "Mikael Backlund",
@@ -3213,9 +3202,9 @@
      "new": false,
      "side": "a",
      "team": "Calgary Flames",
-     "p_goal": 18,
-     "p_point": 40,
-     "p_assist": 26
+     "p_goal": 19,
+     "p_point": 42,
+     "p_assist": 27
     },
     {
      "name": "Ryan Strome",
@@ -3224,9 +3213,20 @@
      "new": false,
      "side": "a",
      "team": "Calgary Flames",
-     "p_goal": 18,
-     "p_point": 40,
-     "p_assist": 26
+     "p_goal": 19,
+     "p_point": 42,
+     "p_assist": 27
+    },
+    {
+     "name": "Morgan Frost",
+     "pos": "Centre",
+     "cur": "2 buts, 0 passe en 5",
+     "new": false,
+     "side": "a",
+     "team": "Calgary Flames",
+     "p_goal": 24,
+     "p_point": 42,
+     "p_assist": 23
     }
    ],
    "ctx": [
@@ -3235,7 +3235,7 @@
     "Aucune des deux équipes n'a joué hier.",
     "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
    ],
-   "reading": "Anaheim Ducks est favori (64 % en comptant la prolongation)."
+   "reading": "Anaheim Ducks est favori (61 % en comptant la prolongation)."
   },
   {
    "id": "nhl-2026020104",
@@ -3249,14 +3249,14 @@
    "away": "Edmonton Oilers",
    "rec_h": "0-2-2 · 7e Pacific · 1 défaite en prolongation de suite",
    "rec_a": "4-0-1 · 2e Pacific · 4 victoires de suite",
-   "winH": 47,
-   "winA": 53,
-   "pH": 36,
+   "winH": 46,
+   "winA": 54,
+   "pH": 35,
    "pD": 22,
-   "pA": 42,
+   "pA": 43,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.05,
-   "xgA": 3.25,
+   "xgH": 3.02,
+   "xgA": 3.28,
    "total": 6.3,
    "scores": [
     "2-3",
@@ -3289,8 +3289,8 @@
      "side": "a",
      "team": "Edmonton Oilers",
      "p_goal": 37,
-     "p_point": 74,
-     "p_assist": 59
+     "p_point": 75,
+     "p_assist": 60
     },
     {
      "name": "Adrian Kempe",
@@ -3299,7 +3299,7 @@
      "new": false,
      "side": "h",
      "team": "Los Angeles Kings",
-     "p_goal": 35,
+     "p_goal": 34,
      "p_point": 59,
      "p_assist": 37
     },
@@ -3323,7 +3323,7 @@
      "team": "Los Angeles Kings",
      "p_goal": 27,
      "p_point": 58,
-     "p_assist": 41
+     "p_assist": 40
     },
     {
      "name": "Quinton Byfield",
@@ -3356,7 +3356,7 @@
      "team": "Edmonton Oilers",
      "p_goal": 22,
      "p_point": 63,
-     "p_assist": 51
+     "p_assist": 52
     },
     {
      "name": "Vasily Podkolzin",
@@ -3379,8 +3379,8 @@
      "side": "a",
      "team": "Edmonton Oilers",
      "p_goal": 37,
-     "p_point": 74,
-     "p_assist": 59
+     "p_point": 75,
+     "p_assist": 60
     },
     {
      "name": "Leon Draisaitl",
@@ -3402,7 +3402,7 @@
      "team": "Edmonton Oilers",
      "p_goal": 22,
      "p_point": 63,
-     "p_assist": 51
+     "p_assist": 52
     },
     {
      "name": "Adrian Kempe",
@@ -3411,7 +3411,7 @@
      "new": false,
      "side": "h",
      "team": "Los Angeles Kings",
-     "p_goal": 35,
+     "p_goal": 34,
      "p_point": 59,
      "p_assist": 37
     },
@@ -3424,7 +3424,7 @@
      "team": "Los Angeles Kings",
      "p_goal": 27,
      "p_point": 58,
-     "p_assist": 41
+     "p_assist": 40
     },
     {
      "name": "Quinton Byfield",
@@ -3480,14 +3480,14 @@
    "away": "Boston Bruins",
    "rec_h": "3-2-0 · 5e Pacific · 1 défaite de suite",
    "rec_a": "4-2-0 · 3e Atlantic · 2 victoires de suite",
-   "winH": 50,
-   "winA": 50,
-   "pH": 39,
+   "winH": 48,
+   "winA": 52,
+   "pH": 37,
    "pD": 22,
-   "pA": 39,
+   "pA": 41,
    "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.15,
-   "xgA": 3.15,
+   "xgH": 3.08,
+   "xgA": 3.22,
    "total": 6.3,
    "scores": [
     "2-3",
@@ -3519,8 +3519,8 @@
      "new": false,
      "side": "h",
      "team": "San Jose Sharks",
-     "p_goal": 38,
-     "p_point": 72,
+     "p_goal": 37,
+     "p_point": 71,
      "p_assist": 54
     },
     {
@@ -3530,20 +3530,9 @@
      "new": false,
      "side": "a",
      "team": "Boston Bruins",
-     "p_goal": 31,
-     "p_point": 51,
+     "p_goal": 32,
+     "p_point": 52,
      "p_assist": 28
-    },
-    {
-     "name": "Will Smith",
-     "pos": "Centre",
-     "cur": "2 buts, 1 passe en 5",
-     "new": false,
-     "side": "h",
-     "team": "San Jose Sharks",
-     "p_goal": 27,
-     "p_point": 54,
-     "p_assist": 36
     },
     {
      "name": "David Pastrnak",
@@ -3563,9 +3552,20 @@
      "new": false,
      "side": "a",
      "team": "Boston Bruins",
-     "p_goal": 26,
+     "p_goal": 27,
      "p_point": 50,
      "p_assist": 31
+    },
+    {
+     "name": "Will Smith",
+     "pos": "Centre",
+     "cur": "2 buts, 1 passe en 5",
+     "new": false,
+     "side": "h",
+     "team": "San Jose Sharks",
+     "p_goal": 26,
+     "p_point": 53,
+     "p_assist": 35
     },
     {
      "name": "Igor Chernyshov",
@@ -3574,20 +3574,20 @@
      "new": false,
      "side": "h",
      "team": "San Jose Sharks",
-     "p_goal": 23,
-     "p_point": 44,
-     "p_assist": 26
+     "p_goal": 22,
+     "p_point": 43,
+     "p_assist": 25
     },
     {
-     "name": "Tyler Toffoli",
-     "pos": "Centre",
-     "cur": "2 buts, 2 passes en 5",
+     "name": "Collin Graf",
+     "pos": "Ailier",
+     "cur": "1 but, 0 passe en 5",
      "new": false,
      "side": "h",
      "team": "San Jose Sharks",
      "p_goal": 21,
-     "p_point": 45,
-     "p_assist": 30
+     "p_point": 41,
+     "p_assist": 24
     },
     {
      "name": "Elias Lindholm",
@@ -3596,9 +3596,9 @@
      "new": false,
      "side": "a",
      "team": "Boston Bruins",
-     "p_goal": 18,
-     "p_point": 45,
-     "p_assist": 32
+     "p_goal": 19,
+     "p_point": 46,
+     "p_assist": 33
     }
    ],
    "deci": [
@@ -3609,8 +3609,8 @@
      "new": false,
      "side": "h",
      "team": "San Jose Sharks",
-     "p_goal": 38,
-     "p_point": 72,
+     "p_goal": 37,
+     "p_point": 71,
      "p_assist": 54
     },
     {
@@ -3631,9 +3631,9 @@
      "new": false,
      "side": "h",
      "team": "San Jose Sharks",
-     "p_goal": 27,
-     "p_point": 54,
-     "p_assist": 36
+     "p_goal": 26,
+     "p_point": 53,
+     "p_assist": 35
     },
     {
      "name": "Morgan Geekie",
@@ -3642,8 +3642,8 @@
      "new": false,
      "side": "a",
      "team": "Boston Bruins",
-     "p_goal": 31,
-     "p_point": 51,
+     "p_goal": 32,
+     "p_point": 52,
      "p_assist": 28
     },
     {
@@ -3653,7 +3653,7 @@
      "new": false,
      "side": "a",
      "team": "Boston Bruins",
-     "p_goal": 26,
+     "p_goal": 27,
      "p_point": 50,
      "p_assist": 31
     },
@@ -3665,19 +3665,8 @@
      "side": "h",
      "team": "San Jose Sharks",
      "p_goal": 18,
-     "p_point": 47,
+     "p_point": 46,
      "p_assist": 34
-    },
-    {
-     "name": "Tyler Toffoli",
-     "pos": "Centre",
-     "cur": "2 buts, 2 passes en 5",
-     "new": false,
-     "side": "h",
-     "team": "San Jose Sharks",
-     "p_goal": 21,
-     "p_point": 45,
-     "p_assist": 30
     },
     {
      "name": "Elias Lindholm",
@@ -3686,9 +3675,20 @@
      "new": false,
      "side": "a",
      "team": "Boston Bruins",
-     "p_goal": 18,
+     "p_goal": 19,
+     "p_point": 46,
+     "p_assist": 33
+    },
+    {
+     "name": "Tyler Toffoli",
+     "pos": "Centre",
+     "cur": "2 buts, 2 passes en 5",
+     "new": false,
+     "side": "h",
+     "team": "San Jose Sharks",
+     "p_goal": 20,
      "p_point": 45,
-     "p_assist": 32
+     "p_assist": 30
     }
    ],
    "ctx": [
