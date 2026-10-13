@@ -414,8 +414,8 @@
   "home": "Ottawa Senators",
   "away": "St. Louis Blues",
   "p": [
-   0.5108,
-   0.4892
+   0.4957,
+   0.5043
   ],
   "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
@@ -428,8 +428,8 @@
   "home": "New York Islanders",
   "away": "Vancouver Canucks",
   "p": [
-   0.6575,
-   0.3425
+   0.6447,
+   0.3553
   ],
   "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
@@ -554,9 +554,9 @@
   "home": "Arsenal",
   "away": "Lille",
   "p": [
-   0.78,
-   0.1467,
-   0.0733
+   0.7857,
+   0.1463,
+   0.0679
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -584,9 +584,9 @@
   "home": "Galatasaray",
   "away": "Barcelona",
   "p": [
-   0.1127,
-   0.1473,
-   0.74
+   0.1186,
+   0.1582,
+   0.7232
   ],
   "source": "Cotes DraftKings",
   "result": null,
