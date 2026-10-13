@@ -1,7 +1,1115 @@
 {
- "generated": "2026-10-13T18:44+02:00",
+ "generated": "2026-10-13T20:21+02:00",
  "date": "2026-10-13",
- "foot": [],
+ "foot": [
+  {
+   "id": "foot-401915418",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T16:45:00+00:00",
+   "time": "18:45",
+   "state": "in",
+   "score": "0-1",
+   "home": "Lens",
+   "away": "Sporting",
+   "form_h": "NDNVD",
+   "form_a": "NNNVV",
+   "rank_h": 10,
+   "rank_a": 6,
+   "pH": 46,
+   "pD": 20,
+   "pA": 33,
+   "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
+   "xgH": 2.16,
+   "xgA": 1.83,
+   "scores": [
+    "2-1",
+    "1-1",
+    "2-2"
+   ],
+   "scorep": [
+    8,
+    7,
+    7
+   ],
+   "over25": 76,
+   "btts": 74,
+   "players": [
+    {
+     "name": "Florian Thauvin",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 31,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Lens"
+    },
+    {
+     "name": "Abdallah Sima",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 31,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Lens"
+    },
+    {
+     "name": "Geny Catamo",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Sporting"
+    },
+    {
+     "name": "Luis Suárez",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Sporting"
+    },
+    {
+     "name": "Rodrigo Zalazar",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Sporting"
+    },
+    {
+     "name": "Mezian Soares",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Lens"
+    },
+    {
+     "name": "Kyllian Antonio",
+     "goals": 0,
+     "assists": 0,
+     "p_goal": 13,
+     "p_dec": 25,
+     "side": "h",
+     "team": "Lens"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Florian Thauvin",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 31,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Lens"
+    },
+    {
+     "name": "Abdallah Sima",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 31,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Lens"
+    },
+    {
+     "name": "Mezian Soares",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Lens"
+    },
+    {
+     "name": "Geny Catamo",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Sporting"
+    },
+    {
+     "name": "Luis Suárez",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Sporting"
+    },
+    {
+     "name": "Rodrigo Zalazar",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 27,
+     "p_dec": 35,
+     "side": "a",
+     "team": "Sporting"
+    }
+   ],
+   "ctx": [
+    "Lens : 10e, 3 points, 3 buts marqués et 2 encaissés en 1 match.",
+    "Sporting : 6e, 3 points, 3 buts marqués et 1 encaissés en 1 match."
+   ],
+   "reading": "Lens est favori sans écraser le match (46 %)."
+  },
+  {
+   "id": "foot-401915436",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T16:45:00+00:00",
+   "time": "18:45",
+   "state": "in",
+   "score": "1-0",
+   "home": "Sabah",
+   "away": "Slavia Prague",
+   "form_h": "DVDVD",
+   "form_a": "DDDDN",
+   "rank_h": 34,
+   "rank_a": 24,
+   "pH": 40,
+   "pD": 21,
+   "pA": 39,
+   "source": "Cotes d'avant-match non archivées : estimation fondée sur le classement",
+   "xgH": 1.99,
+   "xgA": 1.96,
+   "scores": [
+    "1-1",
+    "2-1",
+    "1-2"
+   ],
+   "scorep": [
+    8,
+    7,
+    7
+   ],
+   "over25": 75,
+   "btts": 74,
+   "players": [
+    {
+     "name": "Danijel Sturm",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 46,
+     "p_dec": 54,
+     "side": "a",
+     "team": "Slavia Prague"
+    },
+    {
+     "name": "Samuel Isife",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 41,
+     "side": "a",
+     "team": "Slavia Prague"
+    },
+    {
+     "name": "Emmanuel Dennis Ayaosi",
+     "goals": 0,
+     "assists": 0,
+     "p_goal": 13,
+     "p_dec": 26,
+     "side": "a",
+     "team": "Slavia Prague"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Danijel Sturm",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 46,
+     "p_dec": 54,
+     "side": "a",
+     "team": "Slavia Prague"
+    },
+    {
+     "name": "Samuel Isife",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 41,
+     "side": "a",
+     "team": "Slavia Prague"
+    },
+    {
+     "name": "Emmanuel Dennis Ayaosi",
+     "goals": 0,
+     "assists": 0,
+     "p_goal": 13,
+     "p_dec": 26,
+     "side": "a",
+     "team": "Slavia Prague"
+    }
+   ],
+   "ctx": [
+    "Sabah : 34e, 0 point, 0 buts marqués et 4 encaissés en 1 match.",
+    "Slavia Prague : 24e, 0 point, 2 buts marqués et 3 encaissés en 1 match."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
+  },
+  {
+   "id": "foot-401915417",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "time": "21:00",
+   "state": "pre",
+   "score": null,
+   "home": "Arsenal",
+   "away": "Lille",
+   "form_h": "NDVVV",
+   "form_a": "NDVDV",
+   "rank_h": 15,
+   "rank_a": 23,
+   "pH": 78,
+   "pD": 15,
+   "pA": 7,
+   "source": "Cotes DraftKings",
+   "xgH": 2.47,
+   "xgA": 0.62,
+   "scores": [
+    "2-0",
+    "3-0",
+    "1-0"
+   ],
+   "scorep": [
+    14,
+    11,
+    11
+   ],
+   "over25": 60,
+   "btts": 42,
+   "players": [
+    {
+     "name": "Martin Ødegaard",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 43,
+     "p_dec": 55,
+     "side": "h",
+     "team": "Arsenal"
+    },
+    {
+     "name": "Christos Tzolis",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 19,
+     "p_dec": 55,
+     "side": "h",
+     "team": "Arsenal"
+    },
+    {
+     "name": "Alexsandro",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 11,
+     "p_dec": 16,
+     "side": "a",
+     "team": "Lille"
+    },
+    {
+     "name": "Ayase Ueda",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 11,
+     "p_dec": 16,
+     "side": "a",
+     "team": "Lille"
+    },
+    {
+     "name": "Gaetan Perrin",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 4,
+     "p_dec": 16,
+     "side": "a",
+     "team": "Lille"
+    },
+    {
+     "name": "Ethan Mbappé",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 4,
+     "p_dec": 16,
+     "side": "a",
+     "team": "Lille"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Martin Ødegaard",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 43,
+     "p_dec": 55,
+     "side": "h",
+     "team": "Arsenal"
+    },
+    {
+     "name": "Christos Tzolis",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 19,
+     "p_dec": 55,
+     "side": "h",
+     "team": "Arsenal"
+    },
+    {
+     "name": "Alexsandro",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 11,
+     "p_dec": 16,
+     "side": "a",
+     "team": "Lille"
+    },
+    {
+     "name": "Ayase Ueda",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 11,
+     "p_dec": 16,
+     "side": "a",
+     "team": "Lille"
+    },
+    {
+     "name": "Gaetan Perrin",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 4,
+     "p_dec": 16,
+     "side": "a",
+     "team": "Lille"
+    }
+   ],
+   "ctx": [
+    "Arsenal : 15e, 3 points, 1 buts marqués et 0 encaissés en 1 match.",
+    "Lille : 23e, 0 point, 2 buts marqués et 3 encaissés en 1 match."
+   ],
+   "reading": "Arsenal est nettement favori (78 %)."
+  },
+  {
+   "id": "foot-401915412",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "time": "21:00",
+   "state": "pre",
+   "score": null,
+   "home": "Atlético",
+   "away": "Man United",
+   "form_h": "NVVVD",
+   "form_a": "NNDDV",
+   "rank_h": 25,
+   "rank_a": 4,
+   "pH": 52,
+   "pD": 25,
+   "pA": 23,
+   "source": "Cotes DraftKings",
+   "xgH": 1.61,
+   "xgA": 0.97,
+   "scores": [
+    "1-0",
+    "1-1",
+    "2-0"
+   ],
+   "scorep": [
+    12,
+    12,
+    10
+   ],
+   "over25": 48,
+   "btts": 50,
+   "players": [
+    {
+     "name": "Marcos Llorente",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 31,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Atlético"
+    },
+    {
+     "name": "Matheus Cunha",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Man United"
+    },
+    {
+     "name": "Lisandro Martínez",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Man United"
+    },
+    {
+     "name": "Bruno Fernandes",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Man United"
+    },
+    {
+     "name": "Benjamin Sesko",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Man United"
+    },
+    {
+     "name": "Julián Álvarez",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Atlético"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Marcos Llorente",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 31,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Atlético"
+    },
+    {
+     "name": "Julián Álvarez",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 40,
+     "side": "h",
+     "team": "Atlético"
+    },
+    {
+     "name": "Matheus Cunha",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Man United"
+    },
+    {
+     "name": "Lisandro Martínez",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Man United"
+    },
+    {
+     "name": "Bruno Fernandes",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 19,
+     "side": "a",
+     "team": "Man United"
+    }
+   ],
+   "ctx": [
+    "Atlético : 25e, 0 point, 1 buts marqués et 2 encaissés en 1 match.",
+    "Man United : 4e, 3 points, 4 buts marqués et 0 encaissés en 1 match."
+   ],
+   "reading": "Atlético est favori sans écraser le match (52 %)."
+  },
+  {
+   "id": "foot-401915435",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "time": "21:00",
+   "state": "pre",
+   "score": null,
+   "home": "Galatasaray",
+   "away": "Barcelona",
+   "form_h": "NDVDV",
+   "form_a": "NVVVV",
+   "rank_h": 29,
+   "rank_a": 3,
+   "pH": 11,
+   "pD": 15,
+   "pA": 74,
+   "source": "Cotes DraftKings",
+   "xgH": 1.04,
+   "xgA": 2.8,
+   "scores": [
+    "1-2",
+    "0-2",
+    "1-3"
+   ],
+   "scorep": [
+    9,
+    8,
+    8
+   ],
+   "over25": 74,
+   "btts": 61,
+   "players": [
+    {
+     "name": "Raphinha",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 46,
+     "p_dec": 54,
+     "side": "a",
+     "team": "Barcelona"
+    },
+    {
+     "name": "Lamine Yamal",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 32,
+     "p_dec": 64,
+     "side": "a",
+     "team": "Barcelona"
+    },
+    {
+     "name": "João Cancelo",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 41,
+     "side": "a",
+     "team": "Barcelona"
+    },
+    {
+     "name": "Pedri",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 41,
+     "side": "a",
+     "team": "Barcelona"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Lamine Yamal",
+     "goals": 1,
+     "assists": 2,
+     "p_goal": 32,
+     "p_dec": 64,
+     "side": "a",
+     "team": "Barcelona"
+    },
+    {
+     "name": "Raphinha",
+     "goals": 2,
+     "assists": 0,
+     "p_goal": 46,
+     "p_dec": 54,
+     "side": "a",
+     "team": "Barcelona"
+    },
+    {
+     "name": "João Cancelo",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 13,
+     "p_dec": 41,
+     "side": "a",
+     "team": "Barcelona"
+    }
+   ],
+   "ctx": [
+    "Galatasaray : 29e, 0 point, 1 buts marqués et 3 encaissés en 1 match.",
+    "Barcelona : 3e, 3 points, 5 buts marqués et 1 encaissés en 1 match."
+   ],
+   "reading": "Barcelona est nettement favori (74 %)."
+  },
+  {
+   "id": "foot-401915413",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "time": "21:00",
+   "state": "pre",
+   "score": null,
+   "home": "Inter Milan",
+   "away": "Club Brugge",
+   "form_h": "NNVDV",
+   "form_a": "NVVDV",
+   "rank_h": 26,
+   "rank_a": 22,
+   "pH": 76,
+   "pD": 15,
+   "pA": 9,
+   "source": "Cotes DraftKings",
+   "xgH": 2.62,
+   "xgA": 0.8,
+   "scores": [
+    "2-0",
+    "3-0",
+    "2-1"
+   ],
+   "scorep": [
+    11,
+    10,
+    9
+   ],
+   "over25": 66,
+   "btts": 51,
+   "players": [
+    {
+     "name": "Carlos Augusto",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 45,
+     "p_dec": 57,
+     "side": "h",
+     "team": "Inter Milan"
+    },
+    {
+     "name": "Lautaro Martínez",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 20,
+     "p_dec": 57,
+     "side": "h",
+     "team": "Inter Milan"
+    },
+    {
+     "name": "Nicolo Tresoldi",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Club Brugge"
+    },
+    {
+     "name": "Hugo Vetlesen",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Club Brugge"
+    },
+    {
+     "name": "Jan Virgili",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 6,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Club Brugge"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Carlos Augusto",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 45,
+     "p_dec": 57,
+     "side": "h",
+     "team": "Inter Milan"
+    },
+    {
+     "name": "Lautaro Martínez",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 20,
+     "p_dec": 57,
+     "side": "h",
+     "team": "Inter Milan"
+    },
+    {
+     "name": "Nicolo Tresoldi",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Club Brugge"
+    },
+    {
+     "name": "Hugo Vetlesen",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 14,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Club Brugge"
+    },
+    {
+     "name": "Jan Virgili",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 6,
+     "p_dec": 20,
+     "side": "a",
+     "team": "Club Brugge"
+    }
+   ],
+   "ctx": [
+    "Inter Milan : 26e, 0 point, 1 buts marqués et 2 encaissés en 1 match.",
+    "Club Brugge : 22e, 0 point, 2 buts marqués et 3 encaissés en 1 match."
+   ],
+   "reading": "Inter Milan est nettement favori (76 %)."
+  },
+  {
+   "id": "foot-401915434",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "time": "21:00",
+   "state": "pre",
+   "score": null,
+   "home": "RB Leipzig",
+   "away": "PSV",
+   "form_h": "NDVDD",
+   "form_a": "NDVNV",
+   "rank_h": 32,
+   "rank_a": 20,
+   "pH": 62,
+   "pD": 19,
+   "pA": 19,
+   "source": "Cotes DraftKings",
+   "xgH": 2.35,
+   "xgA": 1.24,
+   "scores": [
+    "2-1",
+    "1-1",
+    "2-0"
+   ],
+   "scorep": [
+    9,
+    8,
+    8
+   ],
+   "over25": 70,
+   "btts": 64,
+   "players": [
+    {
+     "name": "Andrija Maksimovic",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 41,
+     "p_dec": 53,
+     "side": "h",
+     "team": "RB Leipzig"
+    },
+    {
+     "name": "Sergiño Dest",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 24,
+     "p_dec": 33,
+     "side": "a",
+     "team": "PSV"
+    },
+    {
+     "name": "Christopher Nkunku",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 18,
+     "p_dec": 53,
+     "side": "h",
+     "team": "RB Leipzig"
+    },
+    {
+     "name": "Armando Obispo",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 10,
+     "p_dec": 33,
+     "side": "a",
+     "team": "PSV"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Andrija Maksimovic",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 41,
+     "p_dec": 53,
+     "side": "h",
+     "team": "RB Leipzig"
+    },
+    {
+     "name": "Christopher Nkunku",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 18,
+     "p_dec": 53,
+     "side": "h",
+     "team": "RB Leipzig"
+    },
+    {
+     "name": "Sergiño Dest",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 24,
+     "p_dec": 33,
+     "side": "a",
+     "team": "PSV"
+    },
+    {
+     "name": "Armando Obispo",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 10,
+     "p_dec": 33,
+     "side": "a",
+     "team": "PSV"
+    }
+   ],
+   "ctx": [
+    "RB Leipzig : 32e, 0 point, 1 buts marqués et 4 encaissés en 1 match.",
+    "PSV : 20e, 1 point, 1 buts marqués et 1 encaissés en 1 match."
+   ],
+   "reading": "RB Leipzig est nettement favori (62 %)."
+  },
+  {
+   "id": "foot-401915411",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "time": "21:00",
+   "state": "pre",
+   "score": null,
+   "home": "Viking FK",
+   "away": "Bayern",
+   "form_h": "NVVDN",
+   "form_a": "NVVVN",
+   "rank_h": 30,
+   "rank_a": 2,
+   "pH": 7,
+   "pD": 10,
+   "pA": 83,
+   "source": "Cotes DraftKings",
+   "xgH": 2.24,
+   "xgA": 5.71,
+   "scores": [
+    "2-5",
+    "2-6",
+    "1-5"
+   ],
+   "scorep": [
+    4,
+    4,
+    4
+   ],
+   "over25": 99,
+   "btts": 89,
+   "players": [
+    {
+     "name": "Michael Olise",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 72,
+     "p_dec": 87,
+     "side": "a",
+     "team": "Bayern"
+    },
+    {
+     "name": "Harry Kane",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 54,
+     "p_dec": 79,
+     "side": "a",
+     "team": "Bayern"
+    },
+    {
+     "name": "Alphonso Davies",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 54,
+     "p_dec": 66,
+     "side": "a",
+     "team": "Bayern"
+    },
+    {
+     "name": "Jamal Musiala",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 54,
+     "p_dec": 66,
+     "side": "a",
+     "team": "Bayern"
+    },
+    {
+     "name": "Zlatko Tripic",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 40,
+     "p_dec": 51,
+     "side": "h",
+     "team": "Viking FK"
+    },
+    {
+     "name": "Henrik Rorvik Bjordal",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 17,
+     "p_dec": 51,
+     "side": "h",
+     "team": "Viking FK"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Michael Olise",
+     "goals": 2,
+     "assists": 1,
+     "p_goal": 72,
+     "p_dec": 87,
+     "side": "a",
+     "team": "Bayern"
+    },
+    {
+     "name": "Harry Kane",
+     "goals": 1,
+     "assists": 1,
+     "p_goal": 54,
+     "p_dec": 79,
+     "side": "a",
+     "team": "Bayern"
+    },
+    {
+     "name": "Alphonso Davies",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 54,
+     "p_dec": 66,
+     "side": "a",
+     "team": "Bayern"
+    },
+    {
+     "name": "Zlatko Tripic",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 40,
+     "p_dec": 51,
+     "side": "h",
+     "team": "Viking FK"
+    },
+    {
+     "name": "Henrik Rorvik Bjordal",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 17,
+     "p_dec": 51,
+     "side": "h",
+     "team": "Viking FK"
+    }
+   ],
+   "ctx": [
+    "Viking FK : 30e, 0 point, 1 buts marqués et 3 encaissés en 1 match.",
+    "Bayern : 2e, 3 points, 5 buts marqués et 0 encaissés en 1 match."
+   ],
+   "reading": "Bayern est nettement favori (83 %)."
+  },
+  {
+   "id": "foot-401915410",
+   "sport": "foot",
+   "league": "Ligue des champions",
+   "kickoff": "2026-10-13T19:00:00+00:00",
+   "time": "21:00",
+   "state": "pre",
+   "score": null,
+   "home": "Villarreal",
+   "away": "Napoli",
+   "form_h": "NVVDD",
+   "form_a": "NNVDD",
+   "rank_h": 21,
+   "rank_a": 28,
+   "pH": 44,
+   "pD": 27,
+   "pA": 29,
+   "source": "Cotes DraftKings",
+   "xgH": 1.38,
+   "xgA": 1.05,
+   "scores": [
+    "1-1",
+    "1-0",
+    "0-1"
+   ],
+   "scorep": [
+    13,
+    12,
+    9
+   ],
+   "over25": 44,
+   "btts": 49,
+   "players": [
+    {
+     "name": "Santiago Mouriño",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 24,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Villarreal"
+    },
+    {
+     "name": "Georges Mikautadze",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 10,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Villarreal"
+    }
+   ],
+   "deci": [
+    {
+     "name": "Santiago Mouriño",
+     "goals": 1,
+     "assists": 0,
+     "p_goal": 24,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Villarreal"
+    },
+    {
+     "name": "Georges Mikautadze",
+     "goals": 0,
+     "assists": 1,
+     "p_goal": 10,
+     "p_dec": 31,
+     "side": "h",
+     "team": "Villarreal"
+    }
+   ],
+   "ctx": [
+    "Villarreal : 21e, 0 point, 2 buts marqués et 3 encaissés en 1 match.",
+    "Napoli : 28e, 0 point, 0 buts marqués et 1 encaissés en 1 match."
+   ],
+   "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
+  }
+ ],
  "nhl": [
   {
    "id": "nhl-2026020090",
@@ -20,7 +1128,7 @@
    "pH": 40,
    "pD": 22,
    "pA": 38,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.18,
    "xgA": 3.12,
    "total": 6.3,
@@ -246,14 +1354,14 @@
    "away": "Florida Panthers",
    "rec_h": "2-2-0 · 5e Metropolitan · 1 défaite de suite",
    "rec_a": "2-2-2 · 6e Atlantic · 2 défaites de suite",
-   "winH": 54,
-   "winA": 46,
-   "pH": 43,
+   "winH": 55,
+   "winA": 45,
+   "pH": 44,
    "pD": 22,
-   "pA": 35,
-   "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 2.77,
-   "xgA": 2.53,
+   "pA": 34,
+   "source": "Cotes Draft Kings (vainqueur final)",
+   "xgH": 2.79,
+   "xgA": 2.51,
    "total": 5.3,
    "scores": [
     "3-2",
@@ -298,7 +1406,7 @@
      "team": "Florida Panthers",
      "p_goal": 24,
      "p_point": 50,
-     "p_assist": 34
+     "p_assist": 33
     },
     {
      "name": "Adam Fantilli",
@@ -309,7 +1417,7 @@
      "team": "Columbus Blue Jackets",
      "p_goal": 21,
      "p_point": 45,
-     "p_assist": 29
+     "p_assist": 30
     },
     {
      "name": "Carter Verhaeghe",
@@ -319,7 +1427,7 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 21,
-     "p_point": 42,
+     "p_point": 41,
      "p_assist": 25
     },
     {
@@ -330,7 +1438,7 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 21,
-     "p_point": 44,
+     "p_point": 43,
      "p_assist": 28
     },
     {
@@ -341,8 +1449,8 @@
      "side": "h",
      "team": "Columbus Blue Jackets",
      "p_goal": 20,
-     "p_point": 57,
-     "p_assist": 46
+     "p_point": 58,
+     "p_assist": 47
     },
     {
      "name": "Mathieu Olivier",
@@ -356,15 +1464,15 @@
      "p_assist": 15
     },
     {
-     "name": "Dmitri Voronkov",
-     "pos": "Ailier",
-     "cur": "0 but, 1 passe en 4",
+     "name": "Charlie Coyle",
+     "pos": "Centre",
+     "cur": "0 but, 4 passes en 4",
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
      "p_goal": 18,
-     "p_point": 34,
-     "p_assist": 19
+     "p_point": 45,
+     "p_assist": 33
     }
    ],
    "deci": [
@@ -376,8 +1484,8 @@
      "side": "h",
      "team": "Columbus Blue Jackets",
      "p_goal": 20,
-     "p_point": 57,
-     "p_assist": 46
+     "p_point": 58,
+     "p_assist": 47
     },
     {
      "name": "Matthew Tkachuk",
@@ -388,7 +1496,7 @@
      "team": "Florida Panthers",
      "p_goal": 24,
      "p_point": 50,
-     "p_assist": 34
+     "p_assist": 33
     },
     {
      "name": "Sam Reinhart",
@@ -408,7 +1516,7 @@
      "new": false,
      "side": "h",
      "team": "Columbus Blue Jackets",
-     "p_goal": 17,
+     "p_goal": 18,
      "p_point": 45,
      "p_assist": 33
     },
@@ -421,7 +1529,7 @@
      "team": "Columbus Blue Jackets",
      "p_goal": 21,
      "p_point": 45,
-     "p_assist": 29
+     "p_assist": 30
     },
     {
      "name": "Sam Bennett",
@@ -431,7 +1539,7 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 21,
-     "p_point": 44,
+     "p_point": 43,
      "p_assist": 28
     },
     {
@@ -442,7 +1550,7 @@
      "side": "a",
      "team": "Florida Panthers",
      "p_goal": 21,
-     "p_point": 42,
+     "p_point": 41,
      "p_assist": 25
     },
     {
@@ -453,7 +1561,7 @@
      "side": "h",
      "team": "Columbus Blue Jackets",
      "p_goal": 18,
-     "p_point": 34,
+     "p_point": 35,
      "p_assist": 19
     }
    ],
@@ -463,7 +1571,7 @@
     "Florida Panthers a joué hier soir : deuxième match en deux soirs, fatigue probable.",
     "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
    ],
-   "reading": "Match très équilibré : au hockey, c'est presque un pile ou face."
+   "reading": "Columbus Blue Jackets est favori (55 % en comptant la prolongation)."
   },
   {
    "id": "nhl-2026020092",
@@ -482,7 +1590,7 @@
    "pH": 46,
    "pD": 22,
    "pA": 32,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.41,
    "xgA": 2.89,
    "total": 6.3,
@@ -713,7 +1821,7 @@
    "pH": 46,
    "pD": 22,
    "pA": 32,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.41,
    "xgA": 2.89,
    "total": 6.3,
@@ -944,7 +2052,7 @@
    "pH": 41,
    "pD": 22,
    "pA": 37,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 2.72,
    "xgA": 2.58,
    "total": 5.3,
@@ -1175,7 +2283,7 @@
    "pH": 31,
    "pD": 22,
    "pA": 47,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 2.86,
    "xgA": 3.44,
    "total": 6.3,
@@ -1406,7 +2514,7 @@
    "pH": 40,
    "pD": 22,
    "pA": 38,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 2.68,
    "xgA": 2.62,
    "total": 5.3,
@@ -1637,7 +2745,7 @@
    "pH": 53,
    "pD": 22,
    "pA": 25,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.65,
    "xgA": 2.65,
    "total": 6.3,
@@ -1868,7 +2976,7 @@
    "pH": 31,
    "pD": 22,
    "pA": 47,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 2.86,
    "xgA": 3.44,
    "total": 6.3,
@@ -2099,7 +3207,7 @@
    "pH": 40,
    "pD": 22,
    "pA": 38,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.18,
    "xgA": 3.12,
    "total": 6.3,
@@ -2325,22 +3433,22 @@
    "away": "Colorado Avalanche",
    "rec_h": "2-2-1 · 6e Central · 1 défaite en prolongation de suite",
    "rec_a": "3-2-0 · 4e Central · 1 défaite de suite",
-   "winH": 49,
-   "winA": 51,
-   "pH": 38,
+   "winH": 52,
+   "winA": 48,
+   "pH": 41,
    "pD": 22,
-   "pA": 40,
-   "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 2.62,
-   "xgA": 2.68,
+   "pA": 37,
+   "source": "Cotes Draft Kings (vainqueur final)",
+   "xgH": 2.7,
+   "xgA": 2.6,
    "total": 5.3,
    "scores": [
-    "2-3",
     "3-2",
-    "1-2"
+    "2-3",
+    "2-1"
    ],
    "scorep": [
-    5,
+    6,
     5,
     5
    ],
@@ -2364,9 +3472,9 @@
      "new": false,
      "side": "a",
      "team": "Colorado Avalanche",
-     "p_goal": 34,
-     "p_point": 63,
-     "p_assist": 43
+     "p_goal": 33,
+     "p_point": 62,
+     "p_assist": 42
     },
     {
      "name": "Jason Robertson",
@@ -2375,9 +3483,9 @@
      "new": false,
      "side": "h",
      "team": "Dallas Stars",
-     "p_goal": 31,
-     "p_point": 55,
-     "p_assist": 35
+     "p_goal": 32,
+     "p_point": 56,
+     "p_assist": 36
     },
     {
      "name": "Wyatt Johnston",
@@ -2387,8 +3495,8 @@
      "side": "h",
      "team": "Dallas Stars",
      "p_goal": 30,
-     "p_point": 52,
-     "p_assist": 31
+     "p_point": 53,
+     "p_assist": 32
     },
     {
      "name": "Martin Necas",
@@ -2398,130 +3506,7 @@
      "side": "a",
      "team": "Colorado Avalanche",
      "p_goal": 25,
-     "p_point": 54,
-     "p_assist": 38
-    },
-    {
-     "name": "Brock Nelson",
-     "pos": "Centre",
-     "cur": "2 buts, 3 passes en 5",
-     "new": false,
-     "side": "a",
-     "team": "Colorado Avalanche",
-     "p_goal": 22,
-     "p_point": 41,
-     "p_assist": 23
-    },
-    {
-     "name": "Mikko Rantanen",
-     "pos": "Ailier",
-     "cur": "2 buts, 4 passes en 5",
-     "new": false,
-     "side": "h",
-     "team": "Dallas Stars",
-     "p_goal": 21,
-     "p_point": 56,
-     "p_assist": 43
-    },
-    {
-     "name": "Artturi Lehkonen",
-     "pos": "Ailier",
-     "cur": "3 buts, 1 passe en 5",
-     "new": false,
-     "side": "a",
-     "team": "Colorado Avalanche",
-     "p_goal": 18,
-     "p_point": 36,
-     "p_assist": 22
-    },
-    {
-     "name": "Roope Hintz",
-     "pos": "Centre",
-     "cur": "1 but, 2 passes en 5",
-     "new": false,
-     "side": "h",
-     "team": "Dallas Stars",
-     "p_goal": 17,
-     "p_point": 43,
-     "p_assist": 30
-    }
-   ],
-   "deci": [
-    {
-     "name": "Nathan MacKinnon",
-     "pos": "Centre",
-     "cur": "5 buts, 5 passes en 5",
-     "new": false,
-     "side": "a",
-     "team": "Colorado Avalanche",
-     "p_goal": 34,
-     "p_point": 63,
-     "p_assist": 43
-    },
-    {
-     "name": "Mikko Rantanen",
-     "pos": "Ailier",
-     "cur": "2 buts, 4 passes en 5",
-     "new": false,
-     "side": "h",
-     "team": "Dallas Stars",
-     "p_goal": 21,
-     "p_point": 56,
-     "p_assist": 43
-    },
-    {
-     "name": "Jason Robertson",
-     "pos": "Ailier",
-     "cur": "2 buts, 2 passes en 5",
-     "new": false,
-     "side": "h",
-     "team": "Dallas Stars",
-     "p_goal": 31,
-     "p_point": 55,
-     "p_assist": 35
-    },
-    {
-     "name": "Martin Necas",
-     "pos": "Centre",
-     "cur": "2 buts, 3 passes en 5",
-     "new": false,
-     "side": "a",
-     "team": "Colorado Avalanche",
-     "p_goal": 25,
-     "p_point": 54,
-     "p_assist": 38
-    },
-    {
-     "name": "Wyatt Johnston",
-     "pos": "Centre",
-     "cur": "0 but, 4 passes en 5",
-     "new": false,
-     "side": "h",
-     "team": "Dallas Stars",
-     "p_goal": 30,
-     "p_point": 52,
-     "p_assist": 31
-    },
-    {
-     "name": "Cale Makar",
-     "pos": "Défenseur",
-     "cur": "3 buts, 4 passes en 5",
-     "new": false,
-     "side": "a",
-     "team": "Colorado Avalanche",
-     "p_goal": 16,
-     "p_point": 49,
-     "p_assist": 38
-    },
-    {
-     "name": "Miro Heiskanen",
-     "pos": "Défenseur",
-     "cur": "2 buts, 1 passe en 5",
-     "new": false,
-     "side": "h",
-     "team": "Dallas Stars",
-     "p_goal": 10,
-     "p_point": 44,
+     "p_point": 53,
      "p_assist": 37
     },
     {
@@ -2532,7 +3517,130 @@
      "side": "a",
      "team": "Colorado Avalanche",
      "p_goal": 22,
-     "p_point": 41,
+     "p_point": 40,
+     "p_assist": 23
+    },
+    {
+     "name": "Mikko Rantanen",
+     "pos": "Ailier",
+     "cur": "2 buts, 4 passes en 5",
+     "new": false,
+     "side": "h",
+     "team": "Dallas Stars",
+     "p_goal": 21,
+     "p_point": 57,
+     "p_assist": 44
+    },
+    {
+     "name": "Roope Hintz",
+     "pos": "Centre",
+     "cur": "1 but, 2 passes en 5",
+     "new": false,
+     "side": "h",
+     "team": "Dallas Stars",
+     "p_goal": 17,
+     "p_point": 44,
+     "p_assist": 31
+    },
+    {
+     "name": "Artturi Lehkonen",
+     "pos": "Ailier",
+     "cur": "3 buts, 1 passe en 5",
+     "new": false,
+     "side": "a",
+     "team": "Colorado Avalanche",
+     "p_goal": 17,
+     "p_point": 35,
+     "p_assist": 21
+    }
+   ],
+   "deci": [
+    {
+     "name": "Nathan MacKinnon",
+     "pos": "Centre",
+     "cur": "5 buts, 5 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Colorado Avalanche",
+     "p_goal": 33,
+     "p_point": 62,
+     "p_assist": 42
+    },
+    {
+     "name": "Mikko Rantanen",
+     "pos": "Ailier",
+     "cur": "2 buts, 4 passes en 5",
+     "new": false,
+     "side": "h",
+     "team": "Dallas Stars",
+     "p_goal": 21,
+     "p_point": 57,
+     "p_assist": 44
+    },
+    {
+     "name": "Jason Robertson",
+     "pos": "Ailier",
+     "cur": "2 buts, 2 passes en 5",
+     "new": false,
+     "side": "h",
+     "team": "Dallas Stars",
+     "p_goal": 32,
+     "p_point": 56,
+     "p_assist": 36
+    },
+    {
+     "name": "Wyatt Johnston",
+     "pos": "Centre",
+     "cur": "0 but, 4 passes en 5",
+     "new": false,
+     "side": "h",
+     "team": "Dallas Stars",
+     "p_goal": 30,
+     "p_point": 53,
+     "p_assist": 32
+    },
+    {
+     "name": "Martin Necas",
+     "pos": "Centre",
+     "cur": "2 buts, 3 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Colorado Avalanche",
+     "p_goal": 25,
+     "p_point": 53,
+     "p_assist": 37
+    },
+    {
+     "name": "Cale Makar",
+     "pos": "Défenseur",
+     "cur": "3 buts, 4 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Colorado Avalanche",
+     "p_goal": 16,
+     "p_point": 48,
+     "p_assist": 37
+    },
+    {
+     "name": "Miro Heiskanen",
+     "pos": "Défenseur",
+     "cur": "2 buts, 1 passe en 5",
+     "new": false,
+     "side": "h",
+     "team": "Dallas Stars",
+     "p_goal": 10,
+     "p_point": 45,
+     "p_assist": 38
+    },
+    {
+     "name": "Brock Nelson",
+     "pos": "Centre",
+     "cur": "2 buts, 3 passes en 5",
+     "new": false,
+     "side": "a",
+     "team": "Colorado Avalanche",
+     "p_goal": 22,
+     "p_point": 40,
      "p_assist": 23
     }
    ],
@@ -2561,7 +3669,7 @@
    "pH": 36,
    "pD": 22,
    "pA": 42,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.05,
    "xgA": 3.25,
    "total": 6.3,
@@ -2792,7 +3900,7 @@
    "pH": 47,
    "pD": 22,
    "pA": 31,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.44,
    "xgA": 2.86,
    "total": 6.3,
@@ -3023,7 +4131,7 @@
    "pH": 49,
    "pD": 22,
    "pA": 29,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.49,
    "xgA": 2.81,
    "total": 6.3,
@@ -3254,7 +4362,7 @@
    "pH": 35,
    "pD": 22,
    "pA": 43,
-   "source": "Cotes DraftKings (vainqueur final)",
+   "source": "Cotes Draft Kings (vainqueur final)",
    "xgH": 3.02,
    "xgA": 3.28,
    "total": 6.3,
@@ -3480,14 +4588,14 @@
    "away": "Boston Bruins",
    "rec_h": "3-2-0 · 5e Pacific · 1 défaite de suite",
    "rec_a": "4-2-0 · 3e Atlantic · 2 victoires de suite",
-   "winH": 48,
-   "winA": 52,
-   "pH": 37,
+   "winH": 47,
+   "winA": 53,
+   "pH": 36,
    "pD": 22,
-   "pA": 41,
-   "source": "Cotes DraftKings (vainqueur final)",
-   "xgH": 3.08,
-   "xgA": 3.22,
+   "pA": 42,
+   "source": "Cotes Draft Kings (vainqueur final)",
+   "xgH": 3.05,
+   "xgA": 3.25,
    "total": 6.3,
    "scores": [
     "2-3",
@@ -3521,7 +4629,7 @@
      "team": "San Jose Sharks",
      "p_goal": 37,
      "p_point": 71,
-     "p_assist": 54
+     "p_assist": 53
     },
     {
      "name": "Morgan Geekie",
@@ -3542,8 +4650,8 @@
      "side": "a",
      "team": "Boston Bruins",
      "p_goal": 27,
-     "p_point": 66,
-     "p_assist": 53
+     "p_point": 67,
+     "p_assist": 54
     },
     {
      "name": "Pavel Zacha",
@@ -3553,8 +4661,8 @@
      "side": "a",
      "team": "Boston Bruins",
      "p_goal": 27,
-     "p_point": 50,
-     "p_assist": 31
+     "p_point": 51,
+     "p_assist": 32
     },
     {
      "name": "Will Smith",
@@ -3564,7 +4672,7 @@
      "side": "h",
      "team": "San Jose Sharks",
      "p_goal": 26,
-     "p_point": 53,
+     "p_point": 52,
      "p_assist": 35
     },
     {
@@ -3579,15 +4687,15 @@
      "p_assist": 25
     },
     {
-     "name": "Collin Graf",
-     "pos": "Ailier",
-     "cur": "1 but, 0 passe en 5",
+     "name": "Tyler Toffoli",
+     "pos": "Centre",
+     "cur": "2 buts, 2 passes en 5",
      "new": false,
      "side": "h",
      "team": "San Jose Sharks",
-     "p_goal": 21,
-     "p_point": 41,
-     "p_assist": 24
+     "p_goal": 20,
+     "p_point": 44,
+     "p_assist": 30
     },
     {
      "name": "Elias Lindholm",
@@ -3611,7 +4719,7 @@
      "team": "San Jose Sharks",
      "p_goal": 37,
      "p_point": 71,
-     "p_assist": 54
+     "p_assist": 53
     },
     {
      "name": "David Pastrnak",
@@ -3621,8 +4729,8 @@
      "side": "a",
      "team": "Boston Bruins",
      "p_goal": 27,
-     "p_point": 66,
-     "p_assist": 53
+     "p_point": 67,
+     "p_assist": 54
     },
     {
      "name": "Will Smith",
@@ -3632,7 +4740,7 @@
      "side": "h",
      "team": "San Jose Sharks",
      "p_goal": 26,
-     "p_point": 53,
+     "p_point": 52,
      "p_assist": 35
     },
     {
@@ -3654,8 +4762,8 @@
      "side": "a",
      "team": "Boston Bruins",
      "p_goal": 27,
-     "p_point": 50,
-     "p_assist": 31
+     "p_point": 51,
+     "p_assist": 32
     },
     {
      "name": "Alexander Wennberg",
@@ -3666,7 +4774,7 @@
      "team": "San Jose Sharks",
      "p_goal": 18,
      "p_point": 46,
-     "p_assist": 34
+     "p_assist": 33
     },
     {
      "name": "Elias Lindholm",
@@ -3687,7 +4795,7 @@
      "side": "h",
      "team": "San Jose Sharks",
      "p_goal": 20,
-     "p_point": 45,
+     "p_point": 44,
      "p_assist": 30
     }
    ],
