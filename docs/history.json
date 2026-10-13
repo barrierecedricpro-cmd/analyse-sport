@@ -53,8 +53,8 @@
    0.4541
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "4-1"
  },
  "foot-401882852": {
   "sport": "foot",
@@ -68,8 +68,8 @@
    0.3458
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "3-3"
  },
  "foot-401875005": {
   "sport": "foot",
@@ -83,8 +83,8 @@
    0.1758
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "3-1"
  },
  "foot-401874763": {
   "sport": "foot",
@@ -98,8 +98,8 @@
    0.3085
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "2-1"
  },
  "nhl-2026020087": {
   "sport": "nhl",
@@ -112,8 +112,8 @@
    0.4892
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "5-3"
  },
  "nhl-2026020088": {
   "sport": "nhl",
@@ -126,8 +126,8 @@
    0.4739
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "1-4"
  },
  "nhl-2026020089": {
   "sport": "nhl",
@@ -140,8 +140,8 @@
    0.4957
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "4-2"
  },
  "foot-401879264": {
   "sport": "foot",
@@ -322,5 +322,229 @@
   "source": "Cotes Flashscore d'avant-match (analyse manuelle du 11/10)",
   "result": 0,
   "score": "3-1"
+ },
+ "nhl-2026020090": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Detroit Red Wings",
+  "away": "New Jersey Devils",
+  "p": [
+   0.5108,
+   0.4892
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020091": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Columbus Blue Jackets",
+  "away": "Florida Panthers",
+  "p": [
+   0.5325,
+   0.4675
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020092": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Montréal Canadiens",
+  "away": "Buffalo Sabres",
+  "p": [
+   0.583,
+   0.417
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020093": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Carolina Hurricanes",
+  "away": "Washington Capitals",
+  "p": [
+   0.5934,
+   0.4066
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020094": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Philadelphia Flyers",
+  "away": "Seattle Kraken",
+  "p": [
+   0.5261,
+   0.4739
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020095": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "New York Rangers",
+  "away": "Tampa Bay Lightning",
+  "p": [
+   0.4066,
+   0.5934
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020096": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Ottawa Senators",
+  "away": "St. Louis Blues",
+  "p": [
+   0.5217,
+   0.4783
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020097": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "New York Islanders",
+  "away": "Vancouver Canucks",
+  "p": [
+   0.6575,
+   0.3425
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020098": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Chicago Blackhawks",
+  "away": "Pittsburgh Penguins",
+  "p": [
+   0.4365,
+   0.5635
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020099": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Winnipeg Jets",
+  "away": "Minnesota Wild",
+  "p": [
+   0.5108,
+   0.4892
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020100": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Dallas Stars",
+  "away": "Colorado Avalanche",
+  "p": [
+   0.4892,
+   0.5108
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020101": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Nashville Predators",
+  "away": "Vegas Golden Knights",
+  "p": [
+   0.4573,
+   0.5427
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020102": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Utah Mammoth",
+  "away": "Toronto Maple Leafs",
+  "p": [
+   0.583,
+   0.417
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020103": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Anaheim Ducks",
+  "away": "Calgary Flames",
+  "p": [
+   0.6447,
+   0.3553
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020104": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "Los Angeles Kings",
+  "away": "Edmonton Oilers",
+  "p": [
+   0.4675,
+   0.5325
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020105": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-14",
+  "home": "San Jose Sharks",
+  "away": "Boston Bruins",
+  "p": [
+   0.5,
+   0.5
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
  }
 }
