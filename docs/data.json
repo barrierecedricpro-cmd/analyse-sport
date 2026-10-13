@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-13T20:29+02:00",
+ "generated": "2026-10-13T20:33+02:00",
  "date": "2026-10-13",
  "foot": [
   {
@@ -43,8 +43,8 @@
      "goals": 3,
      "assists": 4,
      "apps": 6,
-     "p_goal": 43,
-     "p_dec": 70
+     "p_goal": 42,
+     "p_dec": 67
     },
     {
      "name": "Franjo Ivanovic",
@@ -54,19 +54,8 @@
      "goals": 2,
      "assists": 0,
      "apps": 4,
-     "p_goal": 28,
-     "p_dec": 30
-    },
-    {
-     "name": "Matthieu Udol",
-     "pos": "Défenseur",
-     "side": "h",
-     "team": "Lens",
-     "goals": 2,
-     "assists": 0,
-     "apps": 6,
      "p_goal": 26,
-     "p_dec": 28
+     "p_dec": 29
     },
     {
      "name": "Abdallah Sima",
@@ -76,8 +65,19 @@
      "goals": 1,
      "assists": 1,
      "apps": 5,
-     "p_goal": 21,
-     "p_dec": 35
+     "p_goal": 23,
+     "p_dec": 36
+    },
+    {
+     "name": "Matthieu Udol",
+     "pos": "Défenseur",
+     "side": "h",
+     "team": "Lens",
+     "goals": 2,
+     "assists": 0,
+     "apps": 6,
+     "p_goal": 22,
+     "p_dec": 25
     },
     {
      "name": "Florian Sotoca",
@@ -87,8 +87,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 3,
-     "p_goal": 15,
-     "p_dec": 16
+     "p_goal": 14,
+     "p_dec": 15
     },
     {
      "name": "Pierre Ganiou",
@@ -98,8 +98,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 4,
-     "p_goal": 14,
-     "p_dec": 16
+     "p_goal": 12,
+     "p_dec": 15
     }
    ],
    "squad_a": [
@@ -111,8 +111,8 @@
      "goals": 7,
      "assists": 1,
      "apps": 8,
-     "p_goal": 47,
-     "p_dec": 53
+     "p_goal": 44,
+     "p_dec": 50
     },
     {
      "name": "Flávio Gonçalves",
@@ -133,8 +133,8 @@
      "goals": 2,
      "assists": 2,
      "apps": 7,
-     "p_goal": 18,
-     "p_dec": 31
+     "p_goal": 17,
+     "p_dec": 30
     },
     {
      "name": "Rodrigo Zalazar",
@@ -144,8 +144,19 @@
      "goals": 2,
      "assists": 1,
      "apps": 8,
-     "p_goal": 17,
+     "p_goal": 16,
      "p_dec": 27
+    },
+    {
+     "name": "Sergi Altimira",
+     "pos": "Milieu",
+     "side": "a",
+     "team": "Sporting",
+     "goals": 1,
+     "assists": 0,
+     "apps": 8,
+     "p_goal": 11,
+     "p_dec": 19
     },
     {
      "name": "Geny Catamo",
@@ -156,18 +167,7 @@
      "assists": 4,
      "apps": 8,
      "p_goal": 10,
-     "p_dec": 39
-    },
-    {
-     "name": "Maxi Araújo",
-     "pos": "Milieu",
-     "side": "a",
-     "team": "Sporting",
-     "goals": 1,
-     "assists": 2,
-     "apps": 7,
-     "p_goal": 10,
-     "p_dec": 27
+     "p_dec": 38
     }
    ],
    "ctx": [
@@ -184,7 +184,7 @@
    "kickoff": "2026-10-13T16:45:00+00:00",
    "time": "18:45",
    "state": "in",
-   "score": "1-0",
+   "score": "2-0",
    "home": "Sabah",
    "away": "Slavia Prague",
    "form_h": "DVDVD",
@@ -218,8 +218,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 30,
-     "p_dec": 43
+     "p_goal": 32,
+     "p_dec": 46
     },
     {
      "name": "Veljko Simic",
@@ -229,8 +229,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 25,
-     "p_dec": 37
+     "p_goal": 28,
+     "p_dec": 40
     },
     {
      "name": "Patrick Orphe M'Bina",
@@ -240,8 +240,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 16,
-     "p_dec": 24
+     "p_goal": 18,
+     "p_dec": 27
     },
     {
      "name": "Christian Nwachukwu",
@@ -251,8 +251,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 16,
-     "p_dec": 24
+     "p_goal": 18,
+     "p_dec": 27
     },
     {
      "name": "Ivan Lepinjica",
@@ -262,8 +262,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 12,
-     "p_dec": 33
+     "p_goal": 13,
+     "p_dec": 36
     },
     {
      "name": "Umarali Rakhmonaliev",
@@ -273,8 +273,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 10,
-     "p_dec": 27
+     "p_goal": 11,
+     "p_dec": 29
     }
    ],
    "squad_a": [
@@ -286,8 +286,8 @@
      "goals": 2,
      "assists": 0,
      "apps": 1,
-     "p_goal": 61,
-     "p_dec": 67
+     "p_goal": 52,
+     "p_dec": 61
     },
     {
      "name": "Mojmír Chytil",
@@ -297,8 +297,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 22,
-     "p_dec": 32
+     "p_goal": 25,
+     "p_dec": 37
     },
     {
      "name": "Michal Sadílek",
@@ -308,8 +308,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 10,
-     "p_dec": 28
+     "p_goal": 12,
+     "p_dec": 32
     },
     {
      "name": "Emmanuel Dennis Ayaosi",
@@ -319,8 +319,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 10,
-     "p_dec": 28
+     "p_goal": 12,
+     "p_dec": 32
     },
     {
      "name": "Wiktor Nowak",
@@ -330,24 +330,26 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 9,
-     "p_dec": 26
+     "p_goal": 11,
+     "p_dec": 30
     },
     {
-     "name": "Samuel Isife",
+     "name": "Tomás Vlcek",
      "pos": "Défenseur",
      "side": "a",
      "team": "Slavia Prague",
      "goals": 0,
-     "assists": 1,
+     "assists": 0,
      "apps": 1,
-     "p_goal": 4,
-     "p_dec": 35
+     "p_goal": 5,
+     "p_dec": 12
     }
    ],
    "ctx": [
     "Sabah : 34e, 0 point, 0 buts marqués et 4 encaissés en 1 match.",
-    "Slavia Prague : 24e, 0 point, 2 buts marqués et 3 encaissés en 1 match."
+    "Slavia Prague : 24e, 0 point, 2 buts marqués et 3 encaissés en 1 match.",
+    "Sabah : ESPN ne connaît que 1 ou 2 matchs de ses joueurs, chiffres des joueurs très incertains.",
+    "Slavia Prague : ESPN ne connaît que 1 ou 2 matchs de ses joueurs, chiffres des joueurs très incertains."
    ],
    "reading": "Match très ouvert : aucune équipe ne dépasse 45 %."
   },
@@ -392,7 +394,7 @@
      "goals": 3,
      "assists": 0,
      "apps": 6,
-     "p_goal": 49,
+     "p_goal": 47,
      "p_dec": 53
     },
     {
@@ -404,7 +406,7 @@
      "assists": 0,
      "apps": 6,
      "p_goal": 39,
-     "p_dec": 44
+     "p_dec": 46
     },
     {
      "name": "Martin Ødegaard",
@@ -414,8 +416,8 @@
      "goals": 2,
      "assists": 0,
      "apps": 6,
-     "p_goal": 33,
-     "p_dec": 39
+     "p_goal": 29,
+     "p_dec": 40
     },
     {
      "name": "Bruno Guimarães",
@@ -425,8 +427,8 @@
      "goals": 2,
      "assists": 0,
      "apps": 4,
-     "p_goal": 30,
-     "p_dec": 33
+     "p_goal": 26,
+     "p_dec": 29
     },
     {
      "name": "Riccardo Calafiori",
@@ -436,8 +438,8 @@
      "goals": 1,
      "assists": 2,
      "apps": 6,
-     "p_goal": 18,
-     "p_dec": 44
+     "p_goal": 15,
+     "p_dec": 38
     },
     {
      "name": "Christos Tzolis",
@@ -447,8 +449,8 @@
      "goals": 0,
      "assists": 1,
      "apps": 5,
-     "p_goal": 10,
-     "p_dec": 29
+     "p_goal": 15,
+     "p_dec": 32
     }
    ],
    "squad_a": [
@@ -460,8 +462,8 @@
      "goals": 2,
      "assists": 1,
      "apps": 5,
-     "p_goal": 10,
-     "p_dec": 15
+     "p_goal": 9,
+     "p_dec": 14
     },
     {
      "name": "Ayase Ueda",
@@ -471,17 +473,6 @@
      "goals": 2,
      "assists": 0,
      "apps": 4,
-     "p_goal": 10,
-     "p_dec": 11
-    },
-    {
-     "name": "Tiago Santos",
-     "pos": "Défenseur",
-     "side": "a",
-     "team": "Lille",
-     "goals": 2,
-     "assists": 0,
-     "apps": 6,
      "p_goal": 9,
      "p_dec": 10
     },
@@ -493,8 +484,19 @@
      "goals": 1,
      "assists": 2,
      "apps": 6,
-     "p_goal": 6,
-     "p_dec": 15
+     "p_goal": 7,
+     "p_dec": 14
+    },
+    {
+     "name": "Tiago Santos",
+     "pos": "Défenseur",
+     "side": "a",
+     "team": "Lille",
+     "goals": 2,
+     "assists": 0,
+     "apps": 6,
+     "p_goal": 7,
+     "p_dec": 8
     },
     {
      "name": "Hákon Haraldsson",
@@ -505,7 +507,7 @@
      "assists": 0,
      "apps": 6,
      "p_goal": 5,
-     "p_dec": 7
+     "p_dec": 8
     },
     {
      "name": "Ethan Mbappé",
@@ -515,7 +517,7 @@
      "goals": 1,
      "assists": 0,
      "apps": 5,
-     "p_goal": 5,
+     "p_goal": 4,
      "p_dec": 6
     }
    ],
@@ -567,8 +569,8 @@
      "goals": 4,
      "assists": 2,
      "apps": 8,
-     "p_goal": 27,
-     "p_dec": 39
+     "p_goal": 24,
+     "p_dec": 37
     },
     {
      "name": "Jonathan David",
@@ -578,19 +580,8 @@
      "goals": 3,
      "assists": 2,
      "apps": 4,
-     "p_goal": 21,
-     "p_dec": 33
-    },
-    {
-     "name": "Alejandro Grimaldo",
-     "pos": "Défenseur",
-     "side": "h",
-     "team": "Atlético",
-     "goals": 3,
-     "assists": 1,
-     "apps": 7,
      "p_goal": 20,
-     "p_dec": 27
+     "p_dec": 30
     },
     {
      "name": "Giuliano Simeone",
@@ -600,8 +591,19 @@
      "goals": 2,
      "assists": 2,
      "apps": 8,
+     "p_goal": 19,
+     "p_dec": 32
+    },
+    {
+     "name": "Alejandro Grimaldo",
+     "pos": "Défenseur",
+     "side": "h",
+     "team": "Atlético",
+     "goals": 3,
+     "assists": 1,
+     "apps": 7,
      "p_goal": 18,
-     "p_dec": 31
+     "p_dec": 25
     },
     {
      "name": "Lee Kang-In",
@@ -611,7 +613,7 @@
      "goals": 2,
      "assists": 1,
      "apps": 8,
-     "p_goal": 15,
+     "p_goal": 14,
      "p_dec": 24
     },
     {
@@ -622,8 +624,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 8,
-     "p_goal": 11,
-     "p_dec": 14
+     "p_goal": 13,
+     "p_dec": 17
     }
    ],
    "squad_a": [
@@ -635,7 +637,7 @@
      "goals": 3,
      "assists": 0,
      "apps": 6,
-     "p_goal": 27,
+     "p_goal": 25,
      "p_dec": 30
     },
     {
@@ -646,8 +648,8 @@
      "goals": 3,
      "assists": 1,
      "apps": 6,
-     "p_goal": 24,
-     "p_dec": 33
+     "p_goal": 20,
+     "p_dec": 31
     },
     {
      "name": "Matheus Cunha",
@@ -657,19 +659,8 @@
      "goals": 1,
      "assists": 2,
      "apps": 6,
-     "p_goal": 14,
+     "p_goal": 15,
      "p_dec": 29
-    },
-    {
-     "name": "Benjamin Sesko",
-     "pos": "Attaquant",
-     "side": "a",
-     "team": "Man United",
-     "goals": 1,
-     "assists": 0,
-     "apps": 4,
-     "p_goal": 9,
-     "p_dec": 9
     },
     {
      "name": "Marcus Rashford",
@@ -679,8 +670,19 @@
      "goals": 0,
      "assists": 0,
      "apps": 6,
-     "p_goal": 5,
-     "p_dec": 7
+     "p_goal": 7,
+     "p_dec": 11
+    },
+    {
+     "name": "Benjamin Sesko",
+     "pos": "Attaquant",
+     "side": "a",
+     "team": "Man United",
+     "goals": 1,
+     "assists": 0,
+     "apps": 4,
+     "p_goal": 7,
+     "p_dec": 8
     },
     {
      "name": "Kobbie Mainoo",
@@ -690,8 +692,8 @@
      "goals": 0,
      "assists": 1,
      "apps": 6,
-     "p_goal": 2,
-     "p_dec": 14
+     "p_goal": 3,
+     "p_dec": 15
     }
    ],
    "ctx": [
@@ -742,8 +744,8 @@
      "goals": 6,
      "assists": 3,
      "apps": 5,
-     "p_goal": 27,
-     "p_dec": 38
+     "p_goal": 25,
+     "p_dec": 35
     },
     {
      "name": "Gabriel Sara",
@@ -753,19 +755,8 @@
      "goals": 2,
      "assists": 2,
      "apps": 7,
-     "p_goal": 11,
-     "p_dec": 21
-    },
-    {
-     "name": "Abdülkerim Bardakçi",
-     "pos": "Défenseur",
-     "side": "h",
-     "team": "Galatasaray",
-     "goals": 2,
-     "assists": 0,
-     "apps": 7,
      "p_goal": 10,
-     "p_dec": 11
+     "p_dec": 21
     },
     {
      "name": "Yunus Akgün",
@@ -775,19 +766,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 7,
-     "p_goal": 9,
-     "p_dec": 11
-    },
-    {
-     "name": "Roland Sallai",
-     "pos": "Attaquant",
-     "side": "h",
-     "team": "Galatasaray",
-     "goals": 1,
-     "assists": 0,
-     "apps": 6,
-     "p_goal": 8,
-     "p_dec": 10
+     "p_goal": 10,
+     "p_dec": 14
     },
     {
      "name": "Baris Alper Yilmaz",
@@ -797,7 +777,29 @@
      "goals": 1,
      "assists": 0,
      "apps": 7,
-     "p_goal": 8,
+     "p_goal": 10,
+     "p_dec": 13
+    },
+    {
+     "name": "Roland Sallai",
+     "pos": "Attaquant",
+     "side": "h",
+     "team": "Galatasaray",
+     "goals": 1,
+     "assists": 0,
+     "apps": 6,
+     "p_goal": 9,
+     "p_dec": 12
+    },
+    {
+     "name": "Abdülkerim Bardakçi",
+     "pos": "Défenseur",
+     "side": "h",
+     "team": "Galatasaray",
+     "goals": 2,
+     "assists": 0,
+     "apps": 7,
+     "p_goal": 9,
      "p_dec": 10
     }
    ],
@@ -810,8 +812,8 @@
      "goals": 12,
      "assists": 3,
      "apps": 7,
-     "p_goal": 60,
-     "p_dec": 69
+     "p_goal": 58,
+     "p_dec": 67
     },
     {
      "name": "Lamine Yamal",
@@ -832,7 +834,7 @@
      "goals": 4,
      "assists": 2,
      "apps": 7,
-     "p_goal": 26,
+     "p_goal": 25,
      "p_dec": 38
     },
     {
@@ -865,8 +867,8 @@
      "goals": 1,
      "assists": 4,
      "apps": 7,
-     "p_goal": 11,
-     "p_dec": 35
+     "p_goal": 13,
+     "p_dec": 36
     }
    ],
    "ctx": [
@@ -890,24 +892,24 @@
    "form_a": "NVVDV",
    "rank_h": 26,
    "rank_a": 22,
-   "pH": 76,
+   "pH": 77,
    "pD": 15,
    "pA": 9,
    "source": "Cotes DraftKings",
-   "xgH": 2.62,
-   "xgA": 0.8,
+   "xgH": 2.6,
+   "xgA": 0.76,
    "scores": [
     "2-0",
     "3-0",
-    "2-1"
+    "1-0"
    ],
    "scorep": [
-    11,
+    12,
     10,
     9
    ],
-   "over25": 66,
-   "btts": 51,
+   "over25": 65,
+   "btts": 49,
    "squad_h": [
     {
      "name": "Lautaro Martínez",
@@ -917,7 +919,7 @@
      "goals": 4,
      "assists": 0,
      "apps": 5,
-     "p_goal": 42,
+     "p_goal": 40,
      "p_dec": 44
     },
     {
@@ -928,8 +930,8 @@
      "goals": 3,
      "assists": 2,
      "apps": 5,
-     "p_goal": 34,
-     "p_dec": 50
+     "p_goal": 33,
+     "p_dec": 48
     },
     {
      "name": "Hakan Çalhanoglu",
@@ -939,8 +941,8 @@
      "goals": 3,
      "assists": 0,
      "apps": 4,
-     "p_goal": 31,
-     "p_dec": 33
+     "p_goal": 28,
+     "p_dec": 31
     },
     {
      "name": "Pio Esposito",
@@ -950,8 +952,8 @@
      "goals": 2,
      "assists": 1,
      "apps": 6,
-     "p_goal": 26,
-     "p_dec": 37
+     "p_goal": 27,
+     "p_dec": 38
     },
     {
      "name": "Nicolò Barella",
@@ -962,7 +964,7 @@
      "assists": 1,
      "apps": 5,
      "p_goal": 14,
-     "p_dec": 29
+     "p_dec": 31
     },
     {
      "name": "Piotr Zielinski",
@@ -973,7 +975,7 @@
      "assists": 1,
      "apps": 5,
      "p_goal": 13,
-     "p_dec": 27
+     "p_dec": 28
     }
    ],
    "squad_a": [
@@ -985,7 +987,7 @@
      "goals": 4,
      "assists": 0,
      "apps": 8,
-     "p_goal": 16,
+     "p_goal": 15,
      "p_dec": 17
     },
     {
@@ -996,7 +998,7 @@
      "goals": 4,
      "assists": 0,
      "apps": 8,
-     "p_goal": 14,
+     "p_goal": 13,
      "p_dec": 16
     },
     {
@@ -1008,7 +1010,7 @@
      "assists": 3,
      "apps": 7,
      "p_goal": 9,
-     "p_dec": 20
+     "p_dec": 19
     },
     {
      "name": "Jan Virgili",
@@ -1029,19 +1031,19 @@
      "goals": 2,
      "assists": 0,
      "apps": 8,
-     "p_goal": 7,
-     "p_dec": 8
+     "p_goal": 6,
+     "p_dec": 7
     },
     {
-     "name": "Hans Vanaken",
-     "pos": "Milieu",
+     "name": "Mamadou Diakhon",
+     "pos": "Attaquant",
      "side": "a",
      "team": "Club Brugge",
      "goals": 1,
      "assists": 2,
      "apps": 7,
      "p_goal": 5,
-     "p_dec": 13
+     "p_dec": 12
     }
    ],
    "ctx": [
@@ -1049,7 +1051,7 @@
     "Club Brugge : 22e, 0 point, 2 buts marqués et 3 encaissés en 1 match.",
     "Joueurs : statistiques de la saison en championnat national (plus de matchs que la Ligue des champions)."
    ],
-   "reading": "Inter Milan est nettement favori (76 %)."
+   "reading": "Inter Milan est nettement favori (77 %)."
   },
   {
    "id": "foot-401915434",
@@ -1065,24 +1067,24 @@
    "form_a": "NDVNV",
    "rank_h": 32,
    "rank_a": 20,
-   "pH": 62,
+   "pH": 61,
    "pD": 19,
-   "pA": 19,
+   "pA": 20,
    "source": "Cotes DraftKings",
-   "xgH": 2.35,
-   "xgA": 1.24,
+   "xgH": 2.34,
+   "xgA": 1.29,
    "scores": [
     "2-1",
     "1-1",
-    "2-0"
+    "3-1"
    ],
    "scorep": [
     9,
     8,
-    8
+    7
    ],
    "over25": 70,
-   "btts": 64,
+   "btts": 65,
    "squad_h": [
     {
      "name": "Christopher Nkunku",
@@ -1092,8 +1094,8 @@
      "goals": 4,
      "assists": 1,
      "apps": 5,
-     "p_goal": 43,
-     "p_dec": 52
+     "p_goal": 41,
+     "p_dec": 51
     },
     {
      "name": "Antonio Nusa",
@@ -1103,8 +1105,8 @@
      "goals": 3,
      "assists": 3,
      "apps": 5,
-     "p_goal": 33,
-     "p_dec": 57
+     "p_goal": 31,
+     "p_dec": 55
     },
     {
      "name": "Tidiam Gomis",
@@ -1114,8 +1116,8 @@
      "goals": 2,
      "assists": 2,
      "apps": 5,
-     "p_goal": 27,
-     "p_dec": 45
+     "p_goal": 26,
+     "p_dec": 43
     },
     {
      "name": "Ridle Baku",
@@ -1125,8 +1127,19 @@
      "goals": 2,
      "assists": 0,
      "apps": 5,
-     "p_goal": 23,
-     "p_dec": 24
+     "p_goal": 20,
+     "p_dec": 22
+    },
+    {
+     "name": "Rômulo",
+     "pos": "Attaquant",
+     "side": "h",
+     "team": "RB Leipzig",
+     "goals": 1,
+     "assists": 0,
+     "apps": 3,
+     "p_goal": 16,
+     "p_dec": 19
     },
     {
      "name": "Ezechiel Banzuzi",
@@ -1137,18 +1150,7 @@
      "assists": 2,
      "apps": 5,
      "p_goal": 15,
-     "p_dec": 38
-    },
-    {
-     "name": "Rômulo",
-     "pos": "Attaquant",
-     "side": "h",
-     "team": "RB Leipzig",
-     "goals": 1,
-     "assists": 0,
-     "apps": 3,
-     "p_goal": 15,
-     "p_dec": 17
+     "p_dec": 39
     }
    ],
    "squad_a": [
@@ -1160,8 +1162,8 @@
      "goals": 5,
      "assists": 0,
      "apps": 8,
-     "p_goal": 21,
-     "p_dec": 23
+     "p_goal": 20,
+     "p_dec": 24
     },
     {
      "name": "Sven Mijnans",
@@ -1171,7 +1173,7 @@
      "goals": 4,
      "assists": 1,
      "apps": 7,
-     "p_goal": 17,
+     "p_goal": 16,
      "p_dec": 22
     },
     {
@@ -1182,8 +1184,8 @@
      "goals": 3,
      "assists": 0,
      "apps": 7,
-     "p_goal": 14,
-     "p_dec": 16
+     "p_goal": 15,
+     "p_dec": 17
     },
     {
      "name": "Ruben Van Bommel",
@@ -1193,8 +1195,8 @@
      "goals": 2,
      "assists": 2,
      "apps": 8,
-     "p_goal": 11,
-     "p_dec": 20
+     "p_goal": 12,
+     "p_dec": 22
     },
     {
      "name": "Ivan Perisic",
@@ -1204,8 +1206,8 @@
      "goals": 2,
      "assists": 1,
      "apps": 8,
-     "p_goal": 11,
-     "p_dec": 16
+     "p_goal": 12,
+     "p_dec": 18
     },
     {
      "name": "Sergiño Dest",
@@ -1215,7 +1217,7 @@
      "goals": 2,
      "assists": 2,
      "apps": 7,
-     "p_goal": 9,
+     "p_goal": 8,
      "p_dec": 17
     }
    ],
@@ -1224,7 +1226,7 @@
     "PSV : 20e, 1 point, 1 buts marqués et 1 encaissés en 1 match.",
     "Joueurs : statistiques de la saison en championnat national (plus de matchs que la Ligue des champions)."
    ],
-   "reading": "RB Leipzig est nettement favori (62 %)."
+   "reading": "RB Leipzig est nettement favori (61 %)."
   },
   {
    "id": "foot-401915411",
@@ -1244,20 +1246,20 @@
    "pD": 10,
    "pA": 83,
    "source": "Cotes DraftKings",
-   "xgH": 2.24,
-   "xgA": 5.71,
+   "xgH": 1.17,
+   "xgA": 3.72,
    "scores": [
-    "2-5",
-    "2-6",
-    "1-5"
+    "1-3",
+    "1-4",
+    "0-3"
    ],
    "scorep": [
-    4,
-    4,
-    4
+    8,
+    7,
+    6
    ],
-   "over25": 99,
-   "btts": 89,
+   "over25": 87,
+   "btts": 67,
    "squad_h": [
     {
      "name": "Peter Christiansen",
@@ -1267,8 +1269,8 @@
      "goals": 12,
      "assists": 6,
      "apps": 21,
-     "p_goal": 39,
-     "p_dec": 53
+     "p_goal": 23,
+     "p_dec": 32
     },
     {
      "name": "Simen Kvia-Egeskog",
@@ -1278,8 +1280,8 @@
      "goals": 8,
      "assists": 2,
      "apps": 22,
-     "p_goal": 27,
-     "p_dec": 34
+     "p_goal": 15,
+     "p_dec": 19
     },
     {
      "name": "Zlatko Tripic",
@@ -1289,8 +1291,8 @@
      "goals": 6,
      "assists": 19,
      "apps": 21,
-     "p_goal": 23,
-     "p_dec": 64
+     "p_goal": 13,
+     "p_dec": 40
     },
     {
      "name": "Henrik Heggheim",
@@ -1300,8 +1302,8 @@
      "goals": 6,
      "assists": 3,
      "apps": 21,
-     "p_goal": 21,
-     "p_dec": 30
+     "p_goal": 11,
+     "p_dec": 16
     },
     {
      "name": "Kristoffer Askildsen",
@@ -1311,8 +1313,8 @@
      "goals": 5,
      "assists": 1,
      "apps": 21,
-     "p_goal": 18,
-     "p_dec": 23
+     "p_goal": 10,
+     "p_dec": 14
     },
     {
      "name": "Gianni Stensness",
@@ -1322,22 +1324,11 @@
      "goals": 4,
      "assists": 0,
      "apps": 20,
-     "p_goal": 15,
-     "p_dec": 15
+     "p_goal": 8,
+     "p_dec": 8
     }
    ],
    "squad_a": [
-    {
-     "name": "Michael Olise",
-     "pos": "Milieu",
-     "side": "a",
-     "team": "Bayern",
-     "goals": 4,
-     "assists": 1,
-     "apps": 5,
-     "p_goal": 72,
-     "p_dec": 83
-    },
     {
      "name": "Harry Kane",
      "pos": "Attaquant",
@@ -1346,8 +1337,19 @@
      "goals": 3,
      "assists": 3,
      "apps": 5,
-     "p_goal": 68,
-     "p_dec": 89
+     "p_goal": 52,
+     "p_dec": 74
+    },
+    {
+     "name": "Michael Olise",
+     "pos": "Milieu",
+     "side": "a",
+     "team": "Bayern",
+     "goals": 4,
+     "assists": 1,
+     "apps": 5,
+     "p_goal": 52,
+     "p_dec": 66
     },
     {
      "name": "Ismael Saibari",
@@ -1357,8 +1359,8 @@
      "goals": 2,
      "assists": 2,
      "apps": 5,
-     "p_goal": 48,
-     "p_dec": 74
+     "p_goal": 32,
+     "p_dec": 56
     },
     {
      "name": "Luis Díaz",
@@ -1368,8 +1370,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 5,
-     "p_goal": 40,
-     "p_dec": 47
+     "p_goal": 32,
+     "p_dec": 40
     },
     {
      "name": "Aleksandar Pavlovic",
@@ -1379,8 +1381,8 @@
      "goals": 1,
      "assists": 1,
      "apps": 5,
-     "p_goal": 32,
-     "p_dec": 58
+     "p_goal": 22,
+     "p_dec": 46
     },
     {
      "name": "Jamal Musiala",
@@ -1390,8 +1392,8 @@
      "goals": 1,
      "assists": 1,
      "apps": 3,
-     "p_goal": 28,
-     "p_dec": 50
+     "p_goal": 18,
+     "p_dec": 35
     }
    ],
    "ctx": [
@@ -1442,7 +1444,7 @@
      "goals": 3,
      "assists": 0,
      "apps": 8,
-     "p_goal": 25,
+     "p_goal": 22,
      "p_dec": 28
     },
     {
@@ -1453,7 +1455,7 @@
      "goals": 2,
      "assists": 1,
      "apps": 8,
-     "p_goal": 20,
+     "p_goal": 19,
      "p_dec": 28
     },
     {
@@ -1464,7 +1466,7 @@
      "goals": 2,
      "assists": 0,
      "apps": 6,
-     "p_goal": 20,
+     "p_goal": 19,
      "p_dec": 22
     },
     {
@@ -1475,7 +1477,7 @@
      "goals": 2,
      "assists": 0,
      "apps": 7,
-     "p_goal": 19,
+     "p_goal": 17,
      "p_dec": 20
     },
     {
@@ -1486,8 +1488,8 @@
      "goals": 2,
      "assists": 3,
      "apps": 8,
-     "p_goal": 17,
-     "p_dec": 39
+     "p_goal": 16,
+     "p_dec": 36
     },
     {
      "name": "Ayoze Pérez",
@@ -1497,7 +1499,7 @@
      "goals": 1,
      "assists": 2,
      "apps": 8,
-     "p_goal": 12,
+     "p_goal": 13,
      "p_dec": 28
     }
    ],
@@ -1510,8 +1512,8 @@
      "goals": 3,
      "assists": 1,
      "apps": 6,
-     "p_goal": 21,
-     "p_dec": 30
+     "p_goal": 18,
+     "p_dec": 27
     },
     {
      "name": "Rasmus Højlund",
@@ -1522,7 +1524,7 @@
      "assists": 0,
      "apps": 6,
      "p_goal": 18,
-     "p_dec": 21
+     "p_dec": 22
     },
     {
      "name": "Matteo Politano",
@@ -1532,7 +1534,7 @@
      "goals": 1,
      "assists": 1,
      "apps": 6,
-     "p_goal": 11,
+     "p_goal": 12,
      "p_dec": 20
     },
     {
@@ -1544,7 +1546,7 @@
      "assists": 0,
      "apps": 5,
      "p_goal": 10,
-     "p_dec": 12
+     "p_dec": 13
     },
     {
      "name": "Stanislav Lobotka",
@@ -1555,7 +1557,7 @@
      "assists": 0,
      "apps": 6,
      "p_goal": 9,
-     "p_dec": 14
+     "p_dec": 16
     },
     {
      "name": "Antonio Vergara",
@@ -1565,8 +1567,8 @@
      "goals": 1,
      "assists": 1,
      "apps": 3,
-     "p_goal": 8,
-     "p_dec": 15
+     "p_goal": 7,
+     "p_dec": 14
     }
    ],
    "ctx": [
@@ -1595,7 +1597,7 @@
    "pH": 40,
    "pD": 22,
    "pA": 38,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.18,
    "xgA": 3.12,
    "total": 6.3,
@@ -1782,7 +1784,7 @@
    "pH": 44,
    "pD": 22,
    "pA": 34,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 2.79,
    "xgA": 2.51,
    "total": 5.3,
@@ -1969,7 +1971,7 @@
    "pH": 46,
    "pD": 22,
    "pA": 32,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.41,
    "xgA": 2.89,
    "total": 6.3,
@@ -2156,7 +2158,7 @@
    "pH": 46,
    "pD": 22,
    "pA": 32,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.41,
    "xgA": 2.89,
    "total": 6.3,
@@ -2343,7 +2345,7 @@
    "pH": 41,
    "pD": 22,
    "pA": 37,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 2.72,
    "xgA": 2.58,
    "total": 5.3,
@@ -2530,7 +2532,7 @@
    "pH": 31,
    "pD": 22,
    "pA": 47,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 2.39,
    "xgA": 2.91,
    "total": 5.3,
@@ -2717,7 +2719,7 @@
    "pH": 39,
    "pD": 22,
    "pA": 39,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 2.64,
    "xgA": 2.66,
    "total": 5.3,
@@ -2904,7 +2906,7 @@
    "pH": 52,
    "pD": 22,
    "pA": 26,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.61,
    "xgA": 2.69,
    "total": 6.3,
@@ -3091,7 +3093,7 @@
    "pH": 31,
    "pD": 22,
    "pA": 47,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 2.86,
    "xgA": 3.44,
    "total": 6.3,
@@ -3278,7 +3280,7 @@
    "pH": 40,
    "pD": 22,
    "pA": 38,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.18,
    "xgA": 3.12,
    "total": 6.3,
@@ -3465,7 +3467,7 @@
    "pH": 41,
    "pD": 22,
    "pA": 37,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 2.7,
    "xgA": 2.6,
    "total": 5.3,
@@ -3652,7 +3654,7 @@
    "pH": 36,
    "pD": 22,
    "pA": 42,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.05,
    "xgA": 3.25,
    "total": 6.3,
@@ -3839,7 +3841,7 @@
    "pH": 47,
    "pD": 22,
    "pA": 31,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.44,
    "xgA": 2.86,
    "total": 6.3,
@@ -4026,7 +4028,7 @@
    "pH": 49,
    "pD": 22,
    "pA": 29,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.49,
    "xgA": 2.81,
    "total": 6.3,
@@ -4213,7 +4215,7 @@
    "pH": 35,
    "pD": 22,
    "pA": 43,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.02,
    "xgA": 3.28,
    "total": 6.3,
@@ -4400,7 +4402,7 @@
    "pH": 36,
    "pD": 22,
    "pA": 42,
-   "source": "Cotes Draft Kings (vainqueur final)",
+   "source": "Cotes DraftKings (vainqueur final)",
    "xgH": 3.05,
    "xgA": 3.25,
    "total": 6.3,
