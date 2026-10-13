@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Analyse sportive automatique : foot (5 grands championnats) et NHL.
+"""Analyse sportive automatique : foot (5 grands championnats et Ligue des champions) et NHL.
 
 Sources gratuites, sans clé :
-  - API publique d'ESPN : matchs, résultats, classements, buteurs et passeurs, cotes (foot et NHL) ;
+  - API publique d'ESPN : matchs, résultats, classements, effectifs et stats des joueurs, cotes (foot et NHL) ;
   - API officielle de la NHL : calendrier, classement, stats des joueurs, composition du dernier match.
 
 Chaque exécution :
@@ -22,6 +22,8 @@ import os
 import sys
 import time
 import unicodedata
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor
 from zoneinfo import ZoneInfo
 
 import requests
@@ -46,6 +48,14 @@ LEAGUES = [
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard"
 ESPN_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/{league}/standings"
 ESPN_LEADERS = "https://site.web.api.espn.com/apis/site/v2/sports/soccer/{league}/statistics"
+ESPN_ROSTER = "https://site.api.espn.com/apis/site/v2/sports/soccer/{league}/teams/{team}/roster"
+ESPN_PLAYER_STATS = ("https://sports.core.api.espn.com/v2/sports/soccer/leagues/{league}/seasons/{season}"
+                     "/types/1/athletes/{athlete}/statistics")
+SQUAD_SIZE = 6        # joueurs affichés par équipe
+# part a priori des buts (et des buts + passes) de l'équipe selon le poste, pour un joueur qui joue tout
+GOAL_PRIOR = {"F": 0.22, "M": 0.08, "D": 0.03}
+DEC_PRIOR = {"F": 0.35, "M": 0.25, "D": 0.08}
+POSTES = {"F": "Attaquant", "M": "Milieu", "D": "Défenseur"}
 NHL_API = "https://api-web.nhle.com/v1"
 
 NHL_TIE = 0.22        # part des matchs NHL à égalité après 60 minutes
@@ -83,9 +93,16 @@ def get_json(url, params=None):
         if r.status_code in (429, 500, 502, 503, 504):
             time.sleep(5 * (attempt + 1))
             continue
-        print(f"HTTP {r.status_code} sur {url}", file=sys.stderr)
+        if r.status_code != 404:
+            print(f"HTTP {r.status_code} sur {url}", file=sys.stderr)
         return None
     return None
+
+
+def get_many(urls, workers=8):
+    """Plusieurs GET en parallèle ; renvoie les réponses dans l'ordre des adresses (None si échec)."""
+    with ThreadPoolExecutor(max_workers=workers) as pool:
+        return list(pool.map(get_json, urls))
 
 
 # ---------------------------------------------------------------- outils
@@ -295,6 +312,79 @@ def espn_leaders(league):
     return by_team
 
 
+SQUADS = {}
+
+
+def stat_values(doc):
+    out = {}
+    for cat in ((doc or {}).get("splits") or {}).get("categories", []):
+        for s in cat.get("stats", []):
+            if s.get("name") not in out:
+                out[s.get("name")] = s.get("value") or 0
+    return out
+
+
+def espn_squad(league, team_id):
+    """Effectif complet d'une équipe avec, pour chaque joueur de champ, matchs, minutes, buts et passes.
+
+    Pour la Ligue des champions, les stats viennent du championnat national du club (plus de matchs,
+    donc plus fiables) : on le déduit du championnat principal des joueurs de l'effectif.
+    Renvoie None si ESPN ne répond pas.
+    """
+    if (league, team_id) in SQUADS:
+        return SQUADS[(league, team_id)]
+    roster = get_json(ESPN_ROSTER.format(league=league, team=team_id))
+    athletes = (roster or {}).get("athletes") or []
+    if not athletes:
+        SQUADS[(league, team_id)] = None
+        return None
+    season = ((roster.get("season") or {}).get("year")) or dt.date.today().year
+    domestic = league
+    if league == "uefa.champions":
+        refs = [((a.get("defaultLeague") or {}).get("$ref") or "").split("/leagues/")[-1].split("?")[0].split("/")[0]
+                for a in athletes]
+        counts = Counter(r for r in refs if r and r != "uefa.champions")
+        if counts:
+            top = [lg for lg, _ in counts.most_common() if lg.endswith(".1")]
+            domestic = top[0] if top else counts.most_common(1)[0][0]
+    field = [a for a in athletes if ((a.get("position") or {}).get("abbreviation") or "") in GOAL_PRIOR]
+    docs = get_many([ESPN_PLAYER_STATS.format(league=domestic, season=season, athlete=a["id"]) for a in field])
+    if domestic != league and not any(docs):
+        domestic = league
+        docs = get_many([ESPN_PLAYER_STATS.format(league=league, season=season, athlete=a["id"]) for a in field])
+    players = []
+    for a, doc in zip(field, docs):
+        s = stat_values(doc)
+        apps = int(s.get("appearances") or 0)
+        if not apps:
+            continue
+        players.append(dict(name=a.get("displayName", ""), pos=a["position"]["abbreviation"], apps=apps,
+                            minutes=float(s.get("minutes") or 0), goals=int(s.get("totalGoals") or 0),
+                            assists=int(s.get("goalAssists") or 0)))
+    squad = dict(players=players, league=domestic) if players else None
+    SQUADS[(league, team_id)] = squad
+    return squad
+
+
+def squad_rows(squad, lam, side, team):
+    """Probabilité de marquer et d'être décisif (but ou passe) pour chaque joueur de champ."""
+    players = squad["players"]
+    team_games = max(p["apps"] for p in players)
+    team_goals = max(sum(p["goals"] for p in players), 1)
+    k = 4
+    rows = []
+    for p in players:
+        mfrac = min(1.0, p["minutes"] / (90 * team_games)) if p["minutes"] else min(1.0, p["apps"] / team_games) * 0.6
+        share_goal = (p["goals"] + k * GOAL_PRIOR[p["pos"]] * mfrac) / (team_goals + k)
+        share_dec = min(1.2, (p["goals"] + p["assists"] + k * DEC_PRIOR[p["pos"]] * mfrac) / (team_goals + k))
+        rows.append(dict(name=p["name"], pos=POSTES[p["pos"]], side=side, team=team,
+                         goals=p["goals"], assists=p["assists"], apps=p["apps"],
+                         p_goal=pct(1 - math.exp(-lam * share_goal)),
+                         p_dec=pct(1 - math.exp(-lam * share_dec))))
+    rows.sort(key=lambda r: (-r["p_goal"], -r["p_dec"]))
+    return rows[:SQUAD_SIZE]
+
+
 # ---------------------------------------------------------------- foot
 
 FORM_FR = {"W": "V", "D": "N", "L": "D"}
@@ -336,10 +426,17 @@ def foot_league(today, history, league, code):
     table = espn_standings(code)
     gp = sum(r["gp"] for r in table.values())
     league_gpg = (sum(r["gf"] for r in table.values()) / gp) if gp else 1.4
-    leaders = espn_leaders(code)
-    if not leaders:
-        note(f"{league} : buteurs indisponibles aujourd'hui.")
-    return [foot_match(e, league, table, league_gpg or 1.4, leaders, history) for e in todays]
+    leaders = {}
+    rows = []
+    for e in todays:
+        _, H, A = competitors(e)
+        squads = {s: espn_squad(code, str(c["team"]["id"])) for s, c in (("h", H), ("a", A))}
+        if not all(squads.values()) and not leaders:
+            leaders = espn_leaders(code)          # repli : top 50 des buteurs et passeurs du championnat
+            if not leaders:
+                note(f"{league} : joueurs indisponibles aujourd'hui.")
+        rows.append(foot_match(e, league, table, league_gpg or 1.4, leaders, history, squads))
+    return rows
 
 
 def competitors(e):
@@ -369,13 +466,13 @@ def foot_players(squad, team_goals, lam):
         g, a = p["goals"], p["assists"]
         share_goal = (g + 0.12 * 5) / (team_goals + 5)
         share_dec = min(1.5, (g + a + 0.25 * 5) / (team_goals + 5))
-        rows.append(dict(name=p["name"], goals=g, assists=a,
+        rows.append(dict(name=p["name"], goals=g, assists=a, pos="", apps=p.get("apps") or None,
                          p_goal=pct(1 - math.exp(-lam * share_goal * 0.85)),
                          p_dec=pct(1 - math.exp(-lam * share_dec * 0.85))))
     return rows
 
 
-def foot_match(e, league, table, league_gpg, leaders, history):
+def foot_match(e, league, table, league_gpg, leaders, history, squads=None):
     comp, H, A = competitors(e)
     kickoff = parse_time(e["date"])
     hid, aid = str(H["team"]["id"]), str(A["team"]["id"])
@@ -409,15 +506,17 @@ def foot_match(e, league, table, league_gpg, leaders, history):
     over25 = 1 - sum(g[i][j] for i in range(3) for j in range(3) if i + j <= 2)
     btts = (1 - math.exp(-lh)) * (1 - math.exp(-la))
 
-    players, deci = [], []
+    squads = squads or {}
+    team_rows, stats_from = {}, set()
     for side, tid, st, lam, name in (("h", hid, sh, lh, home), ("a", aid, sa, la, away)):
-        rows = foot_players(leaders.get(tid, []), max((st or {}).get("gf", 0), 1), lam)
-        for r in rows:
-            r.update(side=side, team=name)
-        players += sorted(rows, key=lambda r: -r["p_goal"])[:4]
-        deci += sorted(rows, key=lambda r: -r["p_dec"])[:3]
-    players.sort(key=lambda r: -r["p_goal"])
-    deci.sort(key=lambda r: -r["p_dec"])
+        if squads.get(side):
+            team_rows[side] = squad_rows(squads[side], lam, side, name)
+            stats_from.add(squads[side]["league"])
+        else:
+            rows = foot_players(leaders.get(tid, []), max((st or {}).get("gf", 0), 1), lam)
+            for r in rows:
+                r.update(side=side, team=name)
+            team_rows[side] = sorted(rows, key=lambda r: -r["p_goal"])[:SQUAD_SIZE]
 
     if state == "pre":
         old = history.get(key, {})
@@ -430,8 +529,10 @@ def foot_match(e, league, table, league_gpg, leaders, history):
         if st:
             ctx.append(f"{name} : {st['rank']}e, {plural(st['pts'], 'point')}, "
                        f"{st['gf']} buts marqués et {st['ga']} encaissés en {plural(st['gp'], 'match', 'matchs')}.")
-    if not leaders.get(hid) and not leaders.get(aid):
-        ctx.append("Aucun joueur de ces deux équipes dans le top 50 des buteurs et passeurs du championnat.")
+    if not team_rows["h"] and not team_rows["a"]:
+        ctx.append("Statistiques des joueurs indisponibles pour ce match.")
+    if league == "Ligue des champions" and stats_from - {"uefa.champions"}:
+        ctx.append("Joueurs : statistiques de la saison en championnat national (plus de matchs que la Ligue des champions).")
 
     fav, pf = (home, p_h) if p_h >= p_a else (away, p_a)
     if pf >= 0.6:
@@ -453,7 +554,8 @@ def foot_match(e, league, table, league_gpg, leaders, history):
         rank_h=(sh or {}).get("rank"), rank_a=(sa or {}).get("rank"),
         pH=pct(p_h), pD=pct(p_d), pA=pct(p_a), source=source,
         xgH=round(lh, 2), xgA=round(la, 2), scores=scores, scorep=scorep,
-        over25=pct(over25), btts=pct(btts), players=players, deci=deci, ctx=ctx, reading=reading)
+        over25=pct(over25), btts=pct(btts), squad_h=team_rows["h"], squad_a=team_rows["a"],
+        ctx=ctx, reading=reading)
 
 
 # ---------------------------------------------------------------- NHL
@@ -658,7 +760,7 @@ def nhl_game(g, standings, espn, yesterday_teams, history):
             return (gf + prof["prev_goals"]) / (gp + 82)
         return gf / gp if gp else total / 2
 
-    players, deci = [], []
+    team_rows = {}
     for side, prof, lam, st, name in (("h", prof_h, lh, sh, hname), ("a", prof_a, la, sa, aname)):
         k = lam / max(ref(st, prof), 1.5)
         rows = []
@@ -667,10 +769,7 @@ def nhl_game(g, standings, espn, yesterday_teams, history):
                              p_goal=pct(1 - math.exp(-p["gpg"] * k)),
                              p_point=pct(1 - math.exp(-p["ppg"] * k)),
                              p_assist=pct(1 - math.exp(-p["apg"] * k))))
-        players += sorted(rows, key=lambda r: -r["p_goal"])[:4]
-        deci += sorted(rows, key=lambda r: -r["p_point"])[:4]
-    players.sort(key=lambda r: -r["p_goal"])
-    deci.sort(key=lambda r: -r["p_point"])
+        team_rows[side] = sorted(rows, key=lambda r: (-r["p_goal"], -r["p_point"]))[:SQUAD_SIZE]
 
     state = g.get("gameState", "FUT")
     key = f"nhl-{g['id']}"
@@ -715,7 +814,7 @@ def nhl_game(g, standings, espn, yesterday_teams, history):
         winH=pct(win_h), winA=pct(win_a), pH=pct(p_h), pD=pct(p_d), pA=pct(p_a), source=source,
         xgH=round(lh, 2), xgA=round(la, 2), total=round(total, 1), scores=scores, scorep=scorep,
         goalie_h=projected_goalie(prof_h, b2b_h), goalie_a=projected_goalie(prof_a, b2b_a),
-        players=players, deci=deci, ctx=ctx, reading=reading)
+        squad_h=team_rows["h"], squad_a=team_rows["a"], ctx=ctx, reading=reading)
 
 
 # ---------------------------------------------------------------- bilan

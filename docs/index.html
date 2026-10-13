@@ -76,7 +76,15 @@ h3{font-size:.95rem;text-transform:uppercase;letter-spacing:.06em;color:var(--mu
 .cols{display:grid;grid-template-columns:1fr 1fr;gap:14px}
 .cols>div{min-width:0}
 .rows{display:grid;gap:5px}
-.row{display:grid;grid-template-columns:minmax(0,1fr) 70px 40px;gap:8px;align-items:center;font-size:.9rem}
+.row{display:grid;grid-template-columns:minmax(0,1fr) 56px 38px 46px;gap:8px;align-items:center;font-size:.9rem}
+.row.head{font-size:.7rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);border-bottom:1px solid var(--line);padding-bottom:3px}
+.row.head span:nth-child(2){grid-column:2 / span 2}
+.row.head span:last-child{text-align:right}
+.row.head span:nth-child(3){display:none}
+.row .dec{color:var(--muted)}
+.squad h4{font-family:var(--display);font-size:1.1rem;margin:0 0 6px;padding-left:8px;border-left:4px solid}
+.top{margin:0 0 8px;font-size:.9rem}
+.top b{font-family:var(--display);font-size:1.02rem}
 .row .who{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .row small{color:var(--muted)}
 .track{height:7px;background:var(--soft);border-radius:4px;overflow:hidden}
@@ -103,7 +111,7 @@ td.r,th.r{text-align:right}
   .stats{grid-template-columns:repeat(2,1fr)}
   .cols,.goalies{grid-template-columns:1fr}
   .name{font-size:1.2rem}
-  .row{grid-template-columns:minmax(0,1fr) 50px 38px}
+  .row{grid-template-columns:minmax(0,1fr) 44px 36px 44px}
 }
 </style>
 </head>
@@ -123,7 +131,7 @@ td.r,th.r{text-align:right}
   <section class="explain" id="explain">
     <h2>Comment lire ces chiffres</h2>
     <p><strong>Barre de couleur :</strong> chances de victoire tirées des cotes du bookmaker affiché par ESPN, marge retirée. C'est l'estimation publique la plus fiable ; elle intègre déjà forme, absents connus et avantage du terrain. Au hockey, la barre montre le résultat après 60 minutes, et « au final » ajoute prolongation et tirs au but.</p>
-    <p><strong>Buts attendus, scores, buteurs :</strong> calculés à partir de ces probabilités avec un modèle de Poisson. Pour les joueurs, on part de leur part des buts (et passes) de l'équipe, lissée car le début de saison donne peu de matchs. Confiance faible : ce sont des ordres de grandeur, qui sous-estiment les grands buteurs.</p>
+    <p><strong>Buts attendus, scores, buteurs :</strong> calculés à partir de ces probabilités avec un modèle de Poisson. Pour chaque équipe, les 6 joueurs les plus susceptibles de marquer sont listés. « Marque » donne la chance de marquer au moins un but, « Décisif » celle de marquer ou de faire une passe décisive, et « Point » celle de marquer au moins 1 point (but ou passe) au hockey. On part de la part des buts et des passes de l'équipe pour chaque joueur, pondérée par son temps de jeu et son poste, puis lissée car le début de saison compte peu de matchs. En Ligue des champions, ce sont les statistiques du championnat national du club. Confiance faible : ce sont des ordres de grandeur. Les blessés ne sont pas filtrés au foot : vérifie les compositions avant de parier sur un joueur.</p>
     <p><strong>Bilan :</strong> chaque pronostic est archivé avant le match puis comparé au résultat. Si les matchs annoncés à 60 % sont gagnés environ 6 fois sur 10, les probabilités sont fiables. Il faut au moins 200 matchs pour en juger.</p>
   </section>
 </div>
@@ -143,12 +151,25 @@ function bar(m, h, d, a, lh, la, ld){
   return `<div><div class="bar num" role="img" aria-label="${esc(lh)} ${h} %, ${esc(ld)} ${d} %, ${esc(la)} ${a} %">${seg("h",h)}${seg("d",d)}${seg("a",a)}</div>
     <div class="barlbl"><span>${esc(lh)}</span><span>${esc(ld)}</span><span>${esc(la)}</span></div></div>`;
 }
-function rows(list, key, scale, sub){
-  if (!list || !list.length) return `<p class="src">Pas de données joueurs pour ce match.</p>`;
-  return `<div class="rows">${list.map(p=>`<div class="row"><span class="who">${esc(p.name)}${p.new?' <span class="tag">nouveau</span>':''}<br><small>${esc(sub(p))}</small></span>
-    <span class="track"><span class="fill" style="width:${Math.min(100,p[key]*scale)}%;background:${p.side==="h"?"var(--home)":"var(--away)"}"></span></span>
-    <span class="p num">${p[key]}%</span></div>`).join("")}</div>`;
+const plural = (n, w) => `${n} ${w}${n > 1 ? "s" : ""}`;
+// Un bloc par équipe : chance de marquer (barre) et chance d'être décisif, joueur par joueur.
+function squad(list, team, side, decKey, decLabel, sub){
+  const color = side === "h" ? "var(--home)" : "var(--away)";
+  const body = (!list || !list.length) ? `<p class="src">Pas de données joueurs pour cette équipe.</p>` :
+    `<div class="rows"><div class="row head"><span>Joueur</span><span>Marque</span><span></span><span>${esc(decLabel)}</span></div>
+    ${list.map(p=>`<div class="row"><span class="who">${esc(p.name)}${p.new?' <span class="tag">nouveau</span>':''}<br><small>${esc(sub(p))}</small></span>
+    <span class="track"><span class="fill" style="width:${Math.min(100,p.p_goal*2)}%;background:${color}"></span></span>
+    <span class="p num">${p.p_goal}%</span><span class="p dec num">${p[decKey]}%</span></div>`).join("")}</div>`;
+  return `<div class="squad"><h4 style="border-color:${color}">${esc(team)}</h4>${body}</div>`;
 }
+function topScorer(m){
+  const all = [...(m.squad_h || []), ...(m.squad_a || [])];
+  if (!all.length) return "";
+  const b = all.reduce((x, y) => y.p_goal > x.p_goal ? y : x);
+  return `<p class="top">Buteur le plus probable du match : <b>${esc(b.name)}</b> (${esc(b.team)}) · ${b.p_goal} %</p>`;
+}
+const footSub = p => [p.pos, `${plural(p.goals, "but")}, ${plural(p.assists, "passe")}${p.apps ? " en " + plural(p.apps, "match") : ""}`].filter(Boolean).join(" · ");
+const nhlSub = p => `${p.pos} · ${p.cur}`;
 
 function footCard(m){
   return `<article class="card">
@@ -165,10 +186,8 @@ function footCard(m){
       <div class="stat"><div class="v">${m.over25}%</div><div class="k">Plus de 2,5 buts</div></div>
       <div class="stat"><div class="v">${m.btts}%</div><div class="k">Les deux marquent</div></div>
     </div>
-    <div class="cols">
-      <div><h3>Qui peut marquer</h3>${rows(m.players, "p_goal", 2, p => `${p.team} · ${p.goals} but${p.goals>1?"s":""}`)}</div>
-      <div><h3>Joueurs décisifs (but ou passe)</h3>${rows(m.deci, "p_dec", 1.6, p => `${p.team} · ${p.goals} but${p.goals>1?"s":""}, ${p.assists} passe${p.assists>1?"s":""}`)}</div>
-    </div>
+    <div><h3>Joueurs par équipe</h3>${topScorer(m)}
+    <div class="cols">${squad(m.squad_h, m.home, "h", "p_dec", "Décisif", footSub)}${squad(m.squad_a, m.away, "a", "p_dec", "Décisif", footSub)}</div></div>
     ${m.ctx.length ? `<ul class="ctx">${m.ctx.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>` : ""}
     <p class="reading"><b>Lecture :</b> ${esc(m.reading)} <span class="src">Autres scores fréquents : ${m.scores.slice(1).map((s,i)=>`${esc(s)} (${m.scorep[i+1]} %)`).join(", ")}. Source : ${esc(m.source)}.</span></p>
   </article>`;
@@ -191,10 +210,8 @@ function nhlCard(m){
       <div class="stat"><div class="v">${m.pD}%</div><div class="k">Prolongation</div></div>
     </div>
     <div class="goalies">${g(m.goalie_h, m.home)}${g(m.goalie_a, m.away)}</div>
-    <div class="cols">
-      <div><h3>Qui peut marquer</h3>${rows(m.players, "p_goal", 2.2, p => `${p.team} · ${p.cur}`)}</div>
-      <div><h3>Joueurs décisifs (au moins 1 point)</h3>${rows(m.deci, "p_point", 1.3, p => `${p.team} · ${p.pos} · passe : ${p.p_assist} %`)}</div>
-    </div>
+    <div><h3>Joueurs par équipe</h3>${topScorer(m)}
+    <div class="cols">${squad(m.squad_h, m.home, "h", "p_point", "Point", nhlSub)}${squad(m.squad_a, m.away, "a", "p_point", "Point", nhlSub)}</div></div>
     <ul class="ctx">${m.ctx.map(c=>`<li>${esc(c)}</li>`).join("")}</ul>
     <p class="reading"><b>Lecture :</b> ${esc(m.reading)} <span class="src">Scores les plus fréquents : ${m.scores.map((s,i)=>`${esc(s)} (${m.scorep[i]} %)`).join(", ")}. Source : ${esc(m.source)}.</span></p>
   </article>`;
@@ -202,7 +219,7 @@ function nhlCard(m){
 
 function footView(){
   const all = DATA.foot || [];
-  if (!all.length) return `<div class="empty">Aucun match des cinq grands championnats aujourd'hui.</div>`;
+  if (!all.length) return `<div class="empty">Aucun match aujourd'hui dans les cinq grands championnats ni en Ligue des champions.</div>`;
   const leagues = ["Tous", ...new Set(all.map(m => m.league))];
   if (!leagues.includes(LEAGUE)) LEAGUE = "Tous";
   const shown = all.filter(m => LEAGUE === "Tous" || m.league === LEAGUE);

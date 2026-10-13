@@ -37,6 +37,15 @@ CLUB = {
 }
 
 
+# effectifs ESPN simulés : (id, nom, poste, matchs, minutes, buts, passes) ; Liverpool n'a pas d'effectif
+# (ESPN ne répond pas) pour vérifier le repli sur le top des buteurs du championnat
+SQUAD = {
+    "382": [("m1", "Erling Haaland", "F", 5, 430, 5, 0), ("m2", "Phil Foden", "M", 5, 380, 1, 3),
+            ("m3", "Ruben Dias", "D", 5, 450, 0, 0), ("m4", "Rayan Cherki", "M", 3, 120, 0, 1),
+            ("m0", "Ederson", "G", 5, 450, 0, 0)],
+}
+
+
 def espn_soccer_event(eid, date, state, completed, home, away, odds=None):
     def comp(side, t):
         return dict(homeAway=side, team=dict(id=t[0], displayName=t[1], shortDisplayName=t[1]),
@@ -71,6 +80,23 @@ def fake_get_json(url, params=None):
             return dict(value=val, athlete=dict(id=pid, displayName=name, team=dict(id=tid)))
         return dict(stats=[dict(name="goalsLeaders", leaders=[lead("a1", "Erling Haaland", "382", 5), lead("a2", "Alexander Isak", "364", 4)]),
                            dict(name="assistsLeaders", leaders=[lead("a3", "Antoine Semenyo", "382", 3)])])
+    if "/teams/" in url and url.endswith("/roster"):
+        tid = url.split("/teams/")[1].split("/")[0]
+        if tid not in SQUAD:
+            return None
+        return dict(season=dict(year=2026), athletes=[
+            dict(id=pid, displayName=name, position=dict(abbreviation=pos),
+                 defaultLeague={"$ref": "http://x/v2/sports/soccer/leagues/eng.1?lang=en"})
+            for pid, name, pos, *_ in SQUAD[tid]])
+    if "sports.core.api.espn.com" in url and "/leagues/eng.1/" in url and url.endswith("/statistics"):
+        pid = url.split("/athletes/")[1].split("/")[0]
+        for squad in SQUAD.values():
+            for p_id, _, _, apps, minutes, g, a in squad:
+                if p_id == pid:
+                    stats = [dict(name="appearances", value=apps), dict(name="minutes", value=minutes),
+                             dict(name="totalGoals", value=g), dict(name="goalAssists", value=a)]
+                    return dict(splits=dict(categories=[dict(name="general", stats=stats)]))
+        return None
     if "hockey/nhl/scoreboard" in url:
         comp = dict(competitors=[dict(homeAway="home", team=dict(displayName="Washington Capitals")),
                                  dict(homeAway="away", team=dict(displayName="Seattle Kraken"))],
@@ -119,6 +145,7 @@ class AppTest(unittest.TestCase):
         app.DATA_FILE = os.path.join(self.tmp, "data.json")
         app.HIST_FILE = os.path.join(self.tmp, "history.json")
         app.NOTES.clear()
+        app.SQUADS.clear()
         app.get_json = fake_get_json
         app.time.sleep = lambda s: None
         history = {"foot-900": dict(sport="foot", league="Premier League", date="2026-10-10", home="Arsenal",
@@ -136,21 +163,35 @@ class AppTest(unittest.TestCase):
         h, d, a = app.outcome_probs(m["xgH"], m["xgA"])
         self.assertAlmostEqual(h, fair[0], delta=0.01)
         self.assertAlmostEqual(a, fair[2], delta=0.01)
-        self.assertEqual(m["players"][0]["name"], "Erling Haaland")
-        self.assertTrue(all(0 < p["p_goal"] < 100 for p in m["players"]))
-        self.assertIn("Semenyo", " ".join(p["name"] for p in m["deci"]))
+        # Man City : effectif complet, gardien exclu, joueurs triés par chance de marquer
+        city = m["squad_a"]
+        self.assertEqual([p["name"] for p in city][:2], ["Erling Haaland", "Phil Foden"])
+        self.assertNotIn("Ederson", [p["name"] for p in city])
+        self.assertIn("Ruben Dias", [p["name"] for p in city])
+        self.assertTrue(all(0 < p["p_goal"] < 100 and p["p_dec"] >= p["p_goal"] for p in city))
+        self.assertEqual(city[0]["pos"], "Attaquant")
+        # Liverpool : pas d'effectif ESPN, repli sur le top des buteurs du championnat
+        self.assertEqual([p["name"] for p in m["squad_h"]], ["Alexander Isak"])
+
+    def test_champions_league_uses_domestic_stats(self):
+        app.SQUADS.clear()
+        squad = app.espn_squad("uefa.champions", "382")
+        self.assertEqual(squad["league"], "eng.1")
+        self.assertEqual(len(squad["players"]), 4)          # 4 joueurs de champ, le gardien est écarté
 
     def test_nhl_game(self):
         g = self.data["nhl"][0]
         raw = [app.implied("-218"), app.implied("+180")]
         self.assertEqual(g["winH"], round(raw[0] / sum(raw) * 100))
         self.assertAlmostEqual(g["xgH"] + g["xgA"], 6.3, delta=0.01)
-        names = [p["name"] for p in g["players"]]
-        self.assertNotIn("Blessé Absent", names)          # pas aligné au dernier match
+        names = [p["name"] for p in g["squad_h"]]
+        self.assertEqual(set(names), {"Tom Wilson", "Jakob Chychrun"})   # « Blessé Absent » n'était pas aligné
+        self.assertEqual({p["team"] for p in g["squad_a"]}, {"Seattle Kraken"})
         self.assertEqual(g["goalie_a"]["name"], "Philipp Grubauer")   # Seattle a joué hier, Daccord souffle
         self.assertEqual(g["goalie_h"]["name"], "Logan Thompson")     # le gardien blessé (absent de la feuille) est écarté
         self.assertTrue(any("joué hier" in c for c in g["ctx"]))
-        self.assertTrue(g["deci"][0]["p_point"] >= g["deci"][-1]["p_point"])
+        self.assertTrue(g["squad_h"][0]["p_goal"] >= g["squad_h"][-1]["p_goal"])
+        self.assertTrue(all(p["p_point"] >= p["p_goal"] for p in g["squad_h"] + g["squad_a"]))
 
     def test_history_and_bilan(self):
         hist = app.load_json(app.HIST_FILE, {})
