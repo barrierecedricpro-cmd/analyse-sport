@@ -41,6 +41,7 @@ LEAGUES = [
     ("LaLiga", "esp.1"),
     ("Serie A", "ita.1"),
     ("Bundesliga", "ger.1"),
+    ("Ligue des champions", "uefa.champions"),
 ]
 ESPN_SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/{sport}/{league}/scoreboard"
 ESPN_STANDINGS = "https://site.api.espn.com/apis/v2/sports/soccer/{league}/standings"
