@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T15:24+02:00",
+ "generated": "2026-10-14T18:59+02:00",
  "date": "2026-10-14",
  "foot": [
   {
@@ -8,8 +8,8 @@
    "league": "Ligue des champions",
    "kickoff": "2026-10-14T16:45:00+00:00",
    "time": "18:45",
-   "state": "pre",
-   "score": null,
+   "state": "in",
+   "score": "0-0",
    "home": "Feyenoord",
    "away": "Como",
    "form_h": "NVVDV",
@@ -183,8 +183,8 @@
    "league": "Ligue des champions",
    "kickoff": "2026-10-14T16:45:00+00:00",
    "time": "18:45",
-   "state": "pre",
-   "score": null,
+   "state": "in",
+   "score": "0-0",
    "home": "LASK Linz",
    "away": "Liverpool",
    "form_h": "NNDDV",
@@ -367,23 +367,23 @@
    "rank_h": 22,
    "rank_a": 16,
    "pH": 26,
-   "pD": 25,
-   "pA": 49,
+   "pD": 24,
+   "pA": 50,
    "source": "Cotes DraftKings",
-   "xgH": 1.12,
-   "xgA": 1.63,
+   "xgH": 1.17,
+   "xgA": 1.71,
    "scores": [
     "1-1",
-    "0-1",
-    "1-2"
+    "1-2",
+    "0-1"
    ],
    "scorep": [
-    12,
+    11,
     10,
     10
    ],
-   "over25": 52,
-   "btts": 54,
+   "over25": 55,
+   "btts": 57,
    "squad_h": [
     {
      "name": "Donyell Malen",
@@ -393,8 +393,8 @@
      "goals": 6,
      "assists": 0,
      "apps": 6,
-     "p_goal": 31,
-     "p_dec": 34
+     "p_goal": 32,
+     "p_dec": 35
     },
     {
      "name": "Matìas Soulè",
@@ -404,8 +404,8 @@
      "goals": 2,
      "assists": 1,
      "apps": 6,
-     "p_goal": 14,
-     "p_dec": 21
+     "p_goal": 15,
+     "p_dec": 22
     },
     {
      "name": "Manu Koné",
@@ -416,7 +416,7 @@
      "assists": 0,
      "apps": 6,
      "p_goal": 12,
-     "p_dec": 16
+     "p_dec": 17
     },
     {
      "name": "Niccolò Pisilli",
@@ -427,7 +427,7 @@
      "assists": 0,
      "apps": 5,
      "p_goal": 11,
-     "p_dec": 12
+     "p_dec": 13
     },
     {
      "name": "Paulo Dybala",
@@ -438,7 +438,7 @@
      "assists": 4,
      "apps": 6,
      "p_goal": 8,
-     "p_dec": 29
+     "p_dec": 30
     },
     {
      "name": "Mario Hermoso",
@@ -461,8 +461,8 @@
      "goals": 7,
      "assists": 2,
      "apps": 8,
-     "p_goal": 44,
-     "p_dec": 54
+     "p_goal": 45,
+     "p_dec": 55
     },
     {
      "name": "Jude Bellingham",
@@ -472,8 +472,8 @@
      "goals": 3,
      "assists": 2,
      "apps": 8,
-     "p_goal": 21,
-     "p_dec": 35
+     "p_goal": 22,
+     "p_dec": 37
     },
     {
      "name": "Vinícius Júnior",
@@ -484,7 +484,7 @@
      "assists": 3,
      "apps": 8,
      "p_goal": 15,
-     "p_dec": 34
+     "p_dec": 35
     },
     {
      "name": "Carlos Espí",
@@ -506,7 +506,7 @@
      "assists": 1,
      "apps": 8,
      "p_goal": 12,
-     "p_dec": 20
+     "p_dec": 21
     },
     {
      "name": "Arda Güler",
@@ -517,7 +517,7 @@
      "assists": 2,
      "apps": 8,
      "p_goal": 9,
-     "p_dec": 24
+     "p_dec": 25
     }
    ],
    "ctx": [
@@ -525,7 +525,7 @@
     "Real Madrid : 16e, 3 points, 2 buts marqués et 1 encaissé en 1 match.",
     "Joueurs : statistiques de la saison en championnat national (plus de matchs que la Ligue des champions)."
    ],
-   "reading": "Real Madrid est favori sans écraser le match (49 %)."
+   "reading": "Real Madrid est favori sans écraser le match (50 %)."
   },
   {
    "id": "foot-401915409",
@@ -542,23 +542,23 @@
    "rank_h": 11,
    "rank_a": 24,
    "pH": 57,
-   "pD": 24,
-   "pA": 20,
+   "pD": 23,
+   "pA": 19,
    "source": "Cotes DraftKings",
-   "xgH": 1.7,
-   "xgA": 0.89,
+   "xgH": 1.77,
+   "xgA": 0.92,
    "scores": [
     "1-0",
     "1-1",
     "2-0"
    ],
    "scorep": [
-    13,
+    12,
     11,
     11
    ],
-   "over25": 48,
-   "btts": 48,
+   "over25": 50,
+   "btts": 50,
    "squad_h": [
     {
      "name": "Nicolas Jackson",
@@ -568,8 +568,8 @@
      "goals": 2,
      "assists": 0,
      "apps": 5,
-     "p_goal": 33,
-     "p_dec": 38
+     "p_goal": 34,
+     "p_dec": 39
     },
     {
      "name": "John McGinn",
@@ -579,8 +579,8 @@
      "goals": 1,
      "assists": 2,
      "apps": 6,
-     "p_goal": 18,
-     "p_dec": 45
+     "p_goal": 19,
+     "p_dec": 46
     },
     {
      "name": "Emiliano Buendía",
@@ -590,8 +590,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 6,
-     "p_goal": 17,
-     "p_dec": 28
+     "p_goal": 18,
+     "p_dec": 29
     },
     {
      "name": "Alysson",
@@ -602,7 +602,7 @@
      "assists": 0,
      "apps": 5,
      "p_goal": 15,
-     "p_dec": 16
+     "p_dec": 17
     },
     {
      "name": "Johan Manzambi",
@@ -613,7 +613,7 @@
      "assists": 2,
      "apps": 3,
      "p_goal": 14,
-     "p_dec": 36
+     "p_dec": 37
     },
     {
      "name": "Boubacar Kamara",
@@ -623,8 +623,8 @@
      "goals": 0,
      "assists": 1,
      "apps": 6,
-     "p_goal": 7,
-     "p_dec": 30
+     "p_goal": 8,
+     "p_dec": 31
     }
    ],
    "squad_a": [
@@ -637,7 +637,7 @@
      "assists": 1,
      "apps": 7,
      "p_goal": 22,
-     "p_dec": 26
+     "p_dec": 27
     },
     {
      "name": "Mason Greenwood",
@@ -647,8 +647,8 @@
      "goals": 4,
      "assists": 2,
      "apps": 7,
-     "p_goal": 17,
-     "p_dec": 25
+     "p_goal": 18,
+     "p_dec": 26
     },
     {
      "name": "Oguz Aydin",
@@ -658,8 +658,8 @@
      "goals": 2,
      "assists": 3,
      "apps": 7,
-     "p_goal": 9,
-     "p_dec": 19
+     "p_goal": 10,
+     "p_dec": 20
     },
     {
      "name": "Irfan Can Kahveci",
@@ -691,8 +691,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 7,
-     "p_goal": 5,
-     "p_dec": 9
+     "p_goal": 6,
+     "p_dec": 10
     }
    ],
    "ctx": [
@@ -716,24 +716,24 @@
    "form_a": "NVVVV",
    "rank_h": 36,
    "rank_a": 14,
-   "pH": 32,
-   "pD": 24,
-   "pA": 44,
+   "pH": 33,
+   "pD": 25,
+   "pA": 43,
    "source": "Cotes DraftKings",
-   "xgH": 1.34,
-   "xgA": 1.6,
+   "xgH": 1.33,
+   "xgA": 1.56,
    "scores": [
     "1-1",
     "1-2",
     "0-1"
    ],
    "scorep": [
-    11,
+    12,
     9,
-    8
+    9
    ],
-   "over25": 56,
-   "btts": 59,
+   "over25": 55,
+   "btts": 58,
    "squad_h": [
     {
      "name": "Andreas Helmersen",
@@ -812,7 +812,7 @@
      "assists": 2,
      "apps": 5,
      "p_goal": 29,
-     "p_dec": 47
+     "p_dec": 46
     },
     {
      "name": "Fábio Silva",
@@ -826,17 +826,6 @@
      "p_dec": 30
     },
     {
-     "name": "Felix Nmecha",
-     "pos": "Milieu",
-     "side": "a",
-     "team": "Dortmund",
-     "goals": 2,
-     "assists": 0,
-     "apps": 5,
-     "p_goal": 21,
-     "p_dec": 28
-    },
-    {
      "name": "Maximilian Beier",
      "pos": "Attaquant",
      "side": "a",
@@ -845,7 +834,18 @@
      "assists": 1,
      "apps": 5,
      "p_goal": 20,
-     "p_dec": 33
+     "p_dec": 32
+    },
+    {
+     "name": "Felix Nmecha",
+     "pos": "Milieu",
+     "side": "a",
+     "team": "Dortmund",
+     "goals": 2,
+     "assists": 0,
+     "apps": 5,
+     "p_goal": 20,
+     "p_dec": 27
     },
     {
      "name": "Daniel Svensson",
@@ -891,12 +891,12 @@
    "form_a": "NVVVD",
    "rank_h": 9,
    "rank_a": 5,
-   "pH": 46,
-   "pD": 24,
-   "pA": 30,
+   "pH": 48,
+   "pD": 23,
+   "pA": 29,
    "source": "Cotes DraftKings",
-   "xgH": 1.69,
-   "xgA": 1.31,
+   "xgH": 1.77,
+   "xgA": 1.35,
    "scores": [
     "1-1",
     "2-1",
@@ -907,8 +907,8 @@
     9,
     8
    ],
-   "over25": 58,
-   "btts": 60,
+   "over25": 60,
+   "btts": 61,
    "squad_h": [
     {
      "name": "Erling Haaland",
@@ -918,8 +918,8 @@
      "goals": 6,
      "assists": 0,
      "apps": 6,
-     "p_goal": 42,
-     "p_dec": 46
+     "p_goal": 44,
+     "p_dec": 48
     },
     {
      "name": "Rayan Cherki",
@@ -929,8 +929,8 @@
      "goals": 4,
      "assists": 2,
      "apps": 6,
-     "p_goal": 27,
-     "p_dec": 41
+     "p_goal": 28,
+     "p_dec": 42
     },
     {
      "name": "Antoine Semenyo",
@@ -940,8 +940,8 @@
      "goals": 2,
      "assists": 3,
      "apps": 6,
-     "p_goal": 23,
-     "p_dec": 42
+     "p_goal": 24,
+     "p_dec": 44
     },
     {
      "name": "Enzo Fernández",
@@ -951,8 +951,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 4,
-     "p_goal": 9,
-     "p_dec": 14
+     "p_goal": 10,
+     "p_dec": 15
     },
     {
      "name": "Josko Gvardiol",
@@ -962,8 +962,8 @@
      "goals": 1,
      "assists": 3,
      "apps": 6,
-     "p_goal": 8,
-     "p_dec": 27
+     "p_goal": 9,
+     "p_dec": 29
     },
     {
      "name": "Marc Guéhi",
@@ -973,8 +973,8 @@
      "goals": 1,
      "assists": 1,
      "apps": 6,
-     "p_goal": 8,
-     "p_dec": 17
+     "p_goal": 9,
+     "p_dec": 18
     }
    ],
    "squad_a": [
@@ -987,7 +987,7 @@
      "assists": 0,
      "apps": 6,
      "p_goal": 30,
-     "p_dec": 33
+     "p_dec": 34
     },
     {
      "name": "Marquinhos",
@@ -1009,7 +1009,7 @@
      "assists": 1,
      "apps": 6,
      "p_goal": 13,
-     "p_dec": 22
+     "p_dec": 23
     },
     {
      "name": "Vitinha",
@@ -1050,7 +1050,7 @@
     "PSG : 5e, 3 points, 6 buts marqués et 1 encaissé en 1 match.",
     "Joueurs : statistiques de la saison en championnat national (plus de matchs que la Ligue des champions)."
    ],
-   "reading": "Man City est favori sans écraser le match (46 %)."
+   "reading": "Man City est favori sans écraser le match (48 %)."
   },
   {
    "id": "foot-401915408",
@@ -1066,12 +1066,12 @@
    "form_a": "NVVDV",
    "rank_h": 12,
    "rank_a": 29,
-   "pH": 46,
+   "pH": 45,
    "pD": 26,
-   "pA": 28,
+   "pA": 29,
    "source": "Cotes DraftKings",
-   "xgH": 1.45,
-   "xgA": 1.08,
+   "xgH": 1.47,
+   "xgA": 1.11,
    "scores": [
     "1-1",
     "1-0",
@@ -1079,11 +1079,11 @@
    ],
    "scorep": [
     12,
-    12,
+    11,
     9
    ],
-   "over25": 47,
-   "btts": 51,
+   "over25": 48,
+   "btts": 52,
    "squad_h": [
     {
      "name": "Cucho Hernández",
@@ -1104,7 +1104,7 @@
      "goals": 2,
      "assists": 0,
      "apps": 5,
-     "p_goal": 18,
+     "p_goal": 19,
      "p_dec": 21
     },
     {
@@ -1162,7 +1162,7 @@
      "assists": 3,
      "apps": 8,
      "p_goal": 16,
-     "p_dec": 28
+     "p_dec": 29
     },
     {
      "name": "André Silva",
@@ -1172,8 +1172,8 @@
      "goals": 3,
      "assists": 2,
      "apps": 8,
-     "p_goal": 15,
-     "p_dec": 24
+     "p_goal": 16,
+     "p_dec": 25
     },
     {
      "name": "Borja Sainz",
@@ -1205,8 +1205,8 @@
      "goals": 2,
      "assists": 0,
      "apps": 7,
-     "p_goal": 9,
-     "p_dec": 13
+     "p_goal": 10,
+     "p_dec": 14
     },
     {
      "name": "Pepê",
@@ -1225,7 +1225,7 @@
     "FC Porto : 29e, 0 point, 0 but marqué et 2 encaissés en 1 match.",
     "Joueurs : statistiques de la saison en championnat national (plus de matchs que la Ligue des champions)."
    ],
-   "reading": "Betis est favori sans écraser le match (46 %)."
+   "reading": "Betis est favori sans écraser le match (45 %)."
   },
   {
    "id": "foot-401915406",
@@ -1241,24 +1241,24 @@
    "form_a": "NVNVV",
    "rank_h": 23,
    "rank_a": 17,
-   "pH": 35,
+   "pH": 36,
    "pD": 29,
-   "pA": 36,
+   "pA": 35,
    "source": "Cotes DraftKings",
    "xgH": 1.13,
-   "xgA": 1.15,
+   "xgA": 1.11,
    "scores": [
     "1-1",
-    "0-1",
-    "1-0"
+    "1-0",
+    "0-1"
    ],
    "scorep": [
     13,
     12,
     12
    ],
-   "over25": 40,
-   "btts": 46,
+   "over25": 39,
+   "btts": 45,
    "squad_h": [
     {
      "name": "Gleiker Mendoza",
@@ -1337,7 +1337,7 @@
      "assists": 0,
      "apps": 6,
      "p_goal": 24,
-     "p_dec": 28
+     "p_dec": 27
     },
     {
      "name": "Barnabás Varga",
@@ -1347,8 +1347,8 @@
      "goals": 4,
      "assists": 0,
      "apps": 4,
-     "p_goal": 22,
-     "p_dec": 24
+     "p_goal": 21,
+     "p_dec": 23
     },
     {
      "name": "Zini",
@@ -1358,7 +1358,7 @@
      "goals": 2,
      "assists": 0,
      "apps": 6,
-     "p_goal": 13,
+     "p_goal": 12,
      "p_dec": 14
     },
     {
@@ -1380,8 +1380,8 @@
      "goals": 1,
      "assists": 4,
      "apps": 6,
-     "p_goal": 8,
-     "p_dec": 29
+     "p_goal": 7,
+     "p_dec": 28
     },
     {
      "name": "Mijat Gacinovic",
@@ -1417,24 +1417,24 @@
    "form_a": "NDDVV",
    "rank_h": 35,
    "rank_a": 8,
-   "pH": 13,
+   "pH": 15,
    "pD": 17,
-   "pA": 70,
+   "pA": 68,
    "source": "Cotes DraftKings",
-   "xgH": 0.98,
-   "xgA": 2.5,
+   "xgH": 1.09,
+   "xgA": 2.51,
    "scores": [
-    "0-2",
     "1-2",
-    "0-3"
+    "0-2",
+    "1-3"
    ],
    "scorep": [
-    10,
+    9,
     9,
     8
    ],
-   "over25": 68,
-   "btts": 57,
+   "over25": 70,
+   "btts": 61,
    "squad_h": [
     {
      "name": "Suleiman Camara",
@@ -1444,8 +1444,8 @@
      "goals": 1,
      "assists": 0,
      "apps": 1,
-     "p_goal": 26,
-     "p_dec": 34
+     "p_goal": 28,
+     "p_dec": 37
     },
     {
      "name": "Andraz Sporar",
@@ -1455,8 +1455,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 16,
-     "p_dec": 24
+     "p_goal": 17,
+     "p_dec": 26
     },
     {
      "name": "Peter Pokorny",
@@ -1467,7 +1467,7 @@
      "assists": 0,
      "apps": 1,
      "p_goal": 7,
-     "p_dec": 20
+     "p_dec": 21
     },
     {
      "name": "Cristian Martínez",
@@ -1477,8 +1477,8 @@
      "goals": 0,
      "assists": 0,
      "apps": 1,
-     "p_goal": 6,
-     "p_dec": 18
+     "p_goal": 7,
+     "p_dec": 19
     },
     {
      "name": "Tigran Barseghyan",
@@ -1489,7 +1489,7 @@
      "assists": 1,
      "apps": 1,
      "p_goal": 5,
-     "p_dec": 23
+     "p_dec": 25
     },
     {
      "name": "Rahim Ibrahim",
@@ -1500,7 +1500,7 @@
      "assists": 0,
      "apps": 1,
      "p_goal": 5,
-     "p_dec": 14
+     "p_dec": 15
     }
    ],
    "squad_a": [
@@ -1577,7 +1577,7 @@
     "S Bratislava : ESPN ne connaît que 1 ou 2 matchs de ses joueurs, chiffres des joueurs très incertains.",
     "Joueurs : statistiques de la saison en championnat national (plus de matchs que la Ligue des champions)."
    ],
-   "reading": "Stuttgart est nettement favori (70 %)."
+   "reading": "Stuttgart est nettement favori (68 %)."
   }
  ],
  "nhl": [
@@ -1593,14 +1593,14 @@
    "away": "Montréal Canadiens",
    "rec_h": "3-3-0 · 5e Metropolitan · 2 défaites de suite",
    "rec_a": "3-2-1 · 5e Atlantic · 2 victoires de suite",
-   "winH": 54,
-   "winA": 46,
-   "pH": 43,
+   "winH": 53,
+   "winA": 47,
+   "pH": 42,
    "pD": 22,
-   "pA": 35,
+   "pA": 36,
    "source": "Cotes Draft Kings (vainqueur final)",
-   "xgH": 3.28,
-   "xgA": 3.02,
+   "xgH": 3.25,
+   "xgA": 3.05,
    "total": 6.3,
    "scores": [
     "3-2",
@@ -1634,7 +1634,7 @@
      "team": "Washington Capitals",
      "p_goal": 30,
      "p_point": 54,
-     "p_assist": 34
+     "p_assist": 33
     },
     {
      "name": "Alex Ovechkin",
@@ -1654,7 +1654,7 @@
      "new": false,
      "side": "h",
      "team": "Washington Capitals",
-     "p_goal": 25,
+     "p_goal": 24,
      "p_point": 49,
      "p_assist": 32
     },
@@ -1677,8 +1677,8 @@
      "side": "h",
      "team": "Washington Capitals",
      "p_goal": 22,
-     "p_point": 45,
-     "p_assist": 29
+     "p_point": 44,
+     "p_assist": 28
     },
     {
      "name": "Dylan Strome",
@@ -1700,8 +1700,8 @@
      "new": false,
      "side": "a",
      "team": "Montréal Canadiens",
-     "p_goal": 37,
-     "p_point": 56,
+     "p_goal": 38,
+     "p_point": 57,
      "p_assist": 30
     },
     {
@@ -1711,7 +1711,7 @@
      "new": false,
      "side": "a",
      "team": "Montréal Canadiens",
-     "p_goal": 24,
+     "p_goal": 25,
      "p_point": 62,
      "p_assist": 49
     },
@@ -1724,7 +1724,7 @@
      "team": "Montréal Canadiens",
      "p_goal": 24,
      "p_point": 50,
-     "p_assist": 33
+     "p_assist": 34
     },
     {
      "name": "Alex Newhook",
@@ -1781,19 +1781,19 @@
    "away": "Dallas Stars",
    "rec_h": "4-2-0 · 4e Central · 1 victoire de suite",
    "rec_a": "2-3-1 · 7e Central · 1 défaite de suite",
-   "winH": 57,
-   "winA": 43,
+   "winH": 56,
+   "winA": 44,
    "pH": 45,
    "pD": 22,
    "pA": 33,
    "source": "Cotes Draft Kings (vainqueur final)",
-   "xgH": 2.85,
-   "xgA": 2.45,
+   "xgH": 2.83,
+   "xgA": 2.47,
    "total": 5.3,
    "scores": [
     "3-2",
-    "2-1",
-    "2-3"
+    "2-3",
+    "2-1"
    ],
    "scorep": [
     6,
@@ -1855,7 +1855,7 @@
      "team": "Colorado Avalanche",
      "p_goal": 19,
      "p_point": 38,
-     "p_assist": 23
+     "p_assist": 22
     },
     {
      "name": "Parker Kelly",
@@ -1890,7 +1890,7 @@
      "team": "Dallas Stars",
      "p_goal": 29,
      "p_point": 53,
-     "p_assist": 33
+     "p_assist": 34
     },
     {
      "name": "Mikko Rantanen",
@@ -1912,7 +1912,7 @@
      "team": "Dallas Stars",
      "p_goal": 17,
      "p_point": 41,
-     "p_assist": 28
+     "p_assist": 29
     },
     {
      "name": "Jamie Benn",
@@ -1923,7 +1923,7 @@
      "team": "Dallas Stars",
      "p_goal": 15,
      "p_point": 33,
-     "p_assist": 20
+     "p_assist": 21
     },
     {
      "name": "Tyler Seguin",
@@ -1932,7 +1932,7 @@
      "new": false,
      "side": "a",
      "team": "Dallas Stars",
-     "p_goal": 14,
+     "p_goal": 15,
      "p_point": 32,
      "p_assist": 19
     },
@@ -1944,7 +1944,7 @@
      "side": "a",
      "team": "Dallas Stars",
      "p_goal": 11,
-     "p_point": 27,
+     "p_point": 28,
      "p_assist": 18
     }
    ],
@@ -1955,7 +1955,7 @@
     "Dallas Stars a joué hier soir : deuxième match en deux soirs, fatigue probable.",
     "Blessés : non vérifiés automatiquement. Seuls les joueurs alignés au dernier match sont retenus."
    ],
-   "reading": "Colorado Avalanche est favori (57 % en comptant la prolongation)."
+   "reading": "Colorado Avalanche est favori (56 % en comptant la prolongation)."
   }
  ],
  "bilan": {
