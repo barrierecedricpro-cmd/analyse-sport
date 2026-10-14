@@ -559,8 +559,8 @@
    0.0679
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "3-0"
  },
  "foot-401915412": {
   "sport": "foot",
@@ -574,8 +574,8 @@
    0.2282
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "2-0"
  },
  "foot-401915435": {
   "sport": "foot",
@@ -589,8 +589,8 @@
    0.7232
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "1-4"
  },
  "foot-401915413": {
   "sport": "foot",
@@ -604,8 +604,8 @@
    0.0862
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "3-4"
  },
  "foot-401915434": {
   "sport": "foot",
@@ -619,8 +619,8 @@
    0.1994
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "1-0"
  },
  "foot-401915411": {
   "sport": "foot",
@@ -634,8 +634,8 @@
    0.8263
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "3-3"
  },
  "foot-401915410": {
   "sport": "foot",
@@ -649,6 +649,169 @@
    0.2856
   ],
   "source": "Cotes DraftKings",
+  "result": 0,
+  "score": "3-1"
+ },
+ "foot-401915416": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "Feyenoord",
+  "away": "Como",
+  "p": [
+   0.2727,
+   0.2273,
+   0.5
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401915415": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "LASK Linz",
+  "away": "Liverpool",
+  "p": [
+   0.1058,
+   0.1587,
+   0.7356
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401915414": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "AS Roma",
+  "away": "Real Madrid",
+  "p": [
+   0.269,
+   0.2418,
+   0.4892
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401915409": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "Aston Villa",
+  "away": "Fenerbahce",
+  "p": [
+   0.5811,
+   0.2276,
+   0.1912
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401915393": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "Bodo/Glimt",
+  "away": "Dortmund",
+  "p": [
+   0.3026,
+   0.2325,
+   0.4649
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401915407": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "Man City",
+  "away": "PSG",
+  "p": [
+   0.4436,
+   0.2384,
+   0.3179
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401915408": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "Betis",
+  "away": "FC Porto",
+  "p": [
+   0.4652,
+   0.2543,
+   0.2805
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401915406": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "Shakhtar",
+  "away": "AEK Athens",
+  "p": [
+   0.354,
+   0.2853,
+   0.3607
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401915405": {
+  "sport": "foot",
+  "league": "Ligue des champions",
+  "date": "2026-10-14",
+  "home": "S Bratislava",
+  "away": "Stuttgart",
+  "p": [
+   0.1058,
+   0.1587,
+   0.7356
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020106": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-15",
+  "home": "Washington Capitals",
+  "away": "Montréal Canadiens",
+  "p": [
+   0.5514,
+   0.4486
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020107": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-15",
+  "home": "Colorado Avalanche",
+  "away": "Dallas Stars",
+  "p": [
+   0.5635,
+   0.4365
+  ],
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  }
