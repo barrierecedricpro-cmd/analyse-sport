@@ -105,6 +105,17 @@ th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white
 th{font-size:.74rem;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:600}
 td.r,th.r{text-align:right}
 .ok{color:var(--ok);font-weight:700}.ko{color:var(--ko);font-weight:700}
+.recap{margin-top:22px}
+.recap h2{font-size:1.4rem;margin-bottom:4px}
+.recap .src{margin:0 0 10px}
+.recap td{white-space:normal}
+.recap tr.grp td{background:var(--soft);font-family:var(--display);font-weight:700;font-size:1rem;color:var(--ink)}
+.recap tr.grp td.lbl{font:600 .68rem var(--body);text-transform:uppercase;letter-spacing:.04em;color:var(--muted);vertical-align:bottom}
+.recap tr.h td:first-child{border-left:4px solid var(--home)}
+.recap tr.a td:first-child{border-left:4px solid var(--away)}
+.recap .pl{display:block;font-weight:600}
+.recap small{color:var(--muted);font-size:.78rem}
+.recap td.r b{font-family:var(--display);font-size:1.05rem}
 .explain{color:var(--muted);font-size:.88rem;max-width:70ch;display:grid;gap:.5rem;margin-top:1.5rem}
 .explain h2{font-size:1.15rem;color:var(--ink)}
 @media (max-width:640px){
@@ -226,10 +237,22 @@ function footView(){
   return `<div class="chips" role="group" aria-label="Championnat">${leagues.map(l=>`<button type="button" data-league="${esc(l)}" aria-pressed="${l===LEAGUE}">${esc(l)}</button>`).join("")}</div>
     <div class="list">${shown.map(footCard).join("")}</div>`;
 }
+// Récapitulatif en bas de l'onglet NHL : 3 joueurs par équipe, triés par chance de faire au moins 1 point.
+function nhlRecap(all){
+  const best = (m, side) => m["best_" + side] || [...(m["squad_" + side] || [])].sort((x, y) => y.p_point - x.p_point).slice(0, 3);
+  const line = (p, side, team) => `<tr class="${side}"><td><span class="pl">${esc(p.name)}</span><small>${esc(team)} · ${esc(p.pos)}</small></td>
+    <td class="r num">${p.p_goal}%</td><td class="r num">${p.p_assist}%</td><td class="r num"><b>${p.p_point}%</b></td></tr>`;
+  const body = all.map(m => `<tr class="grp"><td>${esc(m.time)} · ${esc(m.home)} – ${esc(m.away)}</td><td class="r lbl">But</td><td class="r lbl">Passe</td><td class="r lbl">Point</td></tr>
+    ${best(m, "h").map(p => line(p, "h", m.home)).join("")}${best(m, "a").map(p => line(p, "a", m.away)).join("")}`).join("");
+  return `<section class="recap">
+    <h2>Récap de la soirée : joueurs à suivre</h2>
+    <p class="src">Pour chaque équipe, les 3 joueurs les plus susceptibles de marquer ou de faire une passe décisive. « Point » = au moins un but ou une passe dans le match.</p>
+    <div class="tablewrap"><table><tbody>${body}</tbody></table></div></section>`;
+}
 function nhlView(){
   const all = DATA.nhl || [];
   if (!all.length) return `<div class="empty">Pas de match NHL aujourd'hui.</div>`;
-  return `<div class="list">${all.map(nhlCard).join("")}</div>`;
+  return `<div class="list">${all.map(nhlCard).join("")}</div>${nhlRecap(all)}`;
 }
 function bilanBlock(b, label, naive){
   if (!b || !b.n) return `<div class="empty">${label} : le bilan apparaîtra après les premiers résultats.</div>`;

@@ -786,6 +786,8 @@ def nhl_game(g, standings, espn, yesterday_teams, history):
                              p_point=pct(1 - math.exp(-p["ppg"] * k)),
                              p_assist=pct(1 - math.exp(-p["apg"] * k))))
         team_rows[side] = sorted(rows, key=lambda r: (-r["p_goal"], -r["p_point"]))[:SQUAD_SIZE]
+        # récapitulatif de la soirée : les 3 joueurs les plus susceptibles de marquer ou de faire une passe
+        team_rows["best_" + side] = sorted(rows, key=lambda r: (-r["p_point"], -r["p_goal"]))[:3]
 
     state = g.get("gameState", "FUT")
     key = f"nhl-{g['id']}"
@@ -830,7 +832,8 @@ def nhl_game(g, standings, espn, yesterday_teams, history):
         winH=pct(win_h), winA=pct(win_a), pH=pct(p_h), pD=pct(p_d), pA=pct(p_a), source=source,
         xgH=round(lh, 2), xgA=round(la, 2), total=round(total, 1), scores=scores, scorep=scorep,
         goalie_h=projected_goalie(prof_h, b2b_h), goalie_a=projected_goalie(prof_a, b2b_a),
-        squad_h=team_rows["h"], squad_a=team_rows["a"], ctx=ctx, reading=reading)
+        squad_h=team_rows["h"], squad_a=team_rows["a"], best_h=team_rows["best_h"], best_a=team_rows["best_a"],
+        ctx=ctx, reading=reading)
 
 
 # ---------------------------------------------------------------- bilan
