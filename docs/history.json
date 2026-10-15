@@ -664,8 +664,8 @@
    0.4448
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "3-2"
  },
  "foot-401915415": {
   "sport": "foot",
@@ -679,8 +679,8 @@
    0.6971
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "3-6"
  },
  "foot-401915414": {
   "sport": "foot",
@@ -694,8 +694,8 @@
    0.4999
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "3-4"
  },
  "foot-401915409": {
   "sport": "foot",
@@ -709,8 +709,8 @@
    0.1947
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "6-0"
  },
  "foot-401915393": {
   "sport": "foot",
@@ -724,8 +724,8 @@
    0.4274
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "1-0"
  },
  "foot-401915407": {
   "sport": "foot",
@@ -739,8 +739,8 @@
    0.2926
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "2-4"
  },
  "foot-401915408": {
   "sport": "foot",
@@ -754,8 +754,8 @@
    0.2877
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "3-2"
  },
  "foot-401915406": {
   "sport": "foot",
@@ -769,8 +769,8 @@
    0.3525
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "3-1"
  },
  "foot-401915405": {
   "sport": "foot",
@@ -784,8 +784,8 @@
    0.6827
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "0-3"
  },
  "nhl-2026020106": {
   "sport": "nhl",
@@ -798,8 +798,8 @@
    0.4675
   ],
   "source": "Cotes Draft Kings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "5-4"
  },
  "nhl-2026020107": {
   "sport": "nhl",
@@ -810,6 +810,160 @@
   "p": [
    0.5635,
    0.4365
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": 1,
+  "score": "2-3 (tirs au but)"
+ },
+ "nhl-2026020108": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Toronto Maple Leafs",
+  "away": "Buffalo Sabres",
+  "p": [
+   0.5174,
+   0.4826
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020109": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Ottawa Senators",
+  "away": "New York Islanders",
+  "p": [
+   0.583,
+   0.417
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020111": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Tampa Bay Lightning",
+  "away": "Seattle Kraken",
+  "p": [
+   0.6908,
+   0.3092
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020112": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Florida Panthers",
+  "away": "Vancouver Canucks",
+  "p": [
+   0.718,
+   0.282
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020113": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "New Jersey Devils",
+  "away": "New York Rangers",
+  "p": [
+   0.5635,
+   0.4365
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020110": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Detroit Red Wings",
+  "away": "Philadelphia Flyers",
+  "p": [
+   0.5635,
+   0.4365
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020114": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Chicago Blackhawks",
+  "away": "Winnipeg Jets",
+  "p": [
+   0.4486,
+   0.5514
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020115": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Nashville Predators",
+  "away": "San Jose Sharks",
+  "p": [
+   0.5635,
+   0.4365
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020116": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Minnesota Wild",
+  "away": "St. Louis Blues",
+  "p": [
+   0.5721,
+   0.4279
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020117": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Edmonton Oilers",
+  "away": "Utah Mammoth",
+  "p": [
+   0.5325,
+   0.4675
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020118": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-16",
+  "home": "Vegas Golden Knights",
+  "away": "Calgary Flames",
+  "p": [
+   0.7221,
+   0.2779
   ],
   "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
