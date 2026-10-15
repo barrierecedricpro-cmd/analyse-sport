@@ -116,6 +116,10 @@ td.r,th.r{text-align:right}
 .recap .pl{display:block;font-weight:600}
 .recap small{color:var(--muted);font-size:.78rem}
 .recap td.r b{font-family:var(--display);font-size:1.05rem}
+.recap td.season{white-space:nowrap;color:var(--muted)}
+.recap td.season b{color:var(--ink);font-size:1rem}
+.recap td.season small{display:block}
+@media (max-width:640px){.recap th,.recap td{padding:7px 6px}}
 .explain{color:var(--muted);font-size:.88rem;max-width:70ch;display:grid;gap:.5rem;margin-top:1.5rem}
 .explain h2{font-size:1.15rem;color:var(--ink)}
 @media (max-width:640px){
@@ -240,13 +244,16 @@ function footView(){
 // Récapitulatif en bas de l'onglet NHL : 3 joueurs par équipe, triés par chance de faire au moins 1 point.
 function nhlRecap(all){
   const best = (m, side) => m["best_" + side] || [...(m["squad_" + side] || [])].sort((x, y) => y.p_point - x.p_point).slice(0, 3);
+  // saison en cours : buts et passes déjà marqués (repli sur le texte « cur » pour les anciennes données)
+  const season = p => p.goals != null ? `<b>${p.goals}</b> B · <b>${p.assists}</b> P<small>${plural(p.gp, "match")}</small>` : `<small>${esc(p.cur || "")}</small>`;
   const line = (p, side, team) => `<tr class="${side}"><td><span class="pl">${esc(p.name)}</span><small>${esc(team)} · ${esc(p.pos)}</small></td>
+    <td class="r num season">${season(p)}</td>
     <td class="r num">${p.p_goal}%</td><td class="r num">${p.p_assist}%</td><td class="r num"><b>${p.p_point}%</b></td></tr>`;
-  const body = all.map(m => `<tr class="grp"><td>${esc(m.time)} · ${esc(m.home)} – ${esc(m.away)}</td><td class="r lbl">But</td><td class="r lbl">Passe</td><td class="r lbl">Point</td></tr>
+  const body = all.map(m => `<tr class="grp"><td>${esc(m.time)} · ${esc(m.home)} – ${esc(m.away)}</td><td class="r lbl">Saison</td><td class="r lbl">But</td><td class="r lbl">Passe</td><td class="r lbl">Point</td></tr>
     ${best(m, "h").map(p => line(p, "h", m.home)).join("")}${best(m, "a").map(p => line(p, "a", m.away)).join("")}`).join("");
   return `<section class="recap">
     <h2>Récap de la soirée : joueurs à suivre</h2>
-    <p class="src">Pour chaque équipe, les 3 joueurs les plus susceptibles de marquer ou de faire une passe décisive. « Point » = au moins un but ou une passe dans le match.</p>
+    <p class="src">Pour chaque équipe, les 3 joueurs les plus susceptibles de marquer ou de faire une passe décisive. « Saison » = buts (B) et passes (P) déjà réalisés cette saison. « Point » = au moins un but ou une passe dans le match.</p>
     <div class="tablewrap"><table><tbody>${body}</tbody></table></div></section>`;
 }
 function nhlView(){

@@ -201,6 +201,8 @@ class AppTest(unittest.TestCase):
         self.assertTrue(all(p["p_point"] >= p["p_goal"] for p in g["squad_h"] + g["squad_a"]))
         # récapitulatif : au plus 3 joueurs par équipe, triés par chance de faire au moins 1 point
         self.assertTrue(1 <= len(g["best_h"]) <= 3 and 1 <= len(g["best_a"]) <= 3)
+        wilson = next(p for p in g["best_h"] if p["name"] == "Tom Wilson")
+        self.assertEqual((wilson["goals"], wilson["assists"], wilson["gp"]), (2, 3, 4))   # stats de la saison en cours
         self.assertEqual([p["p_point"] for p in g["best_a"]], sorted((p["p_point"] for p in g["best_a"]), reverse=True))
 
     def test_history_and_bilan(self):

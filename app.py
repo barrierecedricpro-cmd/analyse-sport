@@ -629,7 +629,7 @@ def team_profile(abbr, season):
         skaters.append(dict(
             name=f"{p['firstName']['default']} {p['lastName']['default']}",
             pos=POSITIONS.get(p.get("positionCode"), ""),
-            cur=f"{plural(cg, 'but')}, {plural(ca, 'passe')} en {cgp}",
+            cur=f"{plural(cg, 'but')}, {plural(ca, 'passe')} en {cgp}", goals=cg, assists=ca, gp=cgp,
             gpg=(g + 0.10 * 20) / (gp + 20), ppg=(g + a + 0.35 * 20) / (gp + 20),
             apg=(a + 0.20 * 20) / (gp + 20), new=not q))
     return dict(skaters=skaters, goalies=cur.get("goalies", []),
@@ -782,6 +782,7 @@ def nhl_game(g, standings, espn, yesterday_teams, history):
         rows = []
         for p in prof["skaters"]:
             rows.append(dict(name=p["name"], pos=p["pos"], cur=p["cur"], new=p["new"], side=side, team=name,
+                             goals=p["goals"], assists=p["assists"], gp=p["gp"],
                              p_goal=pct(1 - math.exp(-p["gpg"] * k)),
                              p_point=pct(1 - math.exp(-p["ppg"] * k)),
                              p_assist=pct(1 - math.exp(-p["apg"] * k))))
