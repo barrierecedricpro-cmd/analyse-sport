@@ -825,7 +825,7 @@
    0.5174,
    0.4826
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -839,7 +839,7 @@
    0.5934,
    0.4066
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -850,10 +850,10 @@
   "home": "Tampa Bay Lightning",
   "away": "Seattle Kraken",
   "p": [
-   0.7002,
-   0.2998
+   0.705,
+   0.295
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -867,7 +867,7 @@
    0.718,
    0.282
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -881,7 +881,7 @@
    0.5514,
    0.4486
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -895,7 +895,7 @@
    0.5635,
    0.4365
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -906,10 +906,10 @@
   "home": "Chicago Blackhawks",
   "away": "Winnipeg Jets",
   "p": [
-   0.4486,
-   0.5514
+   0.4573,
+   0.5427
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -920,10 +920,10 @@
   "home": "Nashville Predators",
   "away": "San Jose Sharks",
   "p": [
-   0.5635,
-   0.4365
+   0.5514,
+   0.4486
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -937,7 +937,7 @@
    0.5635,
    0.4365
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -948,10 +948,10 @@
   "home": "Edmonton Oilers",
   "away": "Utah Mammoth",
   "p": [
-   0.5261,
-   0.4739
+   0.4892,
+   0.5108
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -965,7 +965,7 @@
    0.7258,
    0.2742
   ],
-  "source": "Cotes DraftKings (vainqueur final)",
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  }
