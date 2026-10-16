@@ -826,8 +826,8 @@
    0.4826
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "4-5 (prol.)"
  },
  "nhl-2026020109": {
   "sport": "nhl",
@@ -840,8 +840,8 @@
    0.4066
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "2-1 (tirs au but)"
  },
  "nhl-2026020111": {
   "sport": "nhl",
@@ -854,8 +854,8 @@
    0.295
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "4-3 (prol.)"
  },
  "nhl-2026020112": {
   "sport": "nhl",
@@ -868,8 +868,8 @@
    0.282
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "3-2 (prol.)"
  },
  "nhl-2026020113": {
   "sport": "nhl",
@@ -882,8 +882,8 @@
    0.4486
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "7-1"
  },
  "nhl-2026020110": {
   "sport": "nhl",
@@ -896,8 +896,8 @@
    0.4365
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "2-1"
  },
  "nhl-2026020114": {
   "sport": "nhl",
@@ -910,8 +910,8 @@
    0.5427
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "4-3 (prol.)"
  },
  "nhl-2026020115": {
   "sport": "nhl",
@@ -924,8 +924,8 @@
    0.4486
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "2-3 (tirs au but)"
  },
  "nhl-2026020116": {
   "sport": "nhl",
@@ -938,8 +938,8 @@
    0.4365
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "5-4"
  },
  "nhl-2026020117": {
   "sport": "nhl",
@@ -952,8 +952,8 @@
    0.5108
   ],
   "source": "Cotes DraftKings (vainqueur final)",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "2-4"
  },
  "nhl-2026020118": {
   "sport": "nhl",
@@ -966,6 +966,94 @@
    0.2742
   ],
   "source": "Cotes DraftKings (vainqueur final)",
+  "result": 0,
+  "score": "6-2"
+ },
+ "foot-401876437": {
+  "sport": "foot",
+  "league": "Ligue 1",
+  "date": "2026-10-16",
+  "home": "Le Mans",
+  "away": "Toulouse",
+  "p": [
+   0.3122,
+   0.2645,
+   0.4232
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401882844": {
+  "sport": "foot",
+  "league": "LaLiga",
+  "date": "2026-10-16",
+  "home": "Deportivo",
+  "away": "Levante",
+  "p": [
+   0.4545,
+   0.2766,
+   0.2689
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401874959": {
+  "sport": "foot",
+  "league": "Serie A",
+  "date": "2026-10-16",
+  "home": "Frosinone",
+  "away": "Sassuolo",
+  "p": [
+   0.4015,
+   0.2565,
+   0.342
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "foot-401884770": {
+  "sport": "foot",
+  "league": "Bundesliga",
+  "date": "2026-10-16",
+  "home": "Frankfurt",
+  "away": "Cologne",
+  "p": [
+   0.5026,
+   0.2303,
+   0.2671
+  ],
+  "source": "Cotes DraftKings",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020119": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-17",
+  "home": "Colorado Avalanche",
+  "away": "Pittsburgh Penguins",
+  "p": [
+   0.6575,
+   0.3425
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
+  "result": null,
+  "score": null
+ },
+ "nhl-2026020120": {
+  "sport": "nhl",
+  "league": "NHL",
+  "date": "2026-10-17",
+  "home": "Anaheim Ducks",
+  "away": "Boston Bruins",
+  "p": [
+   0.4892,
+   0.5108
+  ],
+  "source": "Cotes Draft Kings (vainqueur final)",
   "result": null,
   "score": null
  }
