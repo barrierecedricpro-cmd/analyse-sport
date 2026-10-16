@@ -976,9 +976,9 @@
   "home": "Le Mans",
   "away": "Toulouse",
   "p": [
-   0.3122,
-   0.2645,
-   0.4232
+   0.3076,
+   0.2686,
+   0.4238
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -991,9 +991,9 @@
   "home": "Deportivo",
   "away": "Levante",
   "p": [
-   0.4545,
-   0.2766,
-   0.2689
+   0.4415,
+   0.2751,
+   0.2834
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -1006,9 +1006,9 @@
   "home": "Frosinone",
   "away": "Sassuolo",
   "p": [
-   0.4015,
-   0.2565,
-   0.342
+   0.3911,
+   0.2553,
+   0.3535
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -1021,9 +1021,9 @@
   "home": "Frankfurt",
   "away": "Cologne",
   "p": [
-   0.5026,
-   0.2303,
-   0.2671
+   0.5294,
+   0.2248,
+   0.2458
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -1036,10 +1036,10 @@
   "home": "Colorado Avalanche",
   "away": "Pittsburgh Penguins",
   "p": [
-   0.6575,
-   0.3425
+   0.6447,
+   0.3553
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1050,10 +1050,10 @@
   "home": "Anaheim Ducks",
   "away": "Boston Bruins",
   "p": [
-   0.4892,
-   0.5108
+   0.4826,
+   0.5174
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  }
