@@ -1079,9 +1079,9 @@
   "home": "Lille",
   "away": "Brest",
   "p": [
-   0.4787,
-   0.2553,
-   0.266
+   0.4657,
+   0.2616,
+   0.2728
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -1094,9 +1094,9 @@
   "home": "Troyes",
   "away": "Lens",
   "p": [
-   0.2522,
-   0.2458,
-   0.502
+   0.2416,
+   0.2479,
+   0.5105
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -1114,8 +1114,8 @@
    0.4172
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "0-2"
  },
  "foot-401879262": {
   "sport": "foot",
@@ -1129,8 +1129,8 @@
    0.3465
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "1-2"
  },
  "foot-401878770": {
   "sport": "foot",
@@ -1144,8 +1144,8 @@
    0.1814
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "1-0"
  },
  "foot-401879259": {
   "sport": "foot",
@@ -1159,8 +1159,8 @@
    0.09
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "3-2"
  },
  "foot-401879258": {
   "sport": "foot",
@@ -1189,8 +1189,8 @@
    0.5702
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "0-1"
  },
  "foot-401882837": {
   "sport": "foot",
@@ -1204,8 +1204,8 @@
    0.1465
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "0-0"
  },
  "foot-401882846": {
   "sport": "foot",
@@ -1229,9 +1229,9 @@
   "home": "Valencia",
   "away": "Athletic",
   "p": [
-   0.3021,
-   0.2928,
-   0.405
+   0.2898,
+   0.2943,
+   0.4159
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -1249,8 +1249,8 @@
    0.5468
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "1-0"
  },
  "foot-401874953": {
   "sport": "foot",
@@ -1274,9 +1274,9 @@
   "home": "AS Roma",
   "away": "Genoa",
   "p": [
-   0.5928,
-   0.2395,
-   0.1677
+   0.5995,
+   0.2399,
+   0.1606
   ],
   "source": "Cotes DraftKings",
   "result": null,
@@ -1294,8 +1294,8 @@
    0.6001
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "0-0"
  },
  "foot-401884767": {
   "sport": "foot",
@@ -1309,8 +1309,8 @@
    0.4591
   ],
   "source": "Modèle maison fondé sur le classement (pas de cotes disponibles)",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "1-0"
  },
  "foot-401884765": {
   "sport": "foot",
@@ -1324,8 +1324,8 @@
    0.4096
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 2,
+  "score": "0-1"
  },
  "foot-401884764": {
   "sport": "foot",
@@ -1339,8 +1339,8 @@
    0.3551
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 0,
+  "score": "4-3"
  },
  "foot-401884766": {
   "sport": "foot",
@@ -1354,8 +1354,8 @@
    0.232
   ],
   "source": "Cotes DraftKings",
-  "result": null,
-  "score": null
+  "result": 1,
+  "score": "2-2"
  },
  "foot-401884772": {
   "sport": "foot",
@@ -1379,10 +1379,10 @@
   "home": "Washington Capitals",
   "away": "New Jersey Devils",
   "p": [
-   0.5325,
-   0.4675
+   0.5174,
+   0.4826
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1393,10 +1393,10 @@
   "home": "Winnipeg Jets",
   "away": "Carolina Hurricanes",
   "p": [
-   0.3836,
-   0.6164
+   0.3553,
+   0.6447
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1410,7 +1410,7 @@
    0.7659,
    0.2341
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1424,7 +1424,7 @@
    0.6225,
    0.3775
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1435,10 +1435,10 @@
   "home": "Toronto Maple Leafs",
   "away": "New York Islanders",
   "p": [
-   0.5514,
-   0.4486
+   0.5427,
+   0.4573
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1452,7 +1452,7 @@
    0.5635,
    0.4365
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1463,10 +1463,10 @@
   "home": "Detroit Red Wings",
   "away": "San Jose Sharks",
   "p": [
-   0.5514,
-   0.4486
+   0.583,
+   0.417
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1477,10 +1477,10 @@
   "home": "Philadelphia Flyers",
   "away": "Ottawa Senators",
   "p": [
-   0.4279,
-   0.5721
+   0.417,
+   0.583
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1494,7 +1494,7 @@
    0.5514,
    0.4486
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1505,10 +1505,10 @@
   "home": "Chicago Blackhawks",
   "away": "Dallas Stars",
   "p": [
-   0.3631,
-   0.6369
+   0.3425,
+   0.6575
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1522,7 +1522,7 @@
    0.4892,
    0.5108
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1536,7 +1536,7 @@
    0.5514,
    0.4486
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1547,10 +1547,10 @@
   "home": "Utah Mammoth",
   "away": "Edmonton Oilers",
   "p": [
-   0.5635,
-   0.4365
+   0.5514,
+   0.4486
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  },
@@ -1561,10 +1561,10 @@
   "home": "Vegas Golden Knights",
   "away": "Pittsburgh Penguins",
   "p": [
-   0.675,
-   0.325
+   0.6447,
+   0.3553
   ],
-  "source": "Cotes Draft Kings (vainqueur final)",
+  "source": "Cotes DraftKings (vainqueur final)",
   "result": null,
   "score": null
  }
